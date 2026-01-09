@@ -83,7 +83,7 @@ _This property represents an unambiguous reference to the Information Concept._
 _This property represents the Name of the Information Concept. The property SHOULD be repeated when the name is in several languages._
 | Multiplisitet / _Multiplicity_ | 0..n
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
-|Merknad / _Note_ |   Norsk utvidelse: Verdiområdet fra 'xsd:string' til 'rdf:langString'.
+|Merknad / _Note_ |   Norsk utvidelse: Verdiområdet endret fra 'xsd:string' til 'rdf:langString'.
 
 _Norwegian extension: The range changed from 'xsd:string' to 'rdf:langString'._
 |===
