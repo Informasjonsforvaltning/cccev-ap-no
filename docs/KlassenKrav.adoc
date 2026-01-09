@@ -1,5 +1,11 @@
 == Klassen Krav (cv:Requirement) [[Krav]]
 
+__#@@@@@@ NB! valgfri relasjon cv:hasSuppurtingEvindenc som peker til cv:Evidence (eller Påkrevd dokumentasjon) mangler både i tegningen og i teksten.@@@@@@__
+
+__#@@@@@@ ... og klassen cv:Evidence (eller Påkrevd dokumentasjon) bør tas med i oversikten.__
+
+--#@@@@@@ ... gjelder alle subklasser til denne klassen.__
+
 [[img-KlassenKrav]]
 .Klassen Krav (cv:Requirement) og klassene den refererer til.
 [link=images/KlassenKrav.png]
@@ -33,6 +39,9 @@ __Requirement is a generic class representing any type of prerequisite that may 
 _This property represents an identifier for the Requirement._
 | Multiplisitet / _Multiplicity_ | 1..1
 | Kravnivå / _Requirement level_ | Obligatorisk / _Mandatory_
+| Merknad / _Note_ | Norsk utvidelse: Kravnivået endret fra valgfri til obligatorisk, og multiplisiteten fra 0..n til 1..1.
+
+_Norwegian extension: The requirement level changed from optional to mandatory, and the multiplicity from 0..n to 1..1._
 |===
 
 ==== Krav – navn (dct:title) [[Krav-navn]]
@@ -47,6 +56,9 @@ _This property represents an identifier for the Requirement._
 _This property represents the official Name of the Requirement. This property SHOULD be repeated when the name is in several languages._
 | Multiplisitet / _Multiplicity_ | 1..n
 | Kravnivå / _Requirement level_ | Obligatorisk / _Mandatory_
+| Merknad / _Note_ | Norsk utvidelse: Kravnivået endret fra valgfri til obligatorisk, multiplisiteten fra 0..n til 1..n, og verdiområdet fra 'xsd:string' til 'rdf:langString'.
+
+_Norwegian extension: The requirement level changed from optional to mandatory, the multiplicity from 0..n to 1..n, and the range from 'xsd:string' to 'rdf:langString'._
 |===
 
 
@@ -64,9 +76,9 @@ _This property represents the official Name of the Requirement. This property SH
 _This property represents a description of the Requirement. This property SHOULD be repeated when the description is in several languages._
 | Multiplisitet / _Multiplicity_ | 0..n
 | Kravnivå / _Requirement level_ | Anbefalt / _Recommended_
-| Merknad / _Note_ |  Norsk utvidelse: Ikke eksplisitt spesifisert i CPSV-AP.
+| Merknad / _Note_ | Norsk utvidelse: Kravnivået endret fra valgfri til anbefalt, og verdiområdet fra 'xsd:string' til 'rdf:langString'.
 
-_Norwegian extension: Not explicitly specified in CPSV-AP._
+_Norwegian extension: The requirement level changed from optional to recommended, and the range from 'xsd:string' to 'rdf:langString'._
 |===
 
 === Valgfrie egenskaper for klassen _Krav_ [[Krav-valgfrie-egenskaper]]
@@ -85,9 +97,6 @@ _This property represents a reference between a sub-Requirement and its parent R
 _The relation between a parent Requirement and a sub-Requirement can be complex. Therefore, qualified relations (see hasQualifiedRelation) can be used to represent this relationship on its own and qualify it with additional information such as a date, a place. This is left to implementers. In the case where the purpose is to link the two Requirements without additional information, the simple relationship as proposed here can be directly used._
 | Multiplisitet / _Multiplicity_ | 0..n
 | Kravnivå / _Requirement level_ |  Valgfri / _Optional_
-| Merknad / _Note_ |  Norsk utvidelse: Ikke eksplisitt spesifisert i CPSV-AP.
-
-_Norwegian extension: Not explicitly specified in CPSV-AP._
 |===
 
 ==== Krav – er utledet fra (cv:isDerivedFrom) [[Krav-er-utledet-fra]]
@@ -104,9 +113,6 @@ _This property refers to the Reference Framework on which the Requirement is bas
 _Note that a Requirement can have several Reference Frameworks from which it is derived._
 | Multiplisitet / _Multiplicity_ | 0..n
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
-| Merknad / _Note_ |  Norsk utvidelse: Ikke eksplisitt spesifisert i CPSV-AP.
-
-_Norwegian extension: Not explicitly specified in CPSV-AP._
 |===
 
 ==== Krav – er utstedt av (dct:publisher) [[Krav-er-utstedt-av]]
@@ -121,9 +127,6 @@ _Norwegian extension: Not explicitly specified in CPSV-AP._
 _This property refers to the Agent that has published the Requirement._
 | Multiplisitet / _Multiplicity_ | 0..1
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
-| Merknad / _Note_ |  Norsk utvidelse: Ikke eksplisitt spesifisert i CPSV-AP.
-
-_Norwegian extension: Not explicitly specified in CPSV-AP._
 |===
 
 ==== Krav – har dokumentasjonstypeliste (cv:hasEvidenceTypeList) [[Krav-har-dokumentasjonstypeliste]]
@@ -142,9 +145,6 @@ _This property refers to the Evidence Type List that specifies the Evidence Type
 _One or several Lists of Evidence Types MAY support a Requirement. At least one of them MUST be satisfied by the response to the Requirement._
 | Multiplisitet / _Multiplicity_ | 0..n
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
-| Merknad / _Note_ |  Norsk utvidelse: Ikke eksplisitt spesifisert i CPSV-AP.
-
-_Norwegian extension: Not explicitly specified in CPSV-AP._
 |===
 
 ==== Krav – har informasjonsbegrep (cv:hasConcept) [[Krav-har-informasjonsbegrep]]
@@ -161,9 +161,9 @@ _This property refers to the Information Concept for which a value is expected b
 _Information Concepts defined for specific Requirements also represent the basis for specifying the Supported Value an Evidence should provide._
 | Multiplisitet / _Multiplicity_ | 0..n
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
-| Merknad / _Note_ |  Norsk utvidelse: Ikke eksplisitt spesifisert i CPSV-AP.
+| Merknad / _Note_ |  Norsk utvidelse: Ikke eksplisitt spesifisert i CCCEV.
 
-_Norwegian extension: Not explicitly specified in CPSV-AP._
+_Norwegian extension: Not explicitly specified in CCCEV._
 |===
 
 ==== Krav – har kvalifisert relasjon til andre krav (cv:hasQualifiedRelation) [[Krav-har-kvalifisert-relasjon-til-andre-krav]]
@@ -180,9 +180,6 @@ _This property represents a described and/or categorised relation to another Req
 _This property leaves the possibility to define a qualified relation from Requirement to Information Requirement or Constraint as well as a qualified relation from Requirement to Requirement. A use case would be to specialize an EU requirement in Member States' specific requirements._
 | Multiplisitet / _Multiplicity_ | 0..n
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
-| Merknad / _Note_ |  Norsk utvidelse: Ikke eksplisitt spesifisert i CPSV-AP.
-
-_Norwegian extension: Not explicitly specified in CPSV-AP._
 |===
 
 ==== Krav – har mer spesifikt krav (cv:hasRequirement) [[Krav-har-mer-spesifikt-krav]]
@@ -197,9 +194,6 @@ _Norwegian extension: Not explicitly specified in CPSV-AP._
 _This property refers to a more specific Requirement that is part of the Requirement._
 | Multiplisitet / _Multiplicity_ | 0..n
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
-| Merknad / _Note_ |  Norsk utvidelse: Ikke eksplisitt spesifisert i CPSV-AP.
-
-_Norwegian extension: Not explicitly specified in CPSV-AP._
 |===
 
 ==== Krav – tilfredsstiller regel (cv:fulfils) [[Krav-tilfredsstiller]]
@@ -214,6 +208,9 @@ _Norwegian extension: Not explicitly specified in CPSV-AP._
 _This property refers to the rules that the requirement fulfils._
 | Multiplisitet / _Multiplicity_ | 0..n
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
+| Merknad / _Note_ |  Norsk utvidelse: Ikke eksplisitt spesifisert i CCCEV.
+
+_Norwegian extension: Not explicitly specified in CCCEV._
 |===
 
 
