@@ -1,0 +1,78 @@
+include::locale/attributes.adoc[]
+= Spesifikasjon for beskrivelse av kriterium og krav (CCCEV-AP-NO)
+Digitaliseringsdirektoratet (Digdir) / The Norwegian Digitalisation Agency
+:doctype: book
+:docinfo: shared
+:icons: font
+:toc: left
+ifdef::backend-pdf[:toc: macro]
+:toc-title: Innholdsfortegnelse
+:toclevels: 4
+:sectlinks:
+:table-stripes: even
+:xrefstyle: short
+:title-logo-image: image:images/Digdir.png[alt="Digdir-logo", pdfwidth=30vw]
+
+image::images/Digdir.png[alt="Digdir-logo", width=30%, pdfwidth=30vw, link=https://digdir.no/]
+
+include::download.adoc[]
+
+NOTE: *Innmelding av feil og mangler:* +
+Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn på https://github.com/Informasjonsforvaltning/cccev-ap-no/issues[Github Issues &#x29C9;, window="_blank", role="ext-link"]. Dersom du ikke allerede har bruker på Github kan du opprette bruker gratis.
+
+
+*Lisens*: https://creativecommons.org/licenses/by/4.0/[CC BY 4.0 &#x29C9;, window="_blank", role="ext-link"] +
+*Status*: #under utarbeidelse# +
+*Versjon*: #under utarbeidelse# +
+*Publisert*: #under utarbeidelse# +
+*Oppdatert*: #under utarbeidelse# +
+*Gjeldende versjon*: https://data.norge.no/specification/cccev-ap-no +
+*Forrige versjon*: <ingen> +
+*Redaktørens utkast*: https://informasjonsforvaltning.github.io/cccebv-ap-no/ +
+*Veileder*: <ingen> +
+// *Valideringsverktøy*: https://data.norge.no/validator (ved å oppgi URLen til denne https://raw.githubusercontent.com/Informasjonsforvaltning/cpsv-ap-no/develop/shacl/CPSV-AP-NO_shacl_shapes_v1.ttl[shacl-fil &#x29C9;, window="_blank", role="ext-link"] som "Regelsett lenke")
+
+// include::Om_denne_versjonen.adoc[]
+
+include::Abstract.adoc[]
+
+toc::[]
+
+// section number on
+:sectnums:
+:sectnumlevels: 5
+include::Om_denne_spesifikasjonen.adoc[]
+
+include::Forenklet-fremstilling-av-kravene.adoc[]
+
+include::Spesifikasjon_per_klasse.adoc[]
+
+:leveloffset: +1
+
+include::KlassenBegrensning.adoc[]
+
+include::KlassenDokumentasjonstypeliste.adoc[]
+
+include::KlassenInformasjonsbegrep.adoc[]
+
+include::KlassenInformasjonskrav.adoc[]
+
+include::KlassenKrav.adoc[]
+
+include::KlassenKriterium.adoc[]
+
+include::KlassenReferanserammeverk.adoc[]
+
+:leveloffset: -1
+
+include::Spesielle-temar.adoc[]
+
+// Appendix, section number off
+:sectnums!:
+
+include::Navnerom.adoc[]
+
+// include::Endringslogg.adoc[]
+
+// Analytics
+include::shared/analytics.adoc[]
