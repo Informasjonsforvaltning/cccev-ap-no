@@ -2,14 +2,15 @@
 
 __#@@@@@ sjekk til slutt og ta bort navnerom som ikke brukes i spesifikasjonen#__
 
-Navnerom for dette vokabularet er: `\https://data.norge.no/vocabulary/cpsvno#`
+Navnerom for dette vokabularet er: `\https://data.norge.no/vocabulary/cccevno#`
 
 [cols="10s,45d,45d"]
 |===
 |Prefiks |*Navnerom* |*Forklaring/navn*
 |adms | `\http://www.w3.org/ns/adms#` | https://www.w3.org/TR/vocab-adms/[Asset Description Metadata Schema &#x29C9;, window="_blank", role="ext-link"]
+|cccevno | `\https://data.norge.no/vocabulary/cccevno#` | Norsk applikasjonsprofil av CCCEV, denne spesifikasjonen
 |cpsv | `\http://purl.org/vocab/cpsv#` | https://joinup.ec.europa.eu/interoperable-europe/core-public-service-vocabulary-application-profile-cpsv-ap[Core Public Service Vocabulary Application Profile (CPSV-AP) &#x29C9;, window="_blank", role="ext-link"]
-|cpsvno | `\https://data.norge.no/vocabulary/cpsvno#` | Norsk applikasjonsprofil av CPSV-AP, denne spesifikasjonen
+|cpsvno | `\https://data.norge.no/vocabulary/cccevno#` | https://data.norge.no/specification/cpsv-ap-no#Dokumentasjonstype[Spesifikasjon for tjeneste- og hendelsesbeskrivelser (CPSV-AP-NO) &#x29C9;, window="_blank", role="ext-link"]
 |cv | `\http://data.europa.eu/m8g/` | https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/e-government-core-vocabularies[e-Government Core Vocabularies &#x29C9;, window="_blank", role="ext-link"]
 |dcat | `\http://www.w3.org/ns/dcat#` | https://www.w3.org/TR/vocab-dcat-2/[Data Catalog Vocabulary &#x29C9;, window="_blank", role="ext-link"]
 |dcatno | `\https://data.norge.no/vocabulary/dcatno#` | https://data.norge.no/specification/dcat-ap-no/["Standard for beskrivelse av datasett, datatjenester og datakataloger (DCAT-AP-NO) &#x29C9;", window="_blank", role="ext-link"]
@@ -34,7 +35,7 @@ Eksempel på prefiksene ovenfor uttrykt i RDF Turtle:
 -----
 @prefix adms: <http://www.w3.org/ns/adms#> .
 @prefix cpsv: <http://purl.org/vocab/cpsv#> .
-@prefix cpsvno: <https://data.norge.no/vocabulary/cpsvno#> .
+@prefix cccevno: <https://data.norge.no/vocabulary/cccevno#> .
 @prefix cv: <http://data.europa.eu/m8g/> .
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcatno: <https://data.norge.no/vocabulary/dcatno#> .

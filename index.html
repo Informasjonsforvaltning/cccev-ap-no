@@ -576,7 +576,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#Om-kravene">1.5. Om kravnivåene i spesifikasjonen</a></li>
 </ul>
 </li>
-<li><a href="#Forenklet-fremstilling">2. Forenklet fremstilling av kravene i CPSV-AP-NO</a>
+<li><a href="#Forenklet-fremstilling">2. Forenklet fremstilling av kravene i CCCEV-AP-NO</a>
 <ul class="sectlevel2">
 <li><a href="#Noen-krav">2.1. Opplysninger som SKAL og BØR tas med om et kriterium eller krav</a></li>
 <li><a href="#Illustrativt-eksempel">2.2. Et illustrativt eksempel</a></li>
@@ -760,6 +760,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </ul>
 </li>
 <li><a href="#Navnerom">Vedlegg A – Navnerom som er brukt i spesifikasjonen</a></li>
+<li><a href="#Endringslogg">Vedlegg B – Endringslogg</a></li>
 </ul>
 </div>
 </div>
@@ -872,7 +873,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </ul>
 </div>
 <div class="paragraph">
-<p><a href="#Forenklet-fremstilling">Kapittel 2, <em>Forenklet fremstilling av kravene i CPSV-AP-NO</em></a> er primært ment for den ikke-tekniske målgruppen, <a href="#Spesifikasjon-per-klasse">Kapittel 3, <em>Krav til RDF-representasjon av klassene i CPSV-AP-NO</em></a> for den tekniske målgruppen, <a href="#Spesielle-temaer">Kapittel 4, <em>Noen spesielle temaer</em></a> for begge målgrupper og fortrinnsvis sammen.</p>
+<p><a href="#Forenklet-fremstilling">Kapittel 2, <em>Forenklet fremstilling av kravene i CCCEV-AP-NO</em></a> er primært ment for den ikke-tekniske målgruppen, <a href="#Spesifikasjon-per-klasse">Kapittel 3, <em>Krav til RDF-representasjon av klassene i CPSV-AP-NO</em></a> for den tekniske målgruppen, <a href="#Spesielle-temaer">Kapittel 4, <em>Noen spesielle temaer</em></a> for begge målgrupper og fortrinnsvis sammen.</p>
 </div>
 </div>
 <div class="sect2">
@@ -893,7 +894,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </div>
 </div>
 <div class="sect1">
-<h2 id="Forenklet-fremstilling"><a class="link" href="#Forenklet-fremstilling">2. Forenklet fremstilling av kravene i CPSV-AP-NO</a></h2>
+<h2 id="Forenklet-fremstilling"><a class="link" href="#Forenklet-fremstilling">2. Forenklet fremstilling av kravene i CCCEV-AP-NO</a></h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p><em>Denne delen av spesifikasjonen er primært ment for den ikke-tekniske målgruppen.</em></p>
@@ -919,13 +920,19 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <p><em>Denne delen av spesifikasjonen er primært ment for den tekniske målgruppen.</em></p>
 </div>
 <div class="paragraph">
-<p><em><mark>@@@@@@ Her settes inn en tegning med oversikt over klassene i CCCEV-AP-NO</mark></em></p>
+<p><a href="#img-KlasseOversikt">Figur 1</a> viser en visuell oversikt over klassene i CCCEV-AP-NO og relasjoner mellom dem. I figuren er klassene som er spesifisert i <a href="https://data.norge.no/specification/cpsv-ap-no" class="ext-link" target="_blank" rel="noopener">Spesifikasjon for tjeneste- og hendelsesbeskrivelser (CPSV-AP-NO) &#x29C9;</a> og som blir referert til fra denne spesifikasjonen markert med grå bakgrunn.</p>
+</div>
+<div id="img-KlasseOversikt" class="imageblock">
+<div class="content">
+<a class="image" href="images/CCCEV-AP-NO-klasser.png"><img src="images/CCCEV-AP-NO-klasser.png" alt="UML-diagram med klassene som er i CCCEV-AP-NO og noen av relasjoner mellom dem. Innholdet i diagrammet er forklart i teksten."></a>
+</div>
+<div class="title">Figur 1. Klassene i CCCEV-AP-NO.</div>
 </div>
 <div class="paragraph">
 <p>Figuren er ikke ment som en formell representasjon av spesifikasjonen. Før eventuell uoverensstemmelse mellom figuren og den tekstlige beskrivelsen blir rettet opp, har den tekstlige beskrivelsen forrang. Samme forrang gjelder også når det gjelder eventuelle uoverensstemmelser mellom tekstlige beskrivelser og figurer i resten av spesifikasjonen.</p>
 </div>
 <div class="paragraph">
-<p><em><mark>@@@@@@ forklaring på at noen klasser i tegningen er spesifisert i CPSV-AP-NO</mark></em></p>
+<p>Bortsett fra klassene som er spesifisert i CPSV-AP-NO, er hver klasse med dens egenskaper spesifisert videre i dette kapitlet. Klassene er sortert alfabetisk etter norske klassenavn, og egenskapene i hver klasse gruppert først inn i obligatoriske, anbefalte og valgfrie egenskaper, og der under alfabetisk etter norske egenskapsnavn.</p>
 </div>
 <div class="paragraph">
 <p>Kravene i denne delen av spesifikasjonen spesifiserer hvordan beskrivelsene skal representeres i RDF. Hvert krav er spesifisert i en tabell som inneholder syntaks og forklaring. Radene i tabellene er beskrevet nedenfor. Noen tabeller har færre rader. Engelske navn og tekster som er tatt med i tabellene, er ikke alle nødvendigvis ordrette sitater fra engelske kilder. Vi kan ha valgt en annen engelsk tekst til å formidle det samme budskapet, med mindre vi eksplisitt sier at det er et avvik.</p>
@@ -995,7 +1002,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="content">
 <a class="image" href="images/KlassenBegrensning.png"><img src="images/KlassenBegrensning.png" alt="UML-diagram med klassen Begrensning, dens egenskaper og dens relasjoner til sju andre klasser. Innholdet i diagrammet er forklart i teksten."></a>
 </div>
-<div class="title">Figur 1. Klassen Begrensning (cv:Constraint) og klassene den refererer til.</div>
+<div class="title">Figur 2. Klassen Begrensning (cv:Constraint) og klassene den refererer til.</div>
 </div>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
@@ -1555,7 +1562,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="content">
 <a class="image" href="images/KlassenDokumentasjonstypeliste.png"><img src="images/KlassenDokumentasjonstypeliste.png" alt="UML-diagram med klassen Dokumentasjonstypeliste, dens egenskaper og dens relasjon til en annen klasse. Innholdet i diagrammet er forklart i teksten."></a>
 </div>
-<div class="title">Figur 2. Klassen Dokumentasjonstypeliste (cv:EvidenceTypeList) og klassen den refererer til.</div>
+<div class="title">Figur 3. Klassen Dokumentasjonstypeliste (cv:EvidenceTypeList) og klassen den refererer til.</div>
 </div>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
@@ -1769,7 +1776,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="content">
 <a class="image" href="images/KlassenInformasjonsbegrep.png"><img src="images/KlassenInformasjonsbegrep.png" alt="UML-diagram med klassen Informasjonsbegrep og dens egenskaper. Innholdet i diagrammet er forklart i teksten."></a>
 </div>
-<div class="title">Figur 3. Klassen Informasjonsbegrep (cv:InformationConcept).</div>
+<div class="title">Figur 4. Klassen Informasjonsbegrep (cv:InformationConcept).</div>
 </div>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
@@ -2030,7 +2037,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="content">
 <a class="image" href="images/KlassenInformasjonskrav.png"><img src="images/KlassenInformasjonskrav.png" alt="UML-diagram med klassen Informasjonskrav, dens egenskaper og dens relasjoner til sju andre klasser. Innholdet i diagrammet er forklart i teksten."></a>
 </div>
-<div class="title">Figur 4. Klassen Informasjonskrav (cv:InformationRequirement) og klassene den refererer til.</div>
+<div class="title">Figur 5. Klassen Informasjonskrav (cv:InformationRequirement) og klassene den refererer til.</div>
 </div>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
@@ -2578,7 +2585,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="content">
 <a class="image" href="images/KlassenKrav.png"><img src="images/KlassenKrav.png" alt="UML-diagram med klassen Krav, dens egenskaper og dens relasjoner til seks andre klasser. Innholdet i diagrammet er forklart i teksten."></a>
 </div>
-<div class="title">Figur 5. Klassen Krav (cv:Requirement) og klassene den refererer til.</div>
+<div class="title">Figur 6. Klassen Krav (cv:Requirement) og klassene den refererer til.</div>
 </div>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
@@ -3106,7 +3113,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="content">
 <a class="image" href="images/KlassenKriterium.png"><img src="images/KlassenKriterium.png" alt="UML-diagram med klassen Kriterium, dens egenskaper og dens relasjoner til sju andre klasser. Innholdet i diagrammet er forklart i teksten."></a>
 </div>
-<div class="title">Figur 6. Klassen Kriterium (cv:Criterion) og klassene den refererer til.</div>
+<div class="title">Figur 7. Klassen Kriterium (cv:Criterion) og klassene den refererer til.</div>
 </div>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
@@ -3835,7 +3842,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="content">
 <a class="image" href="images/KlassenReferanserammeverk.png"><img src="images/KlassenReferanserammeverk.png" alt="UML-diagram med klassen Referanserammeverk og dens egenskaper. Innholdet i diagrammet er forklart i teksten."></a>
 </div>
-<div class="title">Figur 7. Klassen Referanserammeverk (cv:ReferenceFramework).</div>
+<div class="title">Figur 8. Klassen Referanserammeverk (cv:ReferenceFramework).</div>
 </div>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
@@ -4018,13 +4025,13 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="content">
 <a class="image" href="images/FigurEksempelDokumentasjonskrav.png"><img src="images/FigurEksempelDokumentasjonskrav.png" alt="RDF-graf med ni RDF-noder og relasjoner imellom nodene. Innholdet i grafen er forklart i teksten."></a>
 </div>
-<div class="title">Figur 8. Eksempel - beskrivelse av «alderskrav» til tjenesten «prøvingsattest».</div>
+<div class="title">Figur 9. Eksempel - beskrivelse av «alderskrav» til tjenesten «prøvingsattest».</div>
 </div>
 <div class="paragraph">
-<p><a href="#img-FigurEksempelDokumentasjonskrav">Figur 8</a> Viser et eksempel på å beskrive et av kravene som skal oppfylles for å kunne utføre tjenesten <a href="https://www.skatteetaten.no/skjema/provingsattest/" class="ext-link" target="_blank" rel="noopener">«prøvingsattest» &#x29C9;</a> som Skatteetaten tilbyr.</p>
+<p><a href="#img-FigurEksempelDokumentasjonskrav">Figur 9</a> Viser et eksempel på å beskrive et av kravene som skal oppfylles for å kunne utføre tjenesten <a href="https://www.skatteetaten.no/skjema/provingsattest/" class="ext-link" target="_blank" rel="noopener">«prøvingsattest» &#x29C9;</a> som Skatteetaten tilbyr.</p>
 </div>
 <div class="paragraph">
-<p><a href="#img-FigurEksempelDokumentasjonskrav">Figur 8</a> forklares som følger (numrene refererer til de samme numrene i figuren):</p>
+<p><a href="#img-FigurEksempelDokumentasjonskrav">Figur 9</a> forklares som følger (numrene refererer til de samme numrene i figuren):</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
@@ -4064,13 +4071,13 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </ol>
 </div>
 <div class="paragraph">
-<p>Som illustrert i <a href="#img-FigurEksempelDokumentasjonskrav2">Figur 9</a>, er det også mulig å knytte kravene illustrert i eksemplet ovenfor, til aktuell lovgivning: «Vilkår for å inngå ekteskap» er utledet fra kapittel 1 i ekteskapsloven, og «Alderskrav» og begrensningen «Ikke under 18 år» er utledet fra §1a i ekteskapsloven.</p>
+<p>Som illustrert i <a href="#img-FigurEksempelDokumentasjonskrav2">Figur 10</a>, er det også mulig å knytte kravene illustrert i eksemplet ovenfor, til aktuell lovgivning: «Vilkår for å inngå ekteskap» er utledet fra kapittel 1 i ekteskapsloven, og «Alderskrav» og begrensningen «Ikke under 18 år» er utledet fra §1a i ekteskapsloven.</p>
 </div>
 <div id="img-FigurEksempelDokumentasjonskrav2" class="imageblock">
 <div class="content">
 <a class="image" href="images/FigurEksempelDokumentasjonskrav2.png"><img src="images/FigurEksempelDokumentasjonskrav2.png" alt="RDF-graf med seks noder og relasjoner imellom nodene. Innholdet i grafen er forklart i teksten."></a>
 </div>
-<div class="title">Figur 9. Eksempel på å knytte dokumentasjonskrav til lovgivning.</div>
+<div class="title">Figur 10. Eksempel på å knytte dokumentasjonskrav til lovgivning.</div>
 </div>
 <div class="paragraph">
 <p>Eksemplet i RDF Turtle:</p>
@@ -4142,7 +4149,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <p><em><mark>@@@@@ sjekk til slutt og ta bort navnerom som ikke brukes i spesifikasjonen</mark></em></p>
 </div>
 <div class="paragraph">
-<p>Navnerom for dette vokabularet er: <code>https://data.norge.no/vocabulary/cpsvno#</code></p>
+<p>Navnerom for dette vokabularet er: <code>https://data.norge.no/vocabulary/cccevno#</code></p>
 </div>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
@@ -4162,14 +4169,19 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.w3.org/TR/vocab-adms/" class="ext-link" target="_blank" rel="noopener">Asset Description Metadata Schema &#x29C9;</a></p></td>
 </tr>
 <tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>cccevno</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>https://data.norge.no/vocabulary/cccevno#</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Norsk applikasjonsprofil av CCCEV, denne spesifikasjonen</p></td>
+</tr>
+<tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>cpsv</strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>http://purl.org/vocab/cpsv#</code></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://joinup.ec.europa.eu/interoperable-europe/core-public-service-vocabulary-application-profile-cpsv-ap" class="ext-link" target="_blank" rel="noopener">Core Public Service Vocabulary Application Profile (CPSV-AP) &#x29C9;</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>cpsvno</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><code>https://data.norge.no/vocabulary/cpsvno#</code></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Norsk applikasjonsprofil av CPSV-AP, denne spesifikasjonen</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>https://data.norge.no/vocabulary/cccevno#</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://data.norge.no/specification/cpsv-ap-no#Dokumentasjonstype" class="ext-link" target="_blank" rel="noopener">Spesifikasjon for tjeneste- og hendelsesbeskrivelser (CPSV-AP-NO) &#x29C9;</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>cv</strong></p></td>
@@ -4270,7 +4282,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="content">
 <pre>@prefix adms: &lt;http://www.w3.org/ns/adms#&gt; .
 @prefix cpsv: &lt;http://purl.org/vocab/cpsv#&gt; .
-@prefix cpsvno: &lt;https://data.norge.no/vocabulary/cpsvno#&gt; .
+@prefix cccevno: &lt;https://data.norge.no/vocabulary/cccevno#&gt; .
 @prefix cv: &lt;http://data.europa.eu/m8g/&gt; .
 @prefix dcat: &lt;http://www.w3.org/ns/dcat#&gt; .
 @prefix dcatno: &lt;https://data.norge.no/vocabulary/dcatno#&gt; .
@@ -4291,6 +4303,14 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .</pre>
 </div>
 </div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="Endringslogg"><a class="link" href="#Endringslogg">Vedlegg B – Endringslogg</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><mark><em>p.t. ingen</mark></em></p>
+</div>
 <div class="paragraph">
 <p>Unresolved directive in main.adoc - include::shared/analytics.adoc[]</p>
 </div>
@@ -4299,7 +4319,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </div>
 <div id="footer">
 <div id="footer-text">
-Sist oppdatert 2026-01-09 07:57:50 UTC
+Sist oppdatert 2026-01-09 11:58:53 UTC
 </div>
 </div>
 </body>
