@@ -241,4 +241,4 @@ _The value SHOULD be chosen from a controlled vocabulary._
 | Merknad 2 / _Note 2_ |  Norsk utvidelse: Ikke eksplisitt spesifisert i CCCEV.
 
 _Norwegian extension: Not explicitly specified in CCCEV._
-===
+|===
