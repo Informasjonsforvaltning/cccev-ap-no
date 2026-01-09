@@ -1,6 +1,6 @@
 === Hvordan leser du tabellene brukt i spesifikasjonen? [[Leseveiledning]]
 
-Følgende rader (ikke nødvendigvis i den rekkefølgen) er brukt i tabellene der krav til klasser og egenskaper i CPSV-AP-NO er spesifisert:
+Følgende rader (ikke nødvendigvis i den rekkefølgen) er brukt i tabellene der krav til klasser og egenskaper i CCCEV-AP-NO er spesifisert:
 
 __#@@@@@@ NB! Må gjennomgåes og ev. tilpasses CCCEV#__
 
