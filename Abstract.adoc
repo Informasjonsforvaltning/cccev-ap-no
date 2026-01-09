@@ -3,7 +3,7 @@
 .__**English speaking readers, you may click here** to read what this specification is about and how you may read it.__
 [%collapsible]
 ====
-__This specification, CCCEV-AP-NO, is the Norwegian application profile of https://github.com/SEMICeu/CCCEV/[EUs Core Criterion and Core Evidence Vocabulary (CCCEV) &#x29C9;, window="_blank", role="ext-link"]. It specifies how to describe criterions and evidences in structured form, and how to make the descriptions available in machine-readable RDF-based formats.__ 
+__This specification, CCCEV-AP-NO, is the Norwegian application profile of https://github.com/SEMICeu/CCCEV/[EUs Core Criterion and Core Evidence Vocabulary (CCCEV) &#x29C9;, window="_blank", role="ext-link"]. It specifies how to describe criterions and requirements in structured form, and how to make the descriptions available in machine-readable RDF-based formats.__ 
 
 __This specification is primarily not meant to be used alone. It supplements the Norwegian specification for description of services and events, CPSV-AP-NO, which is the Norwegian application profile of https://github.com/SEMICeu/CPSV-AP/[EUs Core Public Service Vocabulary Application Profile (CPSV-AP)]__.
 
