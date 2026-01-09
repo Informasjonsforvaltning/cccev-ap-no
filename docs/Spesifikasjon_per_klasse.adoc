@@ -1,4 +1,4 @@
-== Krav til RDF-representasjon av klassene i CPSV-AP-NO [[Spesifikasjon-per-klasse]]
+== Krav til RDF-representasjon av klassene i CCCEV-AP-NO [[Spesifikasjon-per-klasse]]
 
 _Denne delen av spesifikasjonen er primært ment for den tekniske målgruppen._ 
 
@@ -15,7 +15,7 @@ image::images/CCCEV-AP-NO-klasser.png[alt="UML-diagram med klassene som er i CCC
 
 Figuren er ikke ment som en formell representasjon av spesifikasjonen. Før eventuell uoverensstemmelse mellom figuren og den tekstlige beskrivelsen blir rettet opp, har den tekstlige beskrivelsen forrang. Samme forrang gjelder også når det gjelder eventuelle uoverensstemmelser mellom tekstlige beskrivelser og figurer i resten av spesifikasjonen. 
 
-Bortsett fra klassene som er spesifisert i CPSV-AP-NO, er hver klasse med dens egenskaper spesifisert videre i dette kapitlet. Klassene er sortert alfabetisk etter norske klassenavn, og egenskapene i hver klasse gruppert først inn i obligatoriske, anbefalte og valgfrie egenskaper, og der under alfabetisk etter norske egenskapsnavn. 
+Bortsett fra klassene som er markert med grå bakgrunn i figuren og som er spesifisert i CPSV-AP-NO, er hver klasse med dens egenskaper spesifisert videre i dette kapitlet. Klassene er sortert alfabetisk etter norske klassenavn, og egenskapene i hver klasse gruppert først inn i obligatoriske, anbefalte og valgfrie egenskaper, og der under alfabetisk etter norske egenskapsnavn. 
 
 Kravene i denne delen av spesifikasjonen spesifiserer hvordan beskrivelsene skal representeres i RDF. Hvert krav er spesifisert i en tabell som inneholder syntaks og forklaring. Radene i tabellene er beskrevet nedenfor. Noen tabeller har færre rader. Engelske navn og tekster som er tatt med i tabellene, er ikke alle nødvendigvis ordrette sitater fra engelske kilder. Vi kan ha valgt en annen engelsk tekst til å formidle det samme budskapet, med mindre vi eksplisitt sier at det er et avvik. 
 
