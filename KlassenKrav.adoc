@@ -1,10 +1,10 @@
 == Klassen Krav (cv:Requirement) [[Krav]]
 
-__#@@@@@@ NB! valgfri relasjon cv:hasSuppurtingEvindenc som peker til cv:Evidence (eller Påkrevd dokumentasjon) mangler både i tegningen og i teksten.@@@@@@__
+__#@@@@@@ NB! valgfri relasjon cv:hasSuppurtingEvindenc som peker til cv:Evidence (eller Påkrevd dokumentasjon) mangler både i tegningen og i teksten.#__
 
-__#@@@@@@ ... og klassen cv:Evidence (eller Påkrevd dokumentasjon) bør tas med i oversikten.__
+__#@@@@@@ ... og klassen cv:Evidence (eller Påkrevd dokumentasjon) bør tas med i oversikten.#__
 
---#@@@@@@ ... gjelder alle subklasser til denne klassen.__
+--#@@@@@@ ... gjelder alle subklasser til denne klassen.#__
 
 [[img-KlassenKrav]]
 .Klassen Krav (cv:Requirement) og klassene den refererer til.

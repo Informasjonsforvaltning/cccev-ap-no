@@ -732,12 +732,35 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#Kriterium-type">Kriterium – type (dct:type)</a></li>
 <li><a href="#Kriterium-vekting">Kriterium – vekting (cv:weight)</a></li>
 <li><a href="#Kriterium-vektingstype">Kriterium – vektingstype (cv:weightingType)</a></li>
+<li><a href="#Kriterium-vektingsvurderingsbeskrivelse">Kriterium – vektingsvurderingsbeskrivelse (cv:weightingConsiderationDescription)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#Referanserammeverk">3.7. Klassen Referanserammeverk (cv:ReferenceFramework)</a>
+<ul class="sectlevel3">
+<li><a href="#Referanserammeverk-obligatoriske-egenskaper">3.7.1. Obligatoriske egenskaper for klassen <em>Referanserammeverk</em></a>
+<ul class="sectlevel4">
+<li><a href="#Referanserammeverk-identifikator">Referanserammeverk – identifikator (dct:identifier)</a></li>
+</ul>
+</li>
+<li><a href="#Referanserammeverk-anbefalte-egenskaper">3.7.2. Anbefalte egenskaper for klassen <em>Referanserammeverk</em></a>
+<ul class="sectlevel4">
+<li><a href="#Referanserammeverk-beskrivelse">Referanserammeverk – beskrivelse (dct:description)</a></li>
+<li><a href="#Referanserammeverk-tittel">Referanserammeverk – tittel (dct:title)</a></li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
 </li>
+<li><a href="#Spesielle-temaer">4. Noen spesielle temaer</a>
+<ul class="sectlevel2">
+<li><a href="#Å-beskrive-dokumentasjonskrav">4.1. Å beskrive dokumentasjonskrav</a></li>
+</ul>
+</li>
+<li><a href="#Navnerom">Vedlegg A – Navnerom som er brukt i spesifikasjonen</a></li>
+<li><a href="#Endringslogg">Vedlegg B – Endringslogg</a></li>
 </ul>
 </div>
 </div>
@@ -850,7 +873,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </ul>
 </div>
 <div class="paragraph">
-<p><a href="#Forenklet-fremstilling">Kapittel 2, <em>Forenklet fremstilling av kravene i CCCEV-AP-NO</em></a> er primært ment for den ikke-tekniske målgruppen, <a href="#Spesifikasjon-per-klasse">Kapittel 3, <em>Krav til RDF-representasjon av klassene i CCCEV-AP-NO</em></a> for den tekniske målgruppen, <a href="#Spesielle-temaer">[Spesielle-temaer]</a> for begge målgrupper og fortrinnsvis sammen.</p>
+<p><a href="#Forenklet-fremstilling">Kapittel 2, <em>Forenklet fremstilling av kravene i CCCEV-AP-NO</em></a> er primært ment for den ikke-tekniske målgruppen, <a href="#Spesifikasjon-per-klasse">Kapittel 3, <em>Krav til RDF-representasjon av klassene i CCCEV-AP-NO</em></a> for den tekniske målgruppen, <a href="#Spesielle-temaer">Kapittel 4, <em>Noen spesielle temaer</em></a> for begge målgrupper og fortrinnsvis sammen.</p>
 </div>
 </div>
 <div class="sect2">
@@ -935,7 +958,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>URI</strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Brukes til å angi en unik identifikator til klassen eller egenskapen.</p>
 <p class="tableblock">Det er dette som skal benyttes i RDF-basert utveksling/tilgjengeliggjøring av beskrivelser som er utformet i henhold til denne standarden.</p>
-<p class="tableblock">Eksempel: <code>skos:Concept</code> er identifikatoren til klassen Begrep (Concept), slik klassen er spesifisert i <code>skos</code> (<a href="#Navnerom">[Navnerom]</a> viser hva <code>skos</code> står for).</p></td>
+<p class="tableblock">Eksempel: <code>skos:Concept</code> er identifikatoren til klassen Begrep (Concept), slik klassen er spesifisert i <code>skos</code> (<a href="#Navnerom"><em>Vedlegg A – Navnerom som er brukt i spesifikasjonen</em></a> viser hva <code>skos</code> står for).</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Subklasse av / <em>Subclass of</em></strong></p></td>
@@ -1008,12 +1031,12 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Eksempel</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Se under <a href="#Å-beskrive-dokumentasjonskrav">[Å-beskrive-dokumentasjonskrav]</a>.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Se under <a href="#Å-beskrive-dokumentasjonskrav"> 4.1, &#8220;Å beskrive dokumentasjonskrav&#8221;</a>.</p></td>
 </tr>
 </tbody>
 </table>
 <div class="paragraph">
-<p>Eksempel i RDF Turtle: Se under <a href="#Å-beskrive-dokumentasjonskrav">[Å-beskrive-dokumentasjonskrav]</a>.</p>
+<p>Eksempel i RDF Turtle: Se under <a href="#Å-beskrive-dokumentasjonskrav"> 4.1, &#8220;Å beskrive dokumentasjonskrav&#8221;</a>.</p>
 </div>
 <div class="sect3">
 <h4 id="Begrensning-obligatoriske-egenskaper"><a class="link" href="#Begrensning-obligatoriske-egenskaper">3.1.1. Obligatoriske egenskaper for klassen <em>Begrensning</em></a></h4>
@@ -1559,12 +1582,12 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Eksempel</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Se under <a href="#Å-beskrive-dokumentasjonskrav">[Å-beskrive-dokumentasjonskrav]</a>.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Se under <a href="#Å-beskrive-dokumentasjonskrav"> 4.1, &#8220;Å beskrive dokumentasjonskrav&#8221;</a>.</p></td>
 </tr>
 </tbody>
 </table>
 <div class="paragraph">
-<p>Eksempel i RDF Turtle: Se under <a href="#Å-beskrive-dokumentasjonskrav">[Å-beskrive-dokumentasjonskrav]</a>.</p>
+<p>Eksempel i RDF Turtle: Se under <a href="#Å-beskrive-dokumentasjonskrav"> 4.1, &#8220;Å beskrive dokumentasjonskrav&#8221;</a>.</p>
 </div>
 <div class="sect3">
 <h4 id="Dokumentasjonstypeliste-obligatoriske-egenskaper"><a class="link" href="#Dokumentasjonstypeliste-obligatoriske-egenskaper">3.2.1. Obligatoriske egenskaper for klassen <em>Dokumentasjonstypeliste</em></a></h4>
@@ -1766,12 +1789,12 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Eksempel</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Se under <a href="#Å-beskrive-dokumentasjonskrav">[Å-beskrive-dokumentasjonskrav]</a>.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Se under <a href="#Å-beskrive-dokumentasjonskrav"> 4.1, &#8220;Å beskrive dokumentasjonskrav&#8221;</a>.</p></td>
 </tr>
 </tbody>
 </table>
 <div class="paragraph">
-<p>Eksempel i RDF Turtle: Se under <a href="#Å-beskrive-dokumentasjonskrav">[Å-beskrive-dokumentasjonskrav]</a>.</p>
+<p>Eksempel i RDF Turtle: Se under <a href="#Å-beskrive-dokumentasjonskrav"> 4.1, &#8220;Å beskrive dokumentasjonskrav&#8221;</a>.</p>
 </div>
 <div class="sect3">
 <h4 id="Informasjonsbegrep-obligatoriske-egenskaper"><a class="link" href="#Informasjonsbegrep-obligatoriske-egenskaper">3.3.1. Obligatoriske egenskaper for klassen <em>Informasjonsbegrep</em></a></h4>
@@ -2017,12 +2040,12 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Eksempel</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Se under <a href="#Å-beskrive-dokumentasjonskrav">[Å-beskrive-dokumentasjonskrav]</a>.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Se under <a href="#Å-beskrive-dokumentasjonskrav"> 4.1, &#8220;Å beskrive dokumentasjonskrav&#8221;</a>.</p></td>
 </tr>
 </tbody>
 </table>
 <div class="paragraph">
-<p>Eksempel i RDF Turtle: Se under <a href="#Å-beskrive-dokumentasjonskrav">[Å-beskrive-dokumentasjonskrav]</a>.</p>
+<p>Eksempel i RDF Turtle: Se under <a href="#Å-beskrive-dokumentasjonskrav"> 4.1, &#8220;Å beskrive dokumentasjonskrav&#8221;</a>.</p>
 </div>
 <div class="sect3">
 <h4 id="Informasjonskrav-obligatoriske-egenskaper"><a class="link" href="#Informasjonskrav-obligatoriske-egenskaper">3.4.1. Obligatoriske egenskaper for klassen <em>Informasjonskrav</em></a></h4>
@@ -2539,13 +2562,13 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="sect2">
 <h3 id="Krav"><a class="link" href="#Krav">3.5. Klassen Krav (cv:Requirement)</a></h3>
 <div class="paragraph">
-<p><em>#@@@@@@ NB! valgfri relasjon cv:hasSuppurtingEvindenc som peker til cv:Evidence (eller Påkrevd dokumentasjon) mangler både i tegningen og i teksten.@@@@@@</em></p>
+<p><em><mark>@@@@@@ NB! valgfri relasjon cv:hasSuppurtingEvindenc som peker til cv:Evidence (eller Påkrevd dokumentasjon) mangler både i tegningen og i teksten.</mark></em></p>
 </div>
 <div class="paragraph">
-<p><em>#@@@@@@ &#8230;&#8203; og klassen cv:Evidence (eller Påkrevd dokumentasjon) bør tas med i oversikten.</em></p>
+<p><em><mark>@@@@@@ &#8230;&#8203; og klassen cv:Evidence (eller Påkrevd dokumentasjon) bør tas med i oversikten.</mark></em></p>
 </div>
 <div class="paragraph">
-<p>--#@@@@@@ &#8230;&#8203; gjelder alle subklasser til denne klassen.__</p>
+<p>--#@@@@@@ &#8230;&#8203; gjelder alle subklasser til denne klassen.#__</p>
 </div>
 <div id="img-KlassenKrav" class="imageblock">
 <div class="content">
@@ -3092,12 +3115,12 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Eksempel</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Se under <a href="#Å-beskrive-dokumentasjonskrav">[Å-beskrive-dokumentasjonskrav]</a>.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Se under <a href="#Å-beskrive-dokumentasjonskrav"> 4.1, &#8220;Å beskrive dokumentasjonskrav&#8221;</a>.</p></td>
 </tr>
 </tbody>
 </table>
 <div class="paragraph">
-<p>Eksempel i RDF Turtle: Se under <a href="#Å-beskrive-dokumentasjonskrav">[Å-beskrive-dokumentasjonskrav]</a>.</p>
+<p>Eksempel i RDF Turtle: Se under <a href="#Å-beskrive-dokumentasjonskrav"> 4.1, &#8220;Å beskrive dokumentasjonskrav&#8221;</a>.</p>
 </div>
 <div class="sect3">
 <h4 id="Kriterium-obligatoriske-egenskaper"><a class="link" href="#Kriterium-obligatoriske-egenskaper">3.6.1. Obligatoriske egenskaper for klassen <em>Kriterium</em></a></h4>
@@ -3721,297 +3744,531 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <td class="tableblock halign-left valign-top"><p class="tableblock">EUs kontrollerte vokabular <a href="https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/number-weight" class="ext-link" target="_blank" rel="noopener">Number weight &#x29C9;</a> KAN brukes som mulige verdier for denne egenskapen.</p>
 <p class="tableblock"><em>EU&#8217;s controlled vocabulary <a href="https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/number-weight" class="ext-link" target="_blank" rel="noopener">Number weight &#x29C9;</a> MAY be used as possible values for this property.</em></p></td>
 </tr>
+</tbody>
+</table>
+</div>
+<div class="sect4">
+<h5 id="Kriterium-vektingsvurderingsbeskrivelse"><a class="link" href="#Kriterium-vektingsvurderingsbeskrivelse">3.6.3.13. Kriterium – vektingsvurderingsbeskrivelse (cv:weightingConsiderationDescription)</a></h5>
+<table class="tableblock frame-all grid-all stripes-even stretch">
+<colgroup>
+<col style="width: 30%;">
+<col style="width: 70%;">
+</colgroup>
+<tbody>
 <tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">===</p>
-<p class="tableblock">==== Kriterium – vektingsvurderingsbeskrivelse (cv:weightingConsiderationDescription) <a id="Kriterium-vektingsvurderingsbeskrivelse"></a></p>
-<p class="tableblock">[cols="30s,70d"]</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong><em>English name</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>weighting consideration description</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>URI</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cv:weightingConsiderationDescription</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Verdiområde / <em>Range</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">rdf:langString</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Anvendelse / <em>Usage note</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Brukes til å oppgi en tekstlig forklaring på hvordan vektingen av et kriterium brukes. Egenskapen BØR gjentas når forklaringen finnes på flere språk.</p>
+<p class="tableblock"><em>This property contains the explanation of how the weighting of a Criterion is to be used. This property SHOULD be repeated when the explanation is in parallel languages.</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Multiplisitet / <em>Multiplicity</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0..n</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Kravnivå / <em>Requirement level</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Valgfri / <em>Optional</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Merknad / <em>Note</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Norsk utvidelse: Verdiområdet endret fra 'xsd:string' til 'rdf:langString'.</p>
+<p class="tableblock"><em>Norwegian extension: The range changed from 'xsd:string' to 'rdf:langString'.</em></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="Referanserammeverk"><a class="link" href="#Referanserammeverk">3.7. Klassen Referanserammeverk (cv:ReferenceFramework)</a></h3>
+<div id="img-KlassenReferanserammeverk" class="imageblock">
+<div class="content">
+<a class="image" href="images/KlassenReferanserammeverk.png"><img src="images/KlassenReferanserammeverk.png" alt="UML-diagram med klassen Referanserammeverk og dens egenskaper. Innholdet i diagrammet er forklart i teksten."></a>
+</div>
+<div class="title">Figur 8. Klassen Referanserammeverk (cv:ReferenceFramework).</div>
+</div>
+<table class="tableblock frame-all grid-all stripes-even stretch">
+<colgroup>
+<col style="width: 30%;">
+<col style="width: 70%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong><em>English name</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Reference Framework</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Anvendelse / <em>Usage note</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Klassen brukes til å representere lovgivning eller offisiell politikk som krav er utledet fra.</p>
+<p class="tableblock"><em>This class represents legislation or official policy from which Requirements are derived.</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>URI</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cv:ReferenceFramework</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Merknad / <em>Note</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Vanlige referanserammeverk er regulative og ikke-regulative spesifikasjoner. Eksempler kan være prosedyrer, anskaffelsesreglement osv.</p>
+<p class="tableblock"><em>Usual Reference Frameworks are legal and non-legal specifications. Examples include procedures, tendering legislation etc.</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Eksempel</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Se under <a href="#Å-beskrive-dokumentasjonskrav"> 4.1, &#8220;Å beskrive dokumentasjonskrav&#8221;</a>.</p></td>
 </tr>
 </tbody>
 </table>
 <div class="paragraph">
-<p>| <em>English name</em> | <em>weighting consideration description</em>
-| URI |  cv:weightingConsiderationDescription
-| Verdiområde / <em>Range</em> |  rdf:langString
-| Anvendelse / <em>Usage note</em> |  Brukes til å oppgi en tekstlig forklaring på hvordan vektingen av et kriterium brukes. Egenskapen BØR gjentas når forklaringen finnes på flere språk.</p>
+<p>Eksempel i RDF Turtle: Se under <a href="#Å-beskrive-dokumentasjonskrav"> 4.1, &#8220;Å beskrive dokumentasjonskrav&#8221;</a>.</p>
 </div>
-<div class="paragraph">
-<p><em>This property contains the explanation of how the weighting of a Criterion is to be used. This property SHOULD be repeated when the explanation is in parallel languages.</em>
-| Multiplisitet / <em>Multiplicity</em> |  0..n
-| Kravnivå / <em>Requirement level</em> | Valgfri / <em>Optional</em>
-| Merknad / <em>Note</em> |  Norsk utvidelse: Verdiområdet endret fra 'xsd:string' til 'rdf:langString'.</p>
-</div>
-<div class="paragraph">
-<p><em>Norwegian extension: The range changed from 'xsd:string' to 'rdf:langString'.</em></p>
-</div>
+<div class="sect3">
+<h4 id="Referanserammeverk-obligatoriske-egenskaper"><a class="link" href="#Referanserammeverk-obligatoriske-egenskaper">3.7.1. Obligatoriske egenskaper for klassen <em>Referanserammeverk</em></a></h4>
+<div class="sect4">
+<h5 id="Referanserammeverk-identifikator"><a class="link" href="#Referanserammeverk-identifikator">3.7.1.1. Referanserammeverk – identifikator (dct:identifier)</a></h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
-<col style="width: 100%;">
+<col style="width: 30%;">
+<col style="width: 70%;">
 </colgroup>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">== Klassen Referanserammeverk (cv:ReferenceFramework) <a id="Referanserammeverk"></a></p>
-<p class="tableblock"><a id="img-KlassenReferanserammeverk"></a>
-.Klassen Referanserammeverk (cv:ReferenceFramework).
-[link=images/KlassenReferanserammeverk.png]
-image::images/KlassenReferanserammeverk.png[alt="UML-diagram med klassen Referanserammeverk og dens egenskaper. Innholdet i diagrammet er forklart i teksten."]</p>
-<p class="tableblock">[cols="30s,70d"]</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong><em>English name</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>identifier</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>URI</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">dct:identifier</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Verdiområde / <em>Range</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">rdfs:Literal</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Anvendelse / <em>Usage note</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Egenskapen brukes til å oppgi en unik referanse til referanserammeverket.</p>
+<p class="tableblock"><em>This property represents an unambiguous reference to a reference framework.</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Multiplisitet / <em>Multiplicity</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1..1</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Kravnivå / <em>Requirement level</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Obligatorisk / <em>Mandatory</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Merknad / <em>Note</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Norsk utvidelse: Kravnivået endret fra valgfri til obligatorisk, og multiplisiteten fra 0..n til 1..1.</p>
+<p class="tableblock"><em>Norwegian extension: The requirement level changed from optional to mandatory, and the multiplicity from 0..n to 1..1.</em></p></td>
 </tr>
 </tbody>
 </table>
-<div class="paragraph">
-<p>| <em>English name</em> | <em>Reference Framework</em>
-| Anvendelse / <em>Usage note</em> |  Klassen brukes til å representere lovgivning eller offisiell politikk som krav er utledet fra.</p>
 </div>
-<div class="paragraph">
-<p><em>This class represents legislation or official policy from which Requirements are derived.</em>
-| URI |  cv:ReferenceFramework
-| Merknad / <em>Note</em> | Vanlige referanserammeverk er regulative og ikke-regulative spesifikasjoner. Eksempler kan være prosedyrer, anskaffelsesreglement osv.</p>
 </div>
-<div class="paragraph">
-<p><em>Usual Reference Frameworks are legal and non-legal specifications. Examples include procedures, tendering legislation etc.</em>
-| Eksempel |  Se under <a href="#Å-beskrive-dokumentasjonskrav">[Å-beskrive-dokumentasjonskrav]</a>.</p>
-</div>
+<div class="sect3">
+<h4 id="Referanserammeverk-anbefalte-egenskaper"><a class="link" href="#Referanserammeverk-anbefalte-egenskaper">3.7.2. Anbefalte egenskaper for klassen <em>Referanserammeverk</em></a></h4>
+<div class="sect4">
+<h5 id="Referanserammeverk-beskrivelse"><a class="link" href="#Referanserammeverk-beskrivelse">3.7.2.1. Referanserammeverk – beskrivelse (dct:description)</a></h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
-<col style="width: 100%;">
+<col style="width: 30%;">
+<col style="width: 70%;">
 </colgroup>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Eksempel i RDF Turtle: Se under <a href="#Å-beskrive-dokumentasjonskrav">[Å-beskrive-dokumentasjonskrav]</a>.</p>
-<p class="tableblock">=== Obligatoriske egenskaper for klassen <em>Referanserammeverk</em> <a id="Referanserammeverk-obligatoriske-egenskaper"></a></p>
-<p class="tableblock">==== Referanserammeverk – identifikator (dct:identifier) <a id="Referanserammeverk-identifikator"></a></p>
-<p class="tableblock">[cols="30s,70d"]</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong><em>English name</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>description</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>URI</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">dct:description</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Verdiområde / <em>Range</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">rdf:langString</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Anvendelse / <em>Usage note</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Egenskapen brukes til å oppgi en tekstlig beskrivelse av referanserammeverket. Egenskapen BØR gjentas når den finnes på flere språk.</p>
+<p class="tableblock"><em>This property contains descriptive textual information about the Reference Framework. This property SHOULD be repeated in case there are various versions of the text in different languages.</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Multiplisitet / <em>Multiplicity</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0..n</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Merknad / <em>Note</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Norsk utvidelse: Ikke eksplisitt tatt med i CCCEV.</p>
+<p class="tableblock"><em>Norwegian extension: Not explicitly specified in CCCEV.</em></p></td>
 </tr>
 </tbody>
 </table>
-<div class="paragraph">
-<p>| <em>English name</em> | <em>identifier</em>
-| URI |  dct:identifier
-| Verdiområde / <em>Range</em> | rdfs:Literal
-| Anvendelse / <em>Usage note</em> |  Egenskapen brukes til å oppgi en unik referanse til referanserammeverket.</p>
 </div>
-<div class="paragraph">
-<p><em>This property represents an unambiguous reference to a reference framework.</em>
-| Multiplisitet / <em>Multiplicity</em> | 1..1
-| Kravnivå / <em>Requirement level</em> |  Obligatorisk / <em>Mandatory</em>
-| Merknad / <em>Note</em> | Norsk utvidelse: Kravnivået endret fra valgfri til obligatorisk, og multiplisiteten fra 0..n til 1..1.</p>
-</div>
-<div class="paragraph">
-<p><em>Norwegian extension: The requirement level changed from optional to mandatory, and the multiplicity from 0..n to 1..1.</em></p>
-</div>
+<div class="sect4">
+<h5 id="Referanserammeverk-tittel"><a class="link" href="#Referanserammeverk-tittel">3.7.2.2. Referanserammeverk – tittel (dct:title)</a></h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
-<col style="width: 100%;">
+<col style="width: 30%;">
+<col style="width: 70%;">
 </colgroup>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">=== Anbefalte egenskaper for klassen <em>Referanserammeverk</em> <a id="Referanserammeverk-anbefalte-egenskaper"></a></p>
-<p class="tableblock">==== Referanserammeverk – beskrivelse (dct:description) <a id="Referanserammeverk-beskrivelse"></a></p>
-<p class="tableblock">[cols="30s,70d"]</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong><em>English name</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>title</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>URI</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">dct:title</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Verdiområde / <em>Range</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">rdf:langString</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Anvendelse / <em>Usage note</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Egenskapen brukes til å oppgi tittel til referanserammeverket. Egenskapen BØR gjentas når tittelen finnes på flere språk.</p>
+<p class="tableblock"><em>This property is used to specify the title of the Reference Framework. This property SHOULD be repeated when the title is in several parallel languages.</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Multiplisitet / <em>Multiplicity</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0..n</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Kravnivå / <em>Requirement level</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Anbefalt / <em>Recommended</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Merknad / <em>Note</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Norsk utvidelse: Ikke eksplisitt tatt med i CCCEV.</p>
+<p class="tableblock"><em>Norwegian extension: Not explicitly specified in CCCEV.</em></p></td>
 </tr>
 </tbody>
 </table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="Spesielle-temaer"><a class="link" href="#Spesielle-temaer">4. Noen spesielle temaer</a></h2>
+<div class="sectionbody">
 <div class="paragraph">
-<p>| <em>English name</em> | <em>description</em>
-| URI | dct:description
-| Verdiområde / <em>Range</em> |  rdf:langString
-| Anvendelse / <em>Usage note</em> | Egenskapen brukes til å oppgi en tekstlig beskrivelse av referanserammeverket. Egenskapen BØR gjentas når den finnes på flere språk.</p>
+<p><em>Denne delen er ment for både den ikke-tekniske og den tekniske målgruppen, fortrinnsvis sammen.</em></p>
+</div>
+<div class="sect2">
+<h3 id="Å-beskrive-dokumentasjonskrav"><a class="link" href="#Å-beskrive-dokumentasjonskrav">4.1. Å beskrive dokumentasjonskrav</a></h3>
+<div class="paragraph">
+<p>Spesifikasjonen gjør det mulig å beskrive et dokumentasjonskrav strukturert og dermed også maskinprosesserbart.</p>
+</div>
+<div id="img-FigurEksempelDokumentasjonskrav" class="imageblock">
+<div class="content">
+<a class="image" href="images/FigurEksempelDokumentasjonskrav.png"><img src="images/FigurEksempelDokumentasjonskrav.png" alt="RDF-graf med ni RDF-noder og relasjoner imellom nodene. Innholdet i grafen er forklart i teksten."></a>
+</div>
+<div class="title">Figur 9. Eksempel - beskrivelse av «alderskrav» til tjenesten «prøvingsattest».</div>
 </div>
 <div class="paragraph">
-<p><em>This property contains descriptive textual information about the Reference Framework. This property SHOULD be repeated in case there are various versions of the text in different languages.</em>
-| Multiplisitet / <em>Multiplicity</em> | 0..n
-| Merknad / <em>Note</em> | Norsk utvidelse: Ikke eksplisitt tatt med i CCCEV.</p>
+<p><a href="#img-FigurEksempelDokumentasjonskrav">Figur 9</a> Viser et eksempel på å beskrive et av kravene som skal oppfylles for å kunne utføre tjenesten <a href="https://www.skatteetaten.no/skjema/provingsattest/" class="ext-link" target="_blank" rel="noopener">«prøvingsattest» &#x29C9;</a> som Skatteetaten tilbyr.</p>
 </div>
 <div class="paragraph">
-<p><em>Norwegian extension: Not explicitly specified in CCCEV.</em></p>
+<p><a href="#img-FigurEksempelDokumentasjonskrav">Figur 9</a> forklares som følger (numrene refererer til de samme numrene i figuren):</p>
 </div>
-<table class="tableblock frame-all grid-all stripes-even stretch">
-<colgroup>
-<col style="width: 100%;">
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">==== Referanserammeverk – tittel (dct:title) <a id="Referanserammeverk-tittel"></a></p>
-<p class="tableblock">[cols="30s,70d"]</p></td>
-</tr>
-</tbody>
-</table>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Tjenesten «Prøvingsattest» har «Vilkår for å inngå ekteskap» som krav.</p>
+</li>
+<li>
+<p>«Vilkår for å inngå ekteskap» har et mer spesifikt informasjonskrav «Alderskrav».</p>
+</li>
+<li>
+<p>«Alderskrav» refererer til informasjonsbegrepet «Alder».</p>
+</li>
+<li>
+<p>«Alderskrav» har også en mer spesifikk begrensning «Ikke under 18 år».</p>
+</li>
+<li>
+<p>Begrensningen «Ikke under 18 år» begrenser informasjonsbegrepet «Alder».</p>
+</li>
+<li>
+<p>«Alderskrav» bruker en liste over lovlige dokumentasjonstyper.</p>
+</li>
+<li>
+<p>På dokumentasjonstypelisten finner man «Attest».</p>
+</li>
+<li>
+<p>Tjenesten «Prøvingsattest» har «Attest» som sin dokumentasjonstype.</p>
+</li>
+<li>
+<p>Tjenesten «Prøvingsattest» har «Fødselsattest» som en påkrevd dokumentasjon.</p>
+</li>
+<li>
+<p>«Fødselsattest» er i samsvar med det som er spesifisert som lovlig dokumentasjonstype.</p>
+</li>
+<li>
+<p>«Fødselsattest» understøtter informasjonskrav «Alderskrav».</p>
+</li>
+</ol>
+</div>
 <div class="paragraph">
-<p>| <em>English name</em> |  <em>title</em>
-| URI | dct:title
-| Verdiområde / <em>Range</em> |  rdf:langString
-| Anvendelse / <em>Usage note</em> | Egenskapen brukes til å oppgi tittel til referanserammeverket. Egenskapen BØR gjentas når tittelen finnes på flere språk.</p>
+<p>Som illustrert i <a href="#img-FigurEksempelDokumentasjonskrav2">Figur 10</a>, er det også mulig å knytte kravene illustrert i eksemplet ovenfor, til aktuell lovgivning: «Vilkår for å inngå ekteskap» er utledet fra kapittel 1 i ekteskapsloven, og «Alderskrav» og begrensningen «Ikke under 18 år» er utledet fra §1a i ekteskapsloven.</p>
+</div>
+<div id="img-FigurEksempelDokumentasjonskrav2" class="imageblock">
+<div class="content">
+<a class="image" href="images/FigurEksempelDokumentasjonskrav2.png"><img src="images/FigurEksempelDokumentasjonskrav2.png" alt="RDF-graf med seks noder og relasjoner imellom nodene. Innholdet i grafen er forklart i teksten."></a>
+</div>
+<div class="title">Figur 10. Eksempel på å knytte dokumentasjonskrav til lovgivning.</div>
 </div>
 <div class="paragraph">
-<p><em>This property is used to specify the title of the Reference Framework. This property SHOULD be repeated when the title is in several parallel languages.</em>
-| Multiplisitet / <em>Multiplicity</em> | 0..n
-| Kravnivå / <em>Requirement level</em> | Anbefalt / <em>Recommended</em>
-| Merknad / <em>Note</em> | Norsk utvidelse: Ikke eksplisitt tatt med i CCCEV.</p>
+<p>Eksemplet i RDF Turtle:</p>
 </div>
-<div class="paragraph">
-<p><em>Norwegian extension: Not explicitly specified in CCCEV.</em></p>
-</div>
-<table class="tableblock frame-all grid-all stripes-even stretch">
-<colgroup>
-<col style="width: 100%;">
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">:leveloffset: -1</p>
-<p class="tableblock">== Noen spesielle temaer <a id="Spesielle-temaer"></a></p>
-<p class="tableblock"><em>Denne delen er ment for både den ikke-tekniske og den tekniske målgruppen, fortrinnsvis sammen.</em></p>
-<p class="tableblock">=== Å beskrive dokumentasjonskrav <a id="Å-beskrive-dokumentasjonskrav"></a></p>
-<p class="tableblock">:xrefstyle: short</p>
-<p class="tableblock">Spesifikasjonen gjør det mulig å beskrive et dokumentasjonskrav strukturert og dermed også maskinprosesserbart.</p>
-<p class="tableblock"><a id="img-FigurEksempelDokumentasjonskrav"></a>
-.Eksempel - beskrivelse av «alderskrav» til tjenesten «prøvingsattest».
-[link=images/FigurEksempelDokumentasjonskrav.png]
-image::images/FigurEksempelDokumentasjonskrav.png[alt="RDF-graf med ni RDF-noder og relasjoner imellom nodene. Innholdet i grafen er forklart i teksten."]</p>
-<p class="tableblock"><a href="#img-FigurEksempelDokumentasjonskrav">[img-FigurEksempelDokumentasjonskrav]</a> Viser et eksempel på å beskrive et av kravene som skal oppfylles for å kunne utføre tjenesten <a href="https://www.skatteetaten.no/skjema/provingsattest/" class="ext-link" target="_blank" rel="noopener">«prøvingsattest» &#x29C9;</a> som Skatteetaten tilbyr.</p>
-<p class="tableblock"><a href="#img-FigurEksempelDokumentasjonskrav">[img-FigurEksempelDokumentasjonskrav]</a> forklares som følger (numrene refererer til de samme numrene i figuren):</p>
-<p class="tableblock">.  Tjenesten «Prøvingsattest» har «Vilkår for å inngå ekteskap» som krav.
-. «Vilkår for å inngå ekteskap» har et mer spesifikt informasjonskrav «Alderskrav».
-. «Alderskrav» refererer til informasjonsbegrepet «Alder».
-. «Alderskrav» har også en mer spesifikk begrensning «Ikke under 18 år».
-. Begrensningen «Ikke under 18 år» begrenser informasjonsbegrepet «Alder».
-. «Alderskrav» bruker en liste over lovlige dokumentasjonstyper.
-. På dokumentasjonstypelisten finner man «Attest».
-. Tjenesten «Prøvingsattest» har «Attest» som sin dokumentasjonstype.
-. Tjenesten «Prøvingsattest» har «Fødselsattest» som en påkrevd dokumentasjon.
-. «Fødselsattest» er i samsvar med det som er spesifisert som lovlig dokumentasjonstype.
-. «Fødselsattest» understøtter informasjonskrav «Alderskrav».</p>
-<p class="tableblock">Som illustrert i <a href="#img-FigurEksempelDokumentasjonskrav2">[img-FigurEksempelDokumentasjonskrav2]</a>, er det også mulig å knytte kravene illustrert i eksemplet ovenfor, til aktuell lovgivning: «Vilkår for å inngå ekteskap» er utledet fra kapittel 1 i ekteskapsloven, og «Alderskrav» og begrensningen «Ikke under 18 år» er utledet fra §1a i ekteskapsloven.</p>
-<p class="tableblock"><a id="img-FigurEksempelDokumentasjonskrav2"></a>
-.Eksempel på å knytte dokumentasjonskrav til lovgivning.
-[link=images/FigurEksempelDokumentasjonskrav2.png]
-image::images/FigurEksempelDokumentasjonskrav2.png[alt="RDF-graf med seks noder og relasjoner imellom nodene. Innholdet i grafen er forklart i teksten."]</p>
-<p class="tableblock">Eksemplet i RDF Turtle:
------
-&lt;prøvingsattest&gt; a cpsv:PublicService ; # offentlig tjeneste
+<div class="listingblock">
+<div class="content">
+<pre>&lt;prøvingsattest&gt; a cpsv:PublicService ; # offentlig tjeneste
    dct:title "Prøvingsattest"@nb ; # navn
    cv:holdsRequirement &lt;vilkårForÅInngåEkteskap&gt; ; # har krav
    cv:hasInputType &lt;attest&gt; ; # har dokumentasjonstype
    cpsvno:hasRequiredEvidence &lt;fødselsattest&gt; ; # har påkrevd dokumentasjon
-   .</p>
-<p class="tableblock">&lt;vilkårForÅInngåEkteskap&gt; a cv:Criterion ; # kriterium
+   .
+
+&lt;vilkårForÅInngåEkteskap&gt; a cv:Criterion ; # kriterium
    dct:title "Vilkår for å inngå ekteskap"@nb ; # navn
    cv:isDerivedFrom &lt;ekteskapsloven1a&gt; ; # er utledet fra
    cv:hasRequirement &lt;alderskrav&gt; ; # har mer spesifikt krav
-   .</p>
-<p class="tableblock">&lt;alderskrav&gt; a cv:InformationRequirement ;  # informasjonskrav
+   .
+
+&lt;alderskrav&gt; a cv:InformationRequirement ;  # informasjonskrav
    dct:title "Alderskrav"@nb ; # navn
    cv:isDerivedFrom &lt;ekteskapsloven1a&gt; ; # er utledet fra
    cv:hasRequirement &lt;ikkeUnder18&gt; ; # har mer spesifikt krav
    cv:hasEvidenceTypeList &lt;typeListeAttest&gt; ; # har dokumentasjonstypeliste
-   .</p>
-<p class="tableblock">&lt;ikkeUnder18&gt; a cv:Constraint ; # begrensning
+   .
+
+&lt;ikkeUnder18&gt; a cv:Constraint ; # begrensning
    dct:title "Ikke under 18 år" ; # navn
    cv:isDerivedFrom &lt;ekteskapsloven1a&gt; ;
    cv:constrains &lt;alder&gt; ; # begrenser
-   .</p>
-<p class="tableblock">&lt;ekteskapsloven1a&gt; a cv:ReferenceFramework ; # referanserammeverk
-   dct:identifier <a href="https://lovdata.no/lov/1991-07-04-47/§1a" class="bare">https://lovdata.no/lov/1991-07-04-47/§1a</a> ; # identifikator
-   .</p>
-<p class="tableblock">&lt;alder&gt; a cv:InformationConcept ; # informasjonsbegrep
+   .
+
+&lt;ekteskapsloven1a&gt; a cv:ReferenceFramework ; # referanserammeverk
+   dct:identifier &lt;https://lovdata.no/lov/1991-07-04-47/§1a&gt; ; # identifikator
+   .
+
+&lt;alder&gt; a cv:InformationConcept ; # informasjonsbegrep
    dct:title "Alder"@nb ; # navn
-   .</p>
-<p class="tableblock">&lt;typeListeAttest&gt; a cv:EvidenceTypeList ; <mark>dokumentasjonstypeliste
+   .
+
+&lt;typeListeAttest&gt; a cv:EvidenceTypeList ; #dokumentasjonstypeliste
    skos:prefLabel "Attest"@nb ; # navn
    cv:specifiesEvidenceType &lt;typeAttest&gt; ; # spesifiserer
-   .</p>
-<p class="tableblock">&lt;typeAttest&gt; a cv:EvidenceType ; # dokumentasjonstype
+   .
+
+&lt;typeAttest&gt; a cv:EvidenceType ; # dokumentasjonstype
    cv:evidenceTypeClassification &lt;attest&gt; ; # dokumentasjonstypekategori
-   .</p>
-<p class="tableblock">&lt;attest&gt; a skos:Concept ; # begrep
+   .
+
+&lt;attest&gt; a skos:Concept ; # begrep
    skos:prefLabel "attest"@nb ; # navn
-   .</p>
-<p class="tableblock">&lt;fødselsattest&gt; a cpsvno:RequiredEvidence ; # påkrevd dokumentasjon
+   .
+
+&lt;fødselsattest&gt; a cpsvno:RequiredEvidence ; # påkrevd dokumentasjon
    dct:description "Fødselsattest som dokumentasjon på alder"@nb ; # beskrivelse
    dct:title "Fødselsattest"@nb ; # navn
    dct:conformsTo &lt;attest&gt; ; # i samsvar med
    cv:supportsRequirement &lt;alderskrav&gt; ; # understøtter krav
-   .
------</p>
-<p class="tableblock">:xrefstyle: full</p>
-<p class="tableblock">:sectnums!:</p>
-<p class="tableblock">== Vedlegg A – Navnerom som er brukt i spesifikasjonen <a id="Navnerom"></a></p>
-<p class="tableblock"><em></mark>@@@@@ sjekk til slutt og ta bort navnerom som ikke brukes i spesifikasjonen#</em></p>
-<p class="tableblock">Navnerom for dette vokabularet er: <code>https://data.norge.no/vocabulary/cccevno#</code></p>
-<p class="tableblock">[cols="10s,45d,45d"]</p></td>
+   .</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="Navnerom"><a class="link" href="#Navnerom">Vedlegg A – Navnerom som er brukt i spesifikasjonen</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><em><mark>@@@@@ sjekk til slutt og ta bort navnerom som ikke brukes i spesifikasjonen</mark></em></p>
+</div>
+<div class="paragraph">
+<p>Navnerom for dette vokabularet er: <code>https://data.norge.no/vocabulary/cccevno#</code></p>
+</div>
+<table class="tableblock frame-all grid-all stripes-even stretch">
+<colgroup>
+<col style="width: 10%;">
+<col style="width: 45%;">
+<col style="width: 45%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Prefiks</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Navnerom</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Forklaring/navn</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>adms</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>http://www.w3.org/ns/adms#</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.w3.org/TR/vocab-adms/" class="ext-link" target="_blank" rel="noopener">Asset Description Metadata Schema &#x29C9;</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>cccevno</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>https://data.norge.no/vocabulary/cccevno#</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Norsk applikasjonsprofil av CCCEV, denne spesifikasjonen</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>cpsv</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>http://purl.org/vocab/cpsv#</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://joinup.ec.europa.eu/interoperable-europe/core-public-service-vocabulary-application-profile-cpsv-ap" class="ext-link" target="_blank" rel="noopener">Core Public Service Vocabulary Application Profile (CPSV-AP) &#x29C9;</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>cpsvno</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>https://data.norge.no/vocabulary/cccevno#</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://data.norge.no/specification/cpsv-ap-no#Dokumentasjonstype" class="ext-link" target="_blank" rel="noopener">Spesifikasjon for tjeneste- og hendelsesbeskrivelser (CPSV-AP-NO) &#x29C9;</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>cv</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>http://data.europa.eu/m8g/</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/e-government-core-vocabularies" class="ext-link" target="_blank" rel="noopener">e-Government Core Vocabularies &#x29C9;</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>dcat</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>http://www.w3.org/ns/dcat#</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.w3.org/TR/vocab-dcat-2/" class="ext-link" target="_blank" rel="noopener">Data Catalog Vocabulary &#x29C9;</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>dcatno</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>https://data.norge.no/vocabulary/dcatno#</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://data.norge.no/specification/dcat-ap-no/" class="ext-link" target="_blank" rel="noopener">Standard for beskrivelse av datasett, datatjenester og datakataloger (DCAT-AP-NO) &#x29C9;</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>dct</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>http://purl.org/dc/terms/</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/" class="ext-link" target="_blank" rel="noopener">DCMI Metadata Terms &#x29C9;</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>eli</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>http://data.europa.eu/eli/ontology#</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://eur-lex.europa.eu/eli-register/about.html" class="ext-link" target="_blank" rel="noopener">European Legislation Identifier &#x29C9;</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>epo</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>http://data.europa.eu/a4g/ontology#</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eprocurement-ontology">eProcurement Ontology</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>foaf</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>http://xmlns.com/foaf/0.1/</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://xmlns.com/foaf/0.1/" class="ext-link" target="_blank" rel="noopener">FOAF Vocabulary &#x29C9;</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>greg</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>http://www.w3.org/ns/time/gregorian#</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Navnerom for verdiene relatert til det gregorianske kalendersystemet</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>locn</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>http://www.w3.org/ns/locn#</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://semiceu.github.io/Core-Location-Vocabulary/" class="ext-link" target="_blank" rel="noopener">Core Location Vocabulary (CLV) &#x29C9;</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>org</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>http://www.w3.org/ns/org#</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.w3.org/TR/vocab-org/" class="ext-link" target="_blank" rel="noopener">The Organization Ontology &#x29C9;</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>rdf</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>http://www.w3.org/1999/02/22-rdf-syntax-ns#</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.w3.org/TR/rdf-syntax-grammar/" class="ext-link" target="_blank" rel="noopener">RDF 1.1 XML Syntax &#x29C9;</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>rdfs</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>http://www.w3.org/2000/01/rdf-schema#</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.w3.org/TR/rdf-schema/" class="ext-link" target="_blank" rel="noopener">RDF Schema 1.1 &#x29C9;</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>schema</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>https://schema.org/</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://schema.org/" class="ext-link" target="_blank" rel="noopener">schema.org &#x29C9;</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>skos</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>http://www.w3.org/2004/02/skos/core#</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.w3.org/TR/skos-reference/" class="ext-link" target="_blank" rel="noopener">SKOS Simple Knowledge Organization System &#x29C9;</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>time</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>http://www.w3.org/2006/time#</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.w3.org/TR/owl-time/" class="ext-link" target="_blank" rel="noopener">Time Ontology in OWL &#x29C9;</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>vcard</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>http://www.w3.org/2006/vcard/ns#</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.w3.org/TR/vcard-rdf/" class="ext-link" target="_blank" rel="noopener">vCard Ontology – for describing People and Organizations &#x29C9;</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>xkos</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>http://rdf-vocabulary.ddialliance.org/xkos#</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://rdf-vocabulary.ddialliance.org/xkos.html" class="ext-link" target="_blank" rel="noopener">An SKOS extension for representing statistical classifications &#x29C9;</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>xsd</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>http://www.w3.org/2001/XMLSchema#</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.w3.org/TR/xmlschema-2/" class="ext-link" target="_blank" rel="noopener">XML Schema Part 2: Datatypes Second Edition &#x29C9;</a></p></td>
 </tr>
 </tbody>
 </table>
 <div class="paragraph">
-<p>|Prefiks |<strong>Navnerom</strong> |<strong>Forklaring/navn</strong>
-|adms | <code>http://www.w3.org/ns/adms#</code> | <a href="https://www.w3.org/TR/vocab-adms/" class="ext-link" target="_blank" rel="noopener">Asset Description Metadata Schema &#x29C9;</a>
-|cccevno | <code>https://data.norge.no/vocabulary/cccevno#</code> | Norsk applikasjonsprofil av CCCEV, denne spesifikasjonen
-|cpsv | <code>http://purl.org/vocab/cpsv#</code> | <a href="https://joinup.ec.europa.eu/interoperable-europe/core-public-service-vocabulary-application-profile-cpsv-ap" class="ext-link" target="_blank" rel="noopener">Core Public Service Vocabulary Application Profile (CPSV-AP) &#x29C9;</a>
-|cpsvno | <code>https://data.norge.no/vocabulary/cccevno#</code> | <a href="https://data.norge.no/specification/cpsv-ap-no#Dokumentasjonstype" class="ext-link" target="_blank" rel="noopener">Spesifikasjon for tjeneste- og hendelsesbeskrivelser (CPSV-AP-NO) &#x29C9;</a>
-|cv | <code>http://data.europa.eu/m8g/</code> | <a href="https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/e-government-core-vocabularies" class="ext-link" target="_blank" rel="noopener">e-Government Core Vocabularies &#x29C9;</a>
-|dcat | <code>http://www.w3.org/ns/dcat#</code> | <a href="https://www.w3.org/TR/vocab-dcat-2/" class="ext-link" target="_blank" rel="noopener">Data Catalog Vocabulary &#x29C9;</a>
-|dcatno | <code>https://data.norge.no/vocabulary/dcatno#</code> | <a href="https://data.norge.no/specification/dcat-ap-no/" class="ext-link" target="_blank" rel="noopener">Standard for beskrivelse av datasett, datatjenester og datakataloger (DCAT-AP-NO) &#x29C9;</a>
-|dct | <code>http://purl.org/dc/terms/</code> | <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/" class="ext-link" target="_blank" rel="noopener">DCMI Metadata Terms &#x29C9;</a>
-|eli | <code>http://data.europa.eu/eli/ontology#</code> | <a href="https://eur-lex.europa.eu/eli-register/about.html" class="ext-link" target="_blank" rel="noopener">European Legislation Identifier &#x29C9;</a>
-| epo | <code>http://data.europa.eu/a4g/ontology#</code> | <a href="https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eprocurement-ontology">eProcurement Ontology</a>
-|foaf | <code>http://xmlns.com/foaf/0.1/</code> | <a href="http://xmlns.com/foaf/0.1/" class="ext-link" target="_blank" rel="noopener">FOAF Vocabulary &#x29C9;</a>
-|greg | <code>http://www.w3.org/ns/time/gregorian#</code> | Navnerom for verdiene relatert til det gregorianske kalendersystemet
-|locn | <code>http://www.w3.org/ns/locn#</code> | <a href="https://semiceu.github.io/Core-Location-Vocabulary/" class="ext-link" target="_blank" rel="noopener">Core Location Vocabulary (CLV) &#x29C9;</a>
-|org | <code>http://www.w3.org/ns/org#</code> | <a href="https://www.w3.org/TR/vocab-org/" class="ext-link" target="_blank" rel="noopener">The Organization Ontology &#x29C9;</a>
-|rdf | <code>http://www.w3.org/1999/02/22-rdf-syntax-ns#</code> | <a href="https://www.w3.org/TR/rdf-syntax-grammar/" class="ext-link" target="_blank" rel="noopener">RDF 1.1 XML Syntax &#x29C9;</a>
-|rdfs | <code>http://www.w3.org/2000/01/rdf-schema#</code> | <a href="https://www.w3.org/TR/rdf-schema/" class="ext-link" target="_blank" rel="noopener">RDF Schema 1.1 &#x29C9;</a>
-| schema | <code>https://schema.org/</code> | <a href="https://schema.org/" class="ext-link" target="_blank" rel="noopener">schema.org &#x29C9;</a>
-|skos | <code>http://www.w3.org/2004/02/skos/core#</code> | <a href="https://www.w3.org/TR/skos-reference/" class="ext-link" target="_blank" rel="noopener">SKOS Simple Knowledge Organization System &#x29C9;</a>
-|time | <code>http://www.w3.org/2006/time#</code> | <a href="https://www.w3.org/TR/owl-time/" class="ext-link" target="_blank" rel="noopener">Time Ontology in OWL &#x29C9;</a>
-|vcard | <code>http://www.w3.org/2006/vcard/ns#</code> | <a href="https://www.w3.org/TR/vcard-rdf/" class="ext-link" target="_blank" rel="noopener">vCard Ontology – for describing People and Organizations &#x29C9;</a>
-|xkos | <code>http://rdf-vocabulary.ddialliance.org/xkos#</code> | <a href="https://rdf-vocabulary.ddialliance.org/xkos.html" class="ext-link" target="_blank" rel="noopener">An SKOS extension for representing statistical classifications &#x29C9;</a>
-|xsd | <code>http://www.w3.org/2001/XMLSchema#</code> | <a href="https://www.w3.org/TR/xmlschema-2/" class="ext-link" target="_blank" rel="noopener">XML Schema Part 2: Datatypes Second Edition &#x29C9;</a></p>
+<p>Eksempel på prefiksene ovenfor uttrykt i RDF Turtle:</p>
 </div>
-<table class="tableblock frame-all grid-all stripes-even stretch">
-<colgroup>
-<col style="width: 100%;">
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Eksempel på prefiksene ovenfor uttrykt i RDF Turtle:
------
-@prefix adms: <a href="http://www.w3.org/ns/adms#" class="bare">http://www.w3.org/ns/adms#</a> .
-@prefix cpsv: <a href="http://purl.org/vocab/cpsv#" class="bare">http://purl.org/vocab/cpsv#</a> .
-@prefix cccevno: <a href="https://data.norge.no/vocabulary/cccevno#" class="bare">https://data.norge.no/vocabulary/cccevno#</a> .
-@prefix cv: <a href="http://data.europa.eu/m8g/" class="bare">http://data.europa.eu/m8g/</a> .
-@prefix dcat: <a href="http://www.w3.org/ns/dcat#" class="bare">http://www.w3.org/ns/dcat#</a> .
-@prefix dcatno: <a href="https://data.norge.no/vocabulary/dcatno#" class="bare">https://data.norge.no/vocabulary/dcatno#</a> .
-@prefix dct: <a href="http://purl.org/dc/terms/" class="bare">http://purl.org/dc/terms/</a> .
-@prefix eli: <a href="http://data.europa.eu/eli/ontology#" class="bare">http://data.europa.eu/eli/ontology#</a> .
-@prefix epo: <a href="http://data.europa.eu/a4g/ontology#" class="bare">http://data.europa.eu/a4g/ontology#</a> .
-@prefix foaf: <a href="http://xmlns.com/foaf/0.1/" class="bare">http://xmlns.com/foaf/0.1/</a> .
-@prefix greg: <a href="http://www.w3.org/ns/time/gregorian#" class="bare">http://www.w3.org/ns/time/gregorian#</a> .
-@prefix locn: <a href="http://www.w3.org/ns/locn#" class="bare">http://www.w3.org/ns/locn#</a> .
-@prefix org: <a href="http://www.w3.org/ns/org#" class="bare">http://www.w3.org/ns/org#</a> .
-@prefix rdf: <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#" class="bare">http://www.w3.org/1999/02/22-rdf-syntax-ns#</a> .
-@prefix rdfs: <a href="http://www.w3.org/2000/01/rdf-schema#" class="bare">http://www.w3.org/2000/01/rdf-schema#</a> .
-@prefix schema: <a href="https://schema.org/" class="bare">https://schema.org/</a> .
-@prefix skos: <a href="http://www.w3.org/2004/02/skos/core#" class="bare">http://www.w3.org/2004/02/skos/core#</a> .
-@prefix time: <a href="http://www.w3.org/2006/time#" class="bare">http://www.w3.org/2006/time#</a> .
-@prefix vcard: <a href="http://www.w3.org/2006/vcard/ns#" class="bare">http://www.w3.org/2006/vcard/ns#</a> .
-@prefix xkos: <a href="http://rdf-vocabulary.ddialliance.org/xkos#" class="bare">http://rdf-vocabulary.ddialliance.org/xkos#</a> .
-@prefix xsd: <a href="http://www.w3.org/2001/XMLSchema#" class="bare">http://www.w3.org/2001/XMLSchema#</a> .
------</p>
-<p class="tableblock">== Vedlegg B – Endringslogg <a id="Endringslogg"></a></p>
-<p class="tableblock"><mark><em>p.t. ingen</mark></em></p>
-<p class="tableblock">Unresolved directive in main.adoc - include::shared/analytics.adoc[]</p></td>
-</tr>
-</tbody>
-</table>
+<div class="listingblock">
+<div class="content">
+<pre>@prefix adms: &lt;http://www.w3.org/ns/adms#&gt; .
+@prefix cpsv: &lt;http://purl.org/vocab/cpsv#&gt; .
+@prefix cccevno: &lt;https://data.norge.no/vocabulary/cccevno#&gt; .
+@prefix cv: &lt;http://data.europa.eu/m8g/&gt; .
+@prefix dcat: &lt;http://www.w3.org/ns/dcat#&gt; .
+@prefix dcatno: &lt;https://data.norge.no/vocabulary/dcatno#&gt; .
+@prefix dct: &lt;http://purl.org/dc/terms/&gt; .
+@prefix eli: &lt;http://data.europa.eu/eli/ontology#&gt; .
+@prefix epo: &lt;http://data.europa.eu/a4g/ontology#&gt; .
+@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix greg: &lt;http://www.w3.org/ns/time/gregorian#&gt; .
+@prefix locn: &lt;http://www.w3.org/ns/locn#&gt; .
+@prefix org: &lt;http://www.w3.org/ns/org#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix schema: &lt;https://schema.org/&gt; .
+@prefix skos: &lt;http://www.w3.org/2004/02/skos/core#&gt; .
+@prefix time: &lt;http://www.w3.org/2006/time#&gt; .
+@prefix vcard: &lt;http://www.w3.org/2006/vcard/ns#&gt; .
+@prefix xkos: &lt;http://rdf-vocabulary.ddialliance.org/xkos#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .</pre>
 </div>
 </div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="Endringslogg"><a class="link" href="#Endringslogg">Vedlegg B – Endringslogg</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><mark><em>p.t. ingen</mark></em></p>
+</div>
+<div class="paragraph">
+<p>Unresolved directive in main.adoc - include::shared/analytics.adoc[]</p>
 </div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Sist oppdatert 2026-01-09 13:53:43 UTC
+Sist oppdatert 2026-01-09 13:59:20 UTC
 </div>
 </div>
 </body>
