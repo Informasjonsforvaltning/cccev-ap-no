@@ -12,12 +12,9 @@ image::images/KlassenReferanserammeverk.png[alt="UML-diagram med klassen Referan
 
 _This class represents legislation or official policy from which Requirements are derived._
 | URI |  cv:ReferenceFramework
-| Merknad 1 / _Note 1_ | Vanlige referanserammeverk er regulative og ikke-regulative spesifikasjoner. Eksempler kan være prosedyrer, anskaffelsesreglement osv.
+| Merknad / _Note_ | Vanlige referanserammeverk er regulative og ikke-regulative spesifikasjoner. Eksempler kan være prosedyrer, anskaffelsesreglement osv.
 
 _Usual Reference Frameworks are legal and non-legal specifications. Examples include procedures, tendering legislation etc._ 
-| Merknad 2 / _Note 2_ |  Norsk utvidelse: Ikke eksplisitt spesifisert i CPSV-AP.
-
-_Norwegian extension: Not explicitly specified in CPSV-AP._
 | Eksempel |  Se under <<Å-beskrive-dokumentasjonskrav>>.
 |===
 
@@ -37,9 +34,9 @@ Eksempel i RDF Turtle: Se under <<Å-beskrive-dokumentasjonskrav>>.
 _This property represents an unambiguous reference to a reference framework._
 | Multiplisitet / _Multiplicity_ | 1..1
 | Kravnivå / _Requirement level_ |  Obligatorisk / _Mandatory_
-| Merknad / _Note_ |  Norsk utvidelse: Ikke eksplisitt spesifisert i CPSV-AP.
+| Merknad / _Note_ | Norsk utvidelse: Kravnivået endret fra valgfri til obligatorisk, og multiplisiteten fra 0..n til 1..1.
 
-_Norwegian extension: Not explicitly specified in CPSV-AP._
+_Norwegian extension: The requirement level changed from optional to mandatory, and the multiplicity from 0..n to 1..1._
 |===
 
 === Anbefalte egenskaper for klassen _Referanserammeverk_ [[Referanserammeverk-anbefalte-egenskaper]]
@@ -55,9 +52,9 @@ _Norwegian extension: Not explicitly specified in CPSV-AP._
 
 _This property contains descriptive textual information about the Reference Framework. This property SHOULD be repeated in case there are various versions of the text in different languages._
 | Multiplisitet / _Multiplicity_ | 0..n
-| Merknad / _Note_ | Norsk utvidelse: Ikke eksplisitt tatt med i CPSV-AP.
+| Merknad / _Note_ | Norsk utvidelse: Ikke eksplisitt tatt med i CCCEV.
 
-_Norwegian extension: Not explicitly specified in CPSV-AP._
+_Norwegian extension: Not explicitly specified in CCCEV._
 |===
 
 ==== Referanserammeverk – tittel (dct:title) [[Referanserammeverk-tittel]]
@@ -72,7 +69,7 @@ _Norwegian extension: Not explicitly specified in CPSV-AP._
 _This property is used to specify the title of the Reference Framework. This property SHOULD be repeated when the title is in several parallel languages._
 | Multiplisitet / _Multiplicity_ | 0..n
 | Kravnivå / _Requirement level_ | Anbefalt / _Recommended_
-| Merknad / _Note_ | Norsk utvidelse: Ikke eksplisitt tatt med i CPSV-AP.
+| Merknad / _Note_ | Norsk utvidelse: Ikke eksplisitt tatt med i CCCEV.
 
-_Norwegian extension: Not explicitly specified in CPSV-AP._
+_Norwegian extension: Not explicitly specified in CCCEV._
 |===
