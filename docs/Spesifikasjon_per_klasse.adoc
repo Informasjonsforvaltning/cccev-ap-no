@@ -4,13 +4,18 @@ _Denne delen av spesifikasjonen er primært ment for den tekniske målgruppen._
 
 :xrefstyle: short
 
-__#@@@@@@ Her settes inn en tegning med oversikt over klassene i CCCEV-AP-NO#__
+<<img-KlasseOversikt>> viser en visuell oversikt over klassene i CCCEV-AP-NO og relasjoner mellom dem. I figuren er klassene som er spesifisert i https://data.norge.no/specification/cpsv-ap-no[Spesifikasjon for tjeneste- og hendelsesbeskrivelser (CPSV-AP-NO) &#x29C9;, window="_blank", role="ext-link"] og som blir referert til fra denne spesifikasjonen markert med grå bakgrunn.
+
+[[img-KlasseOversikt]]
+.Klassene i CCCEV-AP-NO.
+[link=images/CCCEV-AP-NO-klasser.png]
+image::images/CCCEV-AP-NO-klasser.png[alt="UML-diagram med klassene som er i CCCEV-AP-NO og noen av relasjoner mellom dem. Innholdet i diagrammet er forklart i teksten."]
 
 :xrefstyle: full
 
 Figuren er ikke ment som en formell representasjon av spesifikasjonen. Før eventuell uoverensstemmelse mellom figuren og den tekstlige beskrivelsen blir rettet opp, har den tekstlige beskrivelsen forrang. Samme forrang gjelder også når det gjelder eventuelle uoverensstemmelser mellom tekstlige beskrivelser og figurer i resten av spesifikasjonen. 
 
-__#@@@@@@ forklaring på at noen klasser i tegningen er spesifisert i CPSV-AP-NO#__
+Bortsett fra klassene som er spesifisert i CPSV-AP-NO, er hver klasse med dens egenskaper spesifisert videre i dette kapitlet. Klassene er sortert alfabetisk etter norske klassenavn, og egenskapene i hver klasse gruppert først inn i obligatoriske, anbefalte og valgfrie egenskaper, og der under alfabetisk etter norske egenskapsnavn. 
 
 Kravene i denne delen av spesifikasjonen spesifiserer hvordan beskrivelsene skal representeres i RDF. Hvert krav er spesifisert i en tabell som inneholder syntaks og forklaring. Radene i tabellene er beskrevet nedenfor. Noen tabeller har færre rader. Engelske navn og tekster som er tatt med i tabellene, er ikke alle nødvendigvis ordrette sitater fra engelske kilder. Vi kan ha valgt en annen engelsk tekst til å formidle det samme budskapet, med mindre vi eksplisitt sier at det er et avvik. 
 
