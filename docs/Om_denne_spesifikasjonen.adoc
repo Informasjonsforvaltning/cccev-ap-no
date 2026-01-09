@@ -1,0 +1,40 @@
+== Om spesifikasjonen [[OmSpesifikasjonen]]
+
+=== Formål [[Formål]]
+
+:xrefstyle: full
+
+Formålet med spesifikasjonen er å legge til rette for en felles måte å beskrive kriterier og krav i forbindelse med beskrivelse av en tjeneste, og en felles måte å utveksle beskrivelsene.  
+
+=== Omfang og avgrensing [[Omfang-og-avgrensing]]
+
+Spesifikasjonen er i utgangspunktet ikke ment å brukes alene. Den er ment å brukes sammen med https://data.norge.no/specification/cpsv-ap-no[Spesifikasjon for tjeneste- og hendelsesbeskrivelser (CPSV-AP-NO) &#x29C9;, window="_blank", role="ext-link"], når det er behov for å beskrive, i strukturtert form, kriterier og krav til en tjeneste. 
+
+Spesifikasjonen er basert https://github.com/SEMICeu/CCCEV/[EUs __Core Criterion and Core Evidence Vocabulary (CCCEV)__ &#x29C9;, window="_blank", role="ext-link"]. 
+
+Spesifikasjonen inneholder også engelske navn (_English name_) og beskrivelser (_Usage note_). Det gjøres oppmerksom på at ikke alle engelske navn eller beskrivelser er ordrette sitater fra EUs originale engelske tekster. Vi kan ha valgt en annen tekst til å formidle det samme budskapet på, med mindre vi eksplisitt sier at det er et avvik (dvs. også i meningsinnholdet). 
+
+Ettersom spesifikasjonen er basert på https://www.w3.org/RDF/[Resource Desciption Framework (RDF). &#x29C9;, window="_blank", role="ext-link"], vil beskrivelsene i henhold til spesifikasjonen også være RDF-baserte og dermed maskinprosesserbare. Som støtte til teknisk implementering er det i spesifikasjonen også tatt med en del eksempler i RDF Turtle. Eksemplene i RDF Turtle er kun veiledende, de er ikke komplette og kan også mangle verdier til obligatoriske egenskaper.
+
+=== Målgrupper [[Målgrupper]]
+
+Spesifikasjonen har ikke sluttbrukere av tjenester som sin målgruppe, men
+
+* deg som skal beskrive kriterier og krav til din virksomhets tjenester 
+* deg som søker etter og ønsker å gjenbruke / sette sammen tjenester fra andre virksomheter
+* deg som skal utvikle/tilpasse verktøystøtte for ovennevnte beskrivelser og/eller for tilgjengeliggjøring/utveksling av beskrivelsene
+
+<<Forenklet-fremstilling>> er primært ment for den ikke-tekniske målgruppen, <<Spesifikasjon-per-klasse>> for den tekniske målgruppen, <<Spesielle-temaer>> for begge målgrupper og fortrinnsvis sammen. 
+
+=== Forvaltningsregime [[Forvaltningsregime]]
+
+Spesifikasjonen forvaltes av https://digdir.no[Digitaliseringsdirektoratet (Digdir) &#x29C9;, window="_blank", role="ext-link"].
+
+Utarbeidelse av nye versjoner av spesifikasjonen initieres av Digdir. Mindre endringer håndteres av Digdir. Ved behov for større endringer vil Digdir vurdere å sette sammen arbeidsgruppe med representanter fra relevante virksomheter, for utarbeidelse av forslag til den reviderte versjonen som sendes ut til bred kommentering før fastsetting.
+
+=== Om kravnivåene i spesifikasjonen [[Om-kravene]]
+
+Spesifikasjonen bruker ordene «obligatorisk» ("_mandatory_"), «anbefalt» ("_recommended_") og «valgfri» ("_optional_"). Disse er https://data.norge.no/specification/dcat-ap-no/#Om-kravene[forklart i DCAT-AP-NO &#x29C9;, window="_blank", role="ext-link"], og forklaringene gjentas ikke her.
+
+
+// include::Leseveiledning.adoc[]

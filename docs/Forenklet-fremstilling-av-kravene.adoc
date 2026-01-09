@@ -1,0 +1,14 @@
+== Forenklet fremstilling av kravene i CPSV-AP-NO [[Forenklet-fremstilling]]
+
+_Denne delen av spesifikasjonen er primært ment for den ikke-tekniske målgruppen._ 
+
+=== Opplysninger som SKAL og BØR tas med om et kriterium eller krav [[Noen-krav]]
+
+__#@@@@@@ her skal det komme tegninger og tekster for den forenklede fremstilling av kravene i CCCEV-AP-NO#__
+
+
+
+
+=== Et illustrativt eksempel [[Illustrativt-eksempel]]
+
+__#@@@@@@ her skal det komme et illstrativt eksempel på bruk av CCCEV-AP-NO#__
