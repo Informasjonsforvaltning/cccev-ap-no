@@ -1,0 +1,74 @@
+== Klassen Understøttende opplysning (cv:SupportedValue) [[UnderstøttendeOpplysning]]
+
+[[img-KlassenUnderstøttendeOpplysning]]
+.Klassen Understøttende opplysning (cv:SupportedValue) og klassen den refererer til.
+[link=images/KlassenUnderstøttendeOpplysning.png]
+image::images/KlassenUnderstøttendeOpplysning.png[alt="UML-diagram med klassen Understøttende opplysning, dens egenskaper og dens relasjon til en annen klasse. Innholdet i diagrammet er forklart i teksten."]
+
+[cols="30s,70d"]
+|===
+| _English name_ | _Supported Value_
+| Anvendelse / _Usage note_ |  Klassen brukes til å representere verdien til et informasjonsbegrep som en dokumentasjon oppgir.
+
+_This class represents the Value for an Information Concept that is provided by an Evidence._
+| URI |  cv:SupportedValue
+| Merknad / _Note_ |  Norsk utvidelse: Ikke eksplisitt spesifisert i CPSV-AP.
+
+_Norwegian extension: Not explicitly specified in CPSV-AP._
+|===
+
+=== Obligatoriske egenskaper for klassen _Understøttende opplysning_ [[UnderstøttendeOpplysning-obligatoriske-egenskaper]]
+
+==== Understøttende opplysning – gir verdi for (cv:providesValueFor) [[UnderstøttendeOpplysning-gir-verdi-for]]
+
+[cols="30s,70d"]
+|===
+| _English name_ | _provides value for_
+| URI | cv:providesValueFor
+| Verdiområde / _Range_ | <<<Informasjonsbegrep, cv:InformationConcept>>
+| Anvendelse / _Usage note_ | Egenskapen brukes til å referere til informasjonsbegrepet som det gis verdi for.
+
+_This property represents Information Concept for which the Supported Value provides a value._
+| Multiplisitet / _Multiplicity_ | 1..1
+| Kravnivå / _Requirement level_ | Obligatorisk / _Mandatory_
+| Merknad / _Note_ |  Norsk utvidelse: Ikke eksplisitt spesifisert i CPSV-AP.
+
+_Norwegian extension: Not explicitly specified in CPSV-AP._
+|===
+
+=== Valgfrie egenskaper for klassen _Understøttende opplysning_ [[UnderstøttendeOpplysning-valgfrie-egenskaper]]
+
+
+==== Understøttende opplysning – spørring (cv:query) [[UnderstøttendeOpplysning-spørring]]
+
+[cols="30s,70d"]
+|===
+| _English name_ | _query_
+| URI | cv:query
+| Verdiområde / _Range_ | rdfs:Literal
+| Anvendelse / _Usage note_ | Egenskapen brukes til å representere en spørring  som gjør at verdien for informasjonsbegrepet kan hentes fra dokumentasjonsdataene.
+
+_This property represents search statement that allows the value for the Information Concept to be retrieved from the Evidence data._
+| Multiplisitet / _Multiplicity_ |  0..1
+| Kravnivå / _Requirement level_ | Valgfri / _Optional_
+| Merknad / _Note_ |  Norsk utvidelse: Ikke eksplisitt spesifisert i CPSV-AP.
+
+_Norwegian extension: Not explicitly specified in CPSV-AP._
+|===
+
+==== Understøttende opplysning – verdi (cv:value) [[UnderstøttendeOpplysning-verdi]]
+
+[cols="30s,70d"]
+|===
+| _English name_ | _value_
+| URI | cv:value
+| Verdiområde / _Range_ | rdfs:Literal
+| Anvendelse / _Usage note_ | Egenskapen brukes til å representere verdien til et informasjonsbegrep som støttes av dokumentasjonen.
+
+_This property represents the Value for the Information Concept that the Evidence supports._
+| Multiplisitet / _Multiplicity_ |  0..1
+| Kravnivå / _Requirement level_ | Valgfri / _Optional_
+| Merknad / _Note_ |  Norsk utvidelse: Ikke eksplisitt spesifisert i CPSV-AP.
+
+_Norwegian extension: Not explicitly specified in CPSV-AP._
+|===
