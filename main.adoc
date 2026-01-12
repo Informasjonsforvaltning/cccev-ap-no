@@ -51,6 +51,10 @@ include::Spesifikasjon_per_klasse.adoc[]
 
 include::KlassenBegrensning.adoc[]
 
+include::KlassenDokumentasjon.adoc[]
+
+include::KlassenDokumentasjonstype.adoc[]
+
 include::KlassenDokumentasjonstypeliste.adoc[]
 
 include::KlassenInformasjonsbegrep.adoc[]
@@ -62,6 +66,8 @@ include::KlassenKrav.adoc[]
 include::KlassenKriterium.adoc[]
 
 include::KlassenReferanserammeverk.adoc[]
+
+include::KlassenUnderstøttendeOpplysning.adoc[]
 
 :leveloffset: -1
 
