@@ -606,6 +606,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#Begrensning-har-dokumentasjonstypeliste">Begrensning – har dokumentasjonstypeliste (cv:hasEvidenceTypeList)</a></li>
 <li><a href="#Begrensning-har-kvalifisert-relasjon-til-andre-krav">Begrensning – har kvalifisert relasjon til andre krav (cv:hasQualifiedRelation)</a></li>
 <li><a href="#Begrensning-har-mer-spesifikt-krav">Begrensning – har mer spesifikt krav (cv:hasRequirement)</a></li>
+<li><a href="#Begrensning-har-understøttende-dokumentasjon">Begrensning – har understøttende dokumentasjon (cv:hasSupportingEvidence)</a></li>
 <li><a href="#Begrensning-tilfredsstiller">Begrensning – tilfredsstiller regel (cv:fulfils)</a></li>
 <li><a href="#Begrensning-type">Begrensning – type (dct:type)</a></li>
 </ul>
@@ -725,6 +726,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#Informasjonskrav-har-informasjonsbegrep">Informasjonskrav – har informasjonsbegrep (cv:hasConcept)</a></li>
 <li><a href="#Informasjonskrav-har-kvalifisert-relasjon-til-andre-krav">Informasjonskrav – har kvalifisert relasjon til andre krav (cv:hasQualifiedRelation)</a></li>
 <li><a href="#Informasjonskrav-har-mer-spesifikt-krav">Informasjonskrav – har mer spesifikt krav (cv:hasRequirement)</a></li>
+<li><a href="#Informasjonskrav-har-understøttende-dokumentasjon">Informasjonskrav – har understøttende dokumentasjon (cv:hasSupportingEvidence)</a></li>
 <li><a href="#Informasjonskrav-tilfredsstiller">Informasjonskrav – tilfredsstiller regel (cv:fulfils)</a></li>
 <li><a href="#Informasjonskrav-type">Informasjonskrav – type (dct:type)</a></li>
 </ul>
@@ -753,6 +755,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#Krav-har-informasjonsbegrep">Krav – har informasjonsbegrep (cv:hasConcept)</a></li>
 <li><a href="#Krav-har-kvalifisert-relasjon-til-andre-krav">Krav – har kvalifisert relasjon til andre krav (cv:hasQualifiedRelation)</a></li>
 <li><a href="#Krav-har-mer-spesifikt-krav">Krav – har mer spesifikt krav (cv:hasRequirement)</a></li>
+<li><a href="#Krav-har-understøttende-dokumentasjon">Krav – har understøttende dokumentasjon (cv:hasSupportingEvidence)</a></li>
 <li><a href="#Krav-tilfredsstiller">Krav – tilfredsstiller regel (cv:fulfils)</a></li>
 <li><a href="#Krav-type">Krav – type (dct:type)</a></li>
 </ul>
@@ -782,6 +785,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#Kriterium-har-informasjonsbegrep">Kriterium – har informasjonsbegrep (cv:hasConcept)</a></li>
 <li><a href="#Kriterium-har-kvalifisert-relasjon-til-andre-krav">Kriterium – har kvalifisert relasjon til andre krav (cv:hasQualifiedRelation)</a></li>
 <li><a href="#Kriterium-har-mer-spesifikt-krav">Kriterium – har mer spesifikt krav (cv:hasRequirement)</a></li>
+<li><a href="#Kriterium-har-understøttende-dokumentasjon">Kriterium – har understøttende dokumentasjon (cv:hasSupportingEvidence)</a></li>
 <li><a href="#Kriterium-tilfredsstiller">Kriterium – tilfredsstiller regel (cv:fulfils)</a></li>
 <li><a href="#Kriterium-type">Kriterium – type (dct:type)</a></li>
 <li><a href="#Kriterium-vekting">Kriterium – vekting (cv:weight)</a></li>
@@ -914,7 +918,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <p>Spesifikasjonen er i utgangspunktet ikke ment å brukes alene. Den er ment å brukes sammen med <a href="https://data.norge.no/specification/cpsv-ap-no" class="ext-link" target="_blank" rel="noopener">Spesifikasjon for tjeneste- og hendelsesbeskrivelser (CPSV-AP-NO) &#x29C9;</a>, når det er behov for å beskrive, i strukturtert form, kriterier og krav til en tjeneste.</p>
 </div>
 <div class="paragraph">
-<p>Spesifikasjonen er basert <a href="https://github.com/SEMICeu/CCCEV/" class="ext-link" target="_blank" rel="noopener">EUs <em>Core Criterion and Core Evidence Vocabulary (CCCEV)</em> &#x29C9;</a>.</p>
+<p>Spesifikasjonen er basert <a href="https://github.com/SEMICeu/CCCEV/" class="ext-link" target="_blank" rel="noopener">EUs <em>Core Criterion and Core Evidence Vocabulary (CCCEV)</em> &#x29C9;</a>. Ettersom EUs <a href="https://github.com/SEMICeu/CPSV-AP/" class="ext-link" target="_blank" rel="noopener">Core Public Service Vocabulary Application Profile (CPSV-AP) &#x29C9;</a> bruker deler av CCCEV, baserer denne spesifikasjonen også på CPSV-AP sin måte å bruke CCCEV på.</p>
 </div>
 <div class="paragraph">
 <p>Spesifikasjonen inneholder også engelske navn (<em>English name</em>) og beskrivelser (<em>Usage note</em>). Det gjøres oppmerksom på at ikke alle engelske navn eller beskrivelser er ordrette sitater fra EUs originale engelske tekster. Vi kan ha valgt en annen tekst til å formidle det samme budskapet på, med mindre vi eksplisitt sier at det er et avvik (dvs. også i meningsinnholdet).</p>
@@ -1532,7 +1536,43 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </table>
 </div>
 <div class="sect4">
-<h5 id="Begrensning-tilfredsstiller"><a class="link" href="#Begrensning-tilfredsstiller">3.1.3.7. Begrensning – tilfredsstiller regel (cv:fulfils)</a></h5>
+<h5 id="Begrensning-har-understøttende-dokumentasjon"><a class="link" href="#Begrensning-har-understøttende-dokumentasjon">3.1.3.7. Begrensning – har understøttende dokumentasjon (cv:hasSupportingEvidence)</a></h5>
+<table class="tableblock frame-all grid-all stripes-even stretch">
+<colgroup>
+<col style="width: 30%;">
+<col style="width: 70%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong><em>English name</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>has supporting evidence</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>URI</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cv:hasSupportingEvidence</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Verdiområde / <em>Range</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&lt;Dokumentasjon, cv:Evidence&gt;&gt;</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Anvendelse / <em>Usage note</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Egenskapen brukes til å referere til en dokumentasjon som supplerer med informasjon, bevis eller understøtter begrensningen.</p>
+<p class="tableblock"><em>This property refers to an evidence that supplies information, proof or support for the constraint.</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Multiplisitet / <em>Multiplicity</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0..n</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Kravnivå / <em>Requirement level</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Valgfri / <em>Optional</em></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect4">
+<h5 id="Begrensning-tilfredsstiller"><a class="link" href="#Begrensning-tilfredsstiller">3.1.3.8. Begrensning – tilfredsstiller regel (cv:fulfils)</a></h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -1573,7 +1613,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </table>
 </div>
 <div class="sect4">
-<h5 id="Begrensning-type"><a class="link" href="#Begrensning-type">3.1.3.8. Begrensning – type (dct:type)</a></h5>
+<h5 id="Begrensning-type"><a class="link" href="#Begrensning-type">3.1.3.9. Begrensning – type (dct:type)</a></h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -3573,7 +3613,43 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </table>
 </div>
 <div class="sect4">
-<h5 id="Informasjonskrav-tilfredsstiller"><a class="link" href="#Informasjonskrav-tilfredsstiller">3.6.3.8. Informasjonskrav – tilfredsstiller regel (cv:fulfils)</a></h5>
+<h5 id="Informasjonskrav-har-understøttende-dokumentasjon"><a class="link" href="#Informasjonskrav-har-understøttende-dokumentasjon">3.6.3.8. Informasjonskrav – har understøttende dokumentasjon (cv:hasSupportingEvidence)</a></h5>
+<table class="tableblock frame-all grid-all stripes-even stretch">
+<colgroup>
+<col style="width: 30%;">
+<col style="width: 70%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong><em>English name</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>has supporting evidence</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>URI</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cv:hasSupportingEvidence</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Verdiområde / <em>Range</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&lt;Dokumentasjon, cv:Evidence&gt;&gt;</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Anvendelse / <em>Usage note</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Egenskapen brukes til å referere til en dokumentasjon som supplerer med informasjon, bevis eller understøtter informasjonskravet.</p>
+<p class="tableblock"><em>This property refers to an evidence that supplies information, proof or support for the information requirement.</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Multiplisitet / <em>Multiplicity</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0..n</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Kravnivå / <em>Requirement level</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Valgfri / <em>Optional</em></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect4">
+<h5 id="Informasjonskrav-tilfredsstiller"><a class="link" href="#Informasjonskrav-tilfredsstiller">3.6.3.9. Informasjonskrav – tilfredsstiller regel (cv:fulfils)</a></h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -3614,7 +3690,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </table>
 </div>
 <div class="sect4">
-<h5 id="Informasjonskrav-type"><a class="link" href="#Informasjonskrav-type">3.6.3.9. Informasjonskrav – type (dct:type)</a></h5>
+<h5 id="Informasjonskrav-type"><a class="link" href="#Informasjonskrav-type">3.6.3.10. Informasjonskrav – type (dct:type)</a></h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -3663,15 +3739,6 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </div>
 <div class="sect2">
 <h3 id="Krav"><a class="link" href="#Krav">3.7. Klassen Krav (cv:Requirement)</a></h3>
-<div class="paragraph">
-<p><em><mark>@@@@@@ NB! valgfri relasjon cv:hasSuppurtingEvindenc som peker til cv:Evidence (eller Påkrevd dokumentasjon) mangler både i tegningen og i teksten.</mark></em></p>
-</div>
-<div class="paragraph">
-<p><em><mark>@@@@@@ &#8230;&#8203; og klassen cv:Evidence (eller Påkrevd dokumentasjon) bør tas med i oversikten.</mark></em></p>
-</div>
-<div class="paragraph">
-<p><em><mark>#@@@@@@ &#8230;&#8203; gjelder alle subklasser til denne klassen.</mark></em></p>
-</div>
 <div id="img-KlassenKrav" class="imageblock">
 <div class="content">
 <a class="image" href="images/KlassenKrav.png"><img src="images/KlassenKrav.png" alt="UML-diagram med klassen Krav, dens egenskaper og dens relasjoner til seks andre klasser. Innholdet i diagrammet er forklart i teksten."></a>
@@ -4100,7 +4167,43 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </table>
 </div>
 <div class="sect4">
-<h5 id="Krav-tilfredsstiller"><a class="link" href="#Krav-tilfredsstiller">3.7.3.8. Krav – tilfredsstiller regel (cv:fulfils)</a></h5>
+<h5 id="Krav-har-understøttende-dokumentasjon"><a class="link" href="#Krav-har-understøttende-dokumentasjon">3.7.3.8. Krav – har understøttende dokumentasjon (cv:hasSupportingEvidence)</a></h5>
+<table class="tableblock frame-all grid-all stripes-even stretch">
+<colgroup>
+<col style="width: 30%;">
+<col style="width: 70%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong><em>English name</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>has supporting evidence</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>URI</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cv:hasSupportingEvidence</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Verdiområde / <em>Range</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&lt;Dokumentasjon, cv:Evidence&gt;&gt;</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Anvendelse / <em>Usage note</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Egenskapen brukes til å referere til en dokumentasjon som supplerer med informasjon, bevis eller understøtter kravet.</p>
+<p class="tableblock"><em>This property refers to an evidence that supplies information, proof or support for the requirement.</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Multiplisitet / <em>Multiplicity</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0..n</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Kravnivå / <em>Requirement level</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Valgfri / <em>Optional</em></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect4">
+<h5 id="Krav-tilfredsstiller"><a class="link" href="#Krav-tilfredsstiller">3.7.3.9. Krav – tilfredsstiller regel (cv:fulfils)</a></h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4141,7 +4244,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </table>
 </div>
 <div class="sect4">
-<h5 id="Krav-type"><a class="link" href="#Krav-type">3.7.3.9. Krav – type (dct:type)</a></h5>
+<h5 id="Krav-type"><a class="link" href="#Krav-type">3.7.3.10. Krav – type (dct:type)</a></h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4685,7 +4788,43 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </table>
 </div>
 <div class="sect4">
-<h5 id="Kriterium-tilfredsstiller"><a class="link" href="#Kriterium-tilfredsstiller">3.8.3.9. Kriterium – tilfredsstiller regel (cv:fulfils)</a></h5>
+<h5 id="Kriterium-har-understøttende-dokumentasjon"><a class="link" href="#Kriterium-har-understøttende-dokumentasjon">3.8.3.9. Kriterium – har understøttende dokumentasjon (cv:hasSupportingEvidence)</a></h5>
+<table class="tableblock frame-all grid-all stripes-even stretch">
+<colgroup>
+<col style="width: 30%;">
+<col style="width: 70%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong><em>English name</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>has supporting evidence</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>URI</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cv:hasSupportingEvidence</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Verdiområde / <em>Range</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&lt;Dokumentasjon, cv:Evidence&gt;&gt;</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Anvendelse / <em>Usage note</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Egenskapen brukes til å referere til en dokumentasjon som supplerer med informasjon, bevis eller understøtter kriteriet.</p>
+<p class="tableblock"><em>This property refers to an evidence that supplies information, proof or support for the criterion.</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Multiplisitet / <em>Multiplicity</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0..n</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Kravnivå / <em>Requirement level</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Valgfri / <em>Optional</em></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect4">
+<h5 id="Kriterium-tilfredsstiller"><a class="link" href="#Kriterium-tilfredsstiller">3.8.3.10. Kriterium – tilfredsstiller regel (cv:fulfils)</a></h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4726,7 +4865,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </table>
 </div>
 <div class="sect4">
-<h5 id="Kriterium-type"><a class="link" href="#Kriterium-type">3.8.3.10. Kriterium – type (dct:type)</a></h5>
+<h5 id="Kriterium-type"><a class="link" href="#Kriterium-type">3.8.3.11. Kriterium – type (dct:type)</a></h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4772,7 +4911,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </table>
 </div>
 <div class="sect4">
-<h5 id="Kriterium-vekting"><a class="link" href="#Kriterium-vekting">3.8.3.11. Kriterium – vekting (cv:weight)</a></h5>
+<h5 id="Kriterium-vekting"><a class="link" href="#Kriterium-vekting">3.8.3.12. Kriterium – vekting (cv:weight)</a></h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4809,7 +4948,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </table>
 </div>
 <div class="sect4">
-<h5 id="Kriterium-vektingstype"><a class="link" href="#Kriterium-vektingstype">3.8.3.12. Kriterium – vektingstype (cv:weightingType)</a></h5>
+<h5 id="Kriterium-vektingstype"><a class="link" href="#Kriterium-vektingstype">3.8.3.13. Kriterium – vektingstype (cv:weightingType)</a></h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4850,7 +4989,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </table>
 </div>
 <div class="sect4">
-<h5 id="Kriterium-vektingsvurderingsbeskrivelse"><a class="link" href="#Kriterium-vektingsvurderingsbeskrivelse">3.8.3.13. Kriterium – vektingsvurderingsbeskrivelse (cv:weightingConsiderationDescription)</a></h5>
+<h5 id="Kriterium-vektingsvurderingsbeskrivelse"><a class="link" href="#Kriterium-vektingsvurderingsbeskrivelse">3.8.3.14. Kriterium – vektingsvurderingsbeskrivelse (cv:weightingConsiderationDescription)</a></h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -5361,7 +5500,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <h2 id="Navnerom"><a class="link" href="#Navnerom">Vedlegg A – Navnerom som er brukt i spesifikasjonen</a></h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p><em><mark>@@@@@ sjekk til slutt og ta bort navnerom som ikke brukes i spesifikasjonen</mark></em></p>
+<p><em><mark>@@@@@@ sjekk til slutt og ta bort navnerom som ikke brukes i spesifikasjonen</mark></em></p>
 </div>
 <div class="paragraph">
 <p>Navnerom for dette vokabularet er: <code>https://data.norge.no/vocabulary/cccevno#</code></p>
@@ -5534,7 +5673,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </div>
 <div id="footer">
 <div id="footer-text">
-Sist oppdatert 2026-01-12 15:39:06 UTC
+Sist oppdatert 2026-01-15 10:19:07 UTC
 </div>
 </div>
 </body>
