@@ -43,3 +43,5 @@ Eksempel: Verdiområde `skos:Concept` betyr at verdien til egenskapen skal være
 
 Eksempel i RDF Turtle, er tatt med under den aktuelle tabellen.
 |===
+
+_#@@@@@@ Egenskapene er ikke ennå grundig kryss-sjekket mot CCCEV og CPSV-AP (mtp. norske utvidelser)#_
