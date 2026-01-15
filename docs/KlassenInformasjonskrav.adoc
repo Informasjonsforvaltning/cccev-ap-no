@@ -206,6 +206,20 @@ _This property refers to a more specific Requirement that is part of the Informa
 _Norwegian extension: Not explicitly specified in CCCEV._
 |===
 
+==== Informasjonskrav – har understøttende dokumentasjon (cv:hasSupportingEvidence) [[Informasjonskrav-har-understøttende-dokumentasjon]]
+
+[cols="30s,70d"]
+|===
+| _English name_ | _has supporting evidence_
+| URI |  cv:hasSupportingEvidence
+| Verdiområde / _Range_ | <Dokumentasjon, cv:Evidence>>
+| Anvendelse / _Usage note_ | Egenskapen brukes til å referere til en dokumentasjon som supplerer med informasjon, bevis eller understøtter informasjonskravet.
+
+_This property refers to an evidence that supplies information, proof or support for the information requirement._
+| Multiplisitet / _Multiplicity_ | 0..n
+| Kravnivå / _Requirement level_ | Valgfri / _Optional_
+|===
+
 ==== Informasjonskrav – tilfredsstiller regel (cv:fulfils) [[Informasjonskrav-tilfredsstiller]]
 
 [cols="30s,70d"]

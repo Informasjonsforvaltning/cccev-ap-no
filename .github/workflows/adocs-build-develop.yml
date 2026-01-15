@@ -1,9 +1,5 @@
 name: build adocs
 
-permissions:
-  contents: read
-  pages: write
-
 on:
   push:
     branches:

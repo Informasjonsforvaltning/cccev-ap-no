@@ -1,6 +1,6 @@
 == Vedlegg A – Navnerom som er brukt i spesifikasjonen [[Navnerom]]
 
-__#@@@@@ sjekk til slutt og ta bort navnerom som ikke brukes i spesifikasjonen#__
+__#@@@@@@ sjekk til slutt og ta bort navnerom som ikke brukes i spesifikasjonen#__
 
 Navnerom for dette vokabularet er: `\https://data.norge.no/vocabulary/cccevno#`
 
