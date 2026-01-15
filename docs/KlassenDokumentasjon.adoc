@@ -145,9 +145,9 @@ _This property represents the Agent that transmits the Evidence._
 _Agents transmitting the Evidence are usually the Agents that are issuing the Evidence or service providers acting on behalf of the Evidence issuing Agents such as software developer companies._
 | Multiplisitet / _Multiplicity_ | 0..1
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
-| Merknad / _Note_ | Norsk utvidelse: Ikke eksplisitt spesifisert i CPSV-AP.
+| Merknad / _Note_ | Norsk utvidelse: Multiplisiteten endret fra 0..n til 0..1.
 
-_Norwegian extension: Not explicitly specified in CPSV-AP._
+_Norwegian extension: The multiplicity is changed from 0..n to 0..1._
 |===
 
 ==== Dokumentasjon – gir understøttende opplysning (cv:supportsValue) [[Dokumentasjon-gir-understøttende-opplysning]]
@@ -162,9 +162,6 @@ _Norwegian extension: Not explicitly specified in CPSV-AP._
 _This property represents Supported Value that the Evidence contains._
 | Multiplisitet / _Multiplicity_ | 0..n
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
-| Merknad / _Note_ | Norsk utvidelse: Ikke eksplisitt spesifisert i CPSV-AP.
-
-_Norwegian extension: Not explicitly specified in CPSV-AP._
 |===
 
 ==== Dokumentasjon – gjelder (dct:subject) [[Dokumentasjon-gjelder]]
@@ -179,9 +176,9 @@ _Norwegian extension: Not explicitly specified in CPSV-AP._
 _This property represents the Agent that is the subject in the provided Evidence._
 | Multiplisitet / _Multiplicity_ | 0..1
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
-| Merknad / _Note_ | Norsk utvidelse: Ikke eksplisitt spesifisert i CPSV-AP.
+| Merknad / _Note_ | Norsk utvidelse: Multiplisiteten endret fra 0..n til 0..1.
 
-_Norwegian extension: Not explicitly specified in CPSV-AP._
+_Norwegian extension: The multiplicity is changed from 0..n to 0..1._
 |===
 
 ==== Dokumentasjon – gyldighetsperiode (cv:validityPeriod) [[Dokumentasjon-gyldighetsperiode]]
@@ -196,9 +193,9 @@ _Norwegian extension: Not explicitly specified in CPSV-AP._
 _This property represents Period of Time during which the Evidence holds true or has force._
 | Multiplisitet / _Multiplicity_ | 0..1
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
-| Merknad / _Note_ | Norsk utvidelse: Ikke eksplisitt spesifisert i CPSV-AP.
+| Merknad / _Note_ | Norsk utvidelse: Multiplisiteten endret fra 0..n til 0..1.
 
-_Norwegian extension: Not explicitly specified in CPSV-AP._
+_Norwegian extension: The multiplicity is changed from 0..n to 0..1._
 |===
 
 ==== Dokumentasjon –  i samsvar med (dct:conformsTo) [[Dokumentasjon-iSamsvarMed]]
@@ -227,9 +224,9 @@ _This property represents the Evidence Type that specifies characteristics of th
 _This property represents security classification assigned to an Evidence e.g. classified, sensitive, public._
 | Multiplisitet / _Multiplicity_ | 0..1
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
-| Merknad / _Note_ | Norsk utvidelse: Ikke eksplisitt spesifisert i CPSV-AP.
+| Merknad / _Note_ | Norsk utvidelse: Multiplisiteten endret fra 0..n til 0..1.
 
-_Norwegian extension: Not explicitly specified in CPSV-AP._
+_Norwegian extension: The multiplicity is changed from 0..n to 0..1._
 |===
 
 ==== Dokumentasjon –  produsent (dct:creator) [[Dokumentasjon-produsent]]
@@ -244,9 +241,9 @@ _Norwegian extension: Not explicitly specified in CPSV-AP._
 _This property represents the Agent that produces the Evidence._
 | Multiplisitet / _Multiplicity_ | 0..1
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
-| Merknad / _Note_ | Norsk utvidelse: Ikke eksplisitt spesifisert i CPSV-AP.
+| Merknad / _Note_ | Norsk utvidelse: Multiplisiteten endret fra 0..n til 0..1.
 
-_Norwegian extension: Not explicitly specified in CPSV-AP._
+_Norwegian extension: The multiplicity is changed from 0..n to 0..1._
 |===
 
 ==== Dokumentasjon – relatert informasjon (foaf:page) [[Dokumentasjon-relatertInformasjon]]
@@ -306,9 +303,6 @@ Eksempel i RDF Turtle:
 _This property represents Information Concept providing facts found/inferred from the Evidence._
 | Multiplisitet / _Multiplicity_ | 0..n
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
-| Merknad / _Note_ | Norsk utvidelse: Ikke eksplisitt spesifisert i CPSV-AP.
-
-_Norwegian extension: Not explicitly specified in CPSV-AP._
 |===
 
 ==== Dokumentasjon – understøtter krav (cv:supportsRequirement) [[Dokumentasjon-understøtterKrav]]
@@ -337,7 +331,7 @@ _This property is used to refer to the requirement that the evidence supports._
 _This property represents the Agent legally responsible for the Evidence, e.g. a legal authority._
 | Multiplisitet / _Multiplicity_ | 0..1
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
-| Merknad / _Note_ | Norsk utvidelse: Ikke eksplisitt spesifisert i CPSV-AP.
+| Merknad / _Note_ | Norsk utvidelse: Multiplisiteten endret fra 0..n til 0..1.
 
-_Norwegian extension: Not explicitly specified in CPSV-AP._
+_Norwegian extension: The multiplicity is changed from 0..n to 0..1._
 |===
