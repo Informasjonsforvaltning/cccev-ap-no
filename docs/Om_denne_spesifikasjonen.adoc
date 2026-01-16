@@ -4,11 +4,11 @@
 
 :xrefstyle: full
 
-Formålet med spesifikasjonen er å legge til rette for en felles måte å beskrive kriterier og dokumentasjon av kravoppfyllese i forbindelse med f.eks. beskrivelse av en tjeneste, og en felles måte å utveksle beskrivelsene.  
+Formålet med spesifikasjonen er å legge til rette for en felles måte å beskrive krav og dokumentasjon av kravoppfyllese i forbindelse med f.eks. beskrivelse av en tjeneste, og en felles måte å utveksle beskrivelsene.  
 
 === Omfang og avgrensing [[Omfang-og-avgrensing]]
 
-Spesifikasjonen er i utgangspunktet ikke tenkt å brukes alene. Den er ment å brukes f.eks. sammen med https://data.norge.no/specification/cpsv-ap-no[Spesifikasjon for tjeneste- og hendelsesbeskrivelser (CPSV-AP-NO) &#x29C9;, window="_blank", role="ext-link"], når det er behov for å beskrive, i strukturtert form, kriterier og dokumentasjon av kravoppfyllelse til en tjeneste. 
+Spesifikasjonen er i utgangspunktet ikke tenkt å brukes alene. Den er ment å brukes f.eks. sammen med https://data.norge.no/specification/cpsv-ap-no[Spesifikasjon for tjeneste- og hendelsesbeskrivelser (CPSV-AP-NO) &#x29C9;, window="_blank", role="ext-link"], når det er behov for å beskrive, i strukturtert form, krav og dokumentasjon av kravoppfyllelse til en tjeneste. 
 
 Spesifikasjonen er basert EUs https://github.com/SEMICeu/CCCEV/[__Core Criterion and Core Evidence Vocabulary (CCCEV)__ &#x29C9;, window="_blank", role="ext-link"]. Ettersom EUs https://github.com/SEMICeu/CPSV-AP/[Core Public Service Vocabulary Application Profile (CPSV-AP) &#x29C9;, window="_blank", role="ext-link"] bruker deler av CCCEV, baserer denne spesifikasjonen også på CPSV-AP sin måte å bruke CCCEV på.
 

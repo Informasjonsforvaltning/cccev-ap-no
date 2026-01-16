@@ -1,5 +1,5 @@
 include::locale/attributes.adoc[]
-= Spesifikasjon for beskrivelse av kriterier og kravoppfyllese (CCCEV-AP-NO)
+= Spesifikasjon for beskrivelse av krav og kravoppfyllese (CCCEV-AP-NO)
 Digitaliseringsdirektoratet (Digdir) / The Norwegian Digitalisation Agency
 :doctype: book
 :docinfo: shared
