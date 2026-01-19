@@ -36,5 +36,3 @@ Utarbeidelse av nye versjoner av spesifikasjonen initieres av Digdir. Mindre end
 
 Spesifikasjonen bruker ordene «obligatorisk» ("_mandatory_"), «anbefalt» ("_recommended_") og «valgfri» ("_optional_"). Disse er https://data.norge.no/specification/dcat-ap-no/#Om-kravene[forklart i DCAT-AP-NO &#x29C9;, window="_blank", role="ext-link"], og forklaringene gjentas ikke her.
 
-
-// include::Leseveiledning.adoc[]

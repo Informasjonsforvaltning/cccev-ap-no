@@ -33,9 +33,9 @@ __Requirement is a generic class representing any type of prerequisite that may 
 _This property represents an identifier for the Requirement._
 | Multiplisitet / _Multiplicity_ | 1..1
 | Kravnivå / _Requirement level_ | Obligatorisk / _Mandatory_
-| Merknad / _Note_ | Norsk utvidelse: Kravnivået endret fra valgfri til obligatorisk, og multiplisiteten fra 0..n til 1..1.
+| Merknad / _Note_ | Norsk utvidelse: I samsvar med CPSV-AP, er kravnivået endret fra valgfri til obligatorisk og multiplisiteten fra 0..n til 1..1. 
 
-_Norwegian extension: The requirement level changed from optional to mandatory, and the multiplicity from 0..n to 1..1._
+_Norwegian extension: Confirming to CPSV-AP, the requirement level changed from optional to mandatory, and the multiplicity from 0..n to 1..1._
 |===
 
 ==== Krav – navn (dct:title) [[Krav-navn]]
@@ -50,9 +50,9 @@ _Norwegian extension: The requirement level changed from optional to mandatory, 
 _This property represents the official Name of the Requirement. This property SHOULD be repeated when the name is in several languages._
 | Multiplisitet / _Multiplicity_ | 1..n
 | Kravnivå / _Requirement level_ | Obligatorisk / _Mandatory_
-| Merknad / _Note_ | Norsk utvidelse: Kravnivået endret fra valgfri til obligatorisk, multiplisiteten fra 0..n til 1..n, og verdiområdet fra 'xsd:string' til 'rdf:langString'.
+| Merknad / _Note_ | Norsk utvidelse: I samsvar med CPSV-AP, er kravnivået endret fra valgfri til obligatorisk, multiplisiteten fra 0..n til 1..n, og verdiområdet fra 'xsd:string' til 'rdf:langString'.
 
-_Norwegian extension: The requirement level changed from optional to mandatory, the multiplicity from 0..n to 1..n, and the range from 'xsd:string' to 'rdf:langString'._
+_Norwegian extension: Confirming to CPSV-AP, the requirement level changed from optional to mandatory, the multiplicity from 0..n to 1..n, and the range from 'xsd:string' to 'rdf:langString'._
 |===
 
 
