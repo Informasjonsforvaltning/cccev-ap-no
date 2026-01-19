@@ -33,9 +33,6 @@ __Requirement is a generic class representing any type of prerequisite that may 
 _This property represents an identifier for the Requirement._
 | Multiplisitet / _Multiplicity_ | 1..1
 | Kravnivå / _Requirement level_ | Obligatorisk / _Mandatory_
-| Merknad / _Note_ | Norsk utvidelse: I samsvar med CPSV-AP, er kravnivået endret fra valgfri til obligatorisk og multiplisiteten fra 0..n til 1..1. 
-
-_Norwegian extension: Confirming to CPSV-AP, the requirement level changed from optional to mandatory, and the multiplicity from 0..n to 1..1._
 |===
 
 ==== Krav – navn (dct:title) [[Krav-navn]]
@@ -50,9 +47,6 @@ _Norwegian extension: Confirming to CPSV-AP, the requirement level changed from 
 _This property represents the official Name of the Requirement. This property SHOULD be repeated when the name is in several languages._
 | Multiplisitet / _Multiplicity_ | 1..n
 | Kravnivå / _Requirement level_ | Obligatorisk / _Mandatory_
-| Merknad / _Note_ | Norsk utvidelse: I samsvar med CPSV-AP, er kravnivået endret fra valgfri til obligatorisk, multiplisiteten fra 0..n til 1..n, og verdiområdet fra 'xsd:string' til 'rdf:langString'.
-
-_Norwegian extension: Confirming to CPSV-AP, the requirement level changed from optional to mandatory, the multiplicity from 0..n to 1..n, and the range from 'xsd:string' to 'rdf:langString'._
 |===
 
 
@@ -155,9 +149,6 @@ _This property refers to the Information Concept for which a value is expected b
 _Information Concepts defined for specific Requirements also represent the basis for specifying the Supported Value an Evidence should provide._
 | Multiplisitet / _Multiplicity_ | 0..n
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
-| Merknad / _Note_ |  Norsk utvidelse: Ikke eksplisitt spesifisert i CCCEV.
-
-_Norwegian extension: Not explicitly specified in CCCEV._
 |===
 
 ==== Krav – har kvalifisert relasjon til andre krav (cv:hasQualifiedRelation) [[Krav-har-kvalifisert-relasjon-til-andre-krav]]
@@ -216,9 +207,6 @@ _This property refers to an evidence that supplies information, proof or support
 _This property refers to the rules that the requirement fulfils._
 | Multiplisitet / _Multiplicity_ | 0..n
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
-| Merknad / _Note_ |  Norsk utvidelse: Ikke eksplisitt spesifisert i CCCEV.
-
-_Norwegian extension: Not explicitly specified in CCCEV._
 |===
 
 
