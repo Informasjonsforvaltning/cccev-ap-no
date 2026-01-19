@@ -2,7 +2,7 @@
 
 _Denne delen av spesifikasjonen er primært ment for den ikke-tekniske målgruppen._ 
 
-=== Opplysninger som SKAL og BØR tas med om et kriterium eller krav [[Noen-krav]]
+=== Opplysninger som SKAL og BØR tas med om et krav eller en kravoppfyllelse [[Noen-krav]]
 
 __#@@@@@@ her skal det komme tegninger og tekster for den forenklede fremstilling av kravene i CCCEV-AP-NO#__
 
