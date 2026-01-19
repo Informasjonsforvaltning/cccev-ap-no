@@ -222,7 +222,4 @@ _This property refers to the rules that the requirement fulfils._
 _This property refers to the category to which the Requirement belongs._
 | Multiplisitet / _Multiplicity_ | 0..n
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
-| Merknad / _Note_ | Verdien BØR velges fra det kontrollerte vokabularet https://data.norge.no/vocabulary/requirement-type[Kravtype &#x29C9;, window="_blank", role="ext-link"] når verdien finnes i det vokabularet.
-
-__The value SHOULD be chosen from the controlled vocabulary https://data.norge.no/vocabulary/requirement-type[Requirement type &#x29C9;, window="_blank", role="ext-link"] when the value is in that vocabulary.__
 |===
