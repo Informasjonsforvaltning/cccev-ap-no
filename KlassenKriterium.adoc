@@ -34,9 +34,6 @@ Eksempel i RDF Turtle: Se under <<Å-beskrive-dokumentasjonskrav>>.
 _This property represents an identifier for the Criterion._
 | Multiplisitet / _Multiplicity_ | 1..1
 | Kravnivå / _Requirement level_ | Obligatorisk / _Mandatory_
-| Merknad / _Note_ |  Norsk utvidelse: Ikke eksplisitt spesifisert i CCCEV.
-
-_Norwegian extension: Not explicitly specified in CCCEV._
 |===
 
 ==== Kriterium – navn (dct:title) [[Kriterium-navn]]
@@ -51,9 +48,6 @@ _Norwegian extension: Not explicitly specified in CCCEV._
 _This property represents the official Name of the Criterion. This property SHOULD be repeated when the name is in several languages._
 | Multiplisitet / _Multiplicity_ | 1..n
 | Kravnivå / _Requirement level_ | Obligatorisk / _Mandatory_
-| Merknad / _Note_ | Norsk utvidelse: Kravnivået endret fra valgfri til obligatorisk, multiplisiteten fra 0..n til 1..n, og verdiområdet fra 'xsd:string' til 'rdf:langString'.
-
-_Norwegian extension: The requirement level changed from optional to mandatory, the multiplicity from 0..n to 1..n, and the range from 'xsd:string' to 'rdf:langString'._
 |===
 
 === Anbefalte egenskaper for klassen _Kriterium_ [[Kriterium-anbefalte-egenskaper]]
@@ -70,9 +64,6 @@ _Norwegian extension: The requirement level changed from optional to mandatory, 
 _This property represents a description of the Criterion. This property SHOULD be repeated when the description is in several languages._
 | Multiplisitet / _Multiplicity_ | 0..n
 | Kravnivå / _Requirement level_ | Anbefalt / _Recommended_
-| Merknad / _Note_ |  Norsk utvidelse: Ikke eksplisitt spesifisert i CCCEV.
-
-_Norwegian extension: Not explicitly specified in CCCEV._
 |===
 
 === Valgfrie egenskaper for klassen _Kriterium_ [[Kriterium-valgfrie-egenskaper]]
@@ -107,9 +98,6 @@ Et subkrav/forelderkrav er en instans av klassen Krav (`cv:Requirement`) eller e
 _This property represents a reference between a Requirement and its parent Requirement._
 | Multiplisitet / _Multiplicity_ | 0..n
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_ 
-| Merknad / _Note_ |  Norsk utvidelse: Ikke eksplisitt spesifisert i CCCEV.
-
-_Norwegian extension: Not explicitly specified in CCCEV._
 |===
 
 ==== Kriterium – er utledet fra (cv:isDerivedFrom) [[Kriterium-er-utledet-fra]]
@@ -126,9 +114,6 @@ _This property refers to the Reference Framework on which the Criterion is based
 _Note that a Criterion can have several Reference Frameworks from which it is derived._
 | Multiplisitet / _Multiplicity_ | 0..n
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
-| Merknad / _Note_ |  Norsk utvidelse: Ikke eksplisitt spesifisert i CCCEV.
-
-_Norwegian extension: Not explicitly specified in CCCEV._
 |===
 
 ==== Kriterium – er utstedt av (dct:publisher) [[Kriterium-er-utstedt-av]]
@@ -143,9 +128,6 @@ _Norwegian extension: Not explicitly specified in CCCEV._
 _This property refers to the Agent that has published the Criterion._
 | Multiplisitet / _Multiplicity_ | 0..1
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
-| Merknad / _Note_ |  Norsk utvidelse: Ikke eksplisitt spesifisert i CCCEV.
-
-_Norwegian extension: Not explicitly specified in CCCEV._
 |===
 
 ==== Kriterium – har dokumentasjonstypeliste (cv:hasEvidenceTypeList) [[Kriterium-har-dokumentasjonstypeliste]]
@@ -164,9 +146,6 @@ _This property refers to the Evidence Type List that specifies the Evidence Type
 _One or several Lists of Evidence Types MAY support a Criterion. At least one of them MUST be satisfied by the response to the Criterion._
 | Multiplisitet / _Multiplicity_ | 0..n
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
-| Merknad / _Note_ |  Norsk utvidelse: Ikke eksplisitt spesifisert i CCCEV.
-
-_Norwegian extension: Not explicitly specified in CCCEV._
 |===
 
 ==== Kriterium – har informasjonsbegrep (cv:hasConcept) [[Kriterium-har-informasjonsbegrep]]
@@ -183,9 +162,6 @@ _This property refers to the Information Concept for which a value is expected b
 _Information Concepts defined for specific Criterions also represent the basis for specifying the Supported Value an Evidence should provide._
 | Multiplisitet / _Multiplicity_ | 0..n
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
-| Merknad / _Note_ |  Norsk utvidelse: Ikke eksplisitt spesifisert i CCCEV.
-
-_Norwegian extension: Not explicitly specified in CCCEV._
 |===
 
 ==== Kriterium – har kvalifisert relasjon til andre krav (cv:hasQualifiedRelation) [[Kriterium-har-kvalifisert-relasjon-til-andre-krav]]
@@ -200,9 +176,6 @@ _Norwegian extension: Not explicitly specified in CCCEV._
 _This property represents a described and/or categorised relation to another Requirement._
 | Multiplisitet / _Multiplicity_ | 0..n
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
-| Merknad / _Note_ |  Norsk utvidelse: Ikke eksplisitt spesifisert i CCCEV.
-
-_Norwegian extension: Not explicitly specified in CCCEV._
 |===
 
 ==== Kriterium – har mer spesifikt krav (cv:hasRequirement) [[Kriterium-har-mer-spesifikt-krav]]
@@ -217,9 +190,6 @@ _Norwegian extension: Not explicitly specified in CCCEV._
 _This property refers to a more specific Requirement that is part of the Criterion._
 | Multiplisitet / _Multiplicity_ | 0..n
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
-| Merknad / _Note_ |  Norsk utvidelse: Ikke eksplisitt spesifisert i CCCEV.
-
-_Norwegian extension: Not explicitly specified in CCCEV._
 |===
 
 ==== Kriterium – har understøttende dokumentasjon (cv:hasSupportingEvidence) [[Kriterium-har-understøttende-dokumentasjon]]
@@ -248,9 +218,6 @@ _This property refers to an evidence that supplies information, proof or support
 _This property refers to the rules that the Criterion fulfils._
 | Multiplisitet / _Multiplicity_ | 0..n
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
-| Merknad / _Note_ |  Norsk utvidelse: Ikke eksplisitt spesifisert i CCCEV.
-
-_Norwegian extension: Not explicitly specified in CCCEV._
 |===
 
 ==== Kriterium – type (dct:type) [[Kriterium-type]]
@@ -265,12 +232,6 @@ _Norwegian extension: Not explicitly specified in CCCEV._
 _This property refers to the category to which the Criterion belongs._
 | Multiplisitet / _Multiplicity_ | 0..n
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
-| Merknad 1 / _Note 1_ | Verdien BØR velges fra et kontrollert vokabular.
-
-_The value SHOULD be chosen from a controlled vocabulary._
-| Merknad 2 / _Note 2_ |  Norsk utvidelse: Ikke eksplisitt spesifisert i CCCEV.
-
-_Norwegian extension: Not explicitly specified in CCCEV._
 |===
 
 ==== Kriterium – vekting (cv:weight) [[Kriterium-vekting]]
