@@ -2,13 +2,28 @@
 
 _Denne delen av spesifikasjonen er primært ment for den ikke-tekniske målgruppen._ 
 
-=== Opplysninger som SKAL og BØR tas med om et krav eller en kravoppfyllelse [[Noen-krav]]
+__#@@@@@@ kapittelet er under oppbygging#__
 
-__#@@@@@@ her skal det komme tegninger og tekster for den forenklede fremstilling av kravene i CCCEV-AP-NO#__
+=== Opplysninger som SKAL, BØR og KAN tas med om et krav eller en kravoppfyllelse [[Noen-krav]]
 
+__#@@@@@@ mer tekst kommer#__
 
+<<img-ForenkletModell>> viser en forenklet fremstilling av _noen_ av kravene i CCCEV-AP-NO. Krav til hvordan opplysningene skal representeres teknisk i RDF (https://www.w3.org/RDF/[Resource Description Framework &#x29C9;, window="_blank", role="ext-link"]) er spesifisert i <<Spesifikasjon-per-klasse>>. 
 
+[[img-ForenkletModell]]
+.Forenklet fremstilling av noen av kravene i CCCEV-AP-NO.
+[link=images/CCCEV-AP-NO-forenklet-fremstilling.png]
+image::images/CCCEV-AP-NO-forenklet-fremstilling.png[alt="Forenklet diagram med noen av klassene i CCCEV-AP-NO, deres egenskaper og relasjoner til hverandre. Innholdet i diagrammet er forklart i teksten."]
+
+Som figuren viser, kan CCCEV-AP-NO brukes til å beskrive
+
+* Krav i form av *Kriterium*, *Informasjonskrav* eller *Begrensning*:
+** Kriterium brukes til å oppgi betingelse som må være oppfylt. Eksempel på et kriterium kan være "Vilkår for å inngå ekteskap".
+** Informasjonbskrav brukes til å beskrive data som forespøres og som skal dokumentere en eller flere fakta, eller som fører til kilden til slik dokumentasjon. Eksempel på et informasjonskrav kan være "Søkerens alder".
+** Begrensning brukes til å beskrive en begrensning som gjelder for et informasjonsbegrep. Eksempel på en begrensning kan være "Minst 18 år gammel".
+* *Dokumentasjon* av kravoppfyllelse: 
+** Dokumentasjon brukes til å beskrive dokumentasjon som skal fremlegges for å dokumentere at et krav er oppfylt. Eksempel på dokumentasjon kan være "Fødselsattest".
 
 === Et illustrativt eksempel [[Illustrativt-eksempel]]
 
-__#@@@@@@ her skal det komme et illstrativt eksempel på bruk av CCCEV-AP-NO#__
+Se under <<Å-beskrive-dokumentasjonskrav>> for et illustrativt eksempel på hvordan CCCEV-AP-NO kan brukes til å beskrive kravene for å kunne utføre utføre tjenesten tjenesten https://www.skatteetaten.no/skjema/provingsattest/[«prøvingsattest» &#x29C9;, window="_blank", role="ext-link"] som Skatteetaten tilbyr.
