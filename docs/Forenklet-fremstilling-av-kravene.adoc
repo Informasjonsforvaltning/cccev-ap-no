@@ -1,29 +1,103 @@
-== Forenklet fremstilling av kravene i CCCEV-AP-NO [[Forenklet-fremstilling]]
+== Krav til beskrivelse av et krav eller en kravoppfyllelse [[Forenklet-fremstilling]]
 
 _Denne delen av spesifikasjonen er primært ment for den ikke-tekniske målgruppen._ 
 
-__#@@@@@@ kapittelet er under oppbygging#__
+=== Forenklet fremstilling av noen av kravene i CCCEV-AP-NO [[Noen-krav]]
 
-=== Opplysninger som SKAL, BØR og KAN tas med om et krav eller en kravoppfyllelse [[Noen-krav]]
-
-__#@@@@@@ mer tekst kommer#__
-
-<<img-ForenkletModell>> viser en forenklet fremstilling av _noen_ av kravene i CCCEV-AP-NO. Krav til hvordan opplysningene skal representeres teknisk i RDF (https://www.w3.org/RDF/[Resource Description Framework &#x29C9;, window="_blank", role="ext-link"]) er spesifisert i <<Spesifikasjon-per-klasse>>. 
+<<img-ForenkletModell>> viser en forenklet fremstilling av _noen_ av kravene i CCCEV-AP-NO. 
 
 [[img-ForenkletModell]]
-.Forenklet fremstilling av noen av kravene i CCCEV-AP-NO.
+.Forenklet fremstilling av noen av kravene i CCCEV-AP-NO
 [link=images/CCCEV-AP-NO-forenklet-fremstilling.png]
 image::images/CCCEV-AP-NO-forenklet-fremstilling.png[alt="Forenklet diagram med noen av klassene i CCCEV-AP-NO, deres egenskaper og relasjoner til hverandre. Innholdet i diagrammet er forklart i teksten."]
 
 Som figuren viser, kan CCCEV-AP-NO brukes til å beskrive
 
 * Krav i form av *Kriterium*, *Informasjonskrav* eller *Begrensning*:
-** Kriterium brukes til å oppgi betingelse som må være oppfylt. Eksempel på et kriterium kan være "Vilkår for å inngå ekteskap".
-** Informasjonbskrav brukes til å beskrive data som forespøres og som skal dokumentere en eller flere fakta, eller som fører til kilden til slik dokumentasjon. Eksempel på et informasjonskrav kan være "Søkerens alder".
-** Begrensning brukes til å beskrive en begrensning som gjelder for et informasjonsbegrep. Eksempel på en begrensning kan være "Minst 18 år gammel".
-* *Dokumentasjon* av kravoppfyllelse: 
-** Dokumentasjon brukes til å beskrive dokumentasjon som skal fremlegges for å dokumentere at et krav er oppfylt. Eksempel på dokumentasjon kan være "Fødselsattest".
+** *Kriterium* brukes til å oppgi betingelse som må være oppfylt. Eksempel på et kriterium kan være "Vilkår for å inngå ekteskap".
+** *Informasjonbskrav* brukes til å oppgi data som forespøres og som skal dokumentere en eller flere fakta, eller som fører til kilden til slik dokumentasjon. Eksempel på et informasjonskrav kan være "Søkerens alder".
+** *Begrensning* brukes til å oppgi begrensning som gjelder. Eksempel på en begrensning kan være "Minst 18 år gammel".
+* *Dokumentasjon* av kravoppfyllelse: Dokumentasjon brukes til å oppgi dokumentasjon som skal fremlegges for å bevise at et krav er oppfylt. Eksempel på dokumentasjon kan være "Fødselsattest".
+
+Krav til typer opplysninger som skal SKAL, BØR og KAN tas med i en beskrivelse av et krav eller en dokumentasjon av kravoppfyllelse er nærmere beskrevet i det følgende i dette kapittelet. Krav til hvordan opplysningene skal representeres teknisk i RDF (https://www.w3.org/RDF/[Resource Description Framework &#x29C9;, window="_blank", role="ext-link"]) er spesifisert i <<Spesifikasjon-per-klasse>>. 
+
+:xrefstyle: short
+
+=== Krav til beskrivelse av Kriterium, Informasjonskrav og Begrensning [[Krav-til-beskrivelse-av-kriterium-informasjonskrav-begrensning]]
+For å sikre at Kriterium, Informasjonskrav og Begrensning blir beskrevet på en ensartet måte, inneholder tabellene under krav til hva som SKAL, BØR eller KAN tas med i beskrivelsene.
+
+[[Tabell-obligatoriske-opplysninger-kriterium-informasjonskrav-begrensning]]
+.Obligatoriske opplysningstyper som beskrivelse av Kriterium, Informasjonskrav og Begrensning SKAL inneholde
+[cols="20s,65d,15d", options="header"]
+|===
+| Obligatorisk | Forklaring | Ref. til kap. 3
+| identifikator | Unik identifikator, som regel opprettet automatisk av et system. | <<Begrensning-identifikator>>, <<Informasjonskrav-identifikator>>, <<Kriterium-identifikator>>
+| navn | Navn til Begrensningen, Kriteriet eller Informasjonskravet | <<Begrensning-navn>>, <<Informasjonskrav-navn>>, <<Kriterium-navn>>
+| begrenser | Gjelder kun Begrensning. Refererer til informasjonsbegrep som begrensningen gjelder. | <<Begrensning-begrenser>>
+|===
+
+[[Tabell-anbefalte-opplysninger-kriterium-informasjonskrav-begrensning]]
+.Anbefalte opplysningstyper som en beskrivelse av Kriterium, Informasjonskrav og Begrensning BØR inneholde
+[cols="20s,65d,15d", options="header"]
+|===
+| Anbefalt | Forklaring | Ref. til kap. 3
+| beskrivelse | Tekstlig beskrivelse av Begrensningen, Kriteriet eller Informasjonskravet. BØR gjentas når beskrivelsen er på flere språk. | <<Begrensning-beskrivelse>>, <<Informasjonskrav-beskrivelse>>, <<Kriterium-beskrivelse>>
+|===
+
+[[Tabell-valgfrie-opplysninger-kriterium-informasjonskrav-begrensning]]
+.Valgfrie opplysningstyper som en beskrivelse av Kriterium, Informasjonskrav og Begrensning KAN inneholde
+[cols="20s,65d,15d", options="header"]
+|===
+| Valgfri | Forklaring | Ref. til kap. 3
+| er subkrav av | @@@@@@ | @@@@@@
+| er utledet fra | @@@@@@ | @@@@@@
+| er utstedt av | @@@@@@ | @@@@@@
+| har dokumentasjonstypeliste | @@@@@@ | @@@@@@
+| har kvalifisert relasjon til andre krav | @@@@@@ | @@@@@@
+| har mer spesifikt krav | @@@@@@ | @@@@@@
+| har understøttende dokumentasjon | @@@@@@ | @@@@@@
+| tilfredsstiller regel | @@@@@@ | @@@@@@
+| type | @@@@@@ | @@@@@@
+| har informasjonsbegrep | Gjelder Kriterium eller Informasjonskrav @@@@@@ | @@@@@@
+| bias | Gjelder kun Kriterium @@@@@@ | @@@@@@
+| vekting | Gjelder kun Kriterium @@@@@@ | @@@@@@
+| vektingstype | Gjelder kun Kriterium @@@@@@ | @@@@@@
+| vektingsvurderingsbeskrivelse | Gjelder kun Kriterium @@@@@@ | @@@@@@
+|===
+
+=== Krav til beskrivelse av Dokumentasjon av kravoppfyllelse [[Krav-til-beskrivelse-av-dokumentasjon]]
+For å sikre at Dokumentasjon av kravoppfyllelse blir beskrevet på en ensartet måte, inneholder tabellene under krav til hva som SKAL, BØR eller KAN tas med i beskrivelsene.
+
+[[Tabell-obligatoriske-opplysninger-dokumentasjon]]
+.Obligatoriske opplysningstyper som beskrivelse av Dokumentasjon av kravoppfyllelse SKAL inneholde
+[cols="20s,65d,15d", options="header"]
+|===
+| Obligatorisk | Forklaring | Ref. til kap. 3
+| identifikator | @@@@@@ | @@@@@@
+| navn | @@@@@@ | @@@@@@
+|===
+
+[[Tabell-anbefalte-opplysninger-dokumentasjon]]
+.Anbefalte opplysningstyper som en beskrivelse av Dokumentasjon av kravoppfyllelse BØR inneholde
+[cols="20s,65d,15d", options="header"]
+|===
+| Anbefalt | Forklaring | Ref. til kap. 3
+| beskrivelse | @@@@@@ | @@@@@@
+| språk | @@@@@@ | @@@@@@
+|===
+
+[[Tabell-valgfrie-opplysninger-dokumentasjon]]
+.Valgfrie opplysningstyper som en beskrivelse av Dokumentasjon av kravoppfyllelse KAN inneholde
+[cols="20s,65d,15d", options="header"]
+|===
+| Valgfri | Forklaring | Ref. til kap. 3
+| @@@@@@ | @@@@@@ | @@@@@@
+| @@@@@@ | @@@@@@ | @@@@@@
+| @@@@@@ | Gjelder bare Begrensning | @@@@@@
+|===
+
 
 === Et illustrativt eksempel [[Illustrativt-eksempel]]
+:xrefstyle: full
 
 Se under <<Å-beskrive-dokumentasjonskrav>> for et illustrativt eksempel på hvordan CCCEV-AP-NO kan brukes til å beskrive kravene for å kunne utføre utføre tjenesten tjenesten https://www.skatteetaten.no/skjema/provingsattest/[«prøvingsattest» &#x29C9;, window="_blank", role="ext-link"] som Skatteetaten tilbyr.
