@@ -189,7 +189,7 @@ _This property refers to a more specific Requirement that is part of the Constra
 |===
 | _English name_ | _has supporting evidence_
 | URI |  cv:hasSupportingEvidence
-| Verdiområde / _Range_ | <Dokumentasjon, cv:Evidence>>
+| Verdiområde / _Range_ | <<Dokumentasjon, cv:Evidence>>
 | Anvendelse / _Usage note_ | Egenskapen brukes til å referere til en dokumentasjon som supplerer med informasjon, bevis eller understøtter begrensningen.
 
 _This property refers to an evidence that supplies information, proof or support for the constraint._
