@@ -4,7 +4,11 @@ _Denne delen av spesifikasjonen er primært ment for den ikke-tekniske målgrupp
 
 === Forenklet fremstilling av noen av kravene i CCCEV-AP-NO [[Noen-krav]]
 
+:xrefstyle: short
+
 <<img-ForenkletModell>> viser en forenklet fremstilling av _noen_ av kravene i CCCEV-AP-NO. 
+
+:xrefstyle: full
 
 [[img-ForenkletModell]]
 .Forenklet fremstilling av noen av kravene i CCCEV-AP-NO
