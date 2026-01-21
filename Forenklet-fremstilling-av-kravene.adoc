@@ -28,15 +28,15 @@ Krav til typer opplysninger som skal SKAL, BØR og KAN tas med i en beskrivelse 
 :xrefstyle: short
 
 === Krav til beskrivelse av Kriterium, Informasjonskrav og Begrensning [[Krav-til-beskrivelse-av-kriterium-informasjonskrav-begrensning]]
-For å sikre at Kriterium, Informasjonskrav og Begrensning blir beskrevet på en ensartet måte, inneholder tabellene under krav til hva som SKAL, BØR eller KAN tas med i beskrivelsene.
+For å sikre at Kriterium, Informasjonskrav og Begrensning blir beskrevet på en ensartet måte, inneholder tabellene under krav til hva som SKAL, BØR eller KAN tas med i beskrivelsene. I dette avsnittet brukes ordet "krav" som samlebetegnelse for alle tre typer krav: Kriterium, Informasjonskrav og Begrensning.
 
 [[Tabell-obligatoriske-opplysninger-kriterium-informasjonskrav-begrensning]]
 .Obligatoriske opplysningstyper som beskrivelse av Kriterium, Informasjonskrav og Begrensning SKAL inneholde
 [cols="20s,65d,15d", options="header"]
 |===
 | Obligatorisk | Forklaring | Ref. til kap. 3
-| identifikator | Unik identifikator, som regel opprettet automatisk av et system. | <<Begrensning-identifikator>>, <<Informasjonskrav-identifikator>>, <<Kriterium-identifikator>>
-| navn | Navn til Begrensningen, Kriteriet eller Informasjonskravet | <<Begrensning-navn>>, <<Informasjonskrav-navn>>, <<Kriterium-navn>>
+| identifikator | Unik identifikator, som regel opprettet automatisk av et system | <<Begrensning-identifikator>>, <<Informasjonskrav-identifikator>>, <<Kriterium-identifikator>>
+| navn | Navn til kravet | <<Begrensning-navn>>, <<Informasjonskrav-navn>>, <<Kriterium-navn>>
 | begrenser | Gjelder kun Begrensning. Refererer til informasjonsbegrep som begrensningen gjelder. | <<Begrensning-begrenser>>
 |===
 
@@ -45,7 +45,7 @@ For å sikre at Kriterium, Informasjonskrav og Begrensning blir beskrevet på en
 [cols="20s,65d,15d", options="header"]
 |===
 | Anbefalt | Forklaring | Ref. til kap. 3
-| beskrivelse | Tekstlig beskrivelse av Begrensningen, Kriteriet eller Informasjonskravet. BØR gjentas når beskrivelsen er på flere språk. | <<Begrensning-beskrivelse>>, <<Informasjonskrav-beskrivelse>>, <<Kriterium-beskrivelse>>
+| beskrivelse | Tekstlig beskrivelse av kravet | <<Begrensning-beskrivelse>>, <<Informasjonskrav-beskrivelse>>, <<Kriterium-beskrivelse>>
 |===
 
 [[Tabell-valgfrie-opplysninger-kriterium-informasjonskrav-begrensning]]
@@ -53,20 +53,20 @@ For å sikre at Kriterium, Informasjonskrav og Begrensning blir beskrevet på en
 [cols="20s,65d,15d", options="header"]
 |===
 | Valgfri | Forklaring | Ref. til kap. 3
-| er subkrav av | @@@@@@ | @@@@@@
-| er utledet fra | @@@@@@ | @@@@@@
-| er utstedt av | @@@@@@ | @@@@@@
-| har dokumentasjonstypeliste | @@@@@@ | @@@@@@
-| har kvalifisert relasjon til andre krav | @@@@@@ | @@@@@@
-| har mer spesifikt krav | @@@@@@ | @@@@@@
-| har understøttende dokumentasjon | @@@@@@ | @@@@@@
-| tilfredsstiller regel | @@@@@@ | @@@@@@
-| type | @@@@@@ | @@@@@@
-| har informasjonsbegrep | Gjelder Kriterium eller Informasjonskrav @@@@@@ | @@@@@@
-| bias | Gjelder kun Kriterium @@@@@@ | @@@@@@
-| vekting | Gjelder kun Kriterium @@@@@@ | @@@@@@
-| vektingstype | Gjelder kun Kriterium @@@@@@ | @@@@@@
-| vektingsvurderingsbeskrivelse | Gjelder kun Kriterium @@@@@@ | @@@@@@
+| er subkrav av | Refererer til et annet krav som dette kravet er et subkrav av | <<Begrensning-er-subkrav-av>>, <<Informasjonskrav-er-subkrav-av>>, <<Kriterium-er-subkrav-av>>
+| er utledet fra | Refererer til referanserammeverk som kravet er basert på, f.eks. lov, forskrift eller annen regulering | <<Begrensning-er-utledet-fra>>, <<Informasjonskrav-er-utledet-fra>>, <<Kriterium-er-utledet-fra>>
+| er utstedt av | Refererer til aktøren som har utstedt kravet | <<Begrensning-er-utstedt-av>>, <<Informasjonskrav-er-utstedt-av>>, <<Kriterium-er-utstedt-av>>
+| har dokumentasjonstypeliste | Refererer til dokumentasjonstypeliste som spesifiserer dokumentasjonstypene som trengs for å tilfredsstille kravet | <<Begrensning-har-dokumentasjonstypeliste>>, <<Informasjonskrav-har-dokumentasjonstypeliste>>, <<Kriterium-har-dokumentasjonstypeliste>>
+| har kvalifisert relasjon til andre krav | En beskrevet/kategorisert relasjon til et annet krav | <<Begrensning-har-kvalifisert-relasjon-til-andre-krav>>,  <<Informasjonskrav-har-kvalifisert-relasjon-til-andre-krav>>, <<Kriterium-har-kvalifisert-relasjon-til-andre-krav>>
+| har mer spesifikt krav | Refererer til mer spesifikke krav som er del av dette kravet | <<Begrensning-har-mer-spesifikt-krav>>, <<Informasjonskrav-har-mer-spesifikt-krav>>, <<Kriterium-har-mer-spesifikt-krav>>
+| har understøttende dokumentasjon | Refererer til en dokumentasjon som supplerer med informasjon, bevis eller understøtter kravet | <<Begrensning-har-understøttende-dokumentasjon>>, <<Informasjonskrav-har-understøttende-dokumentasjon>>, <<Kriterium-har-understøttende-dokumentasjon>>
+| tilfredsstiller regel | Refererer til regel som kravet tilfredsstiller | <<Begrensning-tilfredsstiller-regel>>, <<Informasjonskrav-tilfredsstiller-regel>>, <<Kriterium-tilfredsstiller-regel>>
+| type | Refererer til kategorien kravet tilhører | <<Begrensning-type>>, <<Informasjonskrav-type>>, <<Kriterium-type>>
+| har informasjonsbegrep | Gjelder Kriterium eller Informasjonskrav. Refererer til informasjonsbegrep som Informasjonskravet eller Kriteriet forventer en verdi av | <<Informasjonskrav-har-informasjonsbegrep>>, <<Kriterium-har-informasjonsbegrep>>
+| bias | Gjelder kun Kriterium. Oppgir parameteren som brukes til å justere evalueringen av Kriteriet | <<Kriterium-bias>>
+| vekting | Gjelder kun Kriterium. Oppgir relativ viktighet (vekting) av Kriteriet | <<Kriterium-vekting>>
+| vektingstype | Gjelder kun Kriterium. Oppgir  hvordan vektingen bør tolkes i et komplekst evalueringsuttrykk, f.eks. som en prosent i et evalueringsuttrykk | <<Kriterium-vektingstype>>
+| vektingsvurderingsbeskrivelse | Gjelder kun Kriterium. Oppgir en tekstlig forklaring på hvordan vektingen av Kriteriet brukes Kriteriet | <<Kriterium-vektingsvurderingsbeskrivelse>>
 |===
 
 === Krav til beskrivelse av Dokumentasjon av kravoppfyllelse [[Krav-til-beskrivelse-av-dokumentasjon]]
@@ -77,8 +77,8 @@ For å sikre at Dokumentasjon av kravoppfyllelse blir beskrevet på en ensartet 
 [cols="20s,65d,15d", options="header"]
 |===
 | Obligatorisk | Forklaring | Ref. til kap. 3
-| identifikator | @@@@@@ | @@@@@@
-| navn | @@@@@@ | @@@@@@
+| identifikator | Unik identifikator, som regel opprettet automatisk av et system | <<Dokumentasjon-identifikator>>
+| navn | Det offisielle navnet til dokumentasjonen | <<Dokumentasjon-navn>>
 |===
 
 [[Tabell-anbefalte-opplysninger-dokumentasjon]]
@@ -86,8 +86,8 @@ For å sikre at Dokumentasjon av kravoppfyllelse blir beskrevet på en ensartet 
 [cols="20s,65d,15d", options="header"]
 |===
 | Anbefalt | Forklaring | Ref. til kap. 3
-| beskrivelse | @@@@@@ | @@@@@@
-| språk | @@@@@@ | @@@@@@
+| beskrivelse | Tekstlig beskrivelse av dokumentasjonen | <<Dokumentasjon-beskrivelse>>
+| språk | Språket dokumentasjonen er skrevet på | <<Dokumentasjon-språk>>
 |===
 
 [[Tabell-valgfrie-opplysninger-dokumentasjon]]
@@ -95,9 +95,19 @@ For å sikre at Dokumentasjon av kravoppfyllelse blir beskrevet på en ensartet 
 [cols="20s,65d,15d", options="header"]
 |===
 | Valgfri | Forklaring | Ref. til kap. 3
-| @@@@@@ | @@@@@@ | @@@@@@
-| @@@@@@ | @@@@@@ | @@@@@@
-| @@@@@@ | Gjelder bare Begrensning | @@@@@@
+| er del av | Refererer til et datasett som den aktuelle dokumentasjonen fysisk eller logisk er inkludert i | <<Dokumentasjon-er-del-av>>
+| distributør | Oppgir aktør som sender dokumentasjonen | <<Dokumentasjon-distributør>>
+| gir understøttende opplysning | Refererer til understøttende opplysninger i dokumentasjonen | <<Dokumentasjon-gir-understøttende-opplysning>>
+| gjelder | Oppgir aktøren som dokumentasjonen gjelder for | <<Dokumentasjon-gjelder>>
+| gyldighetsperiode | Angir en tidsperiode hvor dokumentasjonen er gyldig | <<Dokumentasjon-gyldighetsperiode>>
+| i samsvar med | Oppgir dokumentasjonstypen som dokumentasjonen er i samsvar med | <<Dokumentasjon-i-samsvar-med>>
+| konfidensialitetsnivå | Oppgir dokumentasjonens sikkerhetsklassifisering, f.eks. klassifisert, sensitiv, offentlig | <<Dokumentasjon-konfidensialitetsnivå>>
+| produsent | Oppgir aktøren som som er produsent av dokumentasjonen | <<Dokumentasjon-produsent>>
+| relatert informasjon | Refererer til mer informasjon om dokumentasjonen, f.eks. en bestemt mal til et administrativt dokument eller en applikasjon, eller en veiledning for hvordan man skal formatere dokumentasjonen | <<Dokumentasjon-relatert-informasjon>>
+| type | Refererer til begrepet som representerer typen dokumentasjonen tilhører | <<Dokumentasjon-type>>
+| understøtter informasjonsbegrep | Refererer til informasjonsbegrep som gir fakta funnet eller utledet fra dokumentasjonen | <<Dokumentasjon-understøtter-informasjonsbegrep>>
+| understøtter krav | Refererer til krav som dokumentasjonen understøtter | <<Dokumentasjon-understøtter-krav>>
+| utsteder | Oppgir aktøren som er juridisk ansvarlig for dokumentasjonen | <<Dokumentasjon-utsteder>>
 |===
 
 

@@ -84,7 +84,7 @@ _The bias parameter tries to correct a systematic error. For example in procurem
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_ 
 |===
 
-==== Kriterium – er subkrav av (cv:isRequirementOf) [[Kriterium-er-krav-til]]
+==== Kriterium – er subkrav av (cv:isRequirementOf) [[Kriterium-er-subkrav-av]]
 
 [cols="30s,70d"]
 |===

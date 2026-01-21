@@ -198,7 +198,7 @@ _This property represents Period of Time during which the Evidence holds true or
 _Norwegian extension: The multiplicity is changed from 0..n to 0..1._
 |===
 
-==== Dokumentasjon –  i samsvar med (dct:conformsTo) [[Dokumentasjon-iSamsvarMed]]
+==== Dokumentasjon –  i samsvar med (dct:conformsTo) [[Dokumentasjon-i-samsvar-med]]
 
 [cols="30s,70d"]
 |===
@@ -246,7 +246,7 @@ _This property represents the Agent that produces the Evidence._
 _Norwegian extension: The multiplicity is changed from 0..n to 0..1._
 |===
 
-==== Dokumentasjon – relatert informasjon (foaf:page) [[Dokumentasjon-relatertInformasjon]]
+==== Dokumentasjon – relatert informasjon (foaf:page) [[Dokumentasjon-relatert-informasjon]]
 
 [cols="30s,70d"]
 |===
@@ -291,7 +291,7 @@ Eksempel i RDF Turtle:
    .
 -----
 
-==== Dokumentasjon – understøtter informasjonsbegrep (cv:supportsConcept) [[Dokumentasjon-understøtterInformasjonsbegrep]]
+==== Dokumentasjon – understøtter informasjonsbegrep (cv:supportsConcept) [[Dokumentasjon-understøtter-informasjonsbegrep]]
 
 [cols="30s,70d"]
 |===
@@ -305,7 +305,7 @@ _This property represents Information Concept providing facts found/inferred fro
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
 |===
 
-==== Dokumentasjon – understøtter krav (cv:supportsRequirement) [[Dokumentasjon-understøtterKrav]]
+==== Dokumentasjon – understøtter krav (cv:supportsRequirement) [[Dokumentasjon-understøtter-krav]]
 
 [cols="30s,70d"]
 |===

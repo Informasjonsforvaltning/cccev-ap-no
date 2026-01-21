@@ -71,7 +71,7 @@ _Norwegian extension: The requirement level changed from optional to recommended
 
 === Valgfrie egenskaper for klassen _Krav_ [[Krav-valgfrie-egenskaper]]
 
-==== Krav – er subkrav av (cv:isRequirementOf) [[Krav-er-krav-til]]
+==== Krav – er subkrav av (cv:isRequirementOf) [[Krav-er-subkrav-av]]
 
 [cols="30s,70d"]
 |===

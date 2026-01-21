@@ -68,7 +68,7 @@ _This property represents a description of the Information Requirement. This pro
 
 === Valgfrie egenskaper for klassen _Informasjonskrav_ [[Informasjonskrav-valgfrie-egenskaper]]
 
-==== Informasjonskrav – er subkrav av (cv:isRequirementOf) [[Informasjonskrav-er-krav-til]]
+==== Informasjonskrav – er subkrav av (cv:isRequirementOf) [[Informasjonskrav-er-subkrav-av]]
 
 [cols="30s,70d"]
 |===
