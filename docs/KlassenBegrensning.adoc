@@ -91,7 +91,7 @@ _This property represents a description of the Constraint. This property SHOULD 
 
 === Valgfrie egenskaper for klassen _Begrensning_ [[Begrensning-valgfrie-egenskaper]]
 
-==== Begrensning – er subkrav av (cv:isRequirementOf) [[Begrensning-er-krav-til]]
+==== Begrensning – er subkrav av (cv:isRequirementOf) [[Begrensning-er-subkrav-av]]
 
 [cols="30s,70d"]
 |===
