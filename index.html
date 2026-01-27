@@ -579,8 +579,8 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#Forenklet-fremstilling">2. Krav til beskrivelse av et krav eller en kravoppfyllelse</a>
 <ul class="sectlevel2">
 <li><a href="#Noen-krav">2.1. Forenklet fremstilling av noen av kravene i CCCEV-AP-NO</a></li>
-<li><a href="#Krav-til-beskrivelse-av-kriterium-informasjonskrav-begrensning">2.2. Krav til beskrivelse av Kriterium, Informasjonskrav og Begrensning</a></li>
-<li><a href="#Krav-til-beskrivelse-av-dokumentasjon">2.3. Krav til beskrivelse av Dokumentasjon av kravoppfyllelse</a></li>
+<li><a href="#Krav-til-beskrivelse-av-kriterium-informasjonskrav-begrensning">2.2. Hva SKAL, BØR og KAN tas med i en beskrivelse av Kriterium, Informasjonskrav og Begrensning?</a></li>
+<li><a href="#Krav-til-beskrivelse-av-dokumentasjon">2.3. Hva SKAL, BØR og KAN tas med i en beskrivelse av Dokumentasjon av kravoppfyllelse</a></li>
 <li><a href="#Illustrativt-eksempel">2.4. Et illustrativt eksempel</a></li>
 </ul>
 </li>
@@ -804,6 +804,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#Spesielle-temaer">4. Noen spesielle temaer</a>
 <ul class="sectlevel2">
 <li><a href="#Å-beskrive-dokumentasjonskrav">4.1. Å beskrive dokumentasjonskrav</a></li>
+<li><a href="#Når-brukes-hva">4.2. Når brukes Kriterium, Informasjonskrav eller Begrensning?</a></li>
 </ul>
 </li>
 <li><a href="#Navnerom">Vedlegg A – Navnerom som er brukt i spesifikasjonen</a></li>
@@ -883,14 +884,14 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="sect2">
 <h3 id="Formål"><a class="link" href="#Formål">1.1. Formål</a></h3>
 <div class="paragraph">
-<p>Formålet med spesifikasjonen er å legge til rette for en felles måte å beskrive krav og dokumentasjon av kravoppfyllese i forbindelse med f.eks. beskrivelse av en tjeneste, og en felles måte å utveksle beskrivelsene.</p>
+<p>Formålet med spesifikasjonen er å legge til rette for en felles måte å beskrive krav og dokumentasjon av kravoppfyllese som en del av f.eks. en tjenestebeskrivelse, og en felles måte å utveksle beskrivelsene.</p>
+</div>
+<div class="paragraph">
+<p>Spesifikasjonen er i utgangspunktet ikke tenkt å brukes alene. Den er ment å brukes f.eks. sammen med <a href="https://data.norge.no/specification/cpsv-ap-no" class="ext-link" target="_blank" rel="noopener">Spesifikasjon for tjeneste- og hendelsesbeskrivelser (CPSV-AP-NO) &#x29C9;</a>, når det er behov for å beskrive, i strukturert og maskinlesbar form, krav og dokumentasjon av kravoppfyllelse til en tjeneste.</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="Omfang-og-avgrensing"><a class="link" href="#Omfang-og-avgrensing">1.2. Omfang og avgrensing</a></h3>
-<div class="paragraph">
-<p>Spesifikasjonen er i utgangspunktet ikke tenkt å brukes alene. Den er ment å brukes f.eks. sammen med <a href="https://data.norge.no/specification/cpsv-ap-no" class="ext-link" target="_blank" rel="noopener">Spesifikasjon for tjeneste- og hendelsesbeskrivelser (CPSV-AP-NO) &#x29C9;</a>, når det er behov for å beskrive, i strukturert form, krav og dokumentasjon av kravoppfyllelse til en tjeneste.</p>
-</div>
 <div class="paragraph">
 <p>Spesifikasjonen er basert EUs <a href="https://github.com/SEMICeu/CCCEV/" class="ext-link" target="_blank" rel="noopener"><em>Core Criterion and Core Evidence Vocabulary (CCCEV)</em> &#x29C9;</a>. Ettersom EUs <a href="https://github.com/SEMICeu/CPSV-AP/" class="ext-link" target="_blank" rel="noopener">Core Public Service Vocabulary Application Profile (CPSV-AP) &#x29C9;</a> bruker deler av CCCEV, baserer denne spesifikasjonen også på CPSV-AP sin måte å bruke CCCEV på.</p>
 </div>
@@ -967,7 +968,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="ulist">
 <ul>
 <li>
-<p><strong>Kriterium</strong> brukes til å oppgi betingelse som må være oppfylt. Eksempel på et kriterium kan være "Vilkår for å inngå ekteskap".</p>
+<p><strong>Kriterium</strong> brukes til å oppgi betingelse som må være oppfylt. Eksempel på et kriterium kan være "Søkeren må ha fylt 18 år".</p>
 </li>
 <li>
 <p><strong>Informasjonbskrav</strong> brukes til å oppgi data som forespøres og som skal dokumentere en eller flere fakta, eller som fører til kilden til slik dokumentasjon. Eksempel på et informasjonskrav kan være "Søkerens alder".</p>
@@ -984,11 +985,14 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </ul>
 </div>
 <div class="paragraph">
-<p>Krav til typer opplysninger som skal SKAL, BØR og KAN tas med i en beskrivelse av et krav eller en dokumentasjon av kravoppfyllelse er nærmere beskrevet i det følgende i dette kapittelet. Krav til hvordan opplysningene skal representeres teknisk i RDF (<a href="https://www.w3.org/RDF/" class="ext-link" target="_blank" rel="noopener">Resource Description Framework &#x29C9;</a>) er spesifisert i <a href="#Spesifikasjon-per-klasse">Kapittel 3, <em>Krav til RDF-representasjon av klassene i CCCEV-AP-NO</em></a>.</p>
+<p>Se ellers <a href="#Når-brukes-hva"> 4.2, &#8220;Når brukes Kriterium, Informasjonskrav eller Begrensning?&#8221;</a> for mer forklaring på når Kriterium, Informasjonskrav eller Begrensning bør brukes.</p>
+</div>
+<div class="paragraph">
+<p>Hvilke typer opplysninger som SKAL (obligatoriske), BØR (anbefalte) og KAN (valgfrie) tas med i en beskrivelse av et krav eller en dokumentasjon av kravoppfyllelse er nærmere spesifisert i det følgende i dette kapittelet. Hvordan opplysningene skal representeres teknisk i RDF (<a href="https://www.w3.org/RDF/" class="ext-link" target="_blank" rel="noopener">Resource Description Framework &#x29C9;</a>) er spesifisert i <a href="#Spesifikasjon-per-klasse">Kapittel 3, <em>Krav til RDF-representasjon av klassene i CCCEV-AP-NO</em></a>.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="Krav-til-beskrivelse-av-kriterium-informasjonskrav-begrensning"><a class="link" href="#Krav-til-beskrivelse-av-kriterium-informasjonskrav-begrensning">2.2. Krav til beskrivelse av Kriterium, Informasjonskrav og Begrensning</a></h3>
+<h3 id="Krav-til-beskrivelse-av-kriterium-informasjonskrav-begrensning"><a class="link" href="#Krav-til-beskrivelse-av-kriterium-informasjonskrav-begrensning">2.2. Hva SKAL, BØR og KAN tas med i en beskrivelse av Kriterium, Informasjonskrav og Begrensning?</a></h3>
 <div class="paragraph">
 <p>For å sikre at Kriterium, Informasjonskrav og Begrensning blir beskrevet på en ensartet måte, inneholder tabellene under krav til hva som SKAL, BØR eller KAN tas med i beskrivelsene. I dette avsnittet brukes ordet "krav" som samlebetegnelse for alle tre typer krav: Kriterium, Informasjonskrav og Begrensning.</p>
 </div>
@@ -1135,7 +1139,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </table>
 </div>
 <div class="sect2">
-<h3 id="Krav-til-beskrivelse-av-dokumentasjon"><a class="link" href="#Krav-til-beskrivelse-av-dokumentasjon">2.3. Krav til beskrivelse av Dokumentasjon av kravoppfyllelse</a></h3>
+<h3 id="Krav-til-beskrivelse-av-dokumentasjon"><a class="link" href="#Krav-til-beskrivelse-av-dokumentasjon">2.3. Hva SKAL, BØR og KAN tas med i en beskrivelse av Dokumentasjon av kravoppfyllelse</a></h3>
 <div class="paragraph">
 <p>For å sikre at Dokumentasjon av kravoppfyllelse blir beskrevet på en ensartet måte, inneholder tabellene under krav til hva som SKAL, BØR eller KAN tas med i beskrivelsene.</p>
 </div>
@@ -5076,6 +5080,12 @@ Som nevnt ovenfor er denne klassen en generisk klasse (også kalt abstrakt klass
 </div>
 </div>
 </div>
+<div class="sect2">
+<h3 id="Når-brukes-hva"><a class="link" href="#Når-brukes-hva">4.2. Når brukes Kriterium, Informasjonskrav eller Begrensning?</a></h3>
+<div class="paragraph">
+<p><em><mark>@@@@@@ her kommer mer forklaring på når de ulike klasser bør brukes</mark></em></p>
+</div>
+</div>
 </div>
 </div>
 <div class="sect1">
@@ -5255,7 +5265,7 @@ Som nevnt ovenfor er denne klassen en generisk klasse (også kalt abstrakt klass
 </div>
 <div id="footer">
 <div id="footer-text">
-Sist oppdatert 2026-01-23 08:12:34 UTC
+Sist oppdatert 2026-01-27 12:54:03 UTC
 </div>
 </div>
 </body>
