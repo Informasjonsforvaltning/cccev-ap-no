@@ -1,0 +1,4 @@
+=== Når brukes Kriterium, Informasjonskrav eller Begrensning? [[Når-brukes-hva]]
+
+_#@@@@@@ her kommer mer forklaring på når de ulike klasser bør brukes#_
+

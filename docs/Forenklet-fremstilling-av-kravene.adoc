@@ -18,16 +18,18 @@ image::images/CCCEV-AP-NO-forenklet-fremstilling.png[alt="Forenklet diagram med 
 Som figuren viser, kan CCCEV-AP-NO brukes til å beskrive
 
 * Krav i form av *Kriterium*, *Informasjonskrav* eller *Begrensning*:
-** *Kriterium* brukes til å oppgi betingelse som må være oppfylt. Eksempel på et kriterium kan være "Vilkår for å inngå ekteskap".
+** *Kriterium* brukes til å oppgi betingelse som må være oppfylt. Eksempel på et kriterium kan være "Søkeren må ha fylt 18 år". 
 ** *Informasjonbskrav* brukes til å oppgi data som forespøres og som skal dokumentere en eller flere fakta, eller som fører til kilden til slik dokumentasjon. Eksempel på et informasjonskrav kan være "Søkerens alder".
 ** *Begrensning* brukes til å oppgi begrensning som gjelder. Eksempel på en begrensning kan være "Minst 18 år gammel".
 * *Dokumentasjon* av kravoppfyllelse: Dokumentasjon brukes til å oppgi dokumentasjon som skal fremlegges for å bevise at et krav er oppfylt. Eksempel på dokumentasjon kan være "Fødselsattest".
 
-Krav til typer opplysninger som skal SKAL, BØR og KAN tas med i en beskrivelse av et krav eller en dokumentasjon av kravoppfyllelse er nærmere beskrevet i det følgende i dette kapittelet. Krav til hvordan opplysningene skal representeres teknisk i RDF (https://www.w3.org/RDF/[Resource Description Framework &#x29C9;, window="_blank", role="ext-link"]) er spesifisert i <<Spesifikasjon-per-klasse>>. 
+Se ellers <<Når-brukes-hva>> for mer forklaring på når Kriterium, Informasjonskrav eller Begrensning bør brukes.
+
+Hvilke typer opplysninger som SKAL (obligatoriske), BØR (anbefalte) og KAN (valgfrie) tas med i en beskrivelse av et krav eller en dokumentasjon av kravoppfyllelse er nærmere spesifisert i det følgende i dette kapittelet. Hvordan opplysningene skal representeres teknisk i RDF (https://www.w3.org/RDF/[Resource Description Framework &#x29C9;, window="_blank", role="ext-link"]) er spesifisert i <<Spesifikasjon-per-klasse>>. 
 
 :xrefstyle: short
 
-=== Krav til beskrivelse av Kriterium, Informasjonskrav og Begrensning [[Krav-til-beskrivelse-av-kriterium-informasjonskrav-begrensning]]
+=== Hva SKAL, BØR og KAN tas med i en beskrivelse av Kriterium, Informasjonskrav og Begrensning? [[Krav-til-beskrivelse-av-kriterium-informasjonskrav-begrensning]]
 For å sikre at Kriterium, Informasjonskrav og Begrensning blir beskrevet på en ensartet måte, inneholder tabellene under krav til hva som SKAL, BØR eller KAN tas med i beskrivelsene. I dette avsnittet brukes ordet "krav" som samlebetegnelse for alle tre typer krav: Kriterium, Informasjonskrav og Begrensning.
 
 [[Tabell-obligatoriske-opplysninger-kriterium-informasjonskrav-begrensning]]
@@ -69,7 +71,7 @@ For å sikre at Kriterium, Informasjonskrav og Begrensning blir beskrevet på en
 | vektingsvurderingsbeskrivelse | Gjelder kun Kriterium. Oppgir en tekstlig forklaring på hvordan vektingen av Kriteriet brukes Kriteriet | <<Kriterium-vektingsvurderingsbeskrivelse>>
 |===
 
-=== Krav til beskrivelse av Dokumentasjon av kravoppfyllelse [[Krav-til-beskrivelse-av-dokumentasjon]]
+=== Hva SKAL, BØR og KAN tas med i en beskrivelse av Dokumentasjon av kravoppfyllelse [[Krav-til-beskrivelse-av-dokumentasjon]]
 For å sikre at Dokumentasjon av kravoppfyllelse blir beskrevet på en ensartet måte, inneholder tabellene under krav til hva som SKAL, BØR eller KAN tas med i beskrivelsene.
 
 [[Tabell-obligatoriske-opplysninger-dokumentasjon]]
