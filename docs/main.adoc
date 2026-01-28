@@ -71,7 +71,7 @@ include::KlassenUnderstøttendeOpplysning.adoc[]
 
 :leveloffset: -1
 
-include::Spesielle-temar.adoc[]
+include::Spesielle-temaer.adoc[]
 
 // Appendix, section number off
 :sectnums!:
