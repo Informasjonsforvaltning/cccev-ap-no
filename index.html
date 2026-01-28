@@ -689,7 +689,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <ul class="sectlevel3">
 <li><a href="#Informasjonsbegrep-obligatoriske-egenskaper">3.5.1. Obligatoriske egenskaper for klassen <em>Informasjonsbegrep</em></a>
 <ul class="sectlevel4">
-<li><a href="#Informasjonsbegrep-uttrykkAvForventetVerdi">Informasjonsbegrep – uttrykk av forventet verdi (cv:expressionOfExpectedValue)</a></li>
+<li><a href="#Informasjonsbegrep-uttrykk-av-forventet-verdi">Informasjonsbegrep – uttrykk av forventet verdi (cv:expressionOfExpectedValue)</a></li>
 </ul>
 </li>
 <li><a href="#Informasjonsbegrep-anbefalte-egenskaper">3.5.2. Anbefalte egenskaper for klassen <em>Informasjonsbegrep</em></a>
@@ -3163,7 +3163,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="sect3">
 <h4 id="Informasjonsbegrep-obligatoriske-egenskaper"><a class="link" href="#Informasjonsbegrep-obligatoriske-egenskaper">3.5.1. Obligatoriske egenskaper for klassen <em>Informasjonsbegrep</em></a></h4>
 <div class="sect4">
-<h5 id="Informasjonsbegrep-uttrykkAvForventetVerdi"><a class="link" href="#Informasjonsbegrep-uttrykkAvForventetVerdi">3.5.1.1. Informasjonsbegrep – uttrykk av forventet verdi (cv:expressionOfExpectedValue)</a></h5>
+<h5 id="Informasjonsbegrep-uttrykk-av-forventet-verdi"><a class="link" href="#Informasjonsbegrep-uttrykk-av-forventet-verdi">3.5.1.1. Informasjonsbegrep – uttrykk av forventet verdi (cv:expressionOfExpectedValue)</a></h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -3362,7 +3362,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Merknad / <em>Note</em></strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">I tillegg til <a href="#Informasjonsbegrep-uttrykkAvForventetVerdi"> 3.5.1.1, &#8220;Informasjonsbegrep – uttrykk av forventet verdi (cv:expressionOfExpectedValue)&#8221;</a>, KAN denne egenskapen brukes til å uttrykke type verdi. Det kan være primitive typer som dato eller tekststreng, men også forretningsmessige domeneterminologier som «alder» eller «antall ansatte». Det anbefales at bruken av denne egenskapen er godt dokumentert.</p>
+<td class="tableblock halign-left valign-top"><p class="tableblock">I tillegg til <a href="#Informasjonsbegrep-uttrykk-av-forventet-verdi"> 3.5.1.1, &#8220;Informasjonsbegrep – uttrykk av forventet verdi (cv:expressionOfExpectedValue)&#8221;</a>, KAN denne egenskapen brukes til å uttrykke type verdi. Det kan være primitive typer som dato eller tekststreng, men også forretningsmessige domeneterminologier som «alder» eller «antall ansatte». Det anbefales at bruken av denne egenskapen er godt dokumentert.</p>
 <p class="tableblock"><em>In addition to the expression of the expected value, the type classification MAY be used to express the kind of value the information concept is processing. This can be primitive types such as a date or a string, but also more business domain terminology such as age or number of employees. It is recommended to well-document the usage of the property.</em></p></td>
 </tr>
 </tbody>
@@ -4956,6 +4956,9 @@ Som nevnt ovenfor er denne klassen en generisk klasse (også kalt abstrakt klass
 <div class="paragraph">
 <p><em>Denne delen er ment for både den ikke-tekniske og den tekniske målgruppen, fortrinnsvis sammen.</em></p>
 </div>
+<div class="paragraph">
+<p><em>Denne delen av spesifikasjonen er ikke-normativ.</em></p>
+</div>
 <div class="sect2">
 <h3 id="Å-beskrive-dokumentasjonskrav"><a class="link" href="#Å-beskrive-dokumentasjonskrav">4.1. Å beskrive dokumentasjonskrav</a></h3>
 <div class="paragraph">
@@ -5083,7 +5086,122 @@ Som nevnt ovenfor er denne klassen en generisk klasse (også kalt abstrakt klass
 <div class="sect2">
 <h3 id="Når-brukes-hva"><a class="link" href="#Når-brukes-hva">4.2. Når brukes Kriterium, Informasjonskrav eller Begrensning?</a></h3>
 <div class="paragraph">
-<p><em><mark>@@@@@@ her kommer mer forklaring på når de ulike klasser bør brukes</mark></em></p>
+<p>Ut fra CCCEV sin beskrivelse av klassene Kriterium (<em>Criterion</em>), Informasjonskrav (<em>Information Requirement</em>) og Begrensning (<em>Constraint</em>), samt eksemplene i CCCEV, kan følgende anses som en god praksis for når de ulike klassene bør brukes:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Kriterium</strong> (<a href="#Kriterium"> 3.8</a>) brukes for å beskrive en eller flere betingelser som må være oppfylt.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Bortsett fra type, bias og relativ vekting, gir ikke klassen Kriterium alene mulighet til i maskinlesbar form å beskrive data som trengs for å evaluere om en betingelse er oppfylt eller ikke. Derfor brukes Kriterium sammen med <strong>Informasjonskrav</strong> for å beskrive de nødvendige dataene.</p>
+</li>
+<li>
+<p>Når det ikke er behov for i maskinlesbar form å beskrive data som trengs for å evaluere om en betingelse er oppfylt eller ikke, kan Kriterium brukes alene, ved å bruke fritekstegenskapene <a href="#Kriterium-navn">navn</a> og <a href="#Kriterium-beskrivelse">beskrivelse</a>. F.eks. navn = "Vilkår for å inngå ekteskap"; beskrivelse = "Den som er under 18 år, kan ikke inngå ekteskap; Ingen kan inngå ekteskap så lenge et tidligere ekteskap eller registrert partnerskap består; &#8230;&#8203;".</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Informasjonskrav</strong> (<a href="#Informasjonskrav"> 3.6</a>) kan brukes
+for å beskrive data som forespørres (f.eks. "Søkerens alder") og som skal brukes til å evaluere om en betingelse er oppfylt eller ikke, eller for å beskrive data som trengs uten at det brukes til noen evalueringer (f.eks. "Søkerens kontaktopplysninger").</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Bortsett fra type, gir ikke klassen Informasjonskrav alene mulighet til i maskinlesbar form å beskrive data som forespørres. Derfor brukes Informasjonskrav sammen med <strong>Informasjonsbegrep</strong> for å beskrive de nødvendige dataene.</p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Informasjonsbegrep</strong> har en egenskap "uttrykk av forventet verdi" (<a href="#Informasjonsbegrep-uttrykk-av-forventet-verdi"> 3.5.1.1</a>) som ifølge CCCEV også kan brukes til å oppgi nedre og øvre grense for den forventede verdien i tillegg til datatype. For å øke maskinlesbar presisjon, anbefales det at den kun brukes til å oppgi forventet datatype, f.eks. datatype "heltall" for Informasjonsbegrepet "Alder (i antall år)". Dersom det er behov for å angi begrensninger i form av f.eks. nedre og øvre grense på en forventet verdi av et Informasjonsbegrep, bør klassen <strong>Begrensning</strong> brukes.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Informasjonskrav kan brukes alene når kravet bare skal beskrives i fritekstform, ved å bruke fritekstegenskapene <a href="#Informasjonskrav-navn">navn</a> og <a href="#Informasjonskrav-beskrivelse">beskrivelse</a>, f.eks. navn = "Krav til søkerens alder" og beskrivelse = "Søkeren skal ha fylt 18 år".</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Begrensning</strong> (<a href="#Begrensning"> 3.1</a>) brukes for å beskrive en begrensning på et Informasjonsbegrep og skal derfor brukes sammen med et Informasjonsbegrep. F.eks. Informasjonsbegrepet "Alder (i antall år)" kan ha en Begrensning som sier "minst 18 år".</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Følgende er et eksempel på bruk av ovennevnte klasser for å beskrive betingelser som må oppfylles, med beskrivelse av data som trengs for å evaluere om betingelsene er oppfylt eller ikke, samt begrensninger på disse dataene. I eksemplet er det også tatt med dokumentasjon som gir kilden til dataene som trengs.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Kriterium</strong>: "Vilkår for å inngå ekteskap"</p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Informasjonskrav</strong> 1: "Søkerens alder"</p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Informasjonsbegrep</strong>: "Alder"</p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Begrensning</strong>: "Søkeren må ha fylt 18 år"</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Dokumentasjon</strong>: "Uttrekk/utskrift fra Folkeregisteret"</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Informasjonskrav</strong> 2: "Søkerens sivilstand"</p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Informasjonsbegrep</strong>: "Sivilstand"</p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Begrensning</strong>: "Søkerens sivilstand kan ikke være &lt;gift&gt;, &lt;separert&gt;, &lt;registrert partner&gt; eller &lt;separert partner&gt;"</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Dokumentasjon</strong>: "Uttrekk/utskrift fra Folkeregisteret"</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Informasjonskrav</strong> 3: &#8230;&#8203;</p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Informasjonsbegrep</strong>: &#8230;&#8203;</p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Begrensning</strong>: &#8230;&#8203;</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Dokumentasjon</strong>: &#8230;&#8203;</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ul>
 </div>
 </div>
 </div>
@@ -5265,7 +5383,7 @@ Som nevnt ovenfor er denne klassen en generisk klasse (også kalt abstrakt klass
 </div>
 <div id="footer">
 <div id="footer-text">
-Sist oppdatert 2026-01-27 12:54:03 UTC
+Sist oppdatert 2026-01-28 14:54:01 UTC
 </div>
 </div>
 </body>

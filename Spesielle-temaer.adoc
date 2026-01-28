@@ -2,6 +2,8 @@
 
 _Denne delen er ment for både den ikke-tekniske og den tekniske målgruppen, fortrinnsvis sammen._
 
+_Denne delen av spesifikasjonen er ikke-normativ._
+
 include::TemaDokumentasjonskrav.adoc[]
 
 include::TemaNårBrukesHva.adoc[]
