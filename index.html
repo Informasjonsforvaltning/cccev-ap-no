@@ -1341,7 +1341,7 @@ Se ellers <a href="#Når-brukes-hva"> 4.2, &#8220;Når brukes Kriterium, Informa
 <p>Kravene i denne delen av spesifikasjonen spesifiserer hvordan beskrivelsene skal representeres i RDF. Hvert krav er spesifisert i en tabell som inneholder syntaks og forklaring. Radene i tabellene er beskrevet nedenfor. Noen tabeller har færre rader. Engelske navn og tekster som er tatt med i tabellene, er ikke alle nødvendigvis ordrette sitater fra engelske kilder. Vi kan ha valgt en annen engelsk tekst til å formidle det samme budskapet, med mindre vi eksplisitt sier at det er et avvik.</p>
 </div>
 <div class="paragraph">
-<p>«Norsk utvidelse» i merknad er endringer som er gjort i denne spesifikasjonen sammenlignet med EUs CCCEV og måten CCCEV er brukt i EUs CPSV-AP. Der det ikke står noe om «norsk utvidelse» i merknad til en egenskap/klasse, er egenskapen/klassen brukt slik den er spesifisert i CCCEV og/eller brukt i CPSV-AP. Der det står «norsk utvidelse» i merknad til en egenskap, er kravet til egenskapen endret (f.eks. med forklaringen noe a la "Kravnivået er endret fra valgfri til anbefalt"), eller at egenskapen ikke er å finne i CCCEV/CPSV-AP (f.eks. med forklaring "Ikke eksplisitt spesifisert i CCCEV/CPSV-AP.").</p>
+<p>«Norsk utvidelse» i merknad er endringer som er gjort i denne spesifikasjonen sammenlignet med EUs CCCEV og måten CCCEV er brukt i EUs CPSV-AP. Der det ikke står noe om «norsk utvidelse» i merknad til en egenskap/klasse, er egenskapen/klassen brukt slik den er spesifisert i CCCEV og/eller brukt i CPSV-AP. Der det står «norsk utvidelse» i merknad til en egenskap, er kravet til egenskapen endret (f.eks. med forklaringen noe a la «Kravnivået er endret fra valgfri til anbefalt»), eller at egenskapen ikke er å finne i CCCEV/CPSV-AP (f.eks. med forklaring «Ikke eksplisitt spesifisert i CCCEV/CPSV-AP.»).</p>
 </div>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
@@ -5725,14 +5725,14 @@ Som nevnt ovenfor er denne klassen en generisk klasse (også kalt abstrakt klass
 <p>Bortsett fra type, bias og relativ vekting, gir ikke klassen Kriterium alene mulighet til i maskinlesbar form å beskrive data som trengs for å evaluere om en betingelse er oppfylt eller ikke. Derfor brukes Kriterium sammen med <strong>Informasjonskrav</strong> for å beskrive de nødvendige dataene.</p>
 </li>
 <li>
-<p>Når det ikke er behov for i maskinlesbar form å beskrive data som trengs for å evaluere om en betingelse er oppfylt eller ikke, kan Kriterium brukes alene, ved å bruke fritekstegenskapene <a href="#Kriterium-navn">navn</a> og <a href="#Kriterium-beskrivelse">beskrivelse</a>. F.eks. navn = "Vilkår for å inngå ekteskap"; beskrivelse = "Den som er under 18 år, kan ikke inngå ekteskap; Ingen kan inngå ekteskap så lenge et tidligere ekteskap eller registrert partnerskap består; &#8230;&#8203;".</p>
+<p>Når det ikke er behov for i maskinlesbar form å beskrive data som trengs for å evaluere om en betingelse er oppfylt eller ikke, kan Kriterium brukes alene, ved å bruke fritekstegenskapene <a href="#Kriterium-navn">navn</a> og <a href="#Kriterium-beskrivelse">beskrivelse</a>. F.eks. navn = «Vilkår for å inngå ekteskap»; beskrivelse = «Den som er under 18 år, kan ikke inngå ekteskap; Ingen kan inngå ekteskap så lenge et tidligere ekteskap eller registrert partnerskap består; &#8230;&#8203;».</p>
 </li>
 </ul>
 </div>
 </li>
 <li>
 <p><strong>Informasjonskrav</strong> (<a href="#Informasjonskrav"> 3.6</a>) kan brukes
-for å beskrive data som forespørres (f.eks. "Søkerens alder") og som skal brukes til å evaluere om en betingelse er oppfylt eller ikke, eller for å beskrive data som trengs uten at det brukes til noen evalueringer (f.eks. "Søkerens kontaktopplysninger").</p>
+for å beskrive data som forespørres (f.eks. «Søkerens alder») og som skal brukes til å evaluere om en betingelse er oppfylt eller ikke, eller for å beskrive data som trengs uten at det brukes til noen evalueringer (f.eks. «Søkerens kontaktopplysninger»).</p>
 <div class="ulist">
 <ul>
 <li>
@@ -5740,19 +5740,19 @@ for å beskrive data som forespørres (f.eks. "Søkerens alder") og som skal bru
 <div class="ulist">
 <ul>
 <li>
-<p><strong>Informasjonsbegrep</strong> har en egenskap "uttrykk av forventet verdi" (<a href="#Informasjonsbegrep-uttrykk-av-forventet-verdi"> 3.5.1.1</a>) som ifølge CCCEV også kan brukes til å oppgi nedre og øvre grense for den forventede verdien i tillegg til datatype. For å øke maskinlesbar presisjon, anbefales det at den kun brukes til å oppgi forventet datatype, f.eks. datatype "heltall" for Informasjonsbegrepet "Alder (i antall år)". Dersom det er behov for å angi begrensninger i form av f.eks. nedre og øvre grense på en forventet verdi av et Informasjonsbegrep, bør klassen <strong>Begrensning</strong> brukes.</p>
+<p><strong>Informasjonsbegrep</strong> har en egenskap «uttrykk av forventet verdi» (<a href="#Informasjonsbegrep-uttrykk-av-forventet-verdi"> 3.5.1.1</a>) som ifølge CCCEV også kan brukes til å oppgi nedre og øvre grense for den forventede verdien i tillegg til datatype. For å øke maskinlesbar presisjon, anbefales det at den kun brukes til å oppgi forventet datatype, f.eks. datatype «heltall» for Informasjonsbegrepet «Alder (i antall år)». Dersom det er behov for å angi begrensninger i form av f.eks. nedre og øvre grense på en forventet verdi av et Informasjonsbegrep, bør klassen <strong>Begrensning</strong> brukes.</p>
 </li>
 </ul>
 </div>
 </li>
 <li>
-<p>Informasjonskrav kan brukes alene når kravet bare skal beskrives i fritekstform, ved å bruke fritekstegenskapene <a href="#Informasjonskrav-navn">navn</a> og <a href="#Informasjonskrav-beskrivelse">beskrivelse</a>, f.eks. navn = "Krav til søkerens alder" og beskrivelse = "Søkeren skal ha fylt 18 år".</p>
+<p>Informasjonskrav kan brukes alene når kravet bare skal beskrives i fritekstform, ved å bruke fritekstegenskapene <a href="#Informasjonskrav-navn">navn</a> og <a href="#Informasjonskrav-beskrivelse">beskrivelse</a>, f.eks. navn = «Krav til søkerens alder» og beskrivelse = «Søkeren skal ha fylt 18 år».</p>
 </li>
 </ul>
 </div>
 </li>
 <li>
-<p><strong>Begrensning</strong> (<a href="#Begrensning"> 3.1</a>) brukes for å beskrive en begrensning på et Informasjonsbegrep og skal derfor brukes sammen med et Informasjonsbegrep. F.eks. Informasjonsbegrepet "Alder (i antall år)" kan ha en Begrensning som sier "minst 18 år".</p>
+<p><strong>Begrensning</strong> (<a href="#Begrensning"> 3.1</a>) brukes for å beskrive en begrensning på et Informasjonsbegrep og skal derfor brukes sammen med et Informasjonsbegrep. F.eks. Informasjonsbegrepet «Alder (i antall år)» kan ha en Begrensning som sier «minst 18 år».</p>
 </li>
 </ul>
 </div>
@@ -5765,45 +5765,45 @@ for å beskrive data som forespørres (f.eks. "Søkerens alder") og som skal bru
 <div class="ulist">
 <ul>
 <li>
-<p><strong>Kriterium</strong>: "Vilkår for å inngå ekteskap"</p>
+<p><strong>Kriterium</strong>: Vilkår for å inngå ekteskap</p>
 <div class="ulist">
 <ul>
 <li>
-<p><strong>Informasjonskrav</strong> 1: "Søkerens alder"</p>
+<p><strong>Informasjonskrav</strong> 1: Søkerens alder</p>
 <div class="ulist">
 <ul>
 <li>
-<p><strong>Informasjonsbegrep</strong>: "Alder"</p>
+<p><strong>Informasjonsbegrep</strong>: Alder</p>
 <div class="ulist">
 <ul>
 <li>
-<p><strong>Begrensning</strong>: "Søkeren må ha fylt 18 år"</p>
+<p><strong>Begrensning</strong>: Søkeren må ha fylt 18 år</p>
 </li>
 </ul>
 </div>
 </li>
 <li>
-<p><strong>Dokumentasjon</strong>: "Uttrekk/utskrift fra Folkeregisteret"</p>
+<p><strong>Dokumentasjon</strong>: Uttrekk/utskrift fra Folkeregisteret</p>
 </li>
 </ul>
 </div>
 </li>
 <li>
-<p><strong>Informasjonskrav</strong> 2: "Søkerens sivilstand"</p>
+<p><strong>Informasjonskrav</strong> 2: Søkerens sivilstand</p>
 <div class="ulist">
 <ul>
 <li>
-<p><strong>Informasjonsbegrep</strong>: "Sivilstand"</p>
+<p><strong>Informasjonsbegrep</strong>: Sivilstand</p>
 <div class="ulist">
 <ul>
 <li>
-<p><strong>Begrensning</strong>: "Søkerens sivilstand kan ikke være &lt;gift&gt;, &lt;separert&gt;, &lt;registrert partner&gt; eller &lt;separert partner&gt;"</p>
+<p><strong>Begrensning</strong>: Søkerens sivilstand kan ikke være &lt;gift&gt;, &lt;separert&gt;, &lt;registrert partner&gt; eller &lt;separert partner&gt;</p>
 </li>
 </ul>
 </div>
 </li>
 <li>
-<p><strong>Dokumentasjon</strong>: "Uttrekk/utskrift fra Folkeregisteret"</p>
+<p><strong>Dokumentasjon</strong>: Uttrekk/utskrift fra Folkeregisteret</p>
 </li>
 </ul>
 </div>
@@ -6013,7 +6013,7 @@ for å beskrive data som forespørres (f.eks. "Søkerens alder") og som skal bru
 </div>
 <div id="footer">
 <div id="footer-text">
-Sist oppdatert 2026-01-29 15:12:50 UTC
+Sist oppdatert 2026-01-29 15:29:09 UTC
 </div>
 </div>
 </body>
