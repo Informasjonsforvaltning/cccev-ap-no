@@ -114,6 +114,6 @@ For å sikre at Dokumentasjon av kravoppfyllelse blir beskrevet på en ensartet 
 
 
 === Et illustrativt eksempel [[Illustrativt-eksempel]]
-:xrefstyle: full
+:xrefstyle: pass:[%l %n %t]
 
 Se under <<Å-beskrive-dokumentasjonskrav>> for et illustrativt eksempel på hvordan CCCEV-AP-NO kan brukes til å beskrive kravene for å kunne utføre utføre tjenesten tjenesten https://www.skatteetaten.no/skjema/provingsattest/[«prøvingsattest» &#x29C9;, window="_blank", role="ext-link"] som Skatteetaten tilbyr.
