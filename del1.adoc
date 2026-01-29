@@ -1,4 +1,4 @@
-== Krav til beskrivelse av krav og kravoppfyllelse [[Forenklet-fremstilling]]
+== Krav til beskrivelse av krav og kravoppfyllelse [[del1]]
 
 _Denne delen av spesifikasjonen er primært ment for den ikke-tekniske målgruppen._ 
 
@@ -8,6 +8,7 @@ _Denne delen av spesifikasjonen er primært ment for den ikke-tekniske målgrupp
 
 <<img-ForenkletModell>> viser en forenklet fremstilling av _noen_ av kravene i CCCEV-AP-NO. 
 
+//:xrefstyle: pass:[%n %t]
 :xrefstyle: full
 
 [[img-ForenkletModell]]
@@ -25,7 +26,7 @@ Som figuren viser, kan CCCEV-AP-NO brukes til å beskrive
 * *Påpkrevd dokumentasjon* brukes til, i «design-time», å oppgi hvilken dokumentasjon som kreves for å oppfylle et krav. Eksempel på en påkrved dokumentasjon kan være «Fødselsattest». Påpkrevd dokumentasjon brukes med andre ord i forbindelse med _beskrivelse_ av en tjeneste, i f.eks. en tjenestekatalog.
 Se ellers <<Når-brukes-hva>> for mer forklaring på når Kriterium, Informasjonskrav eller Begrensning bør brukes.
 
-Hvilke typer opplysninger som SKAL (obligatoriske), BØR (anbefalte) og KAN (valgfrie) tas med i en beskrivelse av et krav eller en dokumentasjon av kravoppfyllelse er nærmere spesifisert i det følgende i dette kapittelet. Hvordan opplysningene skal representeres teknisk i RDF (https://www.w3.org/RDF/[Resource Description Framework &#x29C9;, window="_blank", role="ext-link"]) er spesifisert i <<Spesifikasjon-per-klasse>>. 
+Hvilke typer opplysninger som SKAL (obligatoriske), BØR (anbefalte) og KAN (valgfrie) tas med i en beskrivelse av et krav eller en dokumentasjon av kravoppfyllelse er nærmere spesifisert i det følgende i dette kapittelet. Hvordan opplysningene skal representeres teknisk i RDF (https://www.w3.org/RDF/[Resource Description Framework &#x29C9;, window="_blank", role="ext-link"]) er spesifisert i <<del2>>. 
 
 :xrefstyle: short
 
@@ -114,6 +115,7 @@ For å sikre at Dokumentasjon av kravoppfyllelse blir beskrevet på en ensartet 
 
 
 === Et illustrativt eksempel [[Illustrativt-eksempel]]
-:xrefstyle: pass:[%l %n %t]
+//:xrefstyle: pass:[%n %t]
+:xrefstyle: full
 
 Se under <<Å-beskrive-dokumentasjonskrav>> for et illustrativt eksempel på hvordan CCCEV-AP-NO kan brukes til å beskrive kravene for å kunne utføre utføre tjenesten tjenesten https://www.skatteetaten.no/skjema/provingsattest/[«prøvingsattest» &#x29C9;, window="_blank", role="ext-link"] som Skatteetaten tilbyr.

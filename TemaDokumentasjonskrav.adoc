@@ -89,4 +89,5 @@ Eksemplet i RDF Turtle:
    .
 -----
 
-:xrefstyle: pass:[%l %n %t]
+//:xrefstyle: pass:[%n %t]
+:xrefstyle: full
