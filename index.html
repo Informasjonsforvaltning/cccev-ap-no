@@ -576,7 +576,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#Om-kravene">1.5. Om kravnivåene i spesifikasjonen</a></li>
 </ul>
 </li>
-<li><a href="#Forenklet-fremstilling">2. Krav til beskrivelse av et krav eller en kravoppfyllelse</a>
+<li><a href="#Forenklet-fremstilling">2. Krav til beskrivelse av krav og kravoppfyllelse</a>
 <ul class="sectlevel2">
 <li><a href="#Noen-krav">2.1. Forenklet fremstilling av noen av kravene i CCCEV-AP-NO</a></li>
 <li><a href="#Krav-til-beskrivelse-av-kriterium-informasjonskrav-begrensning">2.2. Hva SKAL, BØR og KAN tas med i en beskrivelse av Kriterium, Informasjonskrav og Begrensning?</a></li>
@@ -769,14 +769,41 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 </ul>
 </li>
-<li><a href="#Referanserammeverk">3.9. Klassen Referanserammeverk (cv:ReferenceFramework)</a>
+<li><a href="#PåkrevdDokumentasjon">3.9. Klassen Påkrevd dokumentasjon (cpsvno:RequiredEvidence)</a>
 <ul class="sectlevel3">
-<li><a href="#Referanserammeverk-obligatoriske-egenskaper">3.9.1. Obligatoriske egenskaper for klassen <em>Referanserammeverk</em></a>
+<li><a href="#PåkrevdDokumentasjon-obligatoriske-egenskaper">3.9.1. Obligatoriske egenskaper for klassen <em>Påkrevd dokumentasjon</em></a>
+<ul class="sectlevel4">
+<li><a href="#PåkrevdDokumentasjon-beskrivelse">Påkrevd dokumentasjon – beskrivelse (dct:description)</a></li>
+<li><a href="#PåkrevdDokumentasjon-navn">Påkrevd dokumentasjon – navn (dct:title)</a></li>
+</ul>
+</li>
+<li><a href="#PåkrevdDokumentasjon-anbefalte-egenskaper">3.9.2. Anbefalte egenskaper for klassen <em>Påkrevd dokumentasjon</em></a>
+<ul class="sectlevel4">
+<li><a href="#PåkrevdDokumentasjon-gyldighetsperiode">Påkrevd dokumentasjon – gyldighetsperiode (cpsvno:validityDuration)</a></li>
+<li><a href="#PåkrevdDokumentasjon-språk">Påkrevd dokumentasjon – språk (dct:language)</a></li>
+</ul>
+</li>
+<li><a href="#PåkrevdDokumentasjon-valgfrie-egenskaper">3.9.3. Valgfrie egenskaper for klassen <em>Påkrevd dokumentasjon</em></a>
+<ul class="sectlevel4">
+<li><a href="#PåkrevdDokumentasjon-er-del-av">Påkrevd dokumentasjon – er del av (dct:isPartOf)</a></li>
+<li><a href="#PåkrevdDokumentasjon-identifikator">Påkrevd dokumentasjon – identifikator (dct:identifier)</a></li>
+<li><a href="#PåkrevdDokumentasjon-i-samsvar-med">Påkrevd dokumentasjon – i samsvar med (dct:conformsTo)</a></li>
+<li><a href="#PåkrevdDokumentasjon-relatertInformasjon">Påkrevd dokumentasjon – relatert informasjon (foaf:page)</a></li>
+<li><a href="#PåkrevdDokumentasjon-type">Påkrevd dokumentasjon – type (dct:type)</a></li>
+<li><a href="#PåkrevdDokumentasjon-understøtter-informasjonsbegrep">Påkrevd dokumentasjon – understøtter informasjonsbegrep (cv:supportsConcept)</a></li>
+<li><a href="#PåkrevdDokumentasjon-understøtter-krav">Påkrevd dokumentasjon – understøtter krav (cv:supportsRequirement)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#Referanserammeverk">3.10. Klassen Referanserammeverk (cv:ReferenceFramework)</a>
+<ul class="sectlevel3">
+<li><a href="#Referanserammeverk-obligatoriske-egenskaper">3.10.1. Obligatoriske egenskaper for klassen <em>Referanserammeverk</em></a>
 <ul class="sectlevel4">
 <li><a href="#Referanserammeverk-identifikator">Referanserammeverk – identifikator (dct:identifier)</a></li>
 </ul>
 </li>
-<li><a href="#Referanserammeverk-anbefalte-egenskaper">3.9.2. Anbefalte egenskaper for klassen <em>Referanserammeverk</em></a>
+<li><a href="#Referanserammeverk-anbefalte-egenskaper">3.10.2. Anbefalte egenskaper for klassen <em>Referanserammeverk</em></a>
 <ul class="sectlevel4">
 <li><a href="#Referanserammeverk-beskrivelse">Referanserammeverk – beskrivelse (dct:description)</a></li>
 <li><a href="#Referanserammeverk-tittel">Referanserammeverk – tittel (dct:title)</a></li>
@@ -784,14 +811,14 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 </ul>
 </li>
-<li><a href="#UnderstøttendeOpplysning">3.10. Klassen Understøttende opplysning (cv:SupportedValue)</a>
+<li><a href="#UnderstøttendeOpplysning">3.11. Klassen Understøttende opplysning (cv:SupportedValue)</a>
 <ul class="sectlevel3">
-<li><a href="#UnderstøttendeOpplysning-obligatoriske-egenskaper">3.10.1. Obligatoriske egenskaper for klassen <em>Understøttende opplysning</em></a>
+<li><a href="#UnderstøttendeOpplysning-obligatoriske-egenskaper">3.11.1. Obligatoriske egenskaper for klassen <em>Understøttende opplysning</em></a>
 <ul class="sectlevel4">
 <li><a href="#UnderstøttendeOpplysning-gir-verdi-for">Understøttende opplysning – gir verdi for (cv:providesValueFor)</a></li>
 </ul>
 </li>
-<li><a href="#UnderstøttendeOpplysning-valgfrie-egenskaper">3.10.2. Valgfrie egenskaper for klassen <em>Understøttende opplysning</em></a>
+<li><a href="#UnderstøttendeOpplysning-valgfrie-egenskaper">3.11.2. Valgfrie egenskaper for klassen <em>Understøttende opplysning</em></a>
 <ul class="sectlevel4">
 <li><a href="#UnderstøttendeOpplysning-spørring">Understøttende opplysning – spørring (cv:query)</a></li>
 <li><a href="#UnderstøttendeOpplysning-verdi">Understøttende opplysning – verdi (cv:value)</a></li>
@@ -921,7 +948,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </ul>
 </div>
 <div class="paragraph">
-<p><a href="#Forenklet-fremstilling">Kapittel 2, <em>Krav til beskrivelse av et krav eller en kravoppfyllelse</em></a> er primært ment for den ikke-tekniske målgruppen, <a href="#Spesifikasjon-per-klasse">Kapittel 3, <em>Krav til RDF-representasjon av klassene i CCCEV-AP-NO</em></a> for den tekniske målgruppen, <a href="#Spesielle-temaer">Kapittel 4, <em>Noen spesielle temaer</em></a> for begge målgrupper og fortrinnsvis sammen.</p>
+<p><a href="#Forenklet-fremstilling">Kapittel 2, <em>Krav til beskrivelse av krav og kravoppfyllelse</em></a> er primært ment for den ikke-tekniske målgruppen, <a href="#Spesifikasjon-per-klasse">Kapittel 3, <em>Krav til RDF-representasjon av klassene i CCCEV-AP-NO</em></a> for den tekniske målgruppen, <a href="#Spesielle-temaer">Kapittel 4, <em>Noen spesielle temaer</em></a> for begge målgrupper og fortrinnsvis sammen.</p>
 </div>
 </div>
 <div class="sect2">
@@ -942,7 +969,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </div>
 </div>
 <div class="sect1">
-<h2 id="Forenklet-fremstilling"><a class="link" href="#Forenklet-fremstilling">2. Krav til beskrivelse av et krav eller en kravoppfyllelse</a></h2>
+<h2 id="Forenklet-fremstilling"><a class="link" href="#Forenklet-fremstilling">2. Krav til beskrivelse av krav og kravoppfyllelse</a></h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p><em>Denne delen av spesifikasjonen er primært ment for den ikke-tekniske målgruppen.</em></p>
@@ -974,7 +1001,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <p><strong>Informasjonbskrav</strong> brukes til å oppgi data som forespøres og som skal dokumentere en eller flere fakta, eller som fører til kilden til slik dokumentasjon. Eksempel på et informasjonskrav kan være "Søkerens alder".</p>
 </li>
 <li>
-<p><strong>Begrensning</strong> brukes til å oppgi begrensning som gjelder. Eksempel på en begrensning kan være "Minst 18 år gammel".</p>
+<p><strong>Begrensning</strong> brukes til å oppgi begrensning som gjelder for data som forespørres. Eksempel på en begrensning kan være "Minst 18 år gammel".</p>
 </li>
 </ul>
 </div>
@@ -994,10 +1021,10 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="sect2">
 <h3 id="Krav-til-beskrivelse-av-kriterium-informasjonskrav-begrensning"><a class="link" href="#Krav-til-beskrivelse-av-kriterium-informasjonskrav-begrensning">2.2. Hva SKAL, BØR og KAN tas med i en beskrivelse av Kriterium, Informasjonskrav og Begrensning?</a></h3>
 <div class="paragraph">
-<p>For å sikre at Kriterium, Informasjonskrav og Begrensning blir beskrevet på en ensartet måte, inneholder tabellene under krav til hva som SKAL, BØR eller KAN tas med i beskrivelsene. I dette avsnittet brukes ordet "krav" som samlebetegnelse for alle tre typer krav: Kriterium, Informasjonskrav og Begrensning.</p>
+<p>For å sikre at <strong>Kriterium</strong>, <strong>Informasjonskrav</strong> og <strong>Begrensning</strong> blir beskrevet på en ensartet måte, inneholder tabellene typer opplysninger som SKAL (obligatoriske), BØR (anbefalte) eller KAN (valgfrie) tas med i beskrivelsene. I dette avsnittet brukes ordet "krav" som samlebetegnelse for alle tre typer krav: Kriterium, Informasjonskrav og Begrensning.</p>
 </div>
 <table id="Tabell-obligatoriske-opplysninger-kriterium-informasjonskrav-begrensning" class="tableblock frame-all grid-all stripes-even stretch">
-<caption class="title">Tabell 1. Obligatoriske opplysningstyper som beskrivelse av Kriterium, Informasjonskrav og Begrensning SKAL inneholde</caption>
+<caption class="title">Tabell 1. Obligatoriske opplysningstyper som en beskrivelse av Kriterium, Informasjonskrav og Begrensning SKAL inneholde</caption>
 <colgroup>
 <col style="width: 20%;">
 <col style="width: 65%;">
@@ -1141,10 +1168,10 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="sect2">
 <h3 id="Krav-til-beskrivelse-av-dokumentasjon"><a class="link" href="#Krav-til-beskrivelse-av-dokumentasjon">2.3. Hva SKAL, BØR og KAN tas med i en beskrivelse av Dokumentasjon av kravoppfyllelse</a></h3>
 <div class="paragraph">
-<p>For å sikre at Dokumentasjon av kravoppfyllelse blir beskrevet på en ensartet måte, inneholder tabellene under krav til hva som SKAL, BØR eller KAN tas med i beskrivelsene.</p>
+<p>For å sikre at Dokumentasjon av kravoppfyllelse blir beskrevet på en ensartet måte, inneholder tabellene typer opplysninger som SKAL (obligatoriske), BØR (anbefalte) eller KAN (valgfrie) tas med i beskrivelsene.</p>
 </div>
 <table id="Tabell-obligatoriske-opplysninger-dokumentasjon" class="tableblock frame-all grid-all stripes-even stretch">
-<caption class="title">Tabell 4. Obligatoriske opplysningstyper som beskrivelse av Dokumentasjon av kravoppfyllelse SKAL inneholde</caption>
+<caption class="title">Tabell 4. Obligatoriske opplysningstyper som en beskrivelse av Dokumentasjon av kravoppfyllelse SKAL inneholde</caption>
 <colgroup>
 <col style="width: 20%;">
 <col style="width: 65%;">
@@ -1292,7 +1319,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <h2 id="Spesifikasjon-per-klasse"><a class="link" href="#Spesifikasjon-per-klasse">3. Krav til RDF-representasjon av klassene i CCCEV-AP-NO</a></h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p><em>Denne delen av spesifikasjonen er primært ment for den tekniske målgruppen.</em></p>
+<p><em>Denne delen av spesifikasjonen er primært ment for den tekniske målgruppen og forutsetter kjennskap til RDF.</em></p>
 </div>
 <div class="paragraph">
 <p><a href="#img-KlasseOversikt">Figur 2</a> viser en visuell oversikt over klassene i CCCEV-AP-NO og relasjoner mellom dem. I figuren er klassene som er spesifisert i <a href="https://data.norge.no/specification/cpsv-ap-no" class="ext-link" target="_blank" rel="noopener">Spesifikasjon for tjeneste- og hendelsesbeskrivelser (CPSV-AP-NO) &#x29C9;</a> og som blir referert til fra denne spesifikasjonen markert med grå bakgrunn.</p>
@@ -4623,12 +4650,611 @@ Som nevnt ovenfor er denne klassen en generisk klasse (også kalt abstrakt klass
 </div>
 </div>
 <div class="sect2">
-<h3 id="Referanserammeverk"><a class="link" href="#Referanserammeverk">3.9. Klassen Referanserammeverk (cv:ReferenceFramework)</a></h3>
+<h3 id="PåkrevdDokumentasjon"><a class="link" href="#PåkrevdDokumentasjon">3.9. Klassen Påkrevd dokumentasjon (cpsvno:RequiredEvidence)</a></h3>
+<div id="img-KlassenPåkrevdDokumentasjon" class="imageblock">
+<div class="content">
+<a class="image" href="images/KlassenPåkrevdDokumentasjon.png"><img src="images/KlassenPåkrevdDokumentasjon.png" alt="UML-diagram med klassen Påkrevd dokumentasjon, dens egenskaper og dens relasjoner til tre andre klasser. Innholdet i diagrammet er forklart i teksten."></a>
+</div>
+<div class="title">Figur 11. Klassen Påkrevd dokumentasjon (cpsvno:RequiredEvidence) og klassene den refererer til.</div>
+</div>
+<table class="tableblock frame-all grid-all stripes-even stretch">
+<colgroup>
+<col style="width: 30%;">
+<col style="width: 70%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong><em>English name</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Required evidence</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Anvendelse / <em>Usage note</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Klassen brukes til å representere dokumentasjon som er påkrevd for å kunne utføre en tjeneste.</p>
+<p class="tableblock"><em>This class is used to represent an evidence that is required in order to execute a service.</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>URI</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cpsvno:RequiredEvidence</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Merknad / <em>Note</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Norsk utvidelse: Ikke eksplisitt spesifisert i CCCEV/CPSV-AP.</p>
+<p class="tableblock"><em>Norwegian extension: Not explicitly specified in CCCEV/CPSV-AP.</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Eksempel</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Firmaattest fra Brønnøysundregistrene (som er påkrevd for tjenesten «Skjenkebevilling (i Brønnøy kommune)»).</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Eksempel i RDF Turtle:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>&lt;påkrevdFirmaattest&gt; a cpsvno:RequiredEvidence ; .</pre>
+</div>
+</div>
+<div class="sect3">
+<h4 id="PåkrevdDokumentasjon-obligatoriske-egenskaper"><a class="link" href="#PåkrevdDokumentasjon-obligatoriske-egenskaper">3.9.1. Obligatoriske egenskaper for klassen <em>Påkrevd dokumentasjon</em></a></h4>
+<div class="sect4">
+<h5 id="PåkrevdDokumentasjon-beskrivelse"><a class="link" href="#PåkrevdDokumentasjon-beskrivelse">3.9.1.1. Påkrevd dokumentasjon – beskrivelse (dct:description)</a></h5>
+<table class="tableblock frame-all grid-all stripes-even stretch">
+<colgroup>
+<col style="width: 30%;">
+<col style="width: 70%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong><em>English name</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>description</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>URI</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">dct:description</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Verdiområde / <em>Range</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">rdf:langString</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Anvendelse / <em>Usage note</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Egenskapen brukes til å oppgi en tekstlig beskrivelse av den påkrevde dokumentasjonen. Egenskapen BØR gjentas når beskrivelsen finnes på flere språk.</p>
+<p class="tableblock"><em>This property represents a free text Description of the required evidence. This property SHOULD be when the description is in parallel languages.</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Multiplisitet / <em>Multiplicity</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1..n</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Kravnivå / <em>Requirement level</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Obligatorisk / <em>Mandatory</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Merknad / <em>Note</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Norsk utvidelse: Ikke eksplisitt spesifisert i CCCEV/CPSV-AP.</p>
+<p class="tableblock"><em>Norwegian extension: Not explicitly specified in CCCEV/CPSV-AP.</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Eksempel</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">«Firmaattest utstedt av Brønnøysundregistrene»</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Eksempel i RDF Turtle:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>&lt;påkrevdFirmaattest&gt; a cpsvno:RequiredEvidence ;
+   dct:description "Firmaattest utstedt av Brønnøysundregistrene"@nb ; .</pre>
+</div>
+</div>
+</div>
+<div class="sect4">
+<h5 id="PåkrevdDokumentasjon-navn"><a class="link" href="#PåkrevdDokumentasjon-navn">3.9.1.2. Påkrevd dokumentasjon – navn (dct:title)</a></h5>
+<table class="tableblock frame-all grid-all stripes-even stretch">
+<colgroup>
+<col style="width: 30%;">
+<col style="width: 70%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong><em>English name</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>name</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>URI</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">dct:title</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Verdiområde / <em>Range</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">rdf:langString</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Anvendelse / <em>Usage note</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Egenskapen brukes til å oppgi navnet til den påkrevde dokumentasjonen. Egenskapen BØR gjentas når navnet finnes på flere språk.</p>
+<p class="tableblock"><em>This property represents the name of the required evidence. This property SHOULD be repeated when the name is in parallel languages.</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Multiplisitet / <em>Multiplicity</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1..n</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Kravnivå / <em>Requirement level</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Obligatorisk / <em>Mandatory</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Merknad / <em>Note</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Norsk utvidelse: Ikke eksplisitt spesifisert i CCCEV/CPSV-AP.</p>
+<p class="tableblock"><em>Norwegian extension: Not explicitly specified in CCCEV/CPSV-AP.</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Eksempel</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">«Firmaattest»</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Eksempel i RDF Turtle:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>&lt;påkrevdFirmaattest&gt; a cpsvno:RequiredEvidence ;
+   dct:title "Firmaattest"@nb ; .</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="PåkrevdDokumentasjon-anbefalte-egenskaper"><a class="link" href="#PåkrevdDokumentasjon-anbefalte-egenskaper">3.9.2. Anbefalte egenskaper for klassen <em>Påkrevd dokumentasjon</em></a></h4>
+<div class="sect4">
+<h5 id="PåkrevdDokumentasjon-gyldighetsperiode"><a class="link" href="#PåkrevdDokumentasjon-gyldighetsperiode">3.9.2.1. Påkrevd dokumentasjon – gyldighetsperiode (cpsvno:validityDuration)</a></h5>
+<table class="tableblock frame-all grid-all stripes-even stretch">
+<colgroup>
+<col style="width: 30%;">
+<col style="width: 70%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong><em>English name</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>validity duration</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>URI</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cpsvno:validityDuration</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Verdiområde / <em>Range</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">xsd:duration</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Anvendelse / <em>Usage note</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Egenskapen brukes til å angi en tidsperiode som den påkrevd dokumentasjonen skal være gyldig innenfor.</p>
+<p class="tableblock"><em>This property represents time duration within which the required evidence must be valid.</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Multiplisitet / <em>Multiplicity</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0..1</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Kravnivå / <em>Requirement level</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Anbefalt / <em>Recommended</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Merknad / <em>Note</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Norsk utvidelse: Ikke eksplisitt spesifisert i CCCEV/CPSV-AP.</p>
+<p class="tableblock"><em>Norwegian extension: Not explicitly specified in CCCEV/CPSV-AP.</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Eksempel</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ikke eldre enn 6 måneder.</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Eksempel i RDF Turtle:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>&lt;påkrevdFirmaattest&gt; a cpsvno:RequiredEvidence ;
+   cpsvno:validityDuration "P6M"^^xsd:duration ; . # 6 måneder</pre>
+</div>
+</div>
+</div>
+<div class="sect4">
+<h5 id="PåkrevdDokumentasjon-språk"><a class="link" href="#PåkrevdDokumentasjon-språk">3.9.2.2. Påkrevd dokumentasjon – språk (dct:language)</a></h5>
+<table class="tableblock frame-all grid-all stripes-even stretch">
+<colgroup>
+<col style="width: 30%;">
+<col style="width: 70%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong><em>English name</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>language</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>URI</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">dct:language</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Verdiområde / <em>Range</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">dct:LinguisticSystem</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Anvendelse / <em>Usage note</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Egenskapen brukes til å oppgi språk som den påkrevde dokumentasjonen skal være på.</p>
+<p class="tableblock"><em>This property is used to specify the language(s) that the required evidence must be written in.</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Multiplisitet / <em>Multiplicity</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0..n</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Kravnivå / <em>Requirement level</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Anbefalt / <em>Recommended</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Merknad 1 / <em>Note 1</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Verdien SKAL velges fra EUs kontrollerte vokabular <a href="https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/language" class="ext-link" target="_blank" rel="noopener">Språk &#x29C9;</a>.</p>
+<p class="tableblock"><em>The value MUST be chosen from EU&#8217;s controlled vocabulary <a href="https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/language" class="ext-link" target="_blank" rel="noopener">Language &#x29C9;</a>.</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Merknad 2 / <em>Note 2</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Norsk utvidelse: Ikke eksplisitt spesifisert i CCCEV/CPSV-AP.</p>
+<p class="tableblock"><em>Norwegian extension: Not explicitly specified in CCCEV/CPSV-AP.</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Eksempel</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Den påkrevd dokumentasjonen må være på norsk eller engelsk.</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Eksempel i RDF Turtle:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>&lt;påkrevdFirmaattest&gt; a cpsvno:RequiredEvidence ;
+   dct:language
+      &lt;https://publications.europa.eu/resource/authority/language/NOR&gt;, # norsk
+      &lt;https://publications.europa.eu/resource/authority/language/ENG&gt;; # engelsk
+   .</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="PåkrevdDokumentasjon-valgfrie-egenskaper"><a class="link" href="#PåkrevdDokumentasjon-valgfrie-egenskaper">3.9.3. Valgfrie egenskaper for klassen <em>Påkrevd dokumentasjon</em></a></h4>
+<div class="sect4">
+<h5 id="PåkrevdDokumentasjon-er-del-av"><a class="link" href="#PåkrevdDokumentasjon-er-del-av">3.9.3.1. Påkrevd dokumentasjon – er del av (dct:isPartOf)</a></h5>
+<table class="tableblock frame-all grid-all stripes-even stretch">
+<colgroup>
+<col style="width: 30%;">
+<col style="width: 70%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong><em>English name</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>is part of</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>URI</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">dct:isPartOf</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Verdiområde / <em>Range</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://informasjonsforvaltning.github.io/dcat-ap-no/#Datasett" class="ext-link" target="_blank" rel="noopener">dcat:Dataset &#x29C9;</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Anvendelse / <em>Usage note</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Egenskapen brukes til å referere til et datasett som den påkrevde dokumentasjonen fysisk eller logisk kan være inkludert i.</p>
+<p class="tableblock"><em>This property is used to refer to a dataset in which the required evidence may  physically or logically be included.</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Multiplisitet / <em>Multiplicity</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0..n</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Kravnivå / <em>Requirement level</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Valgfri / <em>Optional</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Merknad / <em>Note</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Norsk utvidelse: Ikke eksplisitt spesifisert i CCCEV/CPSV-AP.</p>
+<p class="tableblock"><em>Norwegian extension: Not explicitly specified in CCCEV/CPSV-AP.</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Eksempel</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Firmaattest kan hentes fra (dermed er en del av) Foretaksregisteret.</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Eksempel i RDF Turtle:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>&lt;påkrevdFirmaattest&gt; a cpsvno:RequiredEvidence ;
+   dct:isPartOf &lt;foretaksregisteret&gt; .</pre>
+</div>
+</div>
+</div>
+<div class="sect4">
+<h5 id="PåkrevdDokumentasjon-identifikator"><a class="link" href="#PåkrevdDokumentasjon-identifikator">3.9.3.2. Påkrevd dokumentasjon – identifikator (dct:identifier)</a></h5>
+<table class="tableblock frame-all grid-all stripes-even stretch">
+<colgroup>
+<col style="width: 30%;">
+<col style="width: 70%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong><em>English name</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>identifier</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>URI</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">dct:identifier</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Verdiområde / <em>Range</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">rdfs:Literal</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Anvendelse / <em>Usage note</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Egenskapen brukes til å oppgi identifikatoren til den påkrevde dokumentasjonen som beskrives.</p>
+<p class="tableblock"><em>This property represents an identifier for the required evidence that is descibed.</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Multiplisitet / <em>Multiplicity</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0..1</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Kravnivå / <em>Requirement level</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Valgfri / <em>Optional</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Merknad / <em>Note</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Norsk utvidelse: Ikke eksplisitt spesifisert i CCCEV/CPSV-AP.</p>
+<p class="tableblock"><em>Norwegian extension: Not explicitly specified in CCCEV/CPSV-AP.</em></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect4">
+<h5 id="PåkrevdDokumentasjon-i-samsvar-med"><a class="link" href="#PåkrevdDokumentasjon-i-samsvar-med">3.9.3.3. Påkrevd dokumentasjon – i samsvar med (dct:conformsTo)</a></h5>
+<table class="tableblock frame-all grid-all stripes-even stretch">
+<colgroup>
+<col style="width: 30%;">
+<col style="width: 70%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong><em>English name</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>is conformant to</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>URI</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">dct:conformsTo</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Verdiområde / <em>Range</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Dokumentasjonstype">cv:EvidenceType</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Anvendelse / <em>Usage note</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Egenskapen brukes til å oppgi dokumentasjonstypen som den påkrevde dokumentasjonen skal være i samsvar med.</p>
+<p class="tableblock"><em>This property represents the evidence type that the required evidence must conform to.</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Multiplisitet / <em>Multiplicity</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0..n</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Kravnivå / <em>Requirement level</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Valgfri / <em>Optional</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Merknad / <em>Note</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Norsk utvidelse: Ikke eksplisitt spesifisert i CCCEV/CPSV-AP.</p>
+<p class="tableblock"><em>Norwegian extension: Not explicitly specified in CCCEV/CPSV-AP.</em></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect4">
+<h5 id="PåkrevdDokumentasjon-relatertInformasjon"><a class="link" href="#PåkrevdDokumentasjon-relatertInformasjon">3.9.3.4. Påkrevd dokumentasjon – relatert informasjon (foaf:page)</a></h5>
+<table class="tableblock frame-all grid-all stripes-even stretch">
+<colgroup>
+<col style="width: 30%;">
+<col style="width: 70%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong><em>English name</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>related documentation</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>URI</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">foaf:page</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Verdiområde / <em>Range</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">foaf:Document</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Anvendelse / <em>Usage note</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Egenskapen brukes til å referere til mer informasjon om den påkrevde dokumentasjonen, f.eks. en bestemt mal til dokumentasjonen eller en veiledning for hvordan man skal formatere dokumentasjonen.</p>
+<p class="tableblock"><em>This property represents documentation that contains information related to the required evidence, for instance a particular template for the require evidence or a guide on formatting the evidence.</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Multiplisitet / <em>Multiplicity</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0..n</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Kravnivå / <em>Requirement level</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Valgfri / <em>Optional</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Merknad / <em>Note</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Norsk utvidelse: Ikke eksplisitt spesifisert i CCCEV/CPSV-AP.</p>
+<p class="tableblock"><em>Norwegian extension: Not explicitly specified in CCCEV/CPSV-AP.</em></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect4">
+<h5 id="PåkrevdDokumentasjon-type"><a class="link" href="#PåkrevdDokumentasjon-type">3.9.3.5. Påkrevd dokumentasjon – type (dct:type)</a></h5>
+<table class="tableblock frame-all grid-all stripes-even stretch">
+<colgroup>
+<col style="width: 30%;">
+<col style="width: 70%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong><em>English name</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>type</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>URI</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">dct:type</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Verdiområde / <em>Range</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">skos:Concept</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Anvendelse / <em>Usage note</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Egenskapen brukes til å referere til begrepet som representerer typen dokumentasjonen tilhører.</p>
+<p class="tableblock"><em>This property represents the type of Evidence as described in a controlled vocabulary.</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Multiplisitet / <em>Multiplicity</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0..1</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Kravnivå / <em>Requirement level</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Valgfri / <em>Optional</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Merknad 1 / <em>Note 1</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Verdien SKAL velges fra kontrollerte vokabular <a href="https://data.norge.no/vocabulary/evidence-type" class="ext-link" target="_blank" rel="noopener">Dokumentasjonstype &#x29C9;</a>, når verdien finnes på listen.</p>
+<p class="tableblock"><em>The value MUST be chosen from the controlled vocabulary <a href="https://data.norge.no/vocabulary/evidence-type" class="ext-link" target="_blank" rel="noopener">Evidence type &#x29C9;</a>, when the value is in the vocabulary.</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Merknad 2 / <em>Note 2</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Norsk utvidelse: Ikke eksplisitt spesifisert i CCCEV/CPSV-AP.</p>
+<p class="tableblock"><em>Norwegian extension: Not explicitly specified in CCCEV/CPSV-AP.</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Eksempel</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Den påkrevde «Firmaattest» er av type «attest»</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Eksempel i RDF Turtle:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>&lt;påkrevdFirmaattest&gt; a cpsvno:RequiredEvidence ;
+   dct:type &lt;https://data.norge.no/vocabulary/evidence-type#attestation&gt; ; # attest
+   .</pre>
+</div>
+</div>
+</div>
+<div class="sect4">
+<h5 id="PåkrevdDokumentasjon-understøtter-informasjonsbegrep"><a class="link" href="#PåkrevdDokumentasjon-understøtter-informasjonsbegrep">3.9.3.6. Påkrevd dokumentasjon – understøtter informasjonsbegrep (cv:supportsConcept)</a></h5>
+<table class="tableblock frame-all grid-all stripes-even stretch">
+<colgroup>
+<col style="width: 30%;">
+<col style="width: 70%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong><em>English name</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>supports concept</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>URI</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cv:supportsConcept</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Verdiområde / <em>Range</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Informasjonsbegrep">cv:InformationConcept</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Anvendelse / <em>Usage note</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Egenskapen brukes til å referere til informasjonsbegrep som gir fakta funnet eller utledet fra den påkrevde dokumentasjonen.</p>
+<p class="tableblock"><em>This property represents Information Concept providing facts found/inferred from the Required Evidence.</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Multiplisitet / <em>Multiplicity</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0..n</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Kravnivå / <em>Requirement level</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Valgfri / <em>Optional</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Merknad / <em>Note</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Norsk utvidelse: Ikke eksplisitt spesifisert i CCCEV/CPSV-AP.</p>
+<p class="tableblock"><em>Norwegian extension: Not explicitly specified in CCCEV/CPSV-AP.</em></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect4">
+<h5 id="PåkrevdDokumentasjon-understøtter-krav"><a class="link" href="#PåkrevdDokumentasjon-understøtter-krav">3.9.3.7. Påkrevd dokumentasjon – understøtter krav (cv:supportsRequirement)</a></h5>
+<table class="tableblock frame-all grid-all stripes-even stretch">
+<colgroup>
+<col style="width: 30%;">
+<col style="width: 70%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong><em>English name</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>supports requirement</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>URI</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cv:supportsRequirement</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Verdiområde / <em>Range</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Krav">cv:Requirement</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Anvendelse / <em>Usage note</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Egenskapen brukes til å referere til krav som dokumentasjonen understøtter.</p>
+<p class="tableblock"><em>This property is used to refer to the requirement that the evidence supports.</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Multiplisitet / <em>Multiplicity</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0..n</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Kravnivå / <em>Requirement level</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Valgfri / <em>Optional</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Merknad / <em>Note</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Norsk utvidelse: Ikke eksplisitt spesifisert i CCCEV/CPSV-AP.</p>
+<p class="tableblock"><em>Norwegian extension: Not explicitly specified in CCCEV/CPSV-AP.</em></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="Referanserammeverk"><a class="link" href="#Referanserammeverk">3.10. Klassen Referanserammeverk (cv:ReferenceFramework)</a></h3>
 <div id="img-KlassenReferanserammeverk" class="imageblock">
 <div class="content">
 <a class="image" href="images/KlassenReferanserammeverk.png"><img src="images/KlassenReferanserammeverk.png" alt="UML-diagram med klassen Referanserammeverk og dens egenskaper. Innholdet i diagrammet er forklart i teksten."></a>
 </div>
-<div class="title">Figur 11. Klassen Referanserammeverk (cv:ReferenceFramework).</div>
+<div class="title">Figur 12. Klassen Referanserammeverk (cv:ReferenceFramework).</div>
 </div>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
@@ -4664,9 +5290,9 @@ Som nevnt ovenfor er denne klassen en generisk klasse (også kalt abstrakt klass
 <p>Eksempel i RDF Turtle: Se under <a href="#Å-beskrive-dokumentasjonskrav"> 4.1, &#8220;Å beskrive dokumentasjonskrav&#8221;</a>.</p>
 </div>
 <div class="sect3">
-<h4 id="Referanserammeverk-obligatoriske-egenskaper"><a class="link" href="#Referanserammeverk-obligatoriske-egenskaper">3.9.1. Obligatoriske egenskaper for klassen <em>Referanserammeverk</em></a></h4>
+<h4 id="Referanserammeverk-obligatoriske-egenskaper"><a class="link" href="#Referanserammeverk-obligatoriske-egenskaper">3.10.1. Obligatoriske egenskaper for klassen <em>Referanserammeverk</em></a></h4>
 <div class="sect4">
-<h5 id="Referanserammeverk-identifikator"><a class="link" href="#Referanserammeverk-identifikator">3.9.1.1. Referanserammeverk – identifikator (dct:identifier)</a></h5>
+<h5 id="Referanserammeverk-identifikator"><a class="link" href="#Referanserammeverk-identifikator">3.10.1.1. Referanserammeverk – identifikator (dct:identifier)</a></h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4708,9 +5334,9 @@ Som nevnt ovenfor er denne klassen en generisk klasse (også kalt abstrakt klass
 </div>
 </div>
 <div class="sect3">
-<h4 id="Referanserammeverk-anbefalte-egenskaper"><a class="link" href="#Referanserammeverk-anbefalte-egenskaper">3.9.2. Anbefalte egenskaper for klassen <em>Referanserammeverk</em></a></h4>
+<h4 id="Referanserammeverk-anbefalte-egenskaper"><a class="link" href="#Referanserammeverk-anbefalte-egenskaper">3.10.2. Anbefalte egenskaper for klassen <em>Referanserammeverk</em></a></h4>
 <div class="sect4">
-<h5 id="Referanserammeverk-beskrivelse"><a class="link" href="#Referanserammeverk-beskrivelse">3.9.2.1. Referanserammeverk – beskrivelse (dct:description)</a></h5>
+<h5 id="Referanserammeverk-beskrivelse"><a class="link" href="#Referanserammeverk-beskrivelse">3.10.2.1. Referanserammeverk – beskrivelse (dct:description)</a></h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4747,7 +5373,7 @@ Som nevnt ovenfor er denne klassen en generisk klasse (også kalt abstrakt klass
 </table>
 </div>
 <div class="sect4">
-<h5 id="Referanserammeverk-tittel"><a class="link" href="#Referanserammeverk-tittel">3.9.2.2. Referanserammeverk – tittel (dct:title)</a></h5>
+<h5 id="Referanserammeverk-tittel"><a class="link" href="#Referanserammeverk-tittel">3.10.2.2. Referanserammeverk – tittel (dct:title)</a></h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4790,12 +5416,12 @@ Som nevnt ovenfor er denne klassen en generisk klasse (også kalt abstrakt klass
 </div>
 </div>
 <div class="sect2">
-<h3 id="UnderstøttendeOpplysning"><a class="link" href="#UnderstøttendeOpplysning">3.10. Klassen Understøttende opplysning (cv:SupportedValue)</a></h3>
+<h3 id="UnderstøttendeOpplysning"><a class="link" href="#UnderstøttendeOpplysning">3.11. Klassen Understøttende opplysning (cv:SupportedValue)</a></h3>
 <div id="img-KlassenUnderstøttendeOpplysning" class="imageblock">
 <div class="content">
 <a class="image" href="images/KlassenUnderstøttendeOpplysning.png"><img src="images/KlassenUnderstøttendeOpplysning.png" alt="UML-diagram med klassen Understøttende opplysning, dens egenskaper og dens relasjon til en annen klasse. Innholdet i diagrammet er forklart i teksten."></a>
 </div>
-<div class="title">Figur 12. Klassen Understøttende opplysning (cv:SupportedValue) og klassen den refererer til.</div>
+<div class="title">Figur 13. Klassen Understøttende opplysning (cv:SupportedValue) og klassen den refererer til.</div>
 </div>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
@@ -4819,9 +5445,9 @@ Som nevnt ovenfor er denne klassen en generisk klasse (også kalt abstrakt klass
 </tbody>
 </table>
 <div class="sect3">
-<h4 id="UnderstøttendeOpplysning-obligatoriske-egenskaper"><a class="link" href="#UnderstøttendeOpplysning-obligatoriske-egenskaper">3.10.1. Obligatoriske egenskaper for klassen <em>Understøttende opplysning</em></a></h4>
+<h4 id="UnderstøttendeOpplysning-obligatoriske-egenskaper"><a class="link" href="#UnderstøttendeOpplysning-obligatoriske-egenskaper">3.11.1. Obligatoriske egenskaper for klassen <em>Understøttende opplysning</em></a></h4>
 <div class="sect4">
-<h5 id="UnderstøttendeOpplysning-gir-verdi-for"><a class="link" href="#UnderstøttendeOpplysning-gir-verdi-for">3.10.1.1. Understøttende opplysning – gir verdi for (cv:providesValueFor)</a></h5>
+<h5 id="UnderstøttendeOpplysning-gir-verdi-for"><a class="link" href="#UnderstøttendeOpplysning-gir-verdi-for">3.11.1.1. Understøttende opplysning – gir verdi for (cv:providesValueFor)</a></h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4863,9 +5489,9 @@ Som nevnt ovenfor er denne klassen en generisk klasse (også kalt abstrakt klass
 </div>
 </div>
 <div class="sect3">
-<h4 id="UnderstøttendeOpplysning-valgfrie-egenskaper"><a class="link" href="#UnderstøttendeOpplysning-valgfrie-egenskaper">3.10.2. Valgfrie egenskaper for klassen <em>Understøttende opplysning</em></a></h4>
+<h4 id="UnderstøttendeOpplysning-valgfrie-egenskaper"><a class="link" href="#UnderstøttendeOpplysning-valgfrie-egenskaper">3.11.2. Valgfrie egenskaper for klassen <em>Understøttende opplysning</em></a></h4>
 <div class="sect4">
-<h5 id="UnderstøttendeOpplysning-spørring"><a class="link" href="#UnderstøttendeOpplysning-spørring">3.10.2.1. Understøttende opplysning – spørring (cv:query)</a></h5>
+<h5 id="UnderstøttendeOpplysning-spørring"><a class="link" href="#UnderstøttendeOpplysning-spørring">3.11.2.1. Understøttende opplysning – spørring (cv:query)</a></h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4906,7 +5532,7 @@ Som nevnt ovenfor er denne klassen en generisk klasse (også kalt abstrakt klass
 </table>
 </div>
 <div class="sect4">
-<h5 id="UnderstøttendeOpplysning-verdi"><a class="link" href="#UnderstøttendeOpplysning-verdi">3.10.2.2. Understøttende opplysning – verdi (cv:value)</a></h5>
+<h5 id="UnderstøttendeOpplysning-verdi"><a class="link" href="#UnderstøttendeOpplysning-verdi">3.11.2.2. Understøttende opplysning – verdi (cv:value)</a></h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4968,13 +5594,13 @@ Som nevnt ovenfor er denne klassen en generisk klasse (også kalt abstrakt klass
 <div class="content">
 <a class="image" href="images/FigurEksempelDokumentasjonskrav.png"><img src="images/FigurEksempelDokumentasjonskrav.png" alt="RDF-graf med ni RDF-noder og relasjoner imellom nodene. Innholdet i grafen er forklart i teksten."></a>
 </div>
-<div class="title">Figur 13. Eksempel - beskrivelse av «alderskrav» til tjenesten «prøvingsattest».</div>
+<div class="title">Figur 14. Eksempel - beskrivelse av «alderskrav» til tjenesten «prøvingsattest».</div>
 </div>
 <div class="paragraph">
-<p><a href="#img-FigurEksempelDokumentasjonskrav">Figur 13</a> Viser et eksempel på å beskrive et av kravene som skal oppfylles for å kunne utføre tjenesten <a href="https://www.skatteetaten.no/skjema/provingsattest/" class="ext-link" target="_blank" rel="noopener">«prøvingsattest» &#x29C9;</a> som Skatteetaten tilbyr.</p>
+<p><a href="#img-FigurEksempelDokumentasjonskrav">Figur 14</a> Viser et eksempel på å beskrive et av kravene som skal oppfylles for å kunne utføre tjenesten <a href="https://www.skatteetaten.no/skjema/provingsattest/" class="ext-link" target="_blank" rel="noopener">«prøvingsattest» &#x29C9;</a> som Skatteetaten tilbyr.</p>
 </div>
 <div class="paragraph">
-<p><a href="#img-FigurEksempelDokumentasjonskrav">Figur 13</a> forklares som følger (numrene refererer til de samme numrene i figuren):</p>
+<p><a href="#img-FigurEksempelDokumentasjonskrav">Figur 14</a> forklares som følger (numrene refererer til de samme numrene i figuren):</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
@@ -5014,13 +5640,13 @@ Som nevnt ovenfor er denne klassen en generisk klasse (også kalt abstrakt klass
 </ol>
 </div>
 <div class="paragraph">
-<p>Som illustrert i <a href="#img-FigurEksempelDokumentasjonskrav2">Figur 14</a>, er det også mulig å knytte kravene illustrert i eksemplet ovenfor, til aktuell lovgivning: «Vilkår for å inngå ekteskap» er utledet fra kapittel 1 i ekteskapsloven, og «Alderskrav» og begrensningen «Ikke under 18 år» er utledet fra §1a i ekteskapsloven.</p>
+<p>Som illustrert i <a href="#img-FigurEksempelDokumentasjonskrav2">Figur 15</a>, er det også mulig å knytte kravene illustrert i eksemplet ovenfor, til aktuell lovgivning: «Vilkår for å inngå ekteskap» er utledet fra kapittel 1 i ekteskapsloven, og «Alderskrav» og begrensningen «Ikke under 18 år» er utledet fra §1a i ekteskapsloven.</p>
 </div>
 <div id="img-FigurEksempelDokumentasjonskrav2" class="imageblock">
 <div class="content">
 <a class="image" href="images/FigurEksempelDokumentasjonskrav2.png"><img src="images/FigurEksempelDokumentasjonskrav2.png" alt="RDF-graf med seks noder og relasjoner imellom nodene. Innholdet i grafen er forklart i teksten."></a>
 </div>
-<div class="title">Figur 14. Eksempel på å knytte dokumentasjonskrav til lovgivning.</div>
+<div class="title">Figur 15. Eksempel på å knytte dokumentasjonskrav til lovgivning.</div>
 </div>
 <div class="paragraph">
 <p>Eksemplet i RDF Turtle:</p>
@@ -5383,7 +6009,7 @@ for å beskrive data som forespørres (f.eks. "Søkerens alder") og som skal bru
 </div>
 <div id="footer">
 <div id="footer-text">
-Sist oppdatert 2026-01-28 14:54:01 UTC
+Sist oppdatert 2026-01-29 13:56:14 UTC
 </div>
 </div>
 </body>
