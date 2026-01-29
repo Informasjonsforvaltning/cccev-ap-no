@@ -2,7 +2,7 @@
 
 === Formål [[Formål]]
 
-:xrefstyle: full
+:xrefstyle: pass:[%l %n %t]
 
 Formålet med spesifikasjonen er å legge til rette for en felles måte å beskrive krav og dokumentasjon av kravoppfyllese som en del av f.eks. en tjenestebeskrivelse, og en felles måte å utveksle beskrivelsene.  
 
