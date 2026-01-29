@@ -18,11 +18,11 @@ image::images/CCCEV-AP-NO-forenklet-fremstilling.png[alt="Forenklet diagram med 
 Som figuren viser, kan CCCEV-AP-NO brukes til å beskrive
 
 * Krav i form av *Kriterium*, *Informasjonskrav* eller *Begrensning*:
-** *Kriterium* brukes til å oppgi betingelse som må være oppfylt. Eksempel på et kriterium kan være "Søkeren må ha fylt 18 år". 
-** *Informasjonbskrav* brukes til å oppgi data som forespøres og som skal dokumentere en eller flere fakta, eller som fører til kilden til slik dokumentasjon. Eksempel på et informasjonskrav kan være "Søkerens alder".
-** *Begrensning* brukes til å oppgi begrensning som gjelder for data som forespørres. Eksempel på en begrensning kan være "Minst 18 år gammel".
-* *Dokumentasjon* av kravoppfyllelse: Dokumentasjon brukes til å oppgi dokumentasjon som skal fremlegges for å bevise at et krav er oppfylt. Eksempel på dokumentasjon kan være "Fødselsattest".
-
+** *Kriterium* brukes til å oppgi betingelse som må være oppfylt. Eksempel på et kriterium kan være «Søkeren må ha fylt 18 år». 
+** *Informasjonbskrav* brukes til å oppgi data som forespøres og som skal dokumentere en eller flere fakta, eller som fører til kilden til slik dokumentasjon. Eksempel på et informasjonskrav kan være «Søkerens alder».
+** *Begrensning* brukes til å oppgi begrensning som gjelder for data som forespørres. Eksempel på en begrensning kan være «Minst 18 år gammel».
+* *Dokumentasjon* brukes til, i «run-time», å oppgi den _faktiske_ dokumentasjonen som er fremlagt og som er brukt til å evaluere om et krav er oppfylt eller ikke. Eksempel på en faktisk dokumentasjon kan være «Fødselsattest til Ola Nordmann». Dokumentasjon brukes med andre ord i forbindelse med _utførelsen_ av en tjeneste, i f.eks. en saksbehandlings- eller arkiveringsapplikasjon.
+* *Påpkrevd dokumentasjon* brukes til, i «design-time», å oppgi hvilken dokumentasjon som kreves for å oppfylle et krav. Eksempel på en påkrved dokumentasjon kan være «Fødselsattest». Påpkrevd dokumentasjon brukes med andre ord i forbindelse med _beskrivelse_ av en tjeneste, i f.eks. en tjenestekatalog.
 Se ellers <<Når-brukes-hva>> for mer forklaring på når Kriterium, Informasjonskrav eller Begrensning bør brukes.
 
 Hvilke typer opplysninger som SKAL (obligatoriske), BØR (anbefalte) og KAN (valgfrie) tas med i en beskrivelse av et krav eller en dokumentasjon av kravoppfyllelse er nærmere spesifisert i det følgende i dette kapittelet. Hvordan opplysningene skal representeres teknisk i RDF (https://www.w3.org/RDF/[Resource Description Framework &#x29C9;, window="_blank", role="ext-link"]) er spesifisert i <<Spesifikasjon-per-klasse>>. 
@@ -30,7 +30,7 @@ Hvilke typer opplysninger som SKAL (obligatoriske), BØR (anbefalte) og KAN (val
 :xrefstyle: short
 
 === Hva SKAL, BØR og KAN tas med i en beskrivelse av Kriterium, Informasjonskrav og Begrensning? [[Krav-til-beskrivelse-av-kriterium-informasjonskrav-begrensning]]
-For å sikre at *Kriterium*, *Informasjonskrav* og *Begrensning* blir beskrevet på en ensartet måte, inneholder tabellene typer opplysninger som SKAL (obligatoriske), BØR (anbefalte) eller KAN (valgfrie) tas med i beskrivelsene. I dette avsnittet brukes ordet "krav" som samlebetegnelse for alle tre typer krav: Kriterium, Informasjonskrav og Begrensning.
+For å sikre at *Kriterium*, *Informasjonskrav* og *Begrensning* blir beskrevet på en ensartet måte, inneholder tabellene typer opplysninger som SKAL (obligatoriske), BØR (anbefalte) eller KAN (valgfrie) tas med i beskrivelsene. I dette avsnittet brukes ordet «krav» som samlebetegnelse for alle tre typer krav: Kriterium, Informasjonskrav og Begrensning.
 
 [[Tabell-obligatoriske-opplysninger-kriterium-informasjonskrav-begrensning]]
 .Obligatoriske opplysningstyper som en beskrivelse av Kriterium, Informasjonskrav og Begrensning SKAL inneholde

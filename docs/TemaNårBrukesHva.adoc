@@ -18,6 +18,8 @@ for å beskrive data som forespørres (f.eks. "Søkerens alder") og som skal bru
 
 :xrefstyle: full
 
+__#@@@@@@ Eksemplet under dekker ikke ennå bruk av Påpkrevd dokumentasjon #@@@@@@__
+
 Følgende er et eksempel på bruk av ovennevnte klasser for å beskrive betingelser som må oppfylles, med beskrivelse av data som trengs for å evaluere om betingelsene er oppfylt eller ikke, samt begrensninger på disse dataene. I eksemplet er det også tatt med dokumentasjon som gir kilden til dataene som trengs.
 
 * *Kriterium*: "Vilkår for å inngå ekteskap"
