@@ -2,7 +2,8 @@
 
 === Formål [[Formål]]
 
-:xrefstyle: pass:[%l %n %t]
+//:xrefstyle: pass:[%n %t]
+:xrefstyle: full
 
 Formålet med spesifikasjonen er å legge til rette for en felles måte å beskrive krav og dokumentasjon av kravoppfyllese som en del av f.eks. en tjenestebeskrivelse, og en felles måte å utveksle beskrivelsene.  
 
@@ -24,7 +25,7 @@ Spesifikasjonen har ikke sluttbrukere av tjenester som sin målgruppe, men
 * deg som søker etter og ønsker å gjenbruke / sette sammen tjenester fra andre virksomheter
 * deg som skal utvikle/tilpasse verktøystøtte for ovennevnte beskrivelser og/eller for tilgjengeliggjøring/utveksling av beskrivelsene
 
-<<Forenklet-fremstilling>> er primært ment for den ikke-tekniske målgruppen, <<Spesifikasjon-per-klasse>> for den tekniske målgruppen, <<Spesielle-temaer>> for begge målgrupper og fortrinnsvis sammen. 
+<<del1>> er primært ment for den ikke-tekniske målgruppen, <<del2>> for den tekniske målgruppen, <<Spesielle-temaer>> for begge målgrupper og fortrinnsvis sammen. 
 
 === Forvaltningsregime [[Forvaltningsregime]]
 

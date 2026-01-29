@@ -1,4 +1,4 @@
-== Krav til RDF-representasjon av klassene i CCCEV-AP-NO [[Spesifikasjon-per-klasse]]
+== Krav til RDF-representasjon av klassene i CCCEV-AP-NO [[del2]]
 
 _Denne delen av spesifikasjonen er primært ment for den tekniske målgruppen og forutsetter kjennskap til RDF._ 
 
@@ -11,7 +11,8 @@ _Denne delen av spesifikasjonen er primært ment for den tekniske målgruppen og
 [link=images/CCCEV-AP-NO-klasser.png]
 image::images/CCCEV-AP-NO-klasser.png[alt="UML-diagram med klassene som er i CCCEV-AP-NO og noen av relasjoner mellom dem. Innholdet i diagrammet er forklart i teksten."]
 
-:xrefstyle: pass:[%l %n %t]
+//:xrefstyle: pass:[%n %t]
+:xrefstyle: full
 
 Figuren er ikke ment som en formell representasjon av spesifikasjonen. Før eventuell uoverensstemmelse mellom figuren og den tekstlige beskrivelsen blir rettet opp, har den tekstlige beskrivelsen forrang. Samme forrang gjelder også når det gjelder eventuelle uoverensstemmelser mellom tekstlige beskrivelser og figurer i resten av spesifikasjonen. 
 

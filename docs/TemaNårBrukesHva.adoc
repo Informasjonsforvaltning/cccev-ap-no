@@ -16,9 +16,10 @@ for å beskrive data som forespørres (f.eks. «Søkerens alder») og som skal b
 
 * *Begrensning* (<<Begrensning>>) brukes for å beskrive en begrensning på et Informasjonsbegrep og skal derfor brukes sammen med et Informasjonsbegrep. F.eks. Informasjonsbegrepet «Alder (i antall år)» kan ha en Begrensning som sier «minst 18 år».
 
-:xrefstyle: pass:[%l %n %t]
+//:xrefstyle: pass:[%n %t]
+:xrefstyle: full
 
-__#@@@@@@ Eksemplet under dekker ikke ennå bruk av Påpkrevd dokumentasjon #@@@@@@__
+__#@@@@@@ Eksemplet under dekker ikke ennå bruk av Påpkrevd dokumentasjon #@@@@@@#__
 
 Følgende er et eksempel på bruk av ovennevnte klasser for å beskrive betingelser som må oppfylles, med beskrivelse av data som trengs for å evaluere om betingelsene er oppfylt eller ikke, samt begrensninger på disse dataene. I eksemplet er det også tatt med dokumentasjon som gir kilden til dataene som trengs.
 
