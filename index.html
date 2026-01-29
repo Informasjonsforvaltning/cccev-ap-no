@@ -995,24 +995,25 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="ulist">
 <ul>
 <li>
-<p><strong>Kriterium</strong> brukes til å oppgi betingelse som må være oppfylt. Eksempel på et kriterium kan være "Søkeren må ha fylt 18 år".</p>
+<p><strong>Kriterium</strong> brukes til å oppgi betingelse som må være oppfylt. Eksempel på et kriterium kan være «Søkeren må ha fylt 18 år».</p>
 </li>
 <li>
-<p><strong>Informasjonbskrav</strong> brukes til å oppgi data som forespøres og som skal dokumentere en eller flere fakta, eller som fører til kilden til slik dokumentasjon. Eksempel på et informasjonskrav kan være "Søkerens alder".</p>
+<p><strong>Informasjonbskrav</strong> brukes til å oppgi data som forespøres og som skal dokumentere en eller flere fakta, eller som fører til kilden til slik dokumentasjon. Eksempel på et informasjonskrav kan være «Søkerens alder».</p>
 </li>
 <li>
-<p><strong>Begrensning</strong> brukes til å oppgi begrensning som gjelder for data som forespørres. Eksempel på en begrensning kan være "Minst 18 år gammel".</p>
+<p><strong>Begrensning</strong> brukes til å oppgi begrensning som gjelder for data som forespørres. Eksempel på en begrensning kan være «Minst 18 år gammel».</p>
 </li>
 </ul>
 </div>
 </li>
 <li>
-<p><strong>Dokumentasjon</strong> av kravoppfyllelse: Dokumentasjon brukes til å oppgi dokumentasjon som skal fremlegges for å bevise at et krav er oppfylt. Eksempel på dokumentasjon kan være "Fødselsattest".</p>
+<p><strong>Dokumentasjon</strong> brukes til, i «run-time», å oppgi den <em>faktiske</em> dokumentasjonen som er fremlagt og som er brukt til å evaluere om et krav er oppfylt eller ikke. Eksempel på en faktisk dokumentasjon kan være «Fødselsattest til Ola Nordmann». Dokumentasjon brukes med andre ord i forbindelse med <em>utførelsen</em> av en tjeneste, i f.eks. en saksbehandlings- eller arkiveringsapplikasjon.</p>
+</li>
+<li>
+<p><strong>Påpkrevd dokumentasjon</strong> brukes til, i «design-time», å oppgi hvilken dokumentasjon som kreves for å oppfylle et krav. Eksempel på en påkrved dokumentasjon kan være «Fødselsattest». Påpkrevd dokumentasjon brukes med andre ord i forbindelse med <em>beskrivelse</em> av en tjeneste, i f.eks. en tjenestekatalog.
+Se ellers <a href="#Når-brukes-hva"> 4.2, &#8220;Når brukes Kriterium, Informasjonskrav eller Begrensning?&#8221;</a> for mer forklaring på når Kriterium, Informasjonskrav eller Begrensning bør brukes.</p>
 </li>
 </ul>
-</div>
-<div class="paragraph">
-<p>Se ellers <a href="#Når-brukes-hva"> 4.2, &#8220;Når brukes Kriterium, Informasjonskrav eller Begrensning?&#8221;</a> for mer forklaring på når Kriterium, Informasjonskrav eller Begrensning bør brukes.</p>
 </div>
 <div class="paragraph">
 <p>Hvilke typer opplysninger som SKAL (obligatoriske), BØR (anbefalte) og KAN (valgfrie) tas med i en beskrivelse av et krav eller en dokumentasjon av kravoppfyllelse er nærmere spesifisert i det følgende i dette kapittelet. Hvordan opplysningene skal representeres teknisk i RDF (<a href="https://www.w3.org/RDF/" class="ext-link" target="_blank" rel="noopener">Resource Description Framework &#x29C9;</a>) er spesifisert i <a href="#Spesifikasjon-per-klasse">Kapittel 3, <em>Krav til RDF-representasjon av klassene i CCCEV-AP-NO</em></a>.</p>
@@ -1021,7 +1022,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="sect2">
 <h3 id="Krav-til-beskrivelse-av-kriterium-informasjonskrav-begrensning"><a class="link" href="#Krav-til-beskrivelse-av-kriterium-informasjonskrav-begrensning">2.2. Hva SKAL, BØR og KAN tas med i en beskrivelse av Kriterium, Informasjonskrav og Begrensning?</a></h3>
 <div class="paragraph">
-<p>For å sikre at <strong>Kriterium</strong>, <strong>Informasjonskrav</strong> og <strong>Begrensning</strong> blir beskrevet på en ensartet måte, inneholder tabellene typer opplysninger som SKAL (obligatoriske), BØR (anbefalte) eller KAN (valgfrie) tas med i beskrivelsene. I dette avsnittet brukes ordet "krav" som samlebetegnelse for alle tre typer krav: Kriterium, Informasjonskrav og Begrensning.</p>
+<p>For å sikre at <strong>Kriterium</strong>, <strong>Informasjonskrav</strong> og <strong>Begrensning</strong> blir beskrevet på en ensartet måte, inneholder tabellene typer opplysninger som SKAL (obligatoriske), BØR (anbefalte) eller KAN (valgfrie) tas med i beskrivelsene. I dette avsnittet brukes ordet «krav» som samlebetegnelse for alle tre typer krav: Kriterium, Informasjonskrav og Begrensning.</p>
 </div>
 <table id="Tabell-obligatoriske-opplysninger-kriterium-informasjonskrav-begrensning" class="tableblock frame-all grid-all stripes-even stretch">
 <caption class="title">Tabell 1. Obligatoriske opplysningstyper som en beskrivelse av Kriterium, Informasjonskrav og Begrensning SKAL inneholde</caption>
@@ -5756,6 +5757,9 @@ for å beskrive data som forespørres (f.eks. "Søkerens alder") og som skal bru
 </ul>
 </div>
 <div class="paragraph">
+<p><em>#@@@@@@ Eksemplet under dekker ikke ennå bruk av Påpkrevd dokumentasjon #@@@@@@</em></p>
+</div>
+<div class="paragraph">
 <p>Følgende er et eksempel på bruk av ovennevnte klasser for å beskrive betingelser som må oppfylles, med beskrivelse av data som trengs for å evaluere om betingelsene er oppfylt eller ikke, samt begrensninger på disse dataene. I eksemplet er det også tatt med dokumentasjon som gir kilden til dataene som trengs.</p>
 </div>
 <div class="ulist">
@@ -6009,7 +6013,7 @@ for å beskrive data som forespørres (f.eks. "Søkerens alder") og som skal bru
 </div>
 <div id="footer">
 <div id="footer-text">
-Sist oppdatert 2026-01-29 14:40:18 UTC
+Sist oppdatert 2026-01-29 15:12:50 UTC
 </div>
 </div>
 </body>
