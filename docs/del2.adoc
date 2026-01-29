@@ -1,6 +1,6 @@
 == Krav til RDF-representasjon av klassene i CCCEV-AP-NO [[Spesifikasjon-per-klasse]]
 
-_Denne delen av spesifikasjonen er primært ment for den tekniske målgruppen._ 
+_Denne delen av spesifikasjonen er primært ment for den tekniske målgruppen og forutsetter kjennskap til RDF._ 
 
 :xrefstyle: short
 

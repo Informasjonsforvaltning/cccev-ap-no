@@ -43,9 +43,9 @@ toc::[]
 :sectnumlevels: 5
 include::Om_denne_spesifikasjonen.adoc[]
 
-include::Forenklet-fremstilling-av-kravene.adoc[]
+include::del1.adoc[]
 
-include::Spesifikasjon_per_klasse.adoc[]
+include::del2.adoc[]
 
 :leveloffset: +1
 
@@ -64,6 +64,8 @@ include::KlassenInformasjonskrav.adoc[]
 include::KlassenKrav.adoc[]
 
 include::KlassenKriterium.adoc[]
+
+include::KlassenPåkrevdDokumentasjon.adoc[]
 
 include::KlassenReferanserammeverk.adoc[]
 
