@@ -156,6 +156,20 @@ Eksempel i RDF Turtle:
    dct:isPartOf <foretaksregisteret> . 
 -----
 
+==== Påkrevd dokumentasjon – gir understøttende opplysning (cv:supportsValue) [[PåkrevdDokumentasjon-gir-understøttende-opplysning]]
+
+[cols="30s,70d"]
+|===
+| _English name_ |  _supports value_
+| URI |  cv:supportsValue
+|Verdiområde / _Range_ |  <<UnderstøttendeOpplysning, cv:SupportedValue>>
+| Anvendelse / _Usage note_ | Egenskapen brukes til å referere til understøttende opplysninger i den påkrevdedokumentasjonen.
+
+_This property represents Supported Value that the Required Evidence contains._
+| Multiplisitet / _Multiplicity_ | 0..n
+| Kravnivå / _Requirement level_ | Valgfri / _Optional_
+|===
+
 ==== Påkrevd dokumentasjon – identifikator (dct:identifier) [[PåkrevdDokumentasjon-identifikator]]
 
 [cols="30s,70d"]
@@ -190,7 +204,7 @@ _This property represents the evidence type that the required evidence must conf
 _Norwegian extension: Not explicitly specified in CCCEV/CPSV-AP._
 |===
 
-==== Påkrevd dokumentasjon – relatert informasjon (foaf:page) [[PåkrevdDokumentasjon-relatertInformasjon]]
+==== Påkrevd dokumentasjon – relatert informasjon (foaf:page) [[PåkrevdDokumentasjon-relatert-informasjon]]
 
 [cols="30s,70d"]
 |===
