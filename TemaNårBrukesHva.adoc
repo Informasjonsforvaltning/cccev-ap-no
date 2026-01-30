@@ -27,12 +27,14 @@ Følgende er et illustrativt eksempel på bruk av ovennevnte klasser for å besk
 **** *Begrensning*: Søkeren må ha fylt 18 år
 *** *Påkrevd dokumentasjon*: Folkeregisteret (som kilde til den påkrevde dokumentasjonen)
 *** *Dokumentasjon*: Uttrekk/utskrift fra Folkeregisteret for <Ola Nordmann>
+
 ** *Informasjonskrav* 2: Søkerens sivilstand
 *** *Informasjonsbegrep*: Sivilstand
 **** *Begrensning*: Søkerens sivilstand kan ikke være <gift>, <separert>, <registrert partner> eller <separert partner>
 *** *Påkrevd dokumentasjon*: Folkeregisteret (som kilde til den påkrevde dokumentasjonen)
 *** *Dokumentasjon*: Uttrekk/utskrift fra Folkeregisteret for <Ola Nordmann>
-*Informasjonskrav* 3: ...
+
+** *Informasjonskrav* 3: ...
 *** *Informasjonsbegrep*: ...
 **** *Begrensning*: ...
 *** *Påkrevd dokumentasjon*: 
