@@ -2,7 +2,7 @@
 
 :xrefstyle: short
 
-Ut fra CCCEV sin beskrivelse av klassene Kriterium (_Criterion_), Informasjonskrav (_Information Requirement_) og Begrensning (_Constraint_), samt eksemplene i CCCEV, kan følgende anses som en god praksis for når de ulike klassene bør brukes:
+Ut fra CCCEV sin beskrivelse av klassene *Kriterium* (_Criterion_), *Informasjonskrav* (_Information Requirement_) og *Begrensning* (_Constraint_), samt eksemplene i CCCEV, kan følgende anses som en god praksis for når de ulike klassene bør brukes:
 
 * *Kriterium* (<<Kriterium>>) brukes for å beskrive en eller flere betingelser som må være oppfylt. 
 ** Bortsett fra type, bias og relativ vekting, gir ikke klassen Kriterium alene mulighet til i maskinlesbar form å beskrive data som trengs for å evaluere om en betingelse er oppfylt eller ikke. Derfor brukes Kriterium sammen med *Informasjonskrav* for å beskrive de nødvendige dataene. 
@@ -19,20 +19,21 @@ for å beskrive data som forespørres (f.eks. «Søkerens alder») og som skal b
 //:xrefstyle: pass:[%n %t]
 :xrefstyle: full
 
-__#@@@@@@ Eksemplet under dekker ikke ennå bruk av Påpkrevd dokumentasjon #@@@@@@#__
-
-Følgende er et eksempel på bruk av ovennevnte klasser for å beskrive betingelser som må oppfylles, med beskrivelse av data som trengs for å evaluere om betingelsene er oppfylt eller ikke, samt begrensninger på disse dataene. I eksemplet er det også tatt med dokumentasjon som gir kilden til dataene som trengs.
+Følgende er et illustrativt eksempel på bruk av ovennevnte klasser for å beskrive betingelser som må oppfylles, med beskrivelse av data som trengs for å evaluere om betingelsene er oppfylt eller ikke, samt begrensninger på disse dataene. I eksemplet er det også tatt med på krevd dokumentasjon og en faktisk dokumentasjon som gir kilden til dataene som trengs.
 
 * *Kriterium*: Vilkår for å inngå ekteskap
 ** *Informasjonskrav* 1: Søkerens alder
 *** *Informasjonsbegrep*: Alder
 **** *Begrensning*: Søkeren må ha fylt 18 år
-*** *Dokumentasjon*: Uttrekk/utskrift fra Folkeregisteret
+*** *Påkrevd dokumentasjon*: Folkeregisteret (som kilde til den påkrevde dokumentasjonen)
+*** *Dokumentasjon*: Uttrekk/utskrift fra Folkeregisteret for <Ola Nordmann>
 ** *Informasjonskrav* 2: Søkerens sivilstand
 *** *Informasjonsbegrep*: Sivilstand
 **** *Begrensning*: Søkerens sivilstand kan ikke være <gift>, <separert>, <registrert partner> eller <separert partner>
-*** *Dokumentasjon*: Uttrekk/utskrift fra Folkeregisteret
-** *Informasjonskrav* 3: ...
+*** *Påkrevd dokumentasjon*: Folkeregisteret (som kilde til den påkrevde dokumentasjonen)
+*** *Dokumentasjon*: Uttrekk/utskrift fra Folkeregisteret for <Ola Nordmann>
+*Informasjonskrav* 3: ...
 *** *Informasjonsbegrep*: ...
 **** *Begrensning*: ...
+*** *Påkrevd dokumentasjon*: 
 *** *Dokumentasjon*: ...
