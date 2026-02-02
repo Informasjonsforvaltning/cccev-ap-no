@@ -183,6 +183,23 @@ _This property refers to a more specific Requirement that is part of the Constra
 |Kravnivå / _Requirement level_ | Valgfri / _Optional_
 |===
 
+==== Begrensning – har påkrevd dokumentasjon (cccevno:hasRequiredEvidence) [[Begrensning-har-påkrevd-dokumentasjon]]
+
+[cols="30s,70d"]
+|===
+| _English name_ | _has required evidence_
+| URI | cccevno:hasRequiredEvidence
+| Verdiområde / _Range_ | <<PåkrevdDokumentasjon, cccevno:RequiredEvidence>>
+| Anvendelse / _Usage note_ |  Egenskapen brukes til å spesifisere en påkrevd dokumentasjonen som kan supplere med informasjon, bevis eller understøtte begrensningen.
+
+_This property is used to specify a required evidence that may supply information, proof or support for the Constraint._
+| Multiplisitet / _Multiplicity_ | 0..n
+| Kravnivå / _Requirement level_ | Valgfri / _Optional_
+| Merknad / _Note_ |  Norsk utvidelse: Ikke eksplisitt spesifisert i CCCEV/CPSV-AP.
+
+_Norwegian extension: Not explicitly specified in CCCEV/CPSV-AP._
+|===
+
 ==== Begrensning – har understøttende dokumentasjon (cv:hasSupportingEvidence) [[Begrensning-har-understøttende-dokumentasjon]]
 
 [cols="30s,70d"]
@@ -190,9 +207,9 @@ _This property refers to a more specific Requirement that is part of the Constra
 | _English name_ | _has supporting evidence_
 | URI |  cv:hasSupportingEvidence
 | Verdiområde / _Range_ | <<Dokumentasjon, cv:Evidence>>
-| Anvendelse / _Usage note_ | Egenskapen brukes til å referere til en dokumentasjon som supplerer med informasjon, bevis eller understøtter begrensningen.
+| Anvendelse / _Usage note_ | Egenskapen brukes til å referere til en konkret dokumentasjon som supplerer med informasjon, bevis eller understøtter begrensningen.
 
-_This property refers to an evidence that supplies information, proof or support for the constraint._
+_This property refers to a concrete piece of evidence that supplies information, proof or support for the constraint._
 | Multiplisitet / _Multiplicity_ | 0..n
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
 |===

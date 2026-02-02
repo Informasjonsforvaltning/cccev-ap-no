@@ -192,6 +192,23 @@ _This property refers to a more specific Requirement that is part of the Criteri
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
 |===
 
+==== Kriterium – har påkrevd dokumentasjon (cccevno:hasRequiredEvidence) [[Kriterium-har-påkrevd-dokumentasjon]]
+
+[cols="30s,70d"]
+|===
+| _English name_ | _has required evidence_
+| URI | cccevno:hasRequiredEvidence
+| Verdiområde / _Range_ | <<PåkrevdDokumentasjon, cccevno:RequiredEvidence>>
+| Anvendelse / _Usage note_ |  Egenskapen brukes til å spesifisere en påkrevd dokumentasjon som kan supplere med informasjon, bevis eller understøtte kriteriet.
+
+_This property is used to specify a required evidence that may supply information, proof or support for the Criterion._
+| Multiplisitet / _Multiplicity_ | 0..n
+| Kravnivå / _Requirement level_ | Valgfri / _Optional_
+| Merknad / _Note_ |  Norsk utvidelse: Ikke eksplisitt spesifisert i CCCEV/CPSV-AP.
+
+_Norwegian extension: Not explicitly specified in CCCEV/CPSV-AP._
+|===
+
 ==== Kriterium – har understøttende dokumentasjon (cv:hasSupportingEvidence) [[Kriterium-har-understøttende-dokumentasjon]]
 
 [cols="30s,70d"]
@@ -199,9 +216,9 @@ _This property refers to a more specific Requirement that is part of the Criteri
 | _English name_ | _has supporting evidence_
 | URI |  cv:hasSupportingEvidence
 | Verdiområde / _Range_ | <<Dokumentasjon, cv:Evidence>>
-| Anvendelse / _Usage note_ | Egenskapen brukes til å referere til en dokumentasjon som supplerer med informasjon, bevis eller understøtter kriteriet.
+| Anvendelse / _Usage note_ | Egenskapen brukes til å referere til en konkret dokumentasjon som supplerer med informasjon, bevis eller understøtter kriteriet.
 
-_This property refers to an evidence that supplies information, proof or support for the criterion._
+_This property refers to a concrete piece of evidence that supplies information, proof or support for the criterion._
 | Multiplisitet / _Multiplicity_ | 0..n
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
 |===

@@ -55,13 +55,14 @@ For å sikre at *Kriterium*, *Informasjonskrav* og *Begrensning* blir beskrevet 
 [cols="20s,65d,15d", options="header"]
 |===
 | Valgfri | Forklaring | Ref. til <<del2>>
-| er subkrav av | Refererer til et annet krav som dette kravet er et subkrav av | <<Begrensning-er-subkrav-av>>, <<Informasjonskrav-er-subkrav-av>>, <<Kriterium-er-subkrav-av>>
+| er subkrav av | Refererer til et annet krav som dette kravet er del av | <<Begrensning-er-subkrav-av>>, <<Informasjonskrav-er-subkrav-av>>, <<Kriterium-er-subkrav-av>>
 | er utledet fra | Refererer til referanserammeverk som kravet er basert på, f.eks. lov, forskrift eller annen regulering | <<Begrensning-er-utledet-fra>>, <<Informasjonskrav-er-utledet-fra>>, <<Kriterium-er-utledet-fra>>
 | er utstedt av | Refererer til aktøren som har utstedt kravet | <<Begrensning-er-utstedt-av>>, <<Informasjonskrav-er-utstedt-av>>, <<Kriterium-er-utstedt-av>>
 | har dokumentasjonstypeliste | Refererer til dokumentasjonstypeliste som spesifiserer dokumentasjonstypene som trengs for å tilfredsstille kravet | <<Begrensning-har-dokumentasjonstypeliste>>, <<Informasjonskrav-har-dokumentasjonstypeliste>>, <<Kriterium-har-dokumentasjonstypeliste>>
 | har kvalifisert relasjon til andre krav | En beskrevet/kategorisert relasjon til et annet krav | <<Begrensning-har-kvalifisert-relasjon-til-andre-krav>>,  <<Informasjonskrav-har-kvalifisert-relasjon-til-andre-krav>>, <<Kriterium-har-kvalifisert-relasjon-til-andre-krav>>
-| har mer spesifikt krav | Refererer til mer spesifikke krav som er del av dette kravet | <<Begrensning-har-mer-spesifikt-krav>>, <<Informasjonskrav-har-mer-spesifikt-krav>>, <<Kriterium-har-mer-spesifikt-krav>>
-| har understøttende dokumentasjon | Refererer til en dokumentasjon som supplerer med informasjon, bevis eller understøtter kravet | <<Begrensning-har-understøttende-dokumentasjon>>, <<Informasjonskrav-har-understøttende-dokumentasjon>>, <<Kriterium-har-understøttende-dokumentasjon>>
+| har mer spesifikt krav | Refererer til et mer spesifikt krav som er del av dette kravet | <<Begrensning-har-mer-spesifikt-krav>>, <<Informasjonskrav-har-mer-spesifikt-krav>>, <<Kriterium-har-mer-spesifikt-krav>>
+| har påkrevd dokumentasjon | Refererer til en påkrevd dokumentasjon som kan supplere med informasjon, bevis eller understøtte kravet | <<Begrensning-har-påkrevd-dokumentasjon>>, <<Informasjonskrav-har-påkrevd-dokumentasjon>>, <<Kriterium-har-påkrevd-dokumentasjon>>
+| har understøttende dokumentasjon | Refererer til en konkret dokumentasjon som supplerer med informasjon, bevis eller understøtter kravet | <<Begrensning-har-understøttende-dokumentasjon>>, <<Informasjonskrav-har-understøttende-dokumentasjon>>, <<Kriterium-har-understøttende-dokumentasjon>>
 | tilfredsstiller regel | Refererer til regel som kravet tilfredsstiller | <<Begrensning-tilfredsstiller>>, <<Informasjonskrav-tilfredsstiller>>, <<Kriterium-tilfredsstiller>>
 | type | Refererer til kategorien kravet tilhører | <<Begrensning-type>>, <<Informasjonskrav-type>>, <<Kriterium-type>>
 | har informasjonsbegrep | Gjelder Kriterium eller Informasjonskrav. Refererer til informasjonsbegrep som Informasjonskravet eller Kriteriet forventer en verdi av | <<Informasjonskrav-har-informasjonsbegrep>>, <<Kriterium-har-informasjonsbegrep>>
