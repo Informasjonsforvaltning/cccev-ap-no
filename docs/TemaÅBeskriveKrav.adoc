@@ -2,9 +2,9 @@
 
 :xrefstyle: short
 
-Spesifikasjonen gjør det mulig, i struktuert og maskinlesbar form, å beskrive betingelser som skal oppfylles og dokumentasjon av oppfyllelse.
+CPSV-AP-NO gjør det mulig, i struktuert og maskinlesbar form, å beskrive betingelser som skal oppfylles og dokumentasjon av oppfyllelse.
 
-Følgende er et illustrativt eksempel på bruk av CCCEVp-AP-NO for å beskrive betingelser som må oppfylles, med beskrivelse av data som trengs for å evaluere om betingelsene er oppfylt eller ikke, samt begrensninger på disse dataene. I eksemplet er det også tatt med på krevd dokumentasjon og en faktisk dokumentasjon som gir kilden til dataene som trengs.
+Følgende er et illustrativt eksempel på bruk av CCCEV-AP-NO for å beskrive «Vilkår for å inngå ekteskap», med beskrivelse av data som trengs samt begrensninger på disse dataene. I eksemplet er det også tatt med påkrevd dokumentasjon og en faktisk dokumentasjon som gir kilden til dataene som trengs.
 
 * *Kriterium*: Vilkår for å inngå ekteskap
 ** *Informasjonskrav* 1: Søkerens alder
