@@ -16,6 +16,13 @@ for å beskrive data som forespørres (f.eks. «Søkerens alder») og som skal b
 
 * *Begrensning* (<<Begrensning>>) brukes for å beskrive en begrensning på et Informasjonsbegrep og skal derfor brukes sammen med et Informasjonsbegrep. F.eks. Informasjonsbegrepet «Alder» kan ha en Begrensning som sier «Minst 18 år».
 
+Flytskjemaet i <<img-Figur-beslutningsflyt-krav>> nedenfor illustrerer forklaringen ovenfor.
+
+[[img-Figur-beslutningsflyt-krav]]
+.Flytskjema for når Kriterium, Informasjonskrav eller Begrensning bør brukes.
+[link=images/Flytskjema-kriterium-informasjonskrav-begrensning.png]
+image::images/Flytskjema-kriterium-informasjonskrav-begrensning.png[alt="Flytskjema som viser når Kriterium, Informasjonskrav eller Begrensning bør brukes. Innholdet i flytskjemaet er forklart i teksten."]
+
 //:xrefstyle: pass:[%n %t]
 :xrefstyle: full
 

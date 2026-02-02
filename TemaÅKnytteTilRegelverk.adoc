@@ -1,18 +1,22 @@
 === Å kytte krav til regelverk [[Å-kytte-krav-til-regelverk]]
 
-CCCEV-AP-NO gir mulighet til å knytte krav til aktuelle regelverk. Følgende eksempel illustrerer at Kriterium «Vilkår for å inngå ekteskap» er utledet fra kapittel 1 i ekteskapsloven, Informasjonskrav «Søkerens alder» med tilhørende begrensning er utleddet fra §1.a i ekteskapsloven, og Informasjonskrav til «Søkerens sivilstand» med tilhørende begrensning er utleddet frac i ekteskapsloven.
+CCCEV-AP-NO gir mulighet til å knytte krav til aktuelle regelverk. 
+
+Følgende eksempel illustrerer at Kriterium «Vilkår for å inngå ekteskap» er utledet fra kapittel 1 i ekteskapsloven, Informasjonskrav «Søkerens alder» med tilhørende begrensning er utleddet fra §1.a i ekteskapsloven, og Informasjonskrav til «Søkerens sivilstand» med tilhørende begrensning er utleddet fra §4 i ekteskapsloven.
 
 * *Kriterium*: Vilkår for å inngå ekteskap
 ** er utledet fra: kapittel 1 i ekteskapsloven
 ** *Informasjonskrav* 1: Søkerens alder
+*** er utledet fra: §1.a i ekteskapsloven
 *** *Informasjonsbegrep*: Alder
 **** *Begrensning*: Søkeren må være minst 18 år gammel
-*** er utledet fra: §1.a i ekteskapsloven
+***** er utledet fra: §1.a i ekteskapsloven
 
 ** *Informasjonskrav* 2: Søkerens sivilstand
+*** er utledet fra: §4 i ekteskapsloven
 *** *Informasjonsbegrep*: Sivilstand
 **** *Begrensning*: Søkerens sivilstand kan ikke være <gift>, <separert>, <registrert partner> eller <separert partner>
-*** er utledet fra: §4 i ekteskapsloven
+***** er utledet fra: §4 i ekteskapsloven
 
 ** *Informasjonskrav* 3: ...
 *** *Informasjonsbegrep*: ...
