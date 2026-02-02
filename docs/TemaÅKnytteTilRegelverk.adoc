@@ -2,7 +2,7 @@
 
 CCCEV-AP-NO gir mulighet til å knytte krav til aktuelle regelverk. 
 
-Følgende eksempel illustrerer at Kriterium «Vilkår for å inngå ekteskap» er utledet fra kapittel 1 i ekteskapsloven, Informasjonskrav «Søkerens alder» med tilhørende begrensning er utleddet fra §1.a i ekteskapsloven, og Informasjonskrav til «Søkerens sivilstand» med tilhørende begrensning er utleddet fra §4 i ekteskapsloven.
+Følgende eksempel illustrerer at Kriterium «Vilkår for å inngå ekteskap» er utledet fra kapittel 1 i ekteskapsloven, Informasjonskrav «Søkerens alder» med tilhørende begrensning er utleddet fra §1.a i ekteskapsloven, og Informasjonskrav «Søkerens sivilstand» med tilhørende begrensning er utleddet fra §4 i ekteskapsloven.
 
 * *Kriterium*: Vilkår for å inngå ekteskap
 ** er utledet fra: kapittel 1 i ekteskapsloven

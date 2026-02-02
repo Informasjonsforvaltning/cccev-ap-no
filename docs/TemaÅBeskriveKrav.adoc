@@ -1,4 +1,4 @@
-=== Å beskrive betingelser som skal oppfylles [[Å-beskrive-betingelser-som-skal-oppfylles]]
+:=== Å beskrive betingelser som skal oppfylles [[Å-beskrive-betingelser-som-skal-oppfylles]]
 
 :xrefstyle: short
 
@@ -75,9 +75,9 @@ Eksemplet i RDF Turtle:
       <brukerensSivilstand>, <begrensningSivilstand> ; # understøtter krav
    .
 
-<fregUttrekk> a cpsvno:RequiredEvidence ; # påkrevd dokumentasjon
+<fregUttrekk> a cccevno:RequiredEvidence ; # påkrevd dokumentasjon
    dct:title "Uttrekk fra Folkeregisteret"@nb ; # navn
-   cv:supportsRequirement <brukerensAlder>, <begrensningAlder>
+   cv:supportsRequirement <brukerensAlder>, <begrensningAlder>, 
       <brukerensSivilstand>, <begrensningSivilstand> ; # understøtter krav
    .
 -----

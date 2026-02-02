@@ -178,8 +178,8 @@ For å sikre at *Påkrevd dokumentasjon* blir beskrevet på en ensartet måte, i
 |===
 
 
-=== Et illustrativt eksempel [[Illustrativt-eksempel]]
+=== Illustrative eksempler [[Illustrative-eksempler]]
 //:xrefstyle: pass:[%n %t]
 :xrefstyle: full
 
-Se under <<Å-beskrive-dokumentasjonskrav>> for et illustrativt eksempel på hvordan CCCEV-AP-NO kan brukes til å beskrive kravene for å kunne utføre utføre tjenesten tjenesten https://www.skatteetaten.no/skjema/provingsattest/[«prøvingsattest» &#x29C9;, window="_blank", role="ext-link"] som Skatteetaten tilbyr.
+Se under <<Å-beskrive-betingelser-som-skal-oppfylles>> og <<Å-kytte-krav-til-regelverk>> for illustrative eksempler på bruk av CCCEV-AP-NO.
