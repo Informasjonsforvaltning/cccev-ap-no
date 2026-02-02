@@ -6,4 +6,6 @@ _Denne delen av spesifikasjonen er ikke-normativ._
 
 include::TemaNårBrukesHva.adoc[]
 
-include::TemaDokumentasjonskrav.adoc[]
+include::TemaÅBeskriveKrav.adoc[]
+
+include::TemaÅKnytteTilRegelverk.adoc[]
