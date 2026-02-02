@@ -609,6 +609,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#Begrensning-har-dokumentasjonstypeliste">Begrensning – har dokumentasjonstypeliste (cv:hasEvidenceTypeList)</a></li>
 <li><a href="#Begrensning-har-kvalifisert-relasjon-til-andre-krav">Begrensning – har kvalifisert relasjon til andre krav (cv:hasQualifiedRelation)</a></li>
 <li><a href="#Begrensning-har-mer-spesifikt-krav">Begrensning – har mer spesifikt krav (cv:hasRequirement)</a></li>
+<li><a href="#Begrensning-har-påkrevd-dokumentasjon">Begrensning – har påkrevd dokumentasjon (cccevno:hasRequiredEvidence)</a></li>
 <li><a href="#Begrensning-har-understøttende-dokumentasjon">Begrensning – har understøttende dokumentasjon (cv:hasSupportingEvidence)</a></li>
 <li><a href="#Begrensning-tilfredsstiller">Begrensning – tilfredsstiller regel (cv:fulfils)</a></li>
 <li><a href="#Begrensning-type">Begrensning – type (dct:type)</a></li>
@@ -729,6 +730,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#Informasjonskrav-har-informasjonsbegrep">Informasjonskrav – har informasjonsbegrep (cv:hasConcept)</a></li>
 <li><a href="#Informasjonskrav-har-kvalifisert-relasjon-til-andre-krav">Informasjonskrav – har kvalifisert relasjon til andre krav (cv:hasQualifiedRelation)</a></li>
 <li><a href="#Informasjonskrav-har-mer-spesifikt-krav">Informasjonskrav – har mer spesifikt krav (cv:hasRequirement)</a></li>
+<li><a href="#Informasjonskrav-har-påkrevd-dokumentasjon">Informasjonskrav – har påkrevd dokumentasjon (cccevno:hasRequiredEvidence)</a></li>
 <li><a href="#Informasjonskrav-har-understøttende-dokumentasjon">Informasjonskrav – har understøttende dokumentasjon (cv:hasSupportingEvidence)</a></li>
 <li><a href="#Informasjonskrav-tilfredsstiller">Informasjonskrav – tilfredsstiller regel (cv:fulfils)</a></li>
 <li><a href="#Informasjonskrav-type">Informasjonskrav – type (dct:type)</a></li>
@@ -760,6 +762,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#Kriterium-har-informasjonsbegrep">Kriterium – har informasjonsbegrep (cv:hasConcept)</a></li>
 <li><a href="#Kriterium-har-kvalifisert-relasjon-til-andre-krav">Kriterium – har kvalifisert relasjon til andre krav (cv:hasQualifiedRelation)</a></li>
 <li><a href="#Kriterium-har-mer-spesifikt-krav">Kriterium – har mer spesifikt krav (cv:hasRequirement)</a></li>
+<li><a href="#Kriterium-har-påkrevd-dokumentasjon">Kriterium – har påkrevd dokumentasjon (cccevno:hasRequiredEvidence)</a></li>
 <li><a href="#Kriterium-har-understøttende-dokumentasjon">Kriterium – har understøttende dokumentasjon (cv:hasSupportingEvidence)</a></li>
 <li><a href="#Kriterium-tilfredsstiller">Kriterium – tilfredsstiller regel (cv:fulfils)</a></li>
 <li><a href="#Kriterium-type">Kriterium – type (dct:type)</a></li>
@@ -1096,7 +1099,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>er subkrav av</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Refererer til et annet krav som dette kravet er et subkrav av</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Refererer til et annet krav som dette kravet er del av</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Begrensning-er-subkrav-av"> 3.1.3.1</a>, <a href="#Informasjonskrav-er-subkrav-av"> 3.6.3.1</a>, <a href="#Kriterium-er-subkrav-av"> 3.8.3.2</a></p></td>
 </tr>
 <tr>
@@ -1121,23 +1124,28 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>har mer spesifikt krav</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Refererer til mer spesifikke krav som er del av dette kravet</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Refererer til et mer spesifikt krav som er del av dette kravet</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Begrensning-har-mer-spesifikt-krav"> 3.1.3.6</a>, <a href="#Informasjonskrav-har-mer-spesifikt-krav"> 3.6.3.7</a>, <a href="#Kriterium-har-mer-spesifikt-krav"> 3.8.3.8</a></p></td>
 </tr>
 <tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>har påkrevd dokumentasjon</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Refererer til en påkrevd dokumentasjon som kan supplere med informasjon, bevis eller understøtte kravet</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Begrensning-har-påkrevd-dokumentasjon"> 3.1.3.7</a>, <a href="#Informasjonskrav-har-påkrevd-dokumentasjon"> 3.6.3.8</a>, <a href="#Kriterium-har-påkrevd-dokumentasjon"> 3.8.3.9</a></p></td>
+</tr>
+<tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>har understøttende dokumentasjon</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Refererer til en dokumentasjon som supplerer med informasjon, bevis eller understøtter kravet</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Begrensning-har-understøttende-dokumentasjon"> 3.1.3.7</a>, <a href="#Informasjonskrav-har-understøttende-dokumentasjon"> 3.6.3.8</a>, <a href="#Kriterium-har-understøttende-dokumentasjon"> 3.8.3.9</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Refererer til en konkret dokumentasjon som supplerer med informasjon, bevis eller understøtter kravet</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Begrensning-har-understøttende-dokumentasjon"> 3.1.3.8</a>, <a href="#Informasjonskrav-har-understøttende-dokumentasjon"> 3.6.3.9</a>, <a href="#Kriterium-har-understøttende-dokumentasjon"> 3.8.3.10</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>tilfredsstiller regel</strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Refererer til regel som kravet tilfredsstiller</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Begrensning-tilfredsstiller"> 3.1.3.8</a>, <a href="#Informasjonskrav-tilfredsstiller"> 3.6.3.9</a>, <a href="#Kriterium-tilfredsstiller"> 3.8.3.10</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Begrensning-tilfredsstiller"> 3.1.3.9</a>, <a href="#Informasjonskrav-tilfredsstiller"> 3.6.3.10</a>, <a href="#Kriterium-tilfredsstiller"> 3.8.3.11</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>type</strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Refererer til kategorien kravet tilhører</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Begrensning-type"> 3.1.3.9</a>, <a href="#Informasjonskrav-type"> 3.6.3.10</a>, <a href="#Kriterium-type"> 3.8.3.11</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Begrensning-type"> 3.1.3.10</a>, <a href="#Informasjonskrav-type"> 3.6.3.11</a>, <a href="#Kriterium-type"> 3.8.3.12</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>har informasjonsbegrep</strong></p></td>
@@ -1152,17 +1160,17 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>vekting</strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Gjelder kun Kriterium. Oppgir relativ viktighet (vekting) av Kriteriet</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Kriterium-vekting"> 3.8.3.12</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Kriterium-vekting"> 3.8.3.13</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>vektingstype</strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Gjelder kun Kriterium. Oppgir  hvordan vektingen bør tolkes i et komplekst evalueringsuttrykk, f.eks. som en prosent i et evalueringsuttrykk</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Kriterium-vektingstype"> 3.8.3.13</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Kriterium-vektingstype"> 3.8.3.14</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>vektingsvurderingsbeskrivelse</strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Gjelder kun Kriterium. Oppgir en tekstlig forklaring på hvordan vektingen av Kriteriet brukes Kriteriet</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Kriterium-vektingsvurderingsbeskrivelse"> 3.8.3.14</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Kriterium-vektingsvurderingsbeskrivelse"> 3.8.3.15</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -2021,7 +2029,48 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </table>
 </div>
 <div class="sect4">
-<h5 id="Begrensning-har-understøttende-dokumentasjon"><a class="link" href="#Begrensning-har-understøttende-dokumentasjon">3.1.3.7. Begrensning – har understøttende dokumentasjon (cv:hasSupportingEvidence)</a></h5>
+<h5 id="Begrensning-har-påkrevd-dokumentasjon"><a class="link" href="#Begrensning-har-påkrevd-dokumentasjon">3.1.3.7. Begrensning – har påkrevd dokumentasjon (cccevno:hasRequiredEvidence)</a></h5>
+<table class="tableblock frame-all grid-all stripes-even stretch">
+<colgroup>
+<col style="width: 30%;">
+<col style="width: 70%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong><em>English name</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>has required evidence</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>URI</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cccevno:hasRequiredEvidence</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Verdiområde / <em>Range</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#PåkrevdDokumentasjon">cccevno:RequiredEvidence</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Anvendelse / <em>Usage note</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Egenskapen brukes til å spesifisere en påkrevd dokumentasjonen som kan supplere med informasjon, bevis eller understøtte begrensningen.</p>
+<p class="tableblock"><em>This property is used to specify a required evidence that may supply information, proof or support for the Constraint.</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Multiplisitet / <em>Multiplicity</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0..n</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Kravnivå / <em>Requirement level</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Valgfri / <em>Optional</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Merknad / <em>Note</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Norsk utvidelse: Ikke eksplisitt spesifisert i CCCEV/CPSV-AP.</p>
+<p class="tableblock"><em>Norwegian extension: Not explicitly specified in CCCEV/CPSV-AP.</em></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect4">
+<h5 id="Begrensning-har-understøttende-dokumentasjon"><a class="link" href="#Begrensning-har-understøttende-dokumentasjon">3.1.3.8. Begrensning – har understøttende dokumentasjon (cv:hasSupportingEvidence)</a></h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -2042,8 +2091,8 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Anvendelse / <em>Usage note</em></strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Egenskapen brukes til å referere til en dokumentasjon som supplerer med informasjon, bevis eller understøtter begrensningen.</p>
-<p class="tableblock"><em>This property refers to an evidence that supplies information, proof or support for the constraint.</em></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Egenskapen brukes til å referere til en konkret dokumentasjon som supplerer med informasjon, bevis eller understøtter begrensningen.</p>
+<p class="tableblock"><em>This property refers to a concrete piece of evidence that supplies information, proof or support for the constraint.</em></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Multiplisitet / <em>Multiplicity</em></strong></p></td>
@@ -2057,7 +2106,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </table>
 </div>
 <div class="sect4">
-<h5 id="Begrensning-tilfredsstiller"><a class="link" href="#Begrensning-tilfredsstiller">3.1.3.8. Begrensning – tilfredsstiller regel (cv:fulfils)</a></h5>
+<h5 id="Begrensning-tilfredsstiller"><a class="link" href="#Begrensning-tilfredsstiller">3.1.3.9. Begrensning – tilfredsstiller regel (cv:fulfils)</a></h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -2093,7 +2142,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </table>
 </div>
 <div class="sect4">
-<h5 id="Begrensning-type"><a class="link" href="#Begrensning-type">3.1.3.9. Begrensning – type (dct:type)</a></h5>
+<h5 id="Begrensning-type"><a class="link" href="#Begrensning-type">3.1.3.10. Begrensning – type (dct:type)</a></h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4013,7 +4062,48 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </table>
 </div>
 <div class="sect4">
-<h5 id="Informasjonskrav-har-understøttende-dokumentasjon"><a class="link" href="#Informasjonskrav-har-understøttende-dokumentasjon">3.6.3.8. Informasjonskrav – har understøttende dokumentasjon (cv:hasSupportingEvidence)</a></h5>
+<h5 id="Informasjonskrav-har-påkrevd-dokumentasjon"><a class="link" href="#Informasjonskrav-har-påkrevd-dokumentasjon">3.6.3.8. Informasjonskrav – har påkrevd dokumentasjon (cccevno:hasRequiredEvidence)</a></h5>
+<table class="tableblock frame-all grid-all stripes-even stretch">
+<colgroup>
+<col style="width: 30%;">
+<col style="width: 70%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong><em>English name</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>has required evidence</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>URI</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cccevno:hasRequiredEvidence</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Verdiområde / <em>Range</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#PåkrevdDokumentasjon">cccevno:RequiredEvidence</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Anvendelse / <em>Usage note</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Egenskapen brukes til å spesifisere en påkrevd dokumentasjon som kan supplere med informasjon, bevis eller understøtte informasjonskravet.</p>
+<p class="tableblock"><em>This property is used to specify a required evidence that may supply information, proof or support for the Information Requirement.</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Multiplisitet / <em>Multiplicity</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0..n</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Kravnivå / <em>Requirement level</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Valgfri / <em>Optional</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Merknad / <em>Note</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Norsk utvidelse: Ikke eksplisitt spesifisert i CCCEV/CPSV-AP.</p>
+<p class="tableblock"><em>Norwegian extension: Not explicitly specified in CCCEV/CPSV-AP.</em></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect4">
+<h5 id="Informasjonskrav-har-understøttende-dokumentasjon"><a class="link" href="#Informasjonskrav-har-understøttende-dokumentasjon">3.6.3.9. Informasjonskrav – har understøttende dokumentasjon (cv:hasSupportingEvidence)</a></h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4034,8 +4124,8 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Anvendelse / <em>Usage note</em></strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Egenskapen brukes til å referere til en dokumentasjon som supplerer med informasjon, bevis eller understøtter informasjonskravet.</p>
-<p class="tableblock"><em>This property refers to an evidence that supplies information, proof or support for the information requirement.</em></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Egenskapen brukes til å referere til en konkret dokumentasjon som supplerer med informasjon, bevis eller understøtter informasjonskravet.</p>
+<p class="tableblock"><em>This property refers to a concrete piece of evidence that supplies information, proof or support for the information requirement.</em></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Multiplisitet / <em>Multiplicity</em></strong></p></td>
@@ -4049,7 +4139,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </table>
 </div>
 <div class="sect4">
-<h5 id="Informasjonskrav-tilfredsstiller"><a class="link" href="#Informasjonskrav-tilfredsstiller">3.6.3.9. Informasjonskrav – tilfredsstiller regel (cv:fulfils)</a></h5>
+<h5 id="Informasjonskrav-tilfredsstiller"><a class="link" href="#Informasjonskrav-tilfredsstiller">3.6.3.10. Informasjonskrav – tilfredsstiller regel (cv:fulfils)</a></h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4085,7 +4175,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </table>
 </div>
 <div class="sect4">
-<h5 id="Informasjonskrav-type"><a class="link" href="#Informasjonskrav-type">3.6.3.10. Informasjonskrav – type (dct:type)</a></h5>
+<h5 id="Informasjonskrav-type"><a class="link" href="#Informasjonskrav-type">3.6.3.11. Informasjonskrav – type (dct:type)</a></h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4622,7 +4712,48 @@ Som nevnt ovenfor er denne klassen en generisk klasse (også kalt abstrakt klass
 </table>
 </div>
 <div class="sect4">
-<h5 id="Kriterium-har-understøttende-dokumentasjon"><a class="link" href="#Kriterium-har-understøttende-dokumentasjon">3.8.3.9. Kriterium – har understøttende dokumentasjon (cv:hasSupportingEvidence)</a></h5>
+<h5 id="Kriterium-har-påkrevd-dokumentasjon"><a class="link" href="#Kriterium-har-påkrevd-dokumentasjon">3.8.3.9. Kriterium – har påkrevd dokumentasjon (cccevno:hasRequiredEvidence)</a></h5>
+<table class="tableblock frame-all grid-all stripes-even stretch">
+<colgroup>
+<col style="width: 30%;">
+<col style="width: 70%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong><em>English name</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>has required evidence</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>URI</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cccevno:hasRequiredEvidence</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Verdiområde / <em>Range</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#PåkrevdDokumentasjon">cccevno:RequiredEvidence</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Anvendelse / <em>Usage note</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Egenskapen brukes til å spesifisere en påkrevd dokumentasjon som kan supplere med informasjon, bevis eller understøtte kriteriet.</p>
+<p class="tableblock"><em>This property is used to specify a required evidence that may supply information, proof or support for the Criterion.</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Multiplisitet / <em>Multiplicity</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0..n</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Kravnivå / <em>Requirement level</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Valgfri / <em>Optional</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Merknad / <em>Note</em></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Norsk utvidelse: Ikke eksplisitt spesifisert i CCCEV/CPSV-AP.</p>
+<p class="tableblock"><em>Norwegian extension: Not explicitly specified in CCCEV/CPSV-AP.</em></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect4">
+<h5 id="Kriterium-har-understøttende-dokumentasjon"><a class="link" href="#Kriterium-har-understøttende-dokumentasjon">3.8.3.10. Kriterium – har understøttende dokumentasjon (cv:hasSupportingEvidence)</a></h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4643,8 +4774,8 @@ Som nevnt ovenfor er denne klassen en generisk klasse (også kalt abstrakt klass
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Anvendelse / <em>Usage note</em></strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Egenskapen brukes til å referere til en dokumentasjon som supplerer med informasjon, bevis eller understøtter kriteriet.</p>
-<p class="tableblock"><em>This property refers to an evidence that supplies information, proof or support for the criterion.</em></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Egenskapen brukes til å referere til en konkret dokumentasjon som supplerer med informasjon, bevis eller understøtter kriteriet.</p>
+<p class="tableblock"><em>This property refers to a concrete piece of evidence that supplies information, proof or support for the criterion.</em></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Multiplisitet / <em>Multiplicity</em></strong></p></td>
@@ -4658,7 +4789,7 @@ Som nevnt ovenfor er denne klassen en generisk klasse (også kalt abstrakt klass
 </table>
 </div>
 <div class="sect4">
-<h5 id="Kriterium-tilfredsstiller"><a class="link" href="#Kriterium-tilfredsstiller">3.8.3.10. Kriterium – tilfredsstiller regel (cv:fulfils)</a></h5>
+<h5 id="Kriterium-tilfredsstiller"><a class="link" href="#Kriterium-tilfredsstiller">3.8.3.11. Kriterium – tilfredsstiller regel (cv:fulfils)</a></h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4694,7 +4825,7 @@ Som nevnt ovenfor er denne klassen en generisk klasse (også kalt abstrakt klass
 </table>
 </div>
 <div class="sect4">
-<h5 id="Kriterium-type"><a class="link" href="#Kriterium-type">3.8.3.11. Kriterium – type (dct:type)</a></h5>
+<h5 id="Kriterium-type"><a class="link" href="#Kriterium-type">3.8.3.12. Kriterium – type (dct:type)</a></h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4730,7 +4861,7 @@ Som nevnt ovenfor er denne klassen en generisk klasse (også kalt abstrakt klass
 </table>
 </div>
 <div class="sect4">
-<h5 id="Kriterium-vekting"><a class="link" href="#Kriterium-vekting">3.8.3.12. Kriterium – vekting (cv:weight)</a></h5>
+<h5 id="Kriterium-vekting"><a class="link" href="#Kriterium-vekting">3.8.3.13. Kriterium – vekting (cv:weight)</a></h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4767,7 +4898,7 @@ Som nevnt ovenfor er denne klassen en generisk klasse (også kalt abstrakt klass
 </table>
 </div>
 <div class="sect4">
-<h5 id="Kriterium-vektingstype"><a class="link" href="#Kriterium-vektingstype">3.8.3.13. Kriterium – vektingstype (cv:weightingType)</a></h5>
+<h5 id="Kriterium-vektingstype"><a class="link" href="#Kriterium-vektingstype">3.8.3.14. Kriterium – vektingstype (cv:weightingType)</a></h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4808,7 +4939,7 @@ Som nevnt ovenfor er denne klassen en generisk klasse (også kalt abstrakt klass
 </table>
 </div>
 <div class="sect4">
-<h5 id="Kriterium-vektingsvurderingsbeskrivelse"><a class="link" href="#Kriterium-vektingsvurderingsbeskrivelse">3.8.3.14. Kriterium – vektingsvurderingsbeskrivelse (cv:weightingConsiderationDescription)</a></h5>
+<h5 id="Kriterium-vektingsvurderingsbeskrivelse"><a class="link" href="#Kriterium-vektingsvurderingsbeskrivelse">3.8.3.15. Kriterium – vektingsvurderingsbeskrivelse (cv:weightingConsiderationDescription)</a></h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -6304,7 +6435,7 @@ for å beskrive data som forespørres (f.eks. «Søkerens alder») og som skal b
 </div>
 <div id="footer">
 <div id="footer-text">
-Sist oppdatert 2026-02-02 11:54:53 UTC
+Sist oppdatert 2026-02-02 14:12:02 UTC
 </div>
 </div>
 </body>
