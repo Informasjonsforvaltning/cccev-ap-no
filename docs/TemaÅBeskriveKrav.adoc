@@ -1,4 +1,4 @@
-:=== Å beskrive betingelser som skal oppfylles [[Å-beskrive-betingelser-som-skal-oppfylles]]
+=== Å beskrive betingelser som skal oppfylles [[Å-beskrive-betingelser-som-skal-oppfylles]]
 
 :xrefstyle: short
 
