@@ -1,8 +1,8 @@
-=== Når brukes Kriterium, Informasjonskrav eller Begrensning? [[Når-brukes-hva]]
+=== Når brukes Kriterium, Informasjonskrav, Informasjonsbegrep og Begrensning? [[Når-brukes-hva]]
 
 :xrefstyle: short
 
-Ut fra CCCEV sin beskrivelse av klassene *Kriterium* (_Criterion_), *Informasjonskrav* (_Information Requirement_) og *Begrensning* (_Constraint_), samt eksemplene i CCCEV, kan følgende anses som en god praksis for når de ulike klassene bør brukes:
+Ut fra CCCEV sin beskrivelse av klassene *Kriterium* (_Criterion_), *Informasjonskrav* (_Information Requirement_), *Informasjonsbegrep* (_Information Concept_) og *Begrensning* (_Constraint_), samt eksemplene i CCCEV, kan følgende anses som en god praksis for når de ulike klassene bør brukes:
 
 * *Kriterium* (<<Kriterium>>) brukes for å beskrive en eller flere betingelser som må være oppfylt. 
 ** Bortsett fra type, bias og relativ vekting, gir ikke klassen Kriterium alene mulighet til i maskinlesbar form å beskrive data som trengs for å evaluere om en betingelse er oppfylt eller ikke. Derfor brukes Kriterium sammen med *Informasjonskrav* for å beskrive de nødvendige dataene. 

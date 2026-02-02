@@ -1,7 +1,7 @@
-== Klassen Påkrevd dokumentasjon (cpsvno:RequiredEvidence) [[PåkrevdDokumentasjon]]
+== Klassen Påkrevd dokumentasjon (cccevno:RequiredEvidence) [[PåkrevdDokumentasjon]]
 
 [[img-KlassenPåkrevdDokumentasjon]]
-.Klassen Påkrevd dokumentasjon (cpsvno:RequiredEvidence) og klassene den refererer til.
+.Klassen Påkrevd dokumentasjon (cccevno:RequiredEvidence) og klassene den refererer til.
 [link=images/KlassenPåkrevdDokumentasjon.png]
 image::images/KlassenPåkrevdDokumentasjon.png[alt="UML-diagram med klassen Påkrevd dokumentasjon, dens egenskaper og dens relasjoner til tre andre klasser. Innholdet i diagrammet er forklart i teksten."]
 
@@ -11,7 +11,7 @@ image::images/KlassenPåkrevdDokumentasjon.png[alt="UML-diagram med klassen Påk
 | Anvendelse / _Usage note_ | Klassen brukes til å representere dokumentasjon som er påkrevd for å kunne utføre en tjeneste. 
 
 _This class is used to represent an evidence that is required in order to execute a service._
-| URI | cpsvno:RequiredEvidence
+| URI | cccevno:RequiredEvidence
 | Merknad / _Note_ | Norsk utvidelse: Ikke eksplisitt spesifisert i CCCEV/CPSV-AP.
 
 _Norwegian extension: Not explicitly specified in CCCEV/CPSV-AP._
@@ -20,7 +20,7 @@ _Norwegian extension: Not explicitly specified in CCCEV/CPSV-AP._
 
 Eksempel i RDF Turtle:
 ----
-<påkrevdFirmaattest> a cpsvno:RequiredEvidence ; .
+<påkrevdFirmaattest> a cccevno:RequiredEvidence ; .
 ----
 
 === Obligatoriske egenskaper for klassen _Påkrevd dokumentasjon_ [[PåkrevdDokumentasjon-obligatoriske-egenskaper]]
@@ -45,7 +45,7 @@ _Norwegian extension: Not explicitly specified in CCCEV/CPSV-AP._
 
 Eksempel i RDF Turtle:
 -----
-<påkrevdFirmaattest> a cpsvno:RequiredEvidence ; 
+<påkrevdFirmaattest> a cccevno:RequiredEvidence ; 
    dct:description "Firmaattest utstedt av Brønnøysundregistrene"@nb ; .
 -----
 
@@ -69,18 +69,18 @@ _Norwegian extension: Not explicitly specified in CCCEV/CPSV-AP._
 
 Eksempel i RDF Turtle:
 -----
-<påkrevdFirmaattest> a cpsvno:RequiredEvidence ; 
+<påkrevdFirmaattest> a cccevno:RequiredEvidence ; 
    dct:title "Firmaattest"@nb ; .
 -----
 
 === Anbefalte egenskaper for klassen _Påkrevd dokumentasjon_ [[PåkrevdDokumentasjon-anbefalte-egenskaper]]
 
-==== Påkrevd dokumentasjon – gyldighetsperiode (cpsvno:validityDuration) [[PåkrevdDokumentasjon-gyldighetsperiode]]
+==== Påkrevd dokumentasjon – gyldighetsperiode (cccevno:validityDuration) [[PåkrevdDokumentasjon-gyldighetsperiode]]
 
 [cols="30s,70d"]
 |===
 | _English name_ |  _validity duration_
-| URI | cpsvno:validityDuration
+| URI | cccevno:validityDuration
 |Verdiområde / _Range_ | xsd:duration
 | Anvendelse / _Usage note_ | Egenskapen brukes til å angi en tidsperiode som den påkrevd dokumentasjonen skal være gyldig innenfor.
 
@@ -95,8 +95,8 @@ _Norwegian extension: Not explicitly specified in CCCEV/CPSV-AP._
 
 Eksempel i RDF Turtle:
 -----
-<påkrevdFirmaattest> a cpsvno:RequiredEvidence ; 
-   cpsvno:validityDuration "P6M"^^xsd:duration ; . # 6 måneder
+<påkrevdFirmaattest> a cccevno:RequiredEvidence ; 
+   cccevno:validityDuration "P6M"^^xsd:duration ; . # 6 måneder
 -----
 
 ==== Påkrevd dokumentasjon – språk (dct:language) [[PåkrevdDokumentasjon-språk]]
@@ -122,7 +122,7 @@ _Norwegian extension: Not explicitly specified in CCCEV/CPSV-AP._
 
 Eksempel i RDF Turtle:
 -----
-<påkrevdFirmaattest> a cpsvno:RequiredEvidence ; 
+<påkrevdFirmaattest> a cccevno:RequiredEvidence ; 
    dct:language
       <https://publications.europa.eu/resource/authority/language/NOR>, # norsk 
       <https://publications.europa.eu/resource/authority/language/ENG>; # engelsk  
@@ -152,7 +152,7 @@ _Norwegian extension: Not explicitly specified in CCCEV/CPSV-AP._
 
 Eksempel i RDF Turtle:
 -----
-<påkrevdFirmaattest> a cpsvno:RequiredEvidence ; 
+<påkrevdFirmaattest> a cccevno:RequiredEvidence ; 
    dct:isPartOf <foretaksregisteret> . 
 -----
 
@@ -245,7 +245,7 @@ _Norwegian extension: Not explicitly specified in CCCEV/CPSV-AP._
 
 Eksempel i RDF Turtle:
 -----
-<påkrevdFirmaattest> a cpsvno:RequiredEvidence ; 
+<påkrevdFirmaattest> a cccevno:RequiredEvidence ; 
    dct:type <https://data.norge.no/vocabulary/evidence-type#attestation> ; # attest
    .
 -----

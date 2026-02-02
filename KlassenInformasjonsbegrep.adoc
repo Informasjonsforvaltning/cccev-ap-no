@@ -12,10 +12,10 @@ image::images/KlassenInformasjonsbegrep.png[alt="UML-diagram med klassen Informa
 
 _This class represents a piece of information that the Evidence provides or the Requirement needs. The Information Concept class offers the ability to describe conceptually the Requirements and provided facts in Evidences. This is a (first) step towards facilitating the assessment of the requirements in an automated way based on the Evidence provided._
 | URI |  cv:InformationConcept
-| Eksempel | Se under <<Å-beskrive-dokumentasjonskrav>>.
+| Eksempel | Se under <<Å-beskrive-betingelser-som-skal-oppfylles>>.
 |===
 
-Eksempel i RDF Turtle: Se under <<Å-beskrive-dokumentasjonskrav>>.
+Eksempel i RDF Turtle: Se under <<Å-beskrive-betingelser-som-skal-oppfylles>>.
 
 === Obligatoriske egenskaper for klassen _Informasjonsbegrep_ [[Informasjonsbegrep-obligatoriske-egenskaper]]
 

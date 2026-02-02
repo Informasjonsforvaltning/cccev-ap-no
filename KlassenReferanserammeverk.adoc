@@ -15,10 +15,10 @@ _This class represents legislation or official policy from which Requirements ar
 | Merknad / _Note_ | Vanlige referanserammeverk er regulative og ikke-regulative spesifikasjoner. Eksempler kan være prosedyrer, anskaffelsesreglement osv.
 
 _Usual Reference Frameworks are legal and non-legal specifications. Examples include procedures, tendering legislation etc._ 
-| Eksempel |  Se under <<Å-beskrive-dokumentasjonskrav>>.
+| Eksempel |  Se under <<Å-kytte-krav-til-regelverk>>.
 |===
 
-Eksempel i RDF Turtle: Se under <<Å-beskrive-dokumentasjonskrav>>.
+Eksempel i RDF Turtle: Se under <<Å-kytte-krav-til-regelverk>>.
 
 === Obligatoriske egenskaper for klassen _Referanserammeverk_ [[Referanserammeverk-obligatoriske-egenskaper]]
 
