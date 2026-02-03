@@ -1,7 +1,7 @@
 == Klassen Informasjonsbegrep (cv:InformationConcept) [[Informasjonsbegrep]]
 
 [[img-KlassenInformasjonsbegrep]]
-.Klassen Informasjonsbegrep (cv:InformationConcept).
+.Klassen Informasjonsbegrep (cv:InformationConcept)
 [link=images/KlassenInformasjonsbegrep.png]
 image::images/KlassenInformasjonsbegrep.png[alt="UML-diagram med klassen Informasjonsbegrep og dens egenskaper. Innholdet i diagrammet er forklart i teksten."]
 

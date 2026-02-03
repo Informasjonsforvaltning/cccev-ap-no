@@ -1,7 +1,7 @@
 == Klassen Påkrevd dokumentasjon (cccevno:RequiredEvidence) [[PåkrevdDokumentasjon]]
 
 [[img-KlassenPåkrevdDokumentasjon]]
-.Klassen Påkrevd dokumentasjon (cccevno:RequiredEvidence) og klassene den refererer til.
+.Klassen Påkrevd dokumentasjon (cccevno:RequiredEvidence) og klassene den refererer til
 [link=images/KlassenPåkrevdDokumentasjon.png]
 image::images/KlassenPåkrevdDokumentasjon.png[alt="UML-diagram med klassen Påkrevd dokumentasjon, dens egenskaper og dens relasjoner til tre andre klasser. Innholdet i diagrammet er forklart i teksten."]
 

@@ -1,7 +1,7 @@
 == Klassen Krav (cv:Requirement) [[Krav]]
 
 [[img-KlassenKrav]]
-.Klassen Krav (cv:Requirement).
+.Klassen Krav (cv:Requirement) og dens subklasser
 [link=images/KlassenKrav-AbstraktKlasse.png]
 image::images/KlassenKrav-AbstraktKlasse.png[alt="UML-diagram med klassen Krav, med tre subklasser av den. Innholdet i diagrammet er forklart i teksten."]
 

@@ -1,7 +1,7 @@
 == Klassen Referanserammeverk (cv:ReferenceFramework) [[Referanserammeverk]]
 
 [[img-KlassenReferanserammeverk]]
-.Klassen Referanserammeverk (cv:ReferenceFramework).
+.Klassen Referanserammeverk (cv:ReferenceFramework)
 [link=images/KlassenReferanserammeverk.png]
 image::images/KlassenReferanserammeverk.png[alt="UML-diagram med klassen Referanserammeverk og dens egenskaper. Innholdet i diagrammet er forklart i teksten."]
 

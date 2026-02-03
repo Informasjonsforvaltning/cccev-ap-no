@@ -1,7 +1,7 @@
 == Klassen Dokumentasjonstype (cv:EvidenceType) [[Dokumentasjonstype]]
 
 [[img-KlassenDokumentasjonstype]]
-.Klassen Dokumentasjonstype (cv:EvidenceType) og klassen den refererer til. 
+.Klassen Dokumentasjonstype (cv:EvidenceType) og klassen den refererer til
 [link=images/KlassenDokumentasjonstype.png]
 image::images/KlassenDokumentasjonstype.png[alt="UML-diagram med klassen Dokumentasjonstype, dens egenskaper og dens relasjon til en annen klasse. Innholdet i diagrammet er forklart i teksten."]
 

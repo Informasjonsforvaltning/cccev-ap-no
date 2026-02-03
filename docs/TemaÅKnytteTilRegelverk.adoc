@@ -26,10 +26,10 @@ Følgende eksempel illustrerer at Kriterium «Vilkår for å inngå ekteskap» e
 
 :xrefstyle: short
 
-Eksemplet er illustrert i <<img-FigurEksempelDokumentasjonskrav2>> nedenfor.
+Eksemplet er illustrert i <<img-Figur-eksempelkravbeskrivelse-med-regelverk>> nedenfor.
 
-[[img-FigurEksempelDokumentasjonskrav2]]
-.Eksempel på å knytte dokumentasjonskrav til lovgivning.
+[[img-Figur-eksempelkravbeskrivelse-med-regelverk]]
+.Eksempel på å knytte kravbeskrivelse til lovgivning
 [link=images/Figur-eksempelbruk-krav-utledet-fra-regelverk.png]
 image::images/Figur-eksempelbruk-krav-utledet-fra-regelverk.png[alt="RDF-graf med ni noder og relasjoner imellom nodene. Innholdet i grafen er forklart i teksten."]
 
