@@ -38,12 +38,12 @@ Eksemplet i RDF Turtle:
 <vilkårForÅInngåEkteskap> a cv:Criterion ; # kriterium
    dct:title "Vilkår for å inngå ekteskap"@nb ; # navn
    cv:isDerivedFrom <ekteskapsloven1> ; # er utledet fra
-   cv:hasRequirement <brukerensAlder>, <begrensningAlder>, 
-      <brukerensSivilstand>, <begrensningSivilstand> ; # har mer spesifikt krav
+   cv:hasRequirement <søkerensAlder>, <begrensningAlder>, 
+      <søkerensSivilstand>, <begrensningSivilstand> ; # har mer spesifikt krav
    .
 
-<brukerensAlder> a cv:InformationRequirement ;  # informasjonskrav
-   dct:title "Brukerens alder"@nb ; # navn
+<søkerensAlder> a cv:InformationRequirement ;  # informasjonskrav
+   dct:title "Søkerens alder"@nb ; # navn
    cv:isDerivedFrom <ekteskapsloven1a> ; # er utledet fra
    cv:hasRequirement <alder>, <begrensningAlder> ; # har mer spesifikt krav
    .
@@ -53,13 +53,15 @@ Eksemplet i RDF Turtle:
    .
 
 <begrensningAlder> a cv:Constraint ; # begrensning
-   dct:title "Minst 18 år" ; # navn
+   dct:title "Begrensning på søkerens alder"@nb ; # navn
+   dct:description "Søkeren må være minst 18 år gammel."@nb ;
    cv:isDerivedFrom <ekteskapsloven1a> ; # er utledet fra
    cv:constrains <alder> ; # begrenser
    .
 
-<brukerensSivilstand> a cv:InformationRequirement ;  # informasjonskrav
-   dct:title "Brukerens sivilstand"@nb ; # navn
+<søkerensSivilstand> a cv:InformationRequirement ;  # informasjonskrav
+   dct:title "Søkerens sivilstand"@nb ; # navn
+   cv:isDerivedFrom <ekteskapsloven4> ; # er utledet fra
    cv:hasRequirement <sivilstand>, <begrensningSivilstand> ; # har mer spesifikt krav
    .
 
@@ -68,13 +70,14 @@ Eksemplet i RDF Turtle:
    .
 
 <begrensningSivilstand> a cv:Constraint ; # begrensning
-   dct:title "ulik <gift>, <separert>, <registrert partner> eller <separert partner>" ; # navn
+   dct:title "Begrensning på søkerens sivilstand"@nb ; # navn
+   dct:description "Søkerens sivilstand kan ikke være <gift>, <separert>, <registrert partner> eller <separert partner>."@nb ;
    cv:isDerivedFrom <ekteskapsloven4> ; # er utledet fra
    cv:constrains <sivilstand> ; # begrenser
    .
 
 <ekteskapsloven1> a cv:ReferenceFramework ; # referanserammeverk 
-   dct:identifier <https://lovdata.no/eli/lov/1991/7/4/47/chapter/1> ; # identifikator
+   dct:identifier "https://lovdata.no/eli/lov/1991/7/4/47/chapter/1"^^xsd:anyURI ; # identifikator
    dct:title "Kapittel 1. Vilkår for å inngå ekteskap."@nb, 
       "Chapter 1. Conditions for contracting a marriage."@en ;
    dct:description "Kapittel 1 i ekteskapsloven."@nb, 
@@ -82,7 +85,7 @@ Eksemplet i RDF Turtle:
     .
 
 <ekteskapsloven1a> a cv:ReferenceFramework ; # referanserammeverk 
-   dct:identifier <https://lovdata.no/eli/lov/1991/7/4/47/section/1a> ; # identifikator
+   dct:identifier "https://lovdata.no/eli/lov/1991/7/4/47/section/1a"^^xsd:anyURI ; # identifikator
    dct:title "§ 1 a. Ekteskapsalder."@nb, 
       "Section 1 a. Age for marriage."@en ;
    dct:description "§1a i ekteskapsloven."@nb, 
@@ -90,7 +93,7 @@ Eksemplet i RDF Turtle:
    .
 
 <ekteskapsloven4> a cv:ReferenceFramework ; # referanserammeverk 
-   dct:identifier <https://lovdata.no/eli/lov/1991/7/4/47/section/4> ; # identifikator
+   dct:identifier "https://lovdata.no/eli/lov/1991/7/4/47/section/4"^^xsd:anyURI ; # identifikator
    dct:title "§ 4. Forbud mot ekteskap når tidligere ekteskap består."@nb, 
       "Section 4. Prohibition against marriage when a previous marriage subsists."@en ;
    dct:description "§4 i ekteskapsloven."@nb, 
