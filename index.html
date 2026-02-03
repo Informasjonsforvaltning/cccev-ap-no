@@ -6007,7 +6007,7 @@ for å beskrive data som forespørres (f.eks. «Søkerens alder») og som skal b
 <p>CPSV-AP-NO gjør det mulig, i struktuert og maskinlesbar form, å beskrive betingelser som skal oppfylles og dokumentasjon av oppfyllelse.</p>
 </div>
 <div class="paragraph">
-<p>Følgende er et illustrativt eksempel på bruk av CCCEV-AP-NO for å beskrive «Vilkår for å inngå ekteskap», med beskrivelse av data som trengs samt begrensninger på disse dataene. I eksemplet er det også tatt med påkrevd dokumentasjon og en faktisk dokumentasjon som gir kilden til dataene som trengs.</p>
+<p>Følgende er et illustrativt eksempel på bruk av CCCEV-AP-NO for å beskrive «Vilkår for å inngå ekteskap», med beskrivelse av data som trengs samt begrensninger på disse dataene. I eksemplet er det også tatt med påkrevd dokumentasjon og faktisk dokumentasjon som gir kilden til dataene som trengs.</p>
 </div>
 <div class="ulist">
 <ul>
@@ -6030,10 +6030,10 @@ for å beskrive data som forespørres (f.eks. «Søkerens alder») og som skal b
 </div>
 </li>
 <li>
-<p><strong>Påkrevd dokumentasjon</strong>: Folkeregisteret (som kilde til den påkrevde dokumentasjonen)</p>
+<p><strong>Påkrevd dokumentasjon</strong>: Uttrek fra Folkeregisteret; &#8230;&#8203;</p>
 </li>
 <li>
-<p><strong>Dokumentasjon</strong>: Uttrekk/utskrift fra Folkeregisteret for &lt;Ola Nordmann&gt;</p>
+<p><strong>Dokumentasjon</strong>: Uttrekk fra Folkeregisteret for Ola Nordmann</p>
 </li>
 </ul>
 </div>
@@ -6053,10 +6053,10 @@ for å beskrive data som forespørres (f.eks. «Søkerens alder») og som skal b
 </div>
 </li>
 <li>
-<p><strong>Påkrevd dokumentasjon</strong>: Folkeregisteret (som kilde til den påkrevde dokumentasjonen)</p>
+<p><strong>Påkrevd dokumentasjon</strong>: Uttrek fra Folkeregisteret; &#8230;&#8203;</p>
 </li>
 <li>
-<p><strong>Dokumentasjon</strong>: Uttrekk/utskrift fra Folkeregisteret for &lt;Ola Nordmann&gt;</p>
+<p><strong>Dokumentasjon</strong>: Uttrekk fra Folkeregisteret for Ola Nordmann</p>
 </li>
 </ul>
 </div>
@@ -6105,13 +6105,14 @@ for å beskrive data som forespørres (f.eks. «Søkerens alder») og som skal b
 <div class="content">
 <pre>&lt;vilkårForÅInngåEkteskap&gt; a cv:Criterion ; # kriterium
    dct:title "Vilkår for å inngå ekteskap"@nb ; # navn
-   cv:hasRequirement &lt;brukerensAlder&gt;, &lt;begrensningAlder&gt;,
-      &lt;brukerensSivilstand&gt;, &lt;begrensningSivilstand&gt; ; # har mer spesifikt krav
+   cv:hasRequirement &lt;søkerensAlder&gt;, &lt;begrensningAlder&gt;,
+      &lt;søkerensSivilstand&gt;, &lt;begrensningSivilstand&gt; ; # har mer spesifikt krav
    .
 
-&lt;brukerensAlder&gt; a cv:InformationRequirement ;  # informasjonskrav
-   dct:title "Brukerens alder"@nb ; # navn
-   cv:hasRequirement &lt;alder&gt;, &lt;begrensningAlder&gt; ; # har mer spesifikt krav
+&lt;søkerensAlder&gt; a cv:InformationRequirement ;  # informasjonskrav
+   dct:title "Søkerens alder"@nb ; # navn
+   cv:hasConcept &lt;alder&gt; ; # har informasjonsbegrep
+   cv:hasRequirement &lt;begrensningAlder&gt; ; # har mer spesifikt krav
    .
 
 &lt;alder&gt; a cv:InformationConcept ; # informasjonsbegrep
@@ -6119,13 +6120,15 @@ for å beskrive data som forespørres (f.eks. «Søkerens alder») og som skal b
    .
 
 &lt;begrensningAlder&gt; a cv:Constraint ; # begrensning
-   dct:title "Minst 18 år" ; # navn
+   dct:title "Begrensning på søkerens alder"@nb ; # navn
+   dct:description "Søkeren må være minst 18 år gammel."@nb ;
    cv:constrains &lt;alder&gt; ; # begrenser
    .
 
-&lt;brukerensSivilstand&gt; a cv:InformationRequirement ;  # informasjonskrav
-   dct:title "Brukerens sivilstand"@nb ; # navn
-   cv:hasRequirement &lt;sivilstand&gt;, &lt;begrensningSivilstand&gt; ; # har mer spesifikt krav
+&lt;søkerensSivilstand&gt; a cv:InformationRequirement ;  # informasjonskrav
+   dct:title "Søkerens sivilstand"@nb ; # navn
+   cv:hasConcept &lt;sivilstand&gt; ; # har informasjonsbegrep
+   cv:hasRequirement &lt;begrensningSivilstand&gt; ; # har mer spesifikt krav
    .
 
 &lt;sivilstand&gt; a cv:InformationConcept ; # informasjonsbegrep
@@ -6133,20 +6136,21 @@ for å beskrive data som forespørres (f.eks. «Søkerens alder») og som skal b
    .
 
 &lt;begrensningSivilstand&gt; a cv:Constraint ; # begrensning
-   dct:title "ulik &lt;gift&gt;, &lt;separert&gt;, &lt;registrert partner&gt; eller &lt;separert partner&gt;" ; # navn
+   dct:title "Begrensning på søkerens sivilstand"@nb ; # navn
+   dct:description "Søkerens sivilstand kan ikke være &lt;gift&gt;, &lt;separert&gt;, &lt;registrert partner&gt; eller &lt;separert partner&gt;."@nb ;
    cv:constrains &lt;sivilstand&gt; ; # begrenser
    .
 
 &lt;fregUttrekkForOlaNormann&gt; a cv:Evidence ; # en konkret dokumentasjon, for Ola Nordmann
    dct:title "Uttrekk fra Folkeregisteret for Ola Nordmann"@nb ; # navn
-   cv:supportsRequirement &lt;brukerensAlder&gt;, &lt;begrensningAlder&gt;,
-      &lt;brukerensSivilstand&gt;, &lt;begrensningSivilstand&gt; ; # understøtter krav
+   cv:supportsRequirement &lt;søkerensAlder&gt;, &lt;begrensningAlder&gt;,
+      &lt;søkerensSivilstand&gt;, &lt;begrensningSivilstand&gt; ; # understøtter krav
    .
 
 &lt;fregUttrekk&gt; a cccevno:RequiredEvidence ; # påkrevd dokumentasjon
    dct:title "Uttrekk fra Folkeregisteret"@nb ; # navn
-   cv:supportsRequirement &lt;brukerensAlder&gt;, &lt;begrensningAlder&gt;,
-      &lt;brukerensSivilstand&gt;, &lt;begrensningSivilstand&gt; ; # understøtter krav
+   cv:supportsRequirement &lt;søkerensAlder&gt;, &lt;begrensningAlder&gt;,
+      &lt;søkerensSivilstand&gt;, &lt;begrensningSivilstand&gt; ; # understøtter krav
    .</pre>
 </div>
 </div>
@@ -6274,7 +6278,8 @@ for å beskrive data som forespørres (f.eks. «Søkerens alder») og som skal b
 &lt;søkerensAlder&gt; a cv:InformationRequirement ;  # informasjonskrav
    dct:title "Søkerens alder"@nb ; # navn
    cv:isDerivedFrom &lt;ekteskapsloven1a&gt; ; # er utledet fra
-   cv:hasRequirement &lt;alder&gt;, &lt;begrensningAlder&gt; ; # har mer spesifikt krav
+   cv:hasConcept &lt;alder&gt; ; # har informasjonsbegrep
+   cv:hasRequirement &lt;begrensningAlder&gt; ; # har mer spesifikt krav
    .
 
 &lt;alder&gt; a cv:InformationConcept ; # informasjonsbegrep
@@ -6291,7 +6296,8 @@ for å beskrive data som forespørres (f.eks. «Søkerens alder») og som skal b
 &lt;søkerensSivilstand&gt; a cv:InformationRequirement ;  # informasjonskrav
    dct:title "Søkerens sivilstand"@nb ; # navn
    cv:isDerivedFrom &lt;ekteskapsloven4&gt; ; # er utledet fra
-   cv:hasRequirement &lt;sivilstand&gt;, &lt;begrensningSivilstand&gt; ; # har mer spesifikt krav
+   cv:hasConcept &lt;sivilstand&gt; ; # har informasjonsbegrep
+   cv:hasRequirement &lt;begrensningSivilstand&gt; ; # har mer spesifikt krav
    .
 
 &lt;sivilstand&gt; a cv:InformationConcept ; # informasjonsbegrep
@@ -6448,7 +6454,7 @@ for å beskrive data som forespørres (f.eks. «Søkerens alder») og som skal b
 </div>
 <div id="footer">
 <div id="footer-text">
-Sist oppdatert 2026-02-03 10:02:10 UTC
+Sist oppdatert 2026-02-03 10:32:42 UTC
 </div>
 </div>
 </body>

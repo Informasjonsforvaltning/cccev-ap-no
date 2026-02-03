@@ -4,20 +4,20 @@
 
 CPSV-AP-NO gjør det mulig, i struktuert og maskinlesbar form, å beskrive betingelser som skal oppfylles og dokumentasjon av oppfyllelse.
 
-Følgende er et illustrativt eksempel på bruk av CCCEV-AP-NO for å beskrive «Vilkår for å inngå ekteskap», med beskrivelse av data som trengs samt begrensninger på disse dataene. I eksemplet er det også tatt med påkrevd dokumentasjon og en faktisk dokumentasjon som gir kilden til dataene som trengs.
+Følgende er et illustrativt eksempel på bruk av CCCEV-AP-NO for å beskrive «Vilkår for å inngå ekteskap», med beskrivelse av data som trengs samt begrensninger på disse dataene. I eksemplet er det også tatt med påkrevd dokumentasjon og faktisk dokumentasjon som gir kilden til dataene som trengs.
 
 * *Kriterium*: Vilkår for å inngå ekteskap
 ** *Informasjonskrav* 1: Søkerens alder
 *** *Informasjonsbegrep*: Alder
 **** *Begrensning*: Søkeren må være minst 18 år gammel
-*** *Påkrevd dokumentasjon*: Folkeregisteret (som kilde til den påkrevde dokumentasjonen)
-*** *Dokumentasjon*: Uttrekk/utskrift fra Folkeregisteret for <Ola Nordmann>
+*** *Påkrevd dokumentasjon*: Uttrek fra Folkeregisteret; ...
+*** *Dokumentasjon*: Uttrekk fra Folkeregisteret for Ola Nordmann
 
 ** *Informasjonskrav* 2: Søkerens sivilstand
 *** *Informasjonsbegrep*: Sivilstand
 **** *Begrensning*: Søkerens sivilstand kan ikke være <gift>, <separert>, <registrert partner> eller <separert partner>
-*** *Påkrevd dokumentasjon*: Folkeregisteret (som kilde til den påkrevde dokumentasjonen)
-*** *Dokumentasjon*: Uttrekk/utskrift fra Folkeregisteret for <Ola Nordmann>
+*** *Påkrevd dokumentasjon*: Uttrek fra Folkeregisteret; ...
+*** *Dokumentasjon*: Uttrekk fra Folkeregisteret for Ola Nordmann
 
 ** *Informasjonskrav* 3: ...
 *** *Informasjonsbegrep*: ...
@@ -37,13 +37,14 @@ Eksemplet i RDF Turtle:
 -----
 <vilkårForÅInngåEkteskap> a cv:Criterion ; # kriterium
    dct:title "Vilkår for å inngå ekteskap"@nb ; # navn
-   cv:hasRequirement <brukerensAlder>, <begrensningAlder>, 
-      <brukerensSivilstand>, <begrensningSivilstand> ; # har mer spesifikt krav
+   cv:hasRequirement <søkerensAlder>, <begrensningAlder>, 
+      <søkerensSivilstand>, <begrensningSivilstand> ; # har mer spesifikt krav
    .
 
-<brukerensAlder> a cv:InformationRequirement ;  # informasjonskrav
-   dct:title "Brukerens alder"@nb ; # navn
-   cv:hasRequirement <alder>, <begrensningAlder> ; # har mer spesifikt krav
+<søkerensAlder> a cv:InformationRequirement ;  # informasjonskrav
+   dct:title "Søkerens alder"@nb ; # navn
+   cv:hasConcept <alder> ; # har informasjonsbegrep
+   cv:hasRequirement <begrensningAlder> ; # har mer spesifikt krav
    .
 
 <alder> a cv:InformationConcept ; # informasjonsbegrep
@@ -51,13 +52,15 @@ Eksemplet i RDF Turtle:
    .
 
 <begrensningAlder> a cv:Constraint ; # begrensning
-   dct:title "Minst 18 år" ; # navn
+   dct:title "Begrensning på søkerens alder"@nb ; # navn
+   dct:description "Søkeren må være minst 18 år gammel."@nb ;
    cv:constrains <alder> ; # begrenser
    .
 
-<brukerensSivilstand> a cv:InformationRequirement ;  # informasjonskrav
-   dct:title "Brukerens sivilstand"@nb ; # navn
-   cv:hasRequirement <sivilstand>, <begrensningSivilstand> ; # har mer spesifikt krav
+<søkerensSivilstand> a cv:InformationRequirement ;  # informasjonskrav
+   dct:title "Søkerens sivilstand"@nb ; # navn
+   cv:hasConcept <sivilstand> ; # har informasjonsbegrep
+   cv:hasRequirement <begrensningSivilstand> ; # har mer spesifikt krav
    .
 
 <sivilstand> a cv:InformationConcept ; # informasjonsbegrep
@@ -65,20 +68,21 @@ Eksemplet i RDF Turtle:
    .
 
 <begrensningSivilstand> a cv:Constraint ; # begrensning
-   dct:title "ulik <gift>, <separert>, <registrert partner> eller <separert partner>" ; # navn
+   dct:title "Begrensning på søkerens sivilstand"@nb ; # navn
+   dct:description "Søkerens sivilstand kan ikke være <gift>, <separert>, <registrert partner> eller <separert partner>."@nb ;
    cv:constrains <sivilstand> ; # begrenser
    .
 
 <fregUttrekkForOlaNormann> a cv:Evidence ; # en konkret dokumentasjon, for Ola Nordmann 
    dct:title "Uttrekk fra Folkeregisteret for Ola Nordmann"@nb ; # navn
-   cv:supportsRequirement <brukerensAlder>, <begrensningAlder>,
-      <brukerensSivilstand>, <begrensningSivilstand> ; # understøtter krav
+   cv:supportsRequirement <søkerensAlder>, <begrensningAlder>,
+      <søkerensSivilstand>, <begrensningSivilstand> ; # understøtter krav
    .
 
 <fregUttrekk> a cccevno:RequiredEvidence ; # påkrevd dokumentasjon
    dct:title "Uttrekk fra Folkeregisteret"@nb ; # navn
-   cv:supportsRequirement <brukerensAlder>, <begrensningAlder>, 
-      <brukerensSivilstand>, <begrensningSivilstand> ; # understøtter krav
+   cv:supportsRequirement <søkerensAlder>, <begrensningAlder>, 
+      <søkerensSivilstand>, <begrensningSivilstand> ; # understøtter krav
    .
 -----
 
