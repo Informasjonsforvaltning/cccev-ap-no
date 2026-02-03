@@ -18,8 +18,8 @@ Som figuren viser, kan CCCEV-AP-NO brukes til å beskrive
 
 * Krav i form av *Kriterium*, *Informasjonskrav* eller *Begrensning*:
 ** *Kriterium* brukes til å oppgi betingelse som må være oppfylt. Eksempel på et kriterium kan være «Søkeren må ha fylt 18 år». 
-** *Informasjonbskrav* brukes til å oppgi data som forespøres og som skal dokumentere en eller flere fakta, eller som fører til kilden til slik dokumentasjon. Eksempel på et informasjonskrav kan være «Søkerens alder». For å kunne i maskinlesbar form beskrive dataene som forespørres, brukes Informasjonskrav sammen med *Informasjonsbegrep*, f.eks. «Alder (i antall år)».
-** *Begrensning* brukes til å oppgi begrensning som gjelder for et informasjonsbegrep. For informasjonsbegrepet «Alder (i antall år)» kan en begrensning være «Minst 18 år».
+** *Informasjonbskrav* brukes til å oppgi data som forespøres og som skal dokumentere en eller flere fakta, eller som fører til kilden til slik dokumentasjon. Eksempel på et informasjonskrav kan være «Søkerens alder». For å kunne i maskinlesbar form beskrive dataene som forespørres, brukes Informasjonskrav sammen med *Informasjonsbegrep*, f.eks. «Alder».
+** *Begrensning* brukes til å oppgi begrensning som gjelder for et informasjonsbegrep. For informasjonsbegrepet «Alder» kan en begrensning være «Minst 18 år».
 * *Dokumentasjon* brukes til, i «run-time», å oppgi den _faktiske_ dokumentasjonen som er fremlagt og som er brukt til å evaluere om et krav er oppfylt eller ikke. Eksempel på en faktisk dokumentasjon kan være «Fødselsattest til Ola Nordmann». Dokumentasjon brukes med andre ord i forbindelse med _utførelsen_ av en tjeneste, i f.eks. en saksbehandlings- eller arkiveringsapplikasjon.
 * *Påpkrevd dokumentasjon* brukes til, i «design-time», å oppgi den påkrevde dokumentasjonen som kan brukes til å evaluere om et krav er oppfylt eller ikke. Eksempel på en påkrved dokumentasjon kan være «Fødselsattest». Påpkrevd dokumentasjon brukes med andre ord i forbindelse med _beskrivelse_ av en tjeneste, i f.eks. en tjenestekatalog.
 

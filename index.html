@@ -1002,10 +1002,10 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <p><strong>Kriterium</strong> brukes til å oppgi betingelse som må være oppfylt. Eksempel på et kriterium kan være «Søkeren må ha fylt 18 år».</p>
 </li>
 <li>
-<p><strong>Informasjonbskrav</strong> brukes til å oppgi data som forespøres og som skal dokumentere en eller flere fakta, eller som fører til kilden til slik dokumentasjon. Eksempel på et informasjonskrav kan være «Søkerens alder». For å kunne i maskinlesbar form beskrive dataene som forespørres, brukes Informasjonskrav sammen med <strong>Informasjonsbegrep</strong>, f.eks. «Alder (i antall år)».</p>
+<p><strong>Informasjonbskrav</strong> brukes til å oppgi data som forespøres og som skal dokumentere en eller flere fakta, eller som fører til kilden til slik dokumentasjon. Eksempel på et informasjonskrav kan være «Søkerens alder». For å kunne i maskinlesbar form beskrive dataene som forespørres, brukes Informasjonskrav sammen med <strong>Informasjonsbegrep</strong>, f.eks. «Alder».</p>
 </li>
 <li>
-<p><strong>Begrensning</strong> brukes til å oppgi begrensning som gjelder for et informasjonsbegrep. For informasjonsbegrepet «Alder (i antall år)» kan en begrensning være «Minst 18 år».</p>
+<p><strong>Begrensning</strong> brukes til å oppgi begrensning som gjelder for et informasjonsbegrep. For informasjonsbegrepet «Alder» kan en begrensning være «Minst 18 år».</p>
 </li>
 </ul>
 </div>
@@ -2984,15 +2984,8 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>URI</strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">cv:EvidenceType</p></td>
 </tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Eksempel</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Se under <a href="#Å-beskrive-betingelser-som-skal-oppfylles"> 4.2, &#8220;Å beskrive betingelser som skal oppfylles&#8221;</a>.</p></td>
-</tr>
 </tbody>
 </table>
-<div class="paragraph">
-<p>Eksempel i RDF Turtle: Se under <a href="#Å-beskrive-betingelser-som-skal-oppfylles"> 4.2, &#8220;Å beskrive betingelser som skal oppfylles&#8221;</a>.</p>
-</div>
 <div class="sect3">
 <h4 id="Dokumentasjonstype-obligatoriske-egenskaper"><a class="link" href="#Dokumentasjonstype-obligatoriske-egenskaper">3.3.1. Obligatoriske egenskaper for klassen <em>Dokumentasjonstype</em></a></h4>
 <div class="sect4">
@@ -3222,15 +3215,8 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>URI</strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">cv:EvidenceTypeList</p></td>
 </tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Eksempel</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Se under <a href="#Å-beskrive-betingelser-som-skal-oppfylles"> 4.2, &#8220;Å beskrive betingelser som skal oppfylles&#8221;</a>.</p></td>
-</tr>
 </tbody>
 </table>
-<div class="paragraph">
-<p>Eksempel i RDF Turtle: Se under <a href="#Å-beskrive-betingelser-som-skal-oppfylles"> 4.2, &#8220;Å beskrive betingelser som skal oppfylles&#8221;</a>.</p>
-</div>
 <div class="sect3">
 <h4 id="Dokumentasjonstypeliste-obligatoriske-egenskaper"><a class="link" href="#Dokumentasjonstypeliste-obligatoriske-egenskaper">3.4.1. Obligatoriske egenskaper for klassen <em>Dokumentasjonstypeliste</em></a></h4>
 <div class="sect4">
@@ -3640,8 +3626,8 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Merknad / <em>Note</em></strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">I tillegg til <a href="#Informasjonsbegrep-uttrykk-av-forventet-verdi"> 3.5.1.1, &#8220;Informasjonsbegrep – uttrykk av forventet verdi (cv:expressionOfExpectedValue)&#8221;</a>, KAN denne egenskapen brukes til å uttrykke type verdi. Det kan være primitive typer som dato eller tekststreng, men også forretningsmessige domeneterminologier som «alder» eller «antall ansatte». Det anbefales at bruken av denne egenskapen er godt dokumentert.</p>
-<p class="tableblock"><em>In addition to the expression of the expected value, the type classification MAY be used to express the kind of value the information concept is processing. This can be primitive types such as a date or a string, but also more business domain terminology such as age or number of employees. It is recommended to well-document the usage of the property.</em></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Bruk denne egenskapen for forretningsmessige domeneterminologier som «alder» eller «antall ansatte» og egenskapen <a href="#Informasjonsbegrep-uttrykk-av-forventet-verdi"> 3.5.1.1, &#8220;Informasjonsbegrep – uttrykk av forventet verdi (cv:expressionOfExpectedValue)&#8221;</a> til primitive datatyper som dato eller tekststreng.</p>
+<p class="tableblock"><em>Use this property for business domain terminology such as age or number of employees and the property "expression of the expected value" for primitive types such as a date or a string. <strong>Norwegian extention</strong>: restricted the usage to only business domain terminology.</em></p></td>
 </tr>
 </tbody>
 </table>
@@ -6436,7 +6422,7 @@ for å beskrive data som forespørres (f.eks. «Søkerens alder») og som skal b
 </div>
 <div id="footer">
 <div id="footer-text">
-Sist oppdatert 2026-02-02 14:59:40 UTC
+Sist oppdatert 2026-02-03 07:58:06 UTC
 </div>
 </div>
 </body>
