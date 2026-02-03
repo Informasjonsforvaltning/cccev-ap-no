@@ -7,10 +7,10 @@ Følgende eksempel illustrerer at Kriterium «Vilkår for å inngå ekteskap» e
 * *Kriterium*: Vilkår for å inngå ekteskap
 ** er utledet fra: kapittel 1 i ekteskapsloven
 ** *Informasjonskrav* 1: Søkerens alder
-*** er utledet fra: §1.a i ekteskapsloven
+*** er utledet fra: §1a i ekteskapsloven
 *** *Informasjonsbegrep*: Alder
 **** *Begrensning*: Søkeren må være minst 18 år gammel
-***** er utledet fra: §1.a i ekteskapsloven
+***** er utledet fra: §1a i ekteskapsloven
 
 ** *Informasjonskrav* 2: Søkerens sivilstand
 *** er utledet fra: §4 i ekteskapsloven
