@@ -11,7 +11,7 @@ Spesifikasjonen er i utgangspunktet ikke tenkt å brukes alene. Den er ment å b
 
 === Omfang og avgrensing [[Omfang-og-avgrensing]]
 
-Spesifikasjonen er basert EUs https://github.com/SEMICeu/CCCEV/[__Core Criterion and Core Evidence Vocabulary (CCCEV)__ &#x29C9;, window="_blank", role="ext-link"]. Ettersom EUs https://github.com/SEMICeu/CPSV-AP/[Core Public Service Vocabulary Application Profile (CPSV-AP) &#x29C9;, window="_blank", role="ext-link"] bruker deler av CCCEV, baserer denne spesifikasjonen også på CPSV-AP sin måte å bruke CCCEV på.
+Spesifikasjonen er basert på EUs https://github.com/SEMICeu/CCCEV/[__Core Criterion and Core Evidence Vocabulary (CCCEV)__ &#x29C9;, window="_blank", role="ext-link"]. Ettersom EUs https://github.com/SEMICeu/CPSV-AP/[Core Public Service Vocabulary Application Profile (CPSV-AP) &#x29C9;, window="_blank", role="ext-link"] bruker deler av CCCEV, baserer denne spesifikasjonen seg også på CPSV-AP sin måte å bruke CCCEV på.
 
 Spesifikasjonen inneholder også engelske navn (_English name_) og beskrivelser (_Usage note_). Det gjøres oppmerksom på at ikke alle engelske navn eller beskrivelser er ordrette sitater fra EUs originale engelske tekster. Vi kan ha valgt en annen tekst til å formidle det samme budskapet på, med mindre vi eksplisitt sier at det er et avvik (dvs. også i meningsinnholdet). 
 
