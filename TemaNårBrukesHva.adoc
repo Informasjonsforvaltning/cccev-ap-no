@@ -19,9 +19,9 @@ for å beskrive data som forespørres (f.eks. «Søkerens alder») og som skal b
 Flytskjemaet i <<img-Figur-beslutningsflyt-krav>> nedenfor illustrerer forklaringen ovenfor.
 
 [[img-Figur-beslutningsflyt-krav]]
-.Flytskjema for når Kriterium, Informasjonskrav eller Begrensning bør brukes.
+.Flytskjema for når Kriterium, Informasjonskrav, Informasjonsbegrep og Begrensning bør brukes
 [link=images/Flytskjema-kriterium-informasjonskrav-begrensning.png]
-image::images/Flytskjema-kriterium-informasjonskrav-begrensning.png[alt="Flytskjema som viser når Kriterium, Informasjonskrav eller Begrensning bør brukes. Innholdet i flytskjemaet er forklart i teksten."]
+image::images/Flytskjema-kriterium-informasjonskrav-begrensning.png[alt="Flytskjema som viser når Kriterium, Informasjonskrav, Informasjonsbegrep og Begrensning bør brukes. Innholdet i flytskjemaet er forklart i teksten."]
 
 //:xrefstyle: pass:[%n %t]
 :xrefstyle: full

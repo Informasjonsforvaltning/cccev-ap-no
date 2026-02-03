@@ -1,7 +1,7 @@
 == Klassen Understøttende opplysning (cv:SupportedValue) [[UnderstøttendeOpplysning]]
 
 [[img-KlassenUnderstøttendeOpplysning]]
-.Klassen Understøttende opplysning (cv:SupportedValue) og klassen den refererer til.
+.Klassen Understøttende opplysning (cv:SupportedValue) og klassen den refererer til
 [link=images/KlassenUnderstøttendeOpplysning.png]
 image::images/KlassenUnderstøttendeOpplysning.png[alt="UML-diagram med klassen Understøttende opplysning, dens egenskaper og dens relasjon til en annen klasse. Innholdet i diagrammet er forklart i teksten."]
 

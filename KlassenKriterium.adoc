@@ -1,7 +1,7 @@
 == Klassen Kriterium (cv:Criterion) [[Kriterium]]
 
 [[img-KlassenKriterium]]
-.Klassen Kriterium (cv:Criterion) og klassene den refererer til.
+.Klassen Kriterium (cv:Criterion) og klassene den refererer til
 [link=images/KlassenKriterium.png]
 image::images/KlassenKriterium.png[alt="UML-diagram med klassen Kriterium, dens egenskaper og dens relasjoner til sju andre klasser. Innholdet i diagrammet er forklart i teksten."]
 

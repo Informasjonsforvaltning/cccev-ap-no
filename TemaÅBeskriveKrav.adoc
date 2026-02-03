@@ -28,7 +28,7 @@ Følgende er et illustrativt eksempel på bruk av CCCEV-AP-NO for å beskrive «
 Eksemplet er illustrert i <<img-Figur-eksempelbruk-kravsklassene>> nedenfor.
 
 [[img-Figur-eksempelbruk-kravsklassene]]
-.Eksempel - beskrivelse av «vilkår for å inngå ekteskap».
+.Eksempel - beskrivelse av «Vilkår for å inngå ekteskap»
 [link=images/Figur-eksempelbruk-kravsklassene.png]
 image::images/Figur-eksempelbruk-kravsklassene.png[alt="RDF-graf med syv RDF-noder og relasjoner imellom nodene. Innholdet i grafen er forklart i teksten."]
 

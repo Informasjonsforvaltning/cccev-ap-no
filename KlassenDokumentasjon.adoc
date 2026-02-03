@@ -1,7 +1,7 @@
 == Klassen Dokumentasjon (cv:Evidence) [[Dokumentasjon]]
 
 [[img-KlassenDokumentasjon]]
-.Klassen Dokumentasjon (cv:Evidence) og klassene den refererer til.
+.Klassen Dokumentasjon (cv:Evidence) og klassene den refererer til
 [link=images/KlassenDokumentasjon.png]
 image::images/KlassenDokumentasjon.png[alt="UML-diagram med klassen Dokumentasjon, dens egenskaper og dens relasjoner til seks andre klasser. Innholdet i diagrammet er forklart i teksten."]
 

@@ -7,7 +7,7 @@ _Denne delen av spesifikasjonen er primært ment for den tekniske målgruppen og
 <<img-KlasseOversikt>> viser en visuell oversikt over klassene i CCCEV-AP-NO og relasjoner mellom dem. I figuren er klassene som er spesifisert i https://data.norge.no/specification/cpsv-ap-no[Spesifikasjon for tjeneste- og hendelsesbeskrivelser (CPSV-AP-NO) &#x29C9;, window="_blank", role="ext-link"] og som blir referert til fra denne spesifikasjonen markert med grå bakgrunn.
 
 [[img-KlasseOversikt]]
-.Klassene i CCCEV-AP-NO.
+.Klassene i CCCEV-AP-NO
 [link=images/CCCEV-AP-NO-klasser.png]
 image::images/CCCEV-AP-NO-klasser.png[alt="UML-diagram med klassene som er i CCCEV-AP-NO og noen av relasjoner mellom dem. Innholdet i diagrammet er forklart i teksten."]
 
