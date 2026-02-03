@@ -31,9 +31,12 @@ Eksempel i RDF Turtle: Se under <<Å-beskrive-betingelser-som-skal-oppfylles>>.
 _This property represents a formulation in a formal language of the expected value(s) for the Information Concept which is aligned with the concepts from the Requirements defined and must be respected by the supplied Supported Values._
 | Multiplisitet / _Multiplicity_ | 1..1
 | Kravnivå / _Requirement level_ | Obligatorisk / _Mandatory_
-| Merknad / _Note_ | Norsk utvidelse: Kravnivået endret fra valgfri til obligatorisk, og multiplisiteten fra 0..n til 1..1.
+| Merknad 1 / _Not 1_ | Norsk utvidelse: Kravnivået endret fra valgfri til obligatorisk, og multiplisiteten fra 0..n til 1..1.
 
 _Norwegian extension: The requirement level changed from optional to mandatory, and the multiplicity from 0..n to 1..1._
+| Merknad 2 / _Note 2_ | Norsk utvidelse: Selv om CCCEV (foreløpig) forklarer at denne egenskapen også kan brukes til å oppgi nedre og øvre grenser for verdier (f.eks. «mellom 18 og 65 år»), anbefales det i denne norske spesifikasjonen at denne egenskapen bare brukes til å oppgi forventet datatype (f.eks. «heltall (`xsd:integer`)»). For å angi grenser for verdier anbefales det å bruke <<Begrensning>>.
+
+__Norwegian extension: Although CCCEV (currently) explains that this property can also be used to specify lower and upper bounderaries for values (e.g., "between 18 and 65 years"), it is recommended in this Norwegian specification that this property is only used to specify the expected data type (e.g., "integer (`xsd:integer`)"). To specify value bounderaries, it is recommended to use <<Begrensning, Constraint>>.__
 |===
 
 === Anbefalte egenskaper for klassen _Informasjonsbegrep_ [[Informasjonsbegrep-anbefalte-egenskaper]]
@@ -100,7 +103,7 @@ _Norwegian extension: The range changed from 'xsd:string' to 'rdf:langString'._
 _This property represents the category to which the Information Concept belongs._
 | Multiplisitet / _Multiplicity_ | 0..1
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
-|Merknad / _Note_ | Bruk denne egenskapen for forretningsmessige domeneterminologier som «alder» eller «antall ansatte» og egenskapen <<Informasjonsbegrep-uttrykk-av-forventet-verdi>> til primitive datatyper som dato eller tekststreng. 
+|Merknad / _Note_ | Norsk utvidelse: Selv om CCCEV (foreløpig) forklarer at denne egenskapen også kan brukes til å oppgi primitive typer som f.eks. dato eller tekststreng, anbefales det i denne norske spesifikasjonen at denne egenskapen brukes bare for forretningsmessige domeneterminologier som «alder» eller «antall ansatte», og at egenskapen <<Informasjonsbegrep-uttrykk-av-forventet-verdi>> til primitive datatyperg. 
 
-_Use this property for business domain terminology such as age or number of employees and the property "expression of the expected value" for primitive types such as a date or a string. *Norwegian extention*: restricted the usage to only business domain terminology._
+__Norwegian extension: Although CCCEV (currently) explains that this property can also be used to specify primitive types such as date or string, it is recommended in this Norwegian specification that this property is only used for business domain terminology such as "age" or "number of employees" and the property <<Informasjonsbegrep-uttrykk-av-forventet-verdi, expression of the expected value (cv:expressionOfExpectedValue)>> for primitive types.__
 |===
