@@ -10,6 +10,7 @@ Navnerom for dette vokabularet er: `\https://data.norge.no/vocabulary/cccevno#`
 |cv | `\http://data.europa.eu/m8g/` | https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/e-government-core-vocabularies[e-Government Core Vocabularies &#x29C9;, window="_blank", role="ext-link"]
 |dcat | `\http://www.w3.org/ns/dcat#` | https://www.w3.org/TR/vocab-dcat-2/[Data Catalog Vocabulary &#x29C9;, window="_blank", role="ext-link"]
 |dct | `\http://purl.org/dc/terms/` | https://www.dublincore.org/specifications/dublin-core/dcmi-terms/[DCMI Metadata Terms &#x29C9;, window="_blank", role="ext-link"]
+|eli | `\http://data.europa.eu/eli/ontology#` | https://eur-lex.europa.eu/eli-register/about.html[European Legislation Identifier &#x29C9;, window="_blank", role="ext-link"]
 |foaf | `\http://xmlns.com/foaf/0.1/` | http://xmlns.com/foaf/0.1/[FOAF Vocabulary &#x29C9;, window="_blank", role="ext-link"]
 |rdf | `\http://www.w3.org/1999/02/22-rdf-syntax-ns#` | https://www.w3.org/TR/rdf-syntax-grammar/[RDF 1.1 XML Syntax &#x29C9;, window="_blank", role="ext-link"]
 |rdfs | `\http://www.w3.org/2000/01/rdf-schema#` | https://www.w3.org/TR/rdf-schema/[RDF Schema 1.1 &#x29C9;, window="_blank", role="ext-link"]
@@ -25,6 +26,7 @@ Eksempel på prefiksene ovenfor uttrykt i RDF Turtle:
 @prefix cv: <http://data.europa.eu/m8g/> .
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix eli: <http://data.europa.eu/eli/ontology#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .

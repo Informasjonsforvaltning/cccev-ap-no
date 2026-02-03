@@ -74,15 +74,27 @@ Eksemplet i RDF Turtle:
    .
 
 <ekteskapsloven1> a cv:ReferenceFramework ; # referanserammeverk 
-   dct:identifier <https://lovdata.no/lov/1991-07-04-47/kapittel-1> ; # identifikator
+   dct:identifier <https://lovdata.no/eli/lov/1991/7/4/47/chapter/1> ; # identifikator
+   dct:title "Kapittel 1. Vilkår for å inngå ekteskap."@nb, 
+      "Chapter 1. Conditions for contracting a marriage."@en ;
+   dct:description "Kapittel 1 i ekteskapsloven."@nb, 
+      "Chapter 1 in The Marriage Act."@en;
     .
 
 <ekteskapsloven1a> a cv:ReferenceFramework ; # referanserammeverk 
-   dct:identifier <https://lovdata.no/lov/1991-07-04-47/§1a> ; # identifikator
+   dct:identifier <https://lovdata.no/eli/lov/1991/7/4/47/section/1a> ; # identifikator
+   dct:title "§ 1 a. Ekteskapsalder."@nb, 
+      "Section 1 a. Age for marriage."@en ;
+   dct:description "§1a i ekteskapsloven."@nb, 
+      "Section 1a in The Marriage Act."@en;
    .
 
 <ekteskapsloven4> a cv:ReferenceFramework ; # referanserammeverk 
-   dct:identifier <https://lovdata.no/lov/1991-07-04-47/§4> ; # identifikator
+   dct:identifier <https://lovdata.no/eli/lov/1991/7/4/47/section/4> ; # identifikator
+   dct:title "§ 4. Forbud mot ekteskap når tidligere ekteskap består."@nb, 
+      "Section 4. Prohibition against marriage when a previous marriage subsists."@en ;
+   dct:description "§4 i ekteskapsloven."@nb, 
+      "Section 4 in The Marriage Act."@en;
    .
 -----
 

@@ -34,9 +34,12 @@ Eksempel i RDF Turtle: Se under <<Å-kytte-krav-til-regelverk>>.
 _This property represents an unambiguous reference to a reference framework._
 | Multiplisitet / _Multiplicity_ | 1..1
 | Kravnivå / _Requirement level_ |  Obligatorisk / _Mandatory_
-| Merknad / _Note_ | Norsk utvidelse: Kravnivået endret fra valgfri til obligatorisk, og multiplisiteten fra 0..n til 1..1.
+| Merknad 1 / _Note 1_ | Norsk utvidelse: Kravnivået endret fra valgfri til obligatorisk, og multiplisiteten fra 0..n til 1..1.
 
 _Norwegian extension: The requirement level changed from optional to mandatory, and the multiplicity from 0..n to 1..1._
+| Merknad 2 / _Note 2_ | Norsk utvidelse: For referanser til lovdata BØR ELI-URI-er brukes. Se https://lovdata.no/eli/[Lovdata sin implementering av ELI &#x29C9;, window="_blank", role="ext-link"] for mer informasjon.
+
+__Norwegian extension: For references to Lovdata, ELI URIs SHOULD be used. See https://lovdata.no/eli/[ELI implementation at Lovdata &#x29C9;, window="_blank", role="ext-link"] for more information.__
 |===
 
 === Anbefalte egenskaper for klassen _Referanserammeverk_ [[Referanserammeverk-anbefalte-egenskaper]]
