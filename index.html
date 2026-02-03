@@ -6267,12 +6267,12 @@ for å beskrive data som forespørres (f.eks. «Søkerens alder») og som skal b
 <pre>&lt;vilkårForÅInngåEkteskap&gt; a cv:Criterion ; # kriterium
    dct:title "Vilkår for å inngå ekteskap"@nb ; # navn
    cv:isDerivedFrom &lt;ekteskapsloven1&gt; ; # er utledet fra
-   cv:hasRequirement &lt;brukerensAlder&gt;, &lt;begrensningAlder&gt;,
-      &lt;brukerensSivilstand&gt;, &lt;begrensningSivilstand&gt; ; # har mer spesifikt krav
+   cv:hasRequirement &lt;søkerensAlder&gt;, &lt;begrensningAlder&gt;,
+      &lt;søkerensSivilstand&gt;, &lt;begrensningSivilstand&gt; ; # har mer spesifikt krav
    .
 
-&lt;brukerensAlder&gt; a cv:InformationRequirement ;  # informasjonskrav
-   dct:title "Brukerens alder"@nb ; # navn
+&lt;søkerensAlder&gt; a cv:InformationRequirement ;  # informasjonskrav
+   dct:title "Søkerens alder"@nb ; # navn
    cv:isDerivedFrom &lt;ekteskapsloven1a&gt; ; # er utledet fra
    cv:hasRequirement &lt;alder&gt;, &lt;begrensningAlder&gt; ; # har mer spesifikt krav
    .
@@ -6282,13 +6282,15 @@ for å beskrive data som forespørres (f.eks. «Søkerens alder») og som skal b
    .
 
 &lt;begrensningAlder&gt; a cv:Constraint ; # begrensning
-   dct:title "Minst 18 år" ; # navn
+   dct:title "Begrensning på søkerens alder"@nb ; # navn
+   dct:description "Søkeren må være minst 18 år gammel."@nb ;
    cv:isDerivedFrom &lt;ekteskapsloven1a&gt; ; # er utledet fra
    cv:constrains &lt;alder&gt; ; # begrenser
    .
 
-&lt;brukerensSivilstand&gt; a cv:InformationRequirement ;  # informasjonskrav
-   dct:title "Brukerens sivilstand"@nb ; # navn
+&lt;søkerensSivilstand&gt; a cv:InformationRequirement ;  # informasjonskrav
+   dct:title "Søkerens sivilstand"@nb ; # navn
+   cv:isDerivedFrom &lt;ekteskapsloven4&gt; ; # er utledet fra
    cv:hasRequirement &lt;sivilstand&gt;, &lt;begrensningSivilstand&gt; ; # har mer spesifikt krav
    .
 
@@ -6297,13 +6299,14 @@ for å beskrive data som forespørres (f.eks. «Søkerens alder») og som skal b
    .
 
 &lt;begrensningSivilstand&gt; a cv:Constraint ; # begrensning
-   dct:title "ulik &lt;gift&gt;, &lt;separert&gt;, &lt;registrert partner&gt; eller &lt;separert partner&gt;" ; # navn
+   dct:title "Begrensning på søkerens sivilstand"@nb ; # navn
+   dct:description "Søkerens sivilstand kan ikke være &lt;gift&gt;, &lt;separert&gt;, &lt;registrert partner&gt; eller &lt;separert partner&gt;."@nb ;
    cv:isDerivedFrom &lt;ekteskapsloven4&gt; ; # er utledet fra
    cv:constrains &lt;sivilstand&gt; ; # begrenser
    .
 
 &lt;ekteskapsloven1&gt; a cv:ReferenceFramework ; # referanserammeverk
-   dct:identifier &lt;https://lovdata.no/eli/lov/1991/7/4/47/chapter/1&gt; ; # identifikator
+   dct:identifier "https://lovdata.no/eli/lov/1991/7/4/47/chapter/1"^^xsd:anyURI ; # identifikator
    dct:title "Kapittel 1. Vilkår for å inngå ekteskap."@nb,
       "Chapter 1. Conditions for contracting a marriage."@en ;
    dct:description "Kapittel 1 i ekteskapsloven."@nb,
@@ -6311,7 +6314,7 @@ for å beskrive data som forespørres (f.eks. «Søkerens alder») og som skal b
     .
 
 &lt;ekteskapsloven1a&gt; a cv:ReferenceFramework ; # referanserammeverk
-   dct:identifier &lt;https://lovdata.no/eli/lov/1991/7/4/47/section/1a&gt; ; # identifikator
+   dct:identifier "https://lovdata.no/eli/lov/1991/7/4/47/section/1a"^^xsd:anyURI ; # identifikator
    dct:title "§ 1 a. Ekteskapsalder."@nb,
       "Section 1 a. Age for marriage."@en ;
    dct:description "§1a i ekteskapsloven."@nb,
@@ -6319,7 +6322,7 @@ for å beskrive data som forespørres (f.eks. «Søkerens alder») og som skal b
    .
 
 &lt;ekteskapsloven4&gt; a cv:ReferenceFramework ; # referanserammeverk
-   dct:identifier &lt;https://lovdata.no/eli/lov/1991/7/4/47/section/4&gt; ; # identifikator
+   dct:identifier "https://lovdata.no/eli/lov/1991/7/4/47/section/4"^^xsd:anyURI ; # identifikator
    dct:title "§ 4. Forbud mot ekteskap når tidligere ekteskap består."@nb,
       "Section 4. Prohibition against marriage when a previous marriage subsists."@en ;
    dct:description "§4 i ekteskapsloven."@nb,
@@ -6445,7 +6448,7 @@ for å beskrive data som forespørres (f.eks. «Søkerens alder») og som skal b
 </div>
 <div id="footer">
 <div id="footer-text">
-Sist oppdatert 2026-02-03 09:02:24 UTC
+Sist oppdatert 2026-02-03 09:54:35 UTC
 </div>
 </div>
 </body>
