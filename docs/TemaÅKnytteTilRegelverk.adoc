@@ -45,7 +45,8 @@ Eksemplet i RDF Turtle:
 <søkerensAlder> a cv:InformationRequirement ;  # informasjonskrav
    dct:title "Søkerens alder"@nb ; # navn
    cv:isDerivedFrom <ekteskapsloven1a> ; # er utledet fra
-   cv:hasRequirement <alder>, <begrensningAlder> ; # har mer spesifikt krav
+   cv:hasConcept <alder> ; # har informasjonsbegrep
+   cv:hasRequirement <begrensningAlder> ; # har mer spesifikt krav
    .
 
 <alder> a cv:InformationConcept ; # informasjonsbegrep
@@ -62,7 +63,8 @@ Eksemplet i RDF Turtle:
 <søkerensSivilstand> a cv:InformationRequirement ;  # informasjonskrav
    dct:title "Søkerens sivilstand"@nb ; # navn
    cv:isDerivedFrom <ekteskapsloven4> ; # er utledet fra
-   cv:hasRequirement <sivilstand>, <begrensningSivilstand> ; # har mer spesifikt krav
+   cv:hasConcept <sivilstand> ; # har informasjonsbegrep
+   cv:hasRequirement <begrensningSivilstand> ; # har mer spesifikt krav
    .
 
 <sivilstand> a cv:InformationConcept ; # informasjonsbegrep
