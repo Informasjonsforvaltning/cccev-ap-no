@@ -7,5 +7,5 @@ __This specification, CCCEV-AP-NO, is the Norwegian application profile of https
 
 __This specification is primarily not meant to be used alone. It supplements the https://data.norge.no/specification/cpsv-ap-no#_abstract_in_english["Norwegian specification for description of services and events, CPSV-AP-NO &#x29C9;"", window="_blank", role="ext-link"], which is the Norwegian application profile of https://github.com/SEMICeu/CPSV-AP/[EUs Core Public Service Vocabulary Application Profile (CPSV-AP) &#x29C9;, window="_blank", role="ext-link"]__.
 
-__The specification is mainly in Norwegian. However, in <<del2, Chap. 3>> which requires a certain level of knowledge in RDF, the specification of the classes and properties is in both Norwegian and English. Norwegian extensions (compared to CCCEV) are also documented as "Note" to the class/property in concern.__
+__The specification is mainly in Norwegian. However, in <<Spesifikasjon-per-klasse, Chap. 3>> which requires a certain level of knowledge in RDF, the specification of the classes and properties is in both Norwegian and English. Norwegian extensions (compared to CCCEV) are also documented as "Note" to the class/property in concern.__
 ====
