@@ -24,7 +24,7 @@ Som figuren viser, kan CCCEV-AP-NO brukes til å beskrive
 * *Dokumentasjon* brukes til, i «_run-time_», å oppgi den _faktiske_ dokumentasjonen som _er_ fremlagt og brukt til å evaluere om et krav er oppfylt eller ikke. Dokumentasjon brukes med andre ord i forbindelse med _utførelsen_ av en tjeneste, i f.eks. en saksbehandlings- eller arkiveringsapplikasjon. Eksempel på en faktisk dokumentasjon kan være «Uttrekk fra Folkeregisteret for Ola Nordmann».
 * *Påkrevd dokumentasjon* brukes til, i «_design-time_», å oppgi den påkrevde dokumentasjonen som _kan_ fremlegges og brukes til å evaluere om et krav er oppfylt eller ikke. Påkrevd dokumentasjon brukes med andre ord i forbindelse med _beskrivelsen_ av en tjeneste, i f.eks. en tjenestekatalog. Eksempler på en påkrevd dokumentasjon på en søkers alder kan være «Uttrekk fra Folkeregisteret», «Fødselsattest» eller «Førerkort»/«ID-kort»/«Pass».
 
-Se ellers <<[Når-brukes-kriterium-informasjonskrav-informasjonsbegrep-begrensning>> for mer forklaring på når Kriterium, Informasjonskrav eller Begrensning bør brukes.
+Se ellers <<Når-brukes-kriterium-informasjonskrav-informasjonsbegrep-begrensning>> for mer forklaring på når Kriterium, Informasjonskrav eller Begrensning bør brukes.
 
 Se også <<Å-beskrive-betingelser-som-skal-oppfylles>> og <<Å-kytte-krav-til-regelverk>> for illustrative eksempler på bruk av CCCEV-AP-NO.
 
@@ -83,7 +83,7 @@ For å sikre at *Informasjonsbegrep* blir beskrevet på en ensartet måte, inneh
 [cols="20s,65d,15d", options="header"]
 |===
 | Obligatorisk | Forklaring | Ref. til Kap. <<Spesifikasjon-per-klasse>>
-| forventet verdi | Angir forventet datatype for verdien til informasjonsbegrepet (f.eks. heltall, dato eller kode) | <<Informasjonsbegrep-uttrykk-av-forventet-verdi>>
+| forventet datatype | Angir forventet datatype for verdien til informasjonsbegrepet (f.eks. heltall, dato eller kode) | <<Informasjonsbegrep-uttrykk-av-forventet-datatype>>
 |===
 
 [[Tabell-anbefalte-opplysninger-informasjonsbegrep]]
