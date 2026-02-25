@@ -1,4 +1,4 @@
-== Forenklet fremstilling av noen av kravene i CCCEV-AP-NO [[del1]]
+== Forenklet fremstilling av noen av kravene i CCCEV-AP-NO [[Forenklet-fremstilling]]
 
 _Denne delen av spesifikasjonen er primært ment for den ikke-tekniske målgruppen._ 
 
@@ -24,11 +24,11 @@ Som figuren viser, kan CCCEV-AP-NO brukes til å beskrive
 * *Dokumentasjon* brukes til, i «_run-time_», å oppgi den _faktiske_ dokumentasjonen som _er_ fremlagt og brukt til å evaluere om et krav er oppfylt eller ikke. Dokumentasjon brukes med andre ord i forbindelse med _utførelsen_ av en tjeneste, i f.eks. en saksbehandlings- eller arkiveringsapplikasjon. Eksempel på en faktisk dokumentasjon kan være «Uttrekk fra Folkeregisteret for Ola Nordmann».
 * *Påkrevd dokumentasjon* brukes til, i «_design-time_», å oppgi den påkrevde dokumentasjonen som _kan_ fremlegges og brukes til å evaluere om et krav er oppfylt eller ikke. Påkrevd dokumentasjon brukes med andre ord i forbindelse med _beskrivelsen_ av en tjeneste, i f.eks. en tjenestekatalog. Eksempler på en påkrevd dokumentasjon på en søkers alder kan være «Uttrekk fra Folkeregisteret», «Fødselsattest» eller «Førerkort»/«ID-kort»/«Pass».
 
-Se ellers <<Når-brukes-hva>> for mer forklaring på når Kriterium, Informasjonskrav eller Begrensning bør brukes.
+Se ellers <<[Når-brukes-kriterium-informasjonskrav-informasjonsbegrep-begrensning>> for mer forklaring på når Kriterium, Informasjonskrav eller Begrensning bør brukes.
 
 Se også <<Å-beskrive-betingelser-som-skal-oppfylles>> og <<Å-kytte-krav-til-regelverk>> for illustrative eksempler på bruk av CCCEV-AP-NO.
 
-Hvilke typer opplysninger som SKAL (obligatoriske), BØR (anbefalte) og KAN (valgfrie) tas med i en beskrivelse av et krav eller en dokumentasjon av kravoppfyllelse er nærmere spesifisert i det følgende i dette kapittelet. Hvordan opplysningene skal representeres teknisk i RDF (https://www.w3.org/RDF/[Resource Description Framework &#x29C9;, window="_blank", role="ext-link"]) er spesifisert i <<del2>>, som også innehlder flere klasser som kan brukes i tillegg til de som er vist i <<img-ForenkletModell>> og beskrevet i dette kapittelet.
+Hvilke typer opplysninger som SKAL (obligatoriske), BØR (anbefalte) og KAN (valgfrie) tas med i en beskrivelse av et krav eller en dokumentasjon av kravoppfyllelse er nærmere spesifisert i det følgende i dette kapittelet. Hvordan opplysningene skal representeres teknisk i RDF (https://www.w3.org/RDF/[Resource Description Framework &#x29C9;, window="_blank", role="ext-link"]) er spesifisert i <<Spesifikasjon-per-klasse>>, som også innehlder flere klasser som kan brukes i tillegg til de som er vist i <<img-ForenkletModell>> og beskrevet i dette kapittelet.
 
 :xrefstyle: short
 
@@ -39,7 +39,7 @@ For å sikre at *Kriterium*, *Informasjonskrav* og *Begrensning* blir beskrevet 
 .Obligatoriske opplysningstyper som en beskrivelse av Kriterium, Informasjonskrav og Begrensning SKAL inneholde
 [cols="20s,65d,15d", options="header"]
 |===
-| Obligatorisk | Forklaring | Ref. til <<del2>>
+| Obligatorisk | Forklaring | Ref. til Kap. <<Spesifikasjon-per-klasse>>
 | identifikator | Unik identifikator, som regel opprettet automatisk av et system | <<Begrensning-identifikator>>, <<Informasjonskrav-identifikator>>, <<Kriterium-identifikator>>
 | navn | Navn til kravet | <<Begrensning-navn>>, <<Informasjonskrav-navn>>, <<Kriterium-navn>>
 | begrenser | _Gjelder kun Begrensning_. Refererer til informasjonsbegrep som begrensningen gjelder. | <<Begrensning-begrenser>>
@@ -49,7 +49,7 @@ For å sikre at *Kriterium*, *Informasjonskrav* og *Begrensning* blir beskrevet 
 .Anbefalte opplysningstyper som en beskrivelse av Kriterium, Informasjonskrav og Begrensning BØR inneholde
 [cols="20s,65d,15d", options="header"]
 |===
-| Anbefalt | Forklaring | Ref. til <<del2>>
+| Anbefalt | Forklaring | Ref. til Kap. <<Spesifikasjon-per-klasse>>
 | beskrivelse | Tekstlig beskrivelse av kravet | <<Begrensning-beskrivelse>>, <<Informasjonskrav-beskrivelse>>, <<Kriterium-beskrivelse>>
 |===
 
@@ -57,7 +57,7 @@ For å sikre at *Kriterium*, *Informasjonskrav* og *Begrensning* blir beskrevet 
 .Valgfrie opplysningstyper som en beskrivelse av Kriterium, Informasjonskrav og Begrensning KAN inneholde
 [cols="20s,65d,15d", options="header"]
 |===
-| Valgfri | Forklaring | Ref. til <<del2>>
+| Valgfri | Forklaring | Ref. til Kap. <<Spesifikasjon-per-klasse>>
 | er subkrav av | Refererer til et annet krav som dette kravet er del av | <<Begrensning-er-subkrav-av>>, <<Informasjonskrav-er-subkrav-av>>, <<Kriterium-er-subkrav-av>>
 | er utledet fra | Refererer til referanserammeverk som kravet er basert på, f.eks. lov, forskrift eller annen regulering | <<Begrensning-er-utledet-fra>>, <<Informasjonskrav-er-utledet-fra>>, <<Kriterium-er-utledet-fra>>
 | er utstedt av | Refererer til aktøren som har utstedt kravet | <<Begrensning-er-utstedt-av>>, <<Informasjonskrav-er-utstedt-av>>, <<Kriterium-er-utstedt-av>>
@@ -82,7 +82,7 @@ For å sikre at *Informasjonsbegrep* blir beskrevet på en ensartet måte, inneh
 .Obligatoriske opplysningstyper som en beskrivelse av Informasjonsbegrep SKAL inneholde
 [cols="20s,65d,15d", options="header"]
 |===
-| Obligatorisk | Forklaring | Ref. til <<del2>>
+| Obligatorisk | Forklaring | Ref. til Kap. <<Spesifikasjon-per-klasse>>
 | forventet verdi | Forventet verdi formulert i et formelt språk som informasjonsbegrepet skal være i samsvar med | <<Informasjonsbegrep-uttrykk-av-forventet-verdi>>
 |===
 
@@ -90,7 +90,7 @@ For å sikre at *Informasjonsbegrep* blir beskrevet på en ensartet måte, inneh
 .Anbefalte opplysningstyper som en beskrivelse av Informasjonsbegrep BØR inneholde
 [cols="20s,65d,15d", options="header"]
 |===
-| Anbefalt | Forklaring | Ref. til <<del2>>
+| Anbefalt | Forklaring | Ref. til Kap. <<Spesifikasjon-per-klasse>>
 | beskrivelse | Tekstlig beskrivelse av informasjonsbegrepet | <<Informasjonsbegrep-beskrivelse>>
 |===
 
@@ -98,7 +98,7 @@ For å sikre at *Informasjonsbegrep* blir beskrevet på en ensartet måte, inneh
 .Valgfrie opplysningstyper som en beskrivelse av Informasjonsbegrep KAN inneholde
 [cols="20s,65d,15d", options="header"]
 |===
-| Valgfri | Forklaring | Ref. til <<del2>>
+| Valgfri | Forklaring | Ref. til Kap. <<Spesifikasjon-per-klasse>>
 | identifikator | Unik identifikator, som regel opprettet automatisk av et system | <<Informasjonsbegrep-identifikator>>
 | navn | Navnet til informasjonsbegrepet | <<Informasjonsbegrep-navn>>
 | type | Kategori informasjonsbegrepet tilhører | <<Informasjonsbegrep-type>>
@@ -111,7 +111,7 @@ For å sikre at *Dokumentasjon* blir beskrevet på en ensartet måte, inneholder
 .Obligatoriske opplysningstyper som en beskrivelse av Dokumentasjon SKAL inneholde
 [cols="20s,65d,15d", options="header"]
 |===
-| Obligatorisk | Forklaring | Ref. til <<del2>>
+| Obligatorisk | Forklaring | Ref. til Kap. <<Spesifikasjon-per-klasse>>
 | identifikator | Unik identifikator, som regel opprettet automatisk av et system | <<Dokumentasjon-identifikator>>
 | navn | Det offisielle navnet til dokumentasjonen | <<Dokumentasjon-navn>>
 |===
@@ -120,7 +120,7 @@ For å sikre at *Dokumentasjon* blir beskrevet på en ensartet måte, inneholder
 .Anbefalte opplysningstyper som en beskrivelse av Dokumentasjon BØR inneholde
 [cols="20s,65d,15d", options="header"]
 |===
-| Anbefalt | Forklaring | Ref. til <<del2>>
+| Anbefalt | Forklaring | Ref. til Kap. <<Spesifikasjon-per-klasse>>
 | beskrivelse | Tekstlig beskrivelse av dokumentasjonen | <<Dokumentasjon-beskrivelse>>
 | språk | Språket dokumentasjonen er skrevet på | <<Dokumentasjon-språk>>
 |===
@@ -129,7 +129,7 @@ For å sikre at *Dokumentasjon* blir beskrevet på en ensartet måte, inneholder
 .Valgfrie opplysningstyper som en beskrivelse av Dokumentasjon KAN inneholde
 [cols="20s,65d,15d", options="header"]
 |===
-| Valgfri | Forklaring | Ref. til <<del2>>
+| Valgfri | Forklaring | Ref. til Kap. <<Spesifikasjon-per-klasse>>
 | er del av | Refererer til et datasett som den aktuelle dokumentasjonen fysisk eller logisk er inkludert i | <<Dokumentasjon-er-del-av>>
 | distributør | Oppgir aktør som sender dokumentasjonen | <<Dokumentasjon-distributør>>
 | gir understøttende opplysning | Refererer til understøttende opplysninger i dokumentasjonen | <<Dokumentasjon-gir-understøttende-opplysning>>
@@ -152,7 +152,7 @@ For å sikre at *Påkrevd dokumentasjon* blir beskrevet på en ensartet måte, i
 .Obligatoriske opplysningstyper som en beskrivelse av Påkrevd dokumentasjon SKAL inneholde
 [cols="20s,65d,15d", options="header"]
 |===
-| Obligatorisk | Forklaring | Ref. til <<del2>>
+| Obligatorisk | Forklaring | Ref. til Kap. <<Spesifikasjon-per-klasse>>
 | beskrivelse | Tekstlig beskrivelse av den påkrevde dokumentasjonen | <<PåkrevdDokumentasjon-beskrivelse>>
 | navn | Det offisielle navnet til den påkrevde dokumentasjonen | <<PåkrevdDokumentasjon-navn>>
 |===
@@ -161,7 +161,7 @@ For å sikre at *Påkrevd dokumentasjon* blir beskrevet på en ensartet måte, i
 .Anbefalte opplysningstyper som en beskrivelse av Påkrevd dokumentasjon BØR inneholde
 [cols="20s,65d,15d", options="header"]
 |===
-| Anbefalt | Forklaring | Ref. til <<del2>>
+| Anbefalt | Forklaring | Ref. til Kap. <<Spesifikasjon-per-klasse>>
 | gyldighetsperiode | Angir en tidsperiode hvor den påkrevde dokumentasjonen er gyldig | <<PåkrevdDokumentasjon-gyldighetsperiode>>
 | språk | Språket den påkrevde dokumentasjonen er skrevet på | <<PåkrevdDokumentasjon-språk>>
 |===
@@ -170,7 +170,7 @@ For å sikre at *Påkrevd dokumentasjon* blir beskrevet på en ensartet måte, i
 .Valgfrie opplysningstyper som en beskrivelse av Påkrevd dokumentasjon KAN inneholde
 [cols="20s,65d,15d", options="header"]
 |===
-| Valgfri | Forklaring | Ref. til <<del2>>
+| Valgfri | Forklaring | Ref. til Kap. <<Spesifikasjon-per-klasse>>
 | er del av | Refererer til et datasett som den aktuelle påkrevde dokumentasjonen fysisk eller logisk er inkludert i | <<PåkrevdDokumentasjon-er-del-av>>
 | gir understøttende opplysning | Refererer til understøttende opplysninger i den påkrevde dokumentasjonen | <<PåkrevdDokumentasjon-gir-understøttende-opplysning>>
 | identifikator | Unik identifikator, som regel opprettet automatisk av et system | <<PåkrevdDokumentasjon-identifikator>>

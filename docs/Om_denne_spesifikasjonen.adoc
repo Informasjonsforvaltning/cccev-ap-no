@@ -27,8 +27,8 @@ Spesifikasjonen har ikke sluttbrukere av tjenester som sin målgruppe, men
 
 De påfølgende kapitlene er rettet mot ulike målgrupper:
 
-* <<del1>> gir en introduksjon for ikke‑tekniske lesere, med en overordnet og forenklet fremstilling av kravene i denne spesifikasjonen. 
-* <<del2>> retter seg mot tekniske lesere som skal utvikle eller tilpasse verktøy.
+* <<Forenklet-fremstilling>> gir en introduksjon for ikke‑tekniske lesere, med en overordnet og forenklet fremstilling av kravene i denne spesifikasjonen. 
+* <<Spesifikasjon-per-klasse>> retter seg mot tekniske lesere som skal utvikle eller tilpasse verktøy.
 * <<Spesielle-temaer>> er relevante for begge målgrupper og bør leses samlet for best forståelse.
  
 
@@ -38,7 +38,7 @@ Spesifikasjonen forvaltes av https://digdir.no[Digitaliseringsdirektoratet (Digd
 
 Digdir initierer arbeidet med nye versjoner av spesifikasjonen, og håndterer selv løpende mindre endringer. Ved behov for større endringer vil Digdir vurdere å sette sammen arbeidsgruppe med representanter fra relevante virksomheter, for utarbeidelse av forslag til den reviderte versjonen som sendes ut til bred kommentering før fastsetting.
 
-=== Om kravnivåene i spesifikasjonen [[Om-kravene]]
+=== Om kravnivåene i spesifikasjonen [[Om-kravnivåene]]
 
 Spesifikasjonen bruker ordene «obligatorisk» ("_mandatory_"), «anbefalt» ("_recommended_") og «valgfri» ("_optional_"). Disse er https://data.norge.no/specification/dcat-ap-no/#Om-kravene[forklart i DCAT-AP-NO &#x29C9;, window="_blank", role="ext-link"], og forklaringene gjentas ikke her.
 
