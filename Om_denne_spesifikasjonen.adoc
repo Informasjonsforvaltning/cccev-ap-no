@@ -25,13 +25,18 @@ Spesifikasjonen har ikke sluttbrukere av tjenester som sin målgruppe, men
 * deg som søker etter og ønsker å gjenbruke / sette sammen tjenester fra andre virksomheter
 * deg som skal utvikle/tilpasse verktøystøtte for ovennevnte beskrivelser og/eller for tilgjengeliggjøring/utveksling av beskrivelsene
 
-<<del1>> er primært ment for den ikke-tekniske målgruppen, <<del2>> for den tekniske målgruppen, <<Spesielle-temaer>> for begge målgrupper og fortrinnsvis sammen. 
+De påfølgende kapitlene er rettet mot ulike målgrupper:
+
+* <<del1>> gir en introduksjon for ikke‑tekniske lesere, med en overordnet og forenklet fremstilling av kravene i denne spesifikasjonen. 
+* <<del2>> retter seg mot tekniske lesere som skal utvikle eller tilpasse verktøy.
+* <<Spesielle-temaer>> er relevante for begge målgrupper og bør leses samlet for best forståelse.
+ 
 
 === Forvaltningsregime [[Forvaltningsregime]]
 
 Spesifikasjonen forvaltes av https://digdir.no[Digitaliseringsdirektoratet (Digdir) &#x29C9;, window="_blank", role="ext-link"].
 
-Utarbeidelse av nye versjoner av spesifikasjonen initieres av Digdir. Mindre endringer håndteres av Digdir. Ved behov for større endringer vil Digdir vurdere å sette sammen arbeidsgruppe med representanter fra relevante virksomheter, for utarbeidelse av forslag til den reviderte versjonen som sendes ut til bred kommentering før fastsetting.
+Digdir initierer arbeidet med nye versjoner av spesifikasjonen, og håndterer selv løpende mindre endringer. Ved behov for større endringer vil Digdir vurdere å sette sammen arbeidsgruppe med representanter fra relevante virksomheter, for utarbeidelse av forslag til den reviderte versjonen som sendes ut til bred kommentering før fastsetting.
 
 === Om kravnivåene i spesifikasjonen [[Om-kravene]]
 
