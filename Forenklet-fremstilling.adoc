@@ -66,7 +66,7 @@ For å sikre at *Kriterium*, *Informasjonskrav* og *Begrensning* blir beskrevet 
 | har mer spesifikt krav | Refererer til et mer spesifikt krav som er del av dette kravet | <<Begrensning-har-mer-spesifikt-krav>>, <<Informasjonskrav-har-mer-spesifikt-krav>>, <<Kriterium-har-mer-spesifikt-krav>>
 | har påkrevd dokumentasjon | Refererer til en påkrevd dokumentasjon som kan supplere med informasjon, bevis eller understøtte kravet | <<Begrensning-har-påkrevd-dokumentasjon>>, <<Informasjonskrav-har-påkrevd-dokumentasjon>>, <<Kriterium-har-påkrevd-dokumentasjon>>
 | har understøttende dokumentasjon | Refererer til en konkret dokumentasjon som supplerer med informasjon, bevis eller understøtter kravet | <<Begrensning-har-understøttende-dokumentasjon>>, <<Informasjonskrav-har-understøttende-dokumentasjon>>, <<Kriterium-har-understøttende-dokumentasjon>>
-| tilfredsstiller regel | Refererer til regel som kravet tilfredsstiller | <<Begrensning-tilfredsstiller>>, <<Informasjonskrav-tilfredsstiller>>, <<Kriterium-tilfredsstiller>>
+| tilfredsstiller regel | Refererer til regel som kravet tilfredsstiller | <<Begrensning-innfrir-regel>>, <<Informasjonskrav-innfrir-regel>>, <<Kriterium-innfrir-regel>>
 | type | Refererer til kategorien kravet tilhører | <<Begrensning-type>>, <<Informasjonskrav-type>>, <<Kriterium-type>>
 | har informasjonsbegrep | _Gjelder Kriterium eller Informasjonskrav_. Refererer til informasjonsbegrep som Informasjonskravet eller Kriteriet forventer en verdi av | <<Informasjonskrav-har-informasjonsbegrep>>, <<Kriterium-har-informasjonsbegrep>>
 | bias | _Gjelder kun Kriterium_. Oppgir parameteren som brukes til å justere evalueringen av Kriteriet | <<Kriterium-bias>>
