@@ -163,7 +163,7 @@ Eksempel i RDF Turtle:
 | _English name_ |  _supports value_
 | URI |  cv:supportsValue
 |Verdiområde / _Range_ |  <<UnderstøttendeOpplysning, cv:SupportedValue>>
-| Anvendelse / _Usage note_ | Egenskapen brukes til å referere til understøttende opplysninger i den påkrevdedokumentasjonen.
+| Anvendelse / _Usage note_ | Egenskapen brukes til å referere til understøttende opplysninger i den påkrevde dokumentasjonen.
 
 _This property represents Supported Value that the Required Evidence contains._
 | Multiplisitet / _Multiplicity_ | 0..n
