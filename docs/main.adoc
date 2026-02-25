@@ -43,9 +43,9 @@ toc::[]
 :sectnumlevels: 5
 include::Om_denne_spesifikasjonen.adoc[]
 
-include::del1.adoc[]
+include::Forenklet-fremstilling.adoc[]
 
-include::del2.adoc[]
+include::Spesifikasjon-per-klasse.adoc[]
 
 :leveloffset: +1
 

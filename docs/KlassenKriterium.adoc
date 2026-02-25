@@ -223,7 +223,7 @@ _This property refers to a concrete piece of evidence that supplies information,
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
 |===
 
-==== Kriterium – tilfredsstiller regel (cv:fulfils) [[Kriterium-tilfredsstiller]]
+==== Kriterium – innfrir regel (cv:fulfils) [[Kriterium-innfrir-regel]]
 
 [cols="30s,70d"]
 |===
