@@ -690,7 +690,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <ul class="sectlevel3">
 <li><a href="#Informasjonsbegrep-obligatoriske-egenskaper">3.5.1. Obligatoriske egenskaper for klassen <em>Informasjonsbegrep</em></a>
 <ul class="sectlevel4">
-<li><a href="#Informasjonsbegrep-uttrykk-av-forventet-verdi">Informasjonsbegrep – uttrykk av forventet verdi (cv:expressionOfExpectedValue)</a></li>
+<li><a href="#Informasjonsbegrep-uttrykk-av-forventet-datatype">Informasjonsbegrep – uttrykk av forventet datatype (cv:expressionOfExpectedValue)</a></li>
 </ul>
 </li>
 <li><a href="#Informasjonsbegrep-anbefalte-egenskaper">3.5.2. Anbefalte egenskaper for klassen <em>Informasjonsbegrep</em></a>
@@ -1038,7 +1038,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </ul>
 </div>
 <div class="paragraph">
-<p>Se ellers &lt;&lt;[Når-brukes-kriterium-informasjonskrav-informasjonsbegrep-begrensning&gt;&gt; for mer forklaring på når Kriterium, Informasjonskrav eller Begrensning bør brukes.</p>
+<p>Se ellers <a href="#Når-brukes-kriterium-informasjonskrav-informasjonsbegrep-begrensning"> 4.1, &#8220;Når brukes Kriterium, Informasjonskrav, Informasjonsbegrep og Begrensning?&#8221;</a> for mer forklaring på når Kriterium, Informasjonskrav eller Begrensning bør brukes.</p>
 </div>
 <div class="paragraph">
 <p>Se også <a href="#Å-beskrive-betingelser-som-skal-oppfylles"> 4.2, &#8220;Å beskrive betingelser som skal oppfylles&#8221;</a> og <a href="#Å-kytte-krav-til-regelverk"> 4.3, &#8220;Å knytte krav til regelverk&#8221;</a> for illustrative eksempler på bruk av CCCEV-AP-NO.</p>
@@ -1219,9 +1219,9 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>forventet verdi</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>forventet datatype</strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Angir forventet datatype for verdien til informasjonsbegrepet (f.eks. heltall, dato eller kode)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Informasjonsbegrep-uttrykk-av-forventet-verdi"> 3.5.1.1</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Informasjonsbegrep-uttrykk-av-forventet-datatype"> 3.5.1.1</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -3443,7 +3443,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="sect3">
 <h4 id="Informasjonsbegrep-obligatoriske-egenskaper"><a class="link" href="#Informasjonsbegrep-obligatoriske-egenskaper">3.5.1. Obligatoriske egenskaper for klassen <em>Informasjonsbegrep</em></a></h4>
 <div class="sect4">
-<h5 id="Informasjonsbegrep-uttrykk-av-forventet-verdi"><a class="link" href="#Informasjonsbegrep-uttrykk-av-forventet-verdi">3.5.1.1. Informasjonsbegrep – uttrykk av forventet verdi (cv:expressionOfExpectedValue)</a></h5>
+<h5 id="Informasjonsbegrep-uttrykk-av-forventet-datatype"><a class="link" href="#Informasjonsbegrep-uttrykk-av-forventet-datatype">3.5.1.1. Informasjonsbegrep – uttrykk av forventet datatype (cv:expressionOfExpectedValue)</a></h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -3464,8 +3464,8 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Anvendelse / <em>Usage note</em></strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Egenskapen brukes til å oppgi forventet verdi(er) for informasjonsbegrepet formulert i et formelt språk, som understøttende opplysninger må samsvare.</p>
-<p class="tableblock"><em>This property represents a formulation in a formal language of the expected value(s) for the Information Concept which is aligned with the concepts from the Requirements defined and must be respected by the supplied Supported Values.</em></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Egenskapen brukes til å oppgi forventet datatype for informasjonsbegrepet formulert i et formelt språk, som understøttende opplysninger må samsvare, f.eks. <code>xsd:decimal</code> (for «desimaltall»), <code>xsd:date</code> (for «dato») eller <code>skos:Concept</code> (for «kode»).</p>
+<p class="tableblock"><em>This property represents a formulation in a formal language of the expected datatype for the Information Concept which is aligned with the concepts from the Requirements defined and must be respected by the supplied Supported Values.</em></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Multiplisitet / <em>Multiplicity</em></strong></p></td>
@@ -3647,8 +3647,8 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Merknad / <em>Note</em></strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Norsk utvidelse: Selv om CCCEV (foreløpig) forklarer at denne egenskapen også kan brukes til å oppgi primitive typer som f.eks. dato eller tekststreng, anbefales det i denne norske spesifikasjonen at denne egenskapen brukes bare for forretningsmessige domeneterminologier som «alder» eller «antall ansatte», og at egenskapen <a href="#Informasjonsbegrep-uttrykk-av-forventet-verdi"> 3.5.1.1, &#8220;Informasjonsbegrep – uttrykk av forventet verdi (cv:expressionOfExpectedValue)&#8221;</a> brukes til primitive datatyperg.</p>
-<p class="tableblock"><em>Norwegian extension: Although CCCEV (currently) explains that this property can also be used to specify primitive types such as date or string, it is recommended in this Norwegian specification that this property is only used for business domain terminology such as "age" or "number of employees" and the property <a href="#Informasjonsbegrep-uttrykk-av-forventet-verdi">expression of the expected value (cv:expressionOfExpectedValue)</a> for primitive types.</em></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Norsk utvidelse: Selv om CCCEV (foreløpig) forklarer at denne egenskapen også kan brukes til å oppgi primitive typer som f.eks. dato eller tekststreng, anbefales det i denne norske spesifikasjonen at denne egenskapen brukes bare for forretningsmessige domeneterminologier som «alder» eller «antall ansatte», og at egenskapen <a href="#Informasjonsbegrep-uttrykk-av-forventet-datatype"> 3.5.1.1, &#8220;Informasjonsbegrep – uttrykk av forventet datatype (cv:expressionOfExpectedValue)&#8221;</a> brukes til primitive datatyperg.</p>
+<p class="tableblock"><em>Norwegian extension: Although CCCEV (currently) explains that this property can also be used to specify primitive types such as date or string, it is recommended in this Norwegian specification that this property is only used for business domain terminology such as "age" or "number of employees" and the property <a href="#Informasjonsbegrep-uttrykk-av-forventet-datatype">expression of the expected value (cv:expressionOfExpectedValue)</a> for primitive types.</em></p></td>
 </tr>
 </tbody>
 </table>
@@ -5996,7 +5996,7 @@ for å beskrive data som forespørres (f.eks. «Søkerens alder») og som skal b
 <div class="ulist">
 <ul>
 <li>
-<p><strong>Informasjonsbegrep</strong> har en egenskap «uttrykk av forventet verdi» (<a href="#Informasjonsbegrep-uttrykk-av-forventet-verdi"> 3.5.1.1</a>) som ifølge CCCEV også kan brukes til å oppgi nedre og øvre grense for den forventede verdien i tillegg til forventet datatype. For å øke maskinlesbar presisjon, anbefales det at den kun brukes til å oppgi forventet datatype, f.eks. datatype «heltall» for Informasjonsbegrepet «Alder». Dersom det er behov for å angi begrensninger i form av f.eks. nedre og øvre grense på en forventet verdi av et Informasjonsbegrep, bør klassen <strong>Begrensning</strong> brukes.</p>
+<p><strong>Informasjonsbegrep</strong> har en egenskap «uttrykk av forventet verdi» (<a href="#Informasjonsbegrep-uttrykk-av-forventet-datatype"> 3.5.1.1</a>) som ifølge CCCEV også kan brukes til å oppgi nedre og øvre grense for den forventede verdien i tillegg til forventet datatype. For å øke maskinlesbar presisjon, anbefales det at den kun brukes til å oppgi forventet datatype, f.eks. datatype «heltall» for Informasjonsbegrepet «Alder». Dersom det er behov for å angi begrensninger i form av f.eks. nedre og øvre grense på en forventet verdi av et Informasjonsbegrep, bør klassen <strong>Begrensning</strong> brukes.</p>
 </li>
 </ul>
 </div>
@@ -6475,7 +6475,7 @@ for å beskrive data som forespørres (f.eks. «Søkerens alder») og som skal b
 </div>
 <div id="footer">
 <div id="footer-text">
-Sist oppdatert 2026-02-25 12:59:45 UTC
+Sist oppdatert 2026-02-25 15:00:41 UTC
 </div>
 </div>
 </body>
