@@ -207,7 +207,7 @@ _This property refers to a concrete piece of evidence that supplies information,
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
 |===
 
-==== Informasjonskrav – tilfredsstiller regel (cv:fulfils) [[Informasjonskrav-tilfredsstiller]]
+==== Informasjonskrav – innfrir regel (cv:fulfils) [[Informasjonskrav-innfrir-regel]]
 
 [cols="30s,70d"]
 |===

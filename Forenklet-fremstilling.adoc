@@ -83,7 +83,7 @@ For å sikre at *Informasjonsbegrep* blir beskrevet på en ensartet måte, inneh
 [cols="20s,65d,15d", options="header"]
 |===
 | Obligatorisk | Forklaring | Ref. til Kap. <<Spesifikasjon-per-klasse>>
-| forventet verdi | Forventet verdi formulert i et formelt språk som informasjonsbegrepet skal være i samsvar med | <<Informasjonsbegrep-uttrykk-av-forventet-verdi>>
+| forventet verdi | Angir forventet datatype for verdien til informasjonsbegrepet (f.eks. heltall, dato eller kode) | <<Informasjonsbegrep-uttrykk-av-forventet-verdi>>
 |===
 
 [[Tabell-anbefalte-opplysninger-informasjonsbegrep]]

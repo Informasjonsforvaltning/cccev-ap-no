@@ -610,7 +610,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#Begrensning-har-mer-spesifikt-krav">Begrensning – har mer spesifikt krav (cv:hasRequirement)</a></li>
 <li><a href="#Begrensning-har-påkrevd-dokumentasjon">Begrensning – har påkrevd dokumentasjon (cccevno:hasRequiredEvidence)</a></li>
 <li><a href="#Begrensning-har-understøttende-dokumentasjon">Begrensning – har understøttende dokumentasjon (cv:hasSupportingEvidence)</a></li>
-<li><a href="#Begrensning-tilfredsstiller">Begrensning – tilfredsstiller regel (cv:fulfils)</a></li>
+<li><a href="#Begrensning-innfrir-regel">Begrensning – innfrir regel (cv:fulfils)</a></li>
 <li><a href="#Begrensning-type">Begrensning – type (dct:type)</a></li>
 </ul>
 </li>
@@ -731,7 +731,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#Informasjonskrav-har-mer-spesifikt-krav">Informasjonskrav – har mer spesifikt krav (cv:hasRequirement)</a></li>
 <li><a href="#Informasjonskrav-har-påkrevd-dokumentasjon">Informasjonskrav – har påkrevd dokumentasjon (cccevno:hasRequiredEvidence)</a></li>
 <li><a href="#Informasjonskrav-har-understøttende-dokumentasjon">Informasjonskrav – har understøttende dokumentasjon (cv:hasSupportingEvidence)</a></li>
-<li><a href="#Informasjonskrav-tilfredsstiller">Informasjonskrav – tilfredsstiller regel (cv:fulfils)</a></li>
+<li><a href="#Informasjonskrav-innfrir-regel">Informasjonskrav – innfrir regel (cv:fulfils)</a></li>
 <li><a href="#Informasjonskrav-type">Informasjonskrav – type (dct:type)</a></li>
 </ul>
 </li>
@@ -763,7 +763,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#Kriterium-har-mer-spesifikt-krav">Kriterium – har mer spesifikt krav (cv:hasRequirement)</a></li>
 <li><a href="#Kriterium-har-påkrevd-dokumentasjon">Kriterium – har påkrevd dokumentasjon (cccevno:hasRequiredEvidence)</a></li>
 <li><a href="#Kriterium-har-understøttende-dokumentasjon">Kriterium – har understøttende dokumentasjon (cv:hasSupportingEvidence)</a></li>
-<li><a href="#Kriterium-tilfredsstiller">Kriterium – tilfredsstiller regel (cv:fulfils)</a></li>
+<li><a href="#Kriterium-innfrir-regel">Kriterium – innfrir regel (cv:fulfils)</a></li>
 <li><a href="#Kriterium-type">Kriterium – type (dct:type)</a></li>
 <li><a href="#Kriterium-vekting">Kriterium – vekting (cv:weight)</a></li>
 <li><a href="#Kriterium-vektingstype">Kriterium – vektingstype (cv:weightingType)</a></li>
@@ -1163,7 +1163,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>tilfredsstiller regel</strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Refererer til regel som kravet tilfredsstiller</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Begrensning-tilfredsstiller"> 3.1.3.9</a>, <a href="#Informasjonskrav-tilfredsstiller"> 3.6.3.10</a>, <a href="#Kriterium-tilfredsstiller"> 3.8.3.11</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Begrensning-tilfredsstiller">[Begrensning-tilfredsstiller]</a>, <a href="#Informasjonskrav-tilfredsstiller">[Informasjonskrav-tilfredsstiller]</a>, <a href="#Kriterium-tilfredsstiller">[Kriterium-tilfredsstiller]</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>type</strong></p></td>
@@ -1220,7 +1220,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>forventet verdi</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Forventet verdi formulert i et formelt språk som informasjonsbegrepet skal være i samsvar med</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Angir forventet datatype for verdien til informasjonsbegrepet (f.eks. heltall, dato eller kode)</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Informasjonsbegrep-uttrykk-av-forventet-verdi"> 3.5.1.1</a></p></td>
 </tr>
 </tbody>
@@ -2123,7 +2123,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </table>
 </div>
 <div class="sect4">
-<h5 id="Begrensning-tilfredsstiller"><a class="link" href="#Begrensning-tilfredsstiller">3.1.3.9. Begrensning – tilfredsstiller regel (cv:fulfils)</a></h5>
+<h5 id="Begrensning-innfrir-regel"><a class="link" href="#Begrensning-innfrir-regel">3.1.3.9. Begrensning – innfrir regel (cv:fulfils)</a></h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4147,7 +4147,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </table>
 </div>
 <div class="sect4">
-<h5 id="Informasjonskrav-tilfredsstiller"><a class="link" href="#Informasjonskrav-tilfredsstiller">3.6.3.10. Informasjonskrav – tilfredsstiller regel (cv:fulfils)</a></h5>
+<h5 id="Informasjonskrav-innfrir-regel"><a class="link" href="#Informasjonskrav-innfrir-regel">3.6.3.10. Informasjonskrav – innfrir regel (cv:fulfils)</a></h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -4797,7 +4797,7 @@ Som nevnt ovenfor er denne klassen en generisk klasse (også kalt abstrakt klass
 </table>
 </div>
 <div class="sect4">
-<h5 id="Kriterium-tilfredsstiller"><a class="link" href="#Kriterium-tilfredsstiller">3.8.3.11. Kriterium – tilfredsstiller regel (cv:fulfils)</a></h5>
+<h5 id="Kriterium-innfrir-regel"><a class="link" href="#Kriterium-innfrir-regel">3.8.3.11. Kriterium – innfrir regel (cv:fulfils)</a></h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -6475,7 +6475,7 @@ for å beskrive data som forespørres (f.eks. «Søkerens alder») og som skal b
 </div>
 <div id="footer">
 <div id="footer-text">
-Sist oppdatert 2026-02-25 11:28:57 UTC
+Sist oppdatert 2026-02-25 12:38:16 UTC
 </div>
 </div>
 </body>

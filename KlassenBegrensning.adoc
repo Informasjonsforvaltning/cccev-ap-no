@@ -214,7 +214,7 @@ _This property refers to a concrete piece of evidence that supplies information,
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
 |===
 
-==== Begrensning – tilfredsstiller regel (cv:fulfils) [[Begrensning-tilfredsstiller]]
+==== Begrensning – innfrir regel (cv:fulfils) [[Begrensning-innfrir-regel]]
 
 [cols="30s,70d"]
 |===
