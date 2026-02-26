@@ -163,6 +163,9 @@ _Norwegian extension: Not explicitly specified in CCCEV/CPSV-AP._
 _This property it used to refer to dataset where the given type of evidences may be described._
 | Multiplisitet / _Multiplicity_ | 0..n
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
+| Merknad / _Note_ | Norsk utvidelse: Ikke eksplisitt spesifisert i CCCEV/CPSV-AP.
+
+_Norwegian extension: Not explicitly specified in CCCEV/CPSV-AP._
 |===
 
 ==== Dokumentasjonstype – er spesifisert i (cv:isSpecifiedIn) [[Dokumentasjonstype-er-spesifisert-i]]
@@ -191,6 +194,9 @@ _This property represents the Evidence Type List in which the Evidence Type is i
 _This property represents Supported Value that the given type of evidences may contain._
 | Multiplisitet / _Multiplicity_ | 0..n
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
+| Merknad / _Note_ | Norsk utvidelse: Ikke eksplisitt spesifisert i CCCEV/CPSV-AP.
+
+_Norwegian extension: Not explicitly specified in CCCEV/CPSV-AP._
 |===
 
 ==== Dokumentasjonstype – relatert informasjon (foaf:page) [[Dokumentasjonstype-relatert-informasjon]]
@@ -205,6 +211,9 @@ _This property represents Supported Value that the given type of evidences may c
 _This property is used to refer to more information related to the given type of evidences, for instance a particular template for an administrative document, an application or a guide on formatting the documentation._
 | Multiplisitet / _Multiplicity_ | 0..n
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
+| Merknad / _Note_ | Norsk utvidelse: Ikke eksplisitt spesifisert i CCCEV/CPSV-AP.
+
+_Norwegian extension: Not explicitly specified in CCCEV/CPSV-AP._
 |===
 
 ==== Dokumentasjonstype – tillatt utstedelsessted (cccevno:permissibleIssuingPlace) [[Dokumentasjonstype-tillatt-utstedelsessted]]
@@ -219,9 +228,12 @@ _This property is used to refer to more information related to the given type of
 _This property represents the Location where an Evidence Type is issued. E.g. Belgian ID cards are issued in Belgium._
 | Multiplisitet / _Multiplicity_ |0..n
 | Kravnivå / _Requirement level_ |Valgfri / _Optional_
-| Merknad / _Note_ | Norsk utvidelse: Verdien SKAL velges fra EUs kontrollerte vokabularer https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/continent[__Continent__ &#x29C9;, window="_blank", role="ext-link"], https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/country[__Countries and territories__ &#x29C9;, window="_blank", role="ext-link"] eller https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/place[__Place__ &#x29C9;, window="_blank", role="ext-link"], HVIS den finnes på listene; https://sws.geonames.org/[__GeoNames__ &#x29C9;, window="_blank", role="ext-link"] SKAL i andre tilfeller brukes. 
+| Merknad 1 / _Note 1_ | Norsk utvidelse: Verdien SKAL velges fra EUs kontrollerte vokabularer https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/continent[__Continent__ &#x29C9;, window="_blank", role="ext-link"], https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/country[__Countries and territories__ &#x29C9;, window="_blank", role="ext-link"] eller https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/place[__Place__ &#x29C9;, window="_blank", role="ext-link"], HVIS den finnes på listene; https://sws.geonames.org/[__GeoNames__ &#x29C9;, window="_blank", role="ext-link"] SKAL i andre tilfeller brukes. 
 
 __Norwegian extension: The value MUST be chosen from EU's controlled vocabularies https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/continent[Continent &#x29C9;, window="_blank", role="ext-link"], https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/country[Countries and territories &#x29C9;, window="_blank", role="ext-link"] or https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/place[Place &#x29C9;, window="_blank", role="ext-link"], IF it is in one of the lists;  if a particular location is not in one of the mentioned Named Authority Lists, https://sws.geonames.org/[GeoNames &#x29C9;, window="_blank", role="ext-link"] URIs MUST be used.__
+| Merknad 2 / _Note 2_ | Norsk utvidelse: Ikke eksplisitt spesifisert i CCCEV/CPSV-AP.
+
+_Norwegian extension: Not explicitly specified in CCCEV/CPSV-AP._
 |===
 
 ==== Dokumentasjonstype – understøtter informasjonsbegrep (cv:supportsConcept) [[Dokumentasjonstype-understøtter-informasjonsbegrep]]
@@ -236,6 +248,9 @@ __Norwegian extension: The value MUST be chosen from EU's controlled vocabularie
 _This property is used to refer toInformation Concept providing facts found/inferred from the given type of evidences._
 | Multiplisitet / _Multiplicity_ | 0..n
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
+| Merknad / _Note_ | Norsk utvidelse: Ikke eksplisitt spesifisert i CCCEV/CPSV-AP.
+
+_Norwegian extension: Not explicitly specified in CCCEV/CPSV-AP._
 |===
 
 
@@ -251,5 +266,8 @@ _This property is used to refer toInformation Concept providing facts found/infe
 _This property is used to refer to the requirement that the given type of evidences support, represented by an instance of one of the subclasses of the class Requirement (`cv:Requirement`)._
 | Multiplisitet / _Multiplicity_ | 0..n
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
+| Merknad / _Note_ | Norsk utvidelse: Ikke eksplisitt spesifisert i CCCEV/CPSV-AP.
+
+_Norwegian extension: Not explicitly specified in CCCEV/CPSV-AP._
 |===
 
