@@ -14,7 +14,7 @@ _Denne delen av spesifikasjonen er primært ment for den ikke-tekniske målgrupp
 [link=images/CCCEV-AP-NO-forenklet-fremstilling.png]
 image::images/CCCEV-AP-NO-forenklet-fremstilling.png[alt="Forenklet diagram med noen av klassene i CCCEV-AP-NO, deres egenskaper og relasjoner til hverandre. Innholdet i diagrammet er forklart i teksten."]
 
-Som figuren viser, kan CCCEV-AP-NO brukes til å beskrive
+__#@@@@@@ Figuren endret (byttet ut Påkrevd dokumentasjon med Dokumentasjonstypeliste), teksten må oppdateres tilsvarende#__
 
 * Krav i form av *Kriterium*, *Informasjonskrav* eller *Begrensning*:
 ** *Kriterium* brukes til å oppgi betingelse(r) som må være oppfylt, f.eks. «Vilkår for å inngå ekteskap». 

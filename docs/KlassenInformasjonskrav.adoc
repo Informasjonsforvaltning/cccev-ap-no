@@ -112,16 +112,16 @@ _This property refers to the Agent that has published the Information Requiremen
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
 |===
 
-==== Informasjonskrav – har dokumentasjonstype (cv:hasEvidenceType) [[Informasjonskrav-har-dokumentasjonstype]]
+==== Informasjonskrav – har dokumentasjonstypeliste (cv:hasEvidenceTypeList) [[Informasjonskrav-har-dokumentasjonstypeliste]]
 
 [cols="30s,70d"]
 |===
-| _English name_ | _has evidence type_
-| URI |  cv:hasEvidenceType
-| Verdiområde / _Range_ | <<Dokumentasjonstype, cv:EvidenceType>>
-| Anvendelse / _Usage note_ |  Egenskapen brukes til å referere til dokumentasjonstype som spesifiserer type dokumentasjon som trengs for å tilfredsstille informasjonskravet.
+| _English name_ | _has evidence type list_
+| URI |  cv:hasEvidenceTypeList
+| Verdiområde / _Range_ | <<Dokumentasjonstypeliste, cv:EvidenceTypeList>>
+| Anvendelse / _Usage note_ |  Egenskapen brukes til å referere til dokumentasjonstypeliste som spesifiserer type dokumentasjon som trengs for å tilfredsstille informasjonskravet.
 
-_This property is used to refer to the Evidence Type that specifies the type of evidence that is needed to meet the Information Requirement._
+_This property is used to refer to the Evidence Type List that specifies the type of evidence that are needed to meet the Information Requirement._
 | Multiplisitet / _Multiplicity_ | 0..n
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
 |===
