@@ -128,20 +128,16 @@ _This property refers to the Agent that has published the Criterion._
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
 |===
 
-==== Kriterium – har dokumentasjonstypeliste (cv:hasEvidenceTypeList) [[Kriterium-har-dokumentasjonstypeliste]]
+==== Kriterium – har dokumentasjonstype (cv:hasEvidenceType) [[Kriterium-har-dokumentasjonstype]]
 
 [cols="30s,70d"]
 |===
-| _English name_ | _has evidence type list_
-| URI |  cv:hasEvidenceTypeList
-| Verdiområde / _Range_ | <<Dokumentasjonstypeliste, cv:EvidenceTypeList>>
-| Anvendelse / _Usage note_ |  Egenskapen brukes til å referere til dokumentasjonstypeliste som spesifiserer dokumentasjonstypene som trengs for å tilfredsstille kriteriet.
+| _English name_ | _has evidence type_
+| URI |  cv:hasEvidenceType
+| Verdiområde / _Range_ | <<Dokumentasjonstype, cv:EvidenceType>>
+| Anvendelse / _Usage note_ |  Egenskapen brukes til å referere til dokumentasjonstype som spesifiserer type dokumentasjon som trengs for å tilfredsstille kriteriet.
 
-Et kriterium KAN ha en eller flere dokumentasjonstypelister. For at et kriterium skal være oppfylt, SKAL dokumentasjonen være i samsvar med minst én av listene når det er flere lister.
-
-_This property refers to the Evidence Type List that specifies the Evidence Types that are needed to meet the Criterion._
-
-_One or several Lists of Evidence Types MAY support a Criterion. At least one of them MUST be satisfied by the response to the Criterion._
+_This property is used to refer to the Evidence Type that specifies the type of evidence that is needed to meet the Criterion._
 | Multiplisitet / _Multiplicity_ | 0..n
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
 |===
@@ -188,23 +184,6 @@ _This property represents a described and/or categorised relation to an instance
 _This property refers to a more specific Requirement that is part of the Criterion._
 | Multiplisitet / _Multiplicity_ | 0..n
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
-|===
-
-==== Kriterium – har påkrevd dokumentasjon (cccevno:hasRequiredEvidence) [[Kriterium-har-påkrevd-dokumentasjon]]
-
-[cols="30s,70d"]
-|===
-| _English name_ | _has required evidence_
-| URI | cccevno:hasRequiredEvidence
-| Verdiområde / _Range_ | <<PåkrevdDokumentasjon, cccevno:RequiredEvidence>>
-| Anvendelse / _Usage note_ |  Egenskapen brukes til å spesifisere en påkrevd dokumentasjon som kan supplere med informasjon, bevis eller understøtte kriteriet.
-
-_This property is used to specify a required evidence that may supply information, proof or support for the Criterion._
-| Multiplisitet / _Multiplicity_ | 0..n
-| Kravnivå / _Requirement level_ | Valgfri / _Optional_
-| Merknad / _Note_ |  Norsk utvidelse: Ikke eksplisitt spesifisert i CCCEV/CPSV-AP.
-
-_Norwegian extension: Not explicitly specified in CCCEV/CPSV-AP._
 |===
 
 ==== Kriterium – har understøttende dokumentasjon (cv:hasSupportingEvidence) [[Kriterium-har-understøttende-dokumentasjon]]

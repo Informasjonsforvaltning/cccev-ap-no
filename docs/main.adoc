@@ -65,7 +65,7 @@ include::KlassenKrav.adoc[]
 
 include::KlassenKriterium.adoc[]
 
-include::KlassenPåkrevdDokumentasjon.adoc[]
+// include::KlassenPåkrevdDokumentasjon.adoc[]
 
 include::KlassenReferanserammeverk.adoc[]
 
