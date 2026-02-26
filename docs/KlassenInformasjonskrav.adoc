@@ -75,11 +75,9 @@ _This property represents a description of the Information Requirement. This pro
 | _English name_ | _is requirement of_
 | URI |  cv:isRequirementOf
 | Verdiområde / _Range_ | <<Krav, cv:Requirement>>
-| Anvendelse / _Usage note_ |  Egenskapen brukes til å representere en referanse mellom et subkrav og dets forelderkrav.
+| Anvendelse / _Usage note_ |  Egenskapen brukes til å referere til et annet krav som informasjonskravet er en del av, representert ved en instans av en av subklassene til klassen Krav (`cv:Requirement`).
 
-Et subkrav/forelderkrav er en instans av klassen Krav (`cv:Requirement`) eller en av dens subklasser.
-
-_This property represents a reference between a sub-Requirement and its parent Requirement._
+_This property is used to refer to an instance of one of the subclasses of `cv:Requirement`, which the Information Requirement is a part of._
 | Multiplisitet / _Multiplicity_ | 0..n
 | Kravnivå / _Requirement level_ |  Valgfri / _Optional_
 |===
@@ -155,9 +153,9 @@ _Information Concepts defined for specific Information Requirements also represe
 | _English name_ | _has qualified relation_
 | URI |  cv:hasQualifiedRelation
 | Verdiområde / _Range_ | <<Krav, cv:Requirement>>
-| Anvendelse / _Usage note_ |  Egenskapen brukes til å representere en beskrevet/kategorisert relasjon til instans av klassen Krav (`cv:Requirement`) eller en av dens subklasser.
+| Anvendelse / _Usage note_ |  Egenskapen brukes til å representere en beskrevet/kategorisert relasjon til et annet krav, representert ved en instans av en av subklassene til klassen Krav (`cv:Requirement`).
 
-_This property represents a described and/or categorised relation to another Requirement._
+_This property represents a described and/or categorised relation to an instance of one of the subclasses of `cv:Requirement`._
 | Multiplisitet / _Multiplicity_ | 0..n
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
 |===
@@ -169,7 +167,7 @@ _This property represents a described and/or categorised relation to another Req
 | _English name_ | _has requirement_
 | URI |  cv:hasRequirement
 | Verdiområde / _Range_ | <<Krav, cv:Requirement>>
-| Anvendelse / _Usage note_ |  Egenskapen brukes til å referere til instans av klassen Krav (`cv:Requirement`) eller en av dens subklasser, som er en del av informasjonskravet.
+| Anvendelse / _Usage note_ |  Egenskapen brukes til å referere til et mer spesifikt krav som er en del av informasjonskravet, representert ved en instans av en av subklassene til klassen Krav (`cv:Requirement`).
 
 _This property refers to a more specific Requirement that is part of the Information Requirement._
 | Multiplisitet / _Multiplicity_ | 0..n
