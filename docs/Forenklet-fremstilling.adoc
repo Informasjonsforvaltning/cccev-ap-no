@@ -14,17 +14,15 @@ _Denne delen av spesifikasjonen er primært ment for den ikke-tekniske målgrupp
 [link=images/CCCEV-AP-NO-forenklet-fremstilling.png]
 image::images/CCCEV-AP-NO-forenklet-fremstilling.png[alt="Forenklet diagram med noen av klassene i CCCEV-AP-NO, deres egenskaper og relasjoner til hverandre. Innholdet i diagrammet er forklart i teksten."]
 
-__#@@@@@@ Figuren endret (byttet ut Påkrevd dokumentasjon med Dokumentasjonstypeliste), teksten må oppdateres tilsvarende#__
-
 * Krav i form av *Kriterium*, *Informasjonskrav* eller *Begrensning*:
 ** *Kriterium* brukes til å oppgi betingelse(r) som må være oppfylt, f.eks. «Vilkår for å inngå ekteskap». 
 ** *Informasjonskrav* brukes til å oppgi data som forespøres og som skal dokumentere en eller flere fakta, eller som fører til kilden til slik dokumentasjon. Eksempel på et informasjonskrav kan være «Søkerens alder». 
 *** For å kunne i maskinlesbar form beskrive dataene som forespørres, brukes Informasjonskrav sammen med *Informasjonsbegrep*, f.eks. «Alder».
 ** *Begrensning* brukes til å oppgi begrensning som gjelder for et informasjonsbegrep. For informasjonsbegrepet «Alder» kan en begrensning være «Søkeren må være minst 18 år gammel».
+** Se ellers <<Når-brukes-kriterium-informasjonskrav-informasjonsbegrep-begrensning>> for mer forklaring på når Kriterium, Informasjonskrav eller Begrensning bør brukes.
+
 * *Dokumentasjon* brukes til, i «_run-time_», å oppgi den _faktiske_ dokumentasjonen som _er_ fremlagt og brukt til å evaluere om et krav er oppfylt eller ikke. Dokumentasjon brukes med andre ord i forbindelse med _utførelsen_ av en tjeneste, i f.eks. en saksbehandlings- eller arkiveringsapplikasjon. Eksempel på en faktisk dokumentasjon kan være «Uttrekk fra Folkeregisteret for Ola Nordmann».
 * *Dokumentasjonstypeliste* brukes til, i «_design-time_», å oppgi typer dokumentajon som _kan_ fremlegges og brukes til å evaluere om et krav er oppfylt eller ikke. Dokumentasjonstypeliste brukes med andre ord i forbindelse med _beskrivelsen_ av en tjeneste, i f.eks. en tjenestekatalog. Eksempler på en dokumentasjonsliste kan være __#@@@@@@@ tekst kommer#__.
-
-Se ellers <<Når-brukes-kriterium-informasjonskrav-informasjonsbegrep-begrensning>> for mer forklaring på når Kriterium, Informasjonskrav eller Begrensning bør brukes.
 
 Se også <<Å-beskrive-betingelser-som-skal-oppfylles>> og <<Å-kytte-krav-til-regelverk>> for illustrative eksempler på bruk av CCCEV-AP-NO.
 
@@ -143,4 +141,26 @@ For å sikre at *Dokumentasjon* blir beskrevet på en ensartet måte, inneholder
 | understøtter krav | Refererer til krav som dokumentasjonen understøtter | <<Dokumentasjon-understøtter-krav>>
 | utsteder | Oppgir aktøren som er juridisk ansvarlig for dokumentasjonen | <<Dokumentasjon-utsteder>>
 |===
+
+=== Hva SKAL, BØR og KAN tas med i en beskrivelse av Dokumentasjonstypeliste [[Krav-til-beskrivelse-av-dokumentasjonstypeliste]]
+For å sikre at *Dokumentasjonstypeliste* blir beskrevet på en ensartet måte, inneholder tabellene typer opplysninger som SKAL (obligatoriske), BØR (anbefalte) eller KAN (valgfrie) tas med i beskrivelsene.
+
+[[Tabell-obligatoriske-opplysninger-dokumentasjonstypeliste]]
+.Obligatoriske opplysningstyper som en beskrivelse av Dokumentasjonstypeliste SKAL inneholde
+[cols="20s,65d,15d", options="header"]
+|===
+| Obligatorisk | Forklaring | Ref. til Kap. <<Spesifikasjon-per-klasse>>
+| spesifiserer dokumentasjonstype | Oppgir dokumentasjonstype som er spesifisert av dokumentasjonstypelisten | <<Dokumentasjonstypeliste-spesifiserer-dokumentasjonstype>>
+|===
+
+[[Tabell-anbefalte-opplysninger-dokumentasjonstypeliste]]
+.Anbefalte opplysningstyper som en beskrivelse av Dokumentasjonstypeliste BØR inneholde
+[cols="20s,65d,15d", options="header"]
+|===
+| Anbefalt | Forklaring | Ref. til Kap. <<Spesifikasjon-per-klasse>>
+| beskrivelse | Tekstlig beskrivelse av dokumentasjonstypeliste | <<Dokumentasjonstypeliste-beskrivelse>>
+| identifikator | Unik identifikator, som regel opprettet automatisk av et system | <<Dokumentasjonstypeliste-identifikator>>
+| navn | Det offisielle navnet til dokumentasjonstypeliste | <<Dokumentasjonstypeliste-navn>>
+|===
+
 
