@@ -61,10 +61,9 @@ For å sikre at *Kriterium*, *Informasjonskrav* og *Begrensning* blir beskrevet 
 | er subkrav av | Refererer til et annet krav som dette kravet er del av | <<Begrensning-er-subkrav-av>>, <<Informasjonskrav-er-subkrav-av>>, <<Kriterium-er-subkrav-av>>
 | er utledet fra | Refererer til referanserammeverk som kravet er basert på, f.eks. lov, forskrift eller annen regulering | <<Begrensning-er-utledet-fra>>, <<Informasjonskrav-er-utledet-fra>>, <<Kriterium-er-utledet-fra>>
 | er utstedt av | Refererer til aktøren som har utstedt kravet | <<Begrensning-er-utstedt-av>>, <<Informasjonskrav-er-utstedt-av>>, <<Kriterium-er-utstedt-av>>
-| har dokumentasjonstypeliste | Refererer til dokumentasjonstypeliste som spesifiserer dokumentasjonstypene som trengs for å tilfredsstille kravet | <<Begrensning-har-dokumentasjonstypeliste>>, <<Informasjonskrav-har-dokumentasjonstypeliste>>, <<Kriterium-har-dokumentasjonstypeliste>>
+| har dokumentasjonstype | Refererer til dokumentasjonstype som spesifiserer type dokumentasjon som trengs for å tilfredsstille kravet | <<Begrensning-har-dokumentasjonstype>>, <<Informasjonskrav-har-dokumentasjonstype>>, <<Kriterium-har-dokumentasjonstype>>
 | har kvalifisert relasjon til andre krav | En beskrevet/kategorisert relasjon til et annet krav | <<Begrensning-har-kvalifisert-relasjon-til-andre-krav>>,  <<Informasjonskrav-har-kvalifisert-relasjon-til-andre-krav>>, <<Kriterium-har-kvalifisert-relasjon-til-andre-krav>>
 | har mer spesifikt krav | Refererer til et mer spesifikt krav som er del av dette kravet | <<Begrensning-har-mer-spesifikt-krav>>, <<Informasjonskrav-har-mer-spesifikt-krav>>, <<Kriterium-har-mer-spesifikt-krav>>
-| har påkrevd dokumentasjon | Refererer til en påkrevd dokumentasjon som kan supplere med informasjon, bevis eller understøtte kravet | <<Begrensning-har-påkrevd-dokumentasjon>>, <<Informasjonskrav-har-påkrevd-dokumentasjon>>, <<Kriterium-har-påkrevd-dokumentasjon>>
 | har understøttende dokumentasjon | Refererer til en konkret dokumentasjon som supplerer med informasjon, bevis eller understøtter kravet | <<Begrensning-har-understøttende-dokumentasjon>>, <<Informasjonskrav-har-understøttende-dokumentasjon>>, <<Kriterium-har-understøttende-dokumentasjon>>
 | tilfredsstiller regel | Refererer til regel som kravet tilfredsstiller | <<Begrensning-innfrir-regel>>, <<Informasjonskrav-innfrir-regel>>, <<Kriterium-innfrir-regel>>
 | type | Refererer til kategorien kravet tilhører | <<Begrensning-type>>, <<Informasjonskrav-type>>, <<Kriterium-type>>
@@ -145,38 +144,3 @@ For å sikre at *Dokumentasjon* blir beskrevet på en ensartet måte, inneholder
 | utsteder | Oppgir aktøren som er juridisk ansvarlig for dokumentasjonen | <<Dokumentasjon-utsteder>>
 |===
 
-=== Hva SKAL, BØR og KAN tas med i en beskrivelse av Påkrevd dokumentasjon [[Krav-til-beskrivelse-av-påkrevd-dokumentasjon]]
-For å sikre at *Påkrevd dokumentasjon* blir beskrevet på en ensartet måte, inneholder tabellene typer opplysninger som SKAL (obligatoriske), BØR (anbefalte) eller KAN (valgfrie) tas med i beskrivelsene.
-
-[[Tabell-obligatoriske-opplysninger-påkrevd-dokumentasjon]]
-.Obligatoriske opplysningstyper som en beskrivelse av Påkrevd dokumentasjon SKAL inneholde
-[cols="20s,65d,15d", options="header"]
-|===
-| Obligatorisk | Forklaring | Ref. til Kap. <<Spesifikasjon-per-klasse>>
-| beskrivelse | Tekstlig beskrivelse av den påkrevde dokumentasjonen | <<PåkrevdDokumentasjon-beskrivelse>>
-| navn | Det offisielle navnet til den påkrevde dokumentasjonen | <<PåkrevdDokumentasjon-navn>>
-|===
-
-[[Tabell-anbefalte-opplysninger-påkrevd-dokumentasjon]]
-.Anbefalte opplysningstyper som en beskrivelse av Påkrevd dokumentasjon BØR inneholde
-[cols="20s,65d,15d", options="header"]
-|===
-| Anbefalt | Forklaring | Ref. til Kap. <<Spesifikasjon-per-klasse>>
-| gyldighetsperiode | Angir en tidsperiode som den påkrevd dokumentasjonen skal være gyldig innenfor | <<PåkrevdDokumentasjon-gyldighetsperiode>>
-| språk | Språk som den påkrevde dokumentasjonen kan være på | <<PåkrevdDokumentasjon-språk>>
-|===
-
-[[Tabell-valgfrie-opplysninger-påkrevd-dokumentasjon]]
-.Valgfrie opplysningstyper som en beskrivelse av Påkrevd dokumentasjon KAN inneholde
-[cols="20s,65d,15d", options="header"]
-|===
-| Valgfri | Forklaring | Ref. til Kap. <<Spesifikasjon-per-klasse>>
-| er del av | Refererer til et datasett som den aktuelle påkrevde dokumentasjonen fysisk eller logisk kan være inkludert i | <<PåkrevdDokumentasjon-er-del-av>>
-| gir understøttende opplysning | Refererer til understøttende opplysninger i den påkrevde dokumentasjonen | <<PåkrevdDokumentasjon-gir-understøttende-opplysning>>
-| identifikator | Unik identifikator, som regel opprettet automatisk av et system | <<PåkrevdDokumentasjon-identifikator>>
-| i samsvar med | Oppgir dokumentasjonstypen som den påkrevde dokumentasjonen skal være i samsvar med | <<PåkrevdDokumentasjon-i-samsvar-med>>
-| relatert informasjon | Refererer til mer informasjon om den påkrevde dokumentasjonen, f.eks. en bestemt mal til et administrativt dokument eller en applikasjon, eller en veiledning for hvordan man skal formatere den påkrevde dokumentasjonen | <<PåkrevdDokumentasjon-relatert-informasjon>>
-| type | Refererer til begrepet som representerer typen den påkrevde dokumentasjonen tilhører | <<PåkrevdDokumentasjon-type>>
-| understøtter informasjonsbegrep | Refererer til informasjonsbegrep som gir fakta funnet eller utledet fra den påkrevde dokumentasjonen | <<PåkrevdDokumentasjon-understøtter-informasjonsbegrep>>
-| understøtter krav | Refererer til krav som den påkrevde dokumentasjonen understøtter | <<PåkrevdDokumentasjon-understøtter-krav>>
-|===

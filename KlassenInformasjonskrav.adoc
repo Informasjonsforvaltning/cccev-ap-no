@@ -112,20 +112,16 @@ _This property refers to the Agent that has published the Information Requiremen
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
 |===
 
-==== Informasjonskrav – har dokumentasjonstypeliste (cv:hasEvidenceTypeList) [[Informasjonskrav-har-dokumentasjonstypeliste]]
+==== Informasjonskrav – har dokumentasjonstype (cv:hasEvidenceType) [[Informasjonskrav-har-dokumentasjonstype]]
 
 [cols="30s,70d"]
 |===
-| _English name_ | _has evidence type list_
-| URI |  cv:hasEvidenceTypeList
-| Verdiområde / _Range_ | <<Dokumentasjonstypeliste, cv:EvidenceTypeList>>
-| Anvendelse / _Usage note_ |  Egenskapen brukes til å referere til dokumentasjonstypeliste som spesifiserer dokumentasjonstypene som trengs for å tilfredsstille informasjonskravet.
+| _English name_ | _has evidence type_
+| URI |  cv:hasEvidenceType
+| Verdiområde / _Range_ | <<Dokumentasjonstype, cv:EvidenceType>>
+| Anvendelse / _Usage note_ |  Egenskapen brukes til å referere til dokumentasjonstype som spesifiserer type dokumentasjon som trengs for å tilfredsstille informasjonskravet.
 
-Et informasjonskrav KAN ha en eller flere dokumentasjonstypelister. For at informasjonskravet skal være oppfylt, SKAL dokumentasjonen være i samsvar med minst én av listene når det er flere lister.
-
-_This property refers to the Evidence Type List that specifies the Evidence Types that are needed to meet the Information Requirement._
-
-_One or several Lists of Evidence Types MAY support an Information Requirement. At least one of them MUST be satisfied by the response to the Information Requirement._
+_This property is used to refer to the Evidence Type that specifies the type of evidence that is needed to meet the Information Requirement._
 | Multiplisitet / _Multiplicity_ | 0..n
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
 |===
@@ -172,23 +168,6 @@ _This property represents a described and/or categorised relation to an instance
 _This property refers to a more specific Requirement that is part of the Information Requirement._
 | Multiplisitet / _Multiplicity_ | 0..n
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
-|===
-
-==== Informasjonskrav – har påkrevd dokumentasjon (cccevno:hasRequiredEvidence) [[Informasjonskrav-har-påkrevd-dokumentasjon]]
-
-[cols="30s,70d"]
-|===
-| _English name_ | _has required evidence_
-| URI | cccevno:hasRequiredEvidence
-| Verdiområde / _Range_ | <<PåkrevdDokumentasjon, cccevno:RequiredEvidence>>
-| Anvendelse / _Usage note_ |  Egenskapen brukes til å spesifisere en påkrevd dokumentasjon som kan supplere med informasjon, bevis eller understøtte informasjonskravet.
-
-_This property is used to specify a required evidence that may supply information, proof or support for the Information Requirement._
-| Multiplisitet / _Multiplicity_ | 0..n
-| Kravnivå / _Requirement level_ | Valgfri / _Optional_
-| Merknad / _Note_ |  Norsk utvidelse: Ikke eksplisitt spesifisert i CCCEV/CPSV-AP.
-
-_Norwegian extension: Not explicitly specified in CCCEV/CPSV-AP._
 |===
 
 ==== Informasjonskrav – har understøttende dokumentasjon (cv:hasSupportingEvidence) [[Informasjonskrav-har-understøttende-dokumentasjon]]
