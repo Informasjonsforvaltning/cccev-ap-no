@@ -1,5 +1,7 @@
 === Å beskrive betingelser som skal oppfylles [[Å-beskrive-betingelser-som-skal-oppfylles]]
 
+__#@@@@@@ Teksten må oppdateres etter at klassen Påkrevd dokumentasjon er erstattet av Dokumentasjonstypeliste.#__
+
 :xrefstyle: short
 
 CPSV-AP-NO gjør det mulig, i struktuert og maskinlesbar form, å beskrive betingelser som skal oppfylles og dokumentasjon av oppfyllelse.
