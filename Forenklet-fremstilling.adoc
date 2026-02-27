@@ -14,16 +14,18 @@ _Denne delen av spesifikasjonen er primært ment for den ikke-tekniske målgrupp
 [link=images/CCCEV-AP-NO-forenklet-fremstilling.png]
 image::images/CCCEV-AP-NO-forenklet-fremstilling.png[alt="Forenklet diagram med noen av klassene i CCCEV-AP-NO, deres egenskaper og relasjoner til hverandre. Innholdet i diagrammet er forklart i teksten."]
 
-* Krav i form av *Kriterium*, *Informasjonskrav* eller *Begrensning*:
+CCCEV-AP-NO kan brukes til å beskrive både krav og dokumentasjon av kravoppfyllelse:
+
+* Beskrivelse av krav i form av *Kriterium*, *Informasjonskrav* eller *Begrensning*:
 ** *Kriterium* brukes til å oppgi betingelse(r) som må være oppfylt, f.eks. «Vilkår for å inngå ekteskap». 
 ** *Informasjonskrav* brukes til å oppgi data som forespøres og som skal dokumentere en eller flere fakta, eller som fører til kilden til slik dokumentasjon. Eksempel på et informasjonskrav kan være «Søkerens alder». 
 *** For å kunne i maskinlesbar form beskrive dataene som forespørres, brukes Informasjonskrav sammen med *Informasjonsbegrep*, f.eks. «Alder».
 ** *Begrensning* brukes til å oppgi begrensning som gjelder for et informasjonsbegrep. For informasjonsbegrepet «Alder» kan en begrensning være «Søkeren må være minst 18 år gammel».
 ** Se ellers <<Når-brukes-kriterium-informasjonskrav-informasjonsbegrep-begrensning>> for mer forklaring på når Kriterium, Informasjonskrav eller Begrensning bør brukes.
 
-
-* *Dokumentasjon* brukes til, i «_run-time_», å oppgi den _faktiske_ dokumentasjonen som _er_ fremlagt og brukt til å evaluere om et krav er oppfylt eller ikke. Dokumentasjon brukes med andre ord i forbindelse med _utførelsen_ av en tjeneste, i f.eks. en saksbehandlings- eller arkiveringsapplikasjon. Eksempel på en faktisk dokumentasjon kan være «Uttrekk fra Folkeregisteret for Ola Nordmann».
-* *Dokumentasjonstype* og *Dokumentasjonstypeliste* brukes til, i «_design-time_», å oppgi typer dokumentajon som _skal_ fremlegges og brukes til å evaluere om et krav er oppfylt eller ikke. Dokumentasjonstype og dokumentasjonstypeliste brukes med andre ord i forbindelse med _beskrivelsen_ av en tjeneste, i f.eks. en tjenestekatalog. Eksempler på en dokumentasjonstype kan være «Fødselsattest».
+* Beskrivelse av dokumentasjon av kravoppfyllelse:
+** *Dokumentasjon* brukes til, i «_run-time_», å oppgi den _faktiske_ dokumentasjonen som _er_ fremlagt og brukt til å evaluere om et krav er oppfylt eller ikke. Dokumentasjon brukes med andre ord i forbindelse med _utførelsen_ av en tjeneste, i f.eks. en saksbehandlings- eller arkiveringsapplikasjon. Eksempel på en faktisk dokumentasjon kan være «Uttrekk fra Folkeregisteret for Ola Nordmann».
+** *Dokumentasjonstype* og *Dokumentasjonstypeliste* brukes til, i «_design-time_», å oppgi typer dokumentajon som _skal_ fremlegges og brukes til å evaluere om et krav er oppfylt eller ikke. Dokumentasjonstype og dokumentasjonstypeliste brukes med andre ord i forbindelse med _beskrivelsen_ av en tjeneste, i f.eks. en tjenestekatalog. Eksempler på en dokumentasjonstype kan være «Fødselsattest».
 
 Se også <<Å-beskrive-betingelser-som-skal-oppfylles>> og <<Å-kytte-krav-til-regelverk>> for illustrative eksempler på bruk av CCCEV-AP-NO.
 
