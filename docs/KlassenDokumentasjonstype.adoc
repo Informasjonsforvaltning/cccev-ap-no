@@ -12,7 +12,7 @@ image::images/KlassenDokumentasjonstype.png[alt="UML-diagram med klassen Dokumen
 
 _This class represents information about the characteristics of an Evidence. The Evidence Type and the characteristics it describes are not concrete individual responses to a Requirement (i.e. Evidence), but descriptions about the desired form, content, source and/or other characteristics that an actual response should have and provide._
 | URI | cv:EvidenceType
-|===
+|=== 
 
 === Obligatoriske egenskaper for klassen _Dokumentasjonstype_ [[Dokumentasjonstype-obligatoriske-egenskaper]]
 
