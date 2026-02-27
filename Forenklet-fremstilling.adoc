@@ -21,8 +21,9 @@ image::images/CCCEV-AP-NO-forenklet-fremstilling.png[alt="Forenklet diagram med 
 ** *Begrensning* brukes til å oppgi begrensning som gjelder for et informasjonsbegrep. For informasjonsbegrepet «Alder» kan en begrensning være «Søkeren må være minst 18 år gammel».
 ** Se ellers <<Når-brukes-kriterium-informasjonskrav-informasjonsbegrep-begrensning>> for mer forklaring på når Kriterium, Informasjonskrav eller Begrensning bør brukes.
 
+
 * *Dokumentasjon* brukes til, i «_run-time_», å oppgi den _faktiske_ dokumentasjonen som _er_ fremlagt og brukt til å evaluere om et krav er oppfylt eller ikke. Dokumentasjon brukes med andre ord i forbindelse med _utførelsen_ av en tjeneste, i f.eks. en saksbehandlings- eller arkiveringsapplikasjon. Eksempel på en faktisk dokumentasjon kan være «Uttrekk fra Folkeregisteret for Ola Nordmann».
-* *Dokumentasjonstypeliste* brukes til, i «_design-time_», å oppgi typer dokumentajon som _kan_ fremlegges og brukes til å evaluere om et krav er oppfylt eller ikke. Dokumentasjonstypeliste brukes med andre ord i forbindelse med _beskrivelsen_ av en tjeneste, i f.eks. en tjenestekatalog. Eksempler på en dokumentasjonsliste kan være __#@@@@@@@ tekst kommer#__.
+* *Dokumentasjonstype* og *Dokumentasjonstypeliste* brukes til, i «_design-time_», å oppgi typer dokumentajon som _skal_ fremlegges og brukes til å evaluere om et krav er oppfylt eller ikke. Dokumentasjonstype og dokumentasjonstypeliste brukes med andre ord i forbindelse med _beskrivelsen_ av en tjeneste, i f.eks. en tjenestekatalog. Eksempler på en dokumentasjonstype kan være «Fødselsattest».
 
 Se også <<Å-beskrive-betingelser-som-skal-oppfylles>> og <<Å-kytte-krav-til-regelverk>> for illustrative eksempler på bruk av CCCEV-AP-NO.
 
