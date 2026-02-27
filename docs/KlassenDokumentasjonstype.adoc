@@ -86,28 +86,11 @@ Eksempel i RDF Turtle:
 
 === Anbefalte egenskaper for klassen _Dokumentasjonstype_ [[Dokumentasjonstype-anbefalte-egenskaper]]
 
-==== Dokumentasjonstype – dokumentasjonstypekategori (cv:evidenceTypeClassification) [[Dokumentasjonstype-dokumentasjonstypekategori]]
-
-[cols="30s,70d"]
-|===
-| _English name_ | _evidence type classification_
-| URI | cv:evidenceTypeClassification
-| Verdiområde / _Range_ | skos:Concept
-| Anvendelse / _Usage note_ | Egenskapen brukes til å referere til kategorien som dokumentasjonstypen tilhører.
-
-_This property represents the category to which the Evidence Type belongs._
-| Multiplisitet / _Multiplicity_ | 0..n
-| Kravnivå / _Requirement level_ | Anbefalt / _Recommended_
-| Merknad / _Note_ | Norsk utvidelse: Kravnivå endret fra valgfri til anbefalt.
-
-_Norwegian extension: Requirement level changed from optional to recommended._
-|===
-
 ==== Dokumentasjonstype – tillatt gyldighetsperiode (cccevno:acceptableValidityDuration) [[Dokumentasjonstype-tillatt-gyldighetsperiode]]
 
 [cols="30s,70d"]
 |===
-| _English name_ |  _validity duration_
+| _English name_ |  _acceptable validity duration_
 | URI | cccevno:acceptableValidityDuration
 |Verdiområde / _Range_ | xsd:duration
 | Anvendelse / _Usage note_ | Egenskapen brukes til å angi en tidsperiode som dokumentasjoner tilhørende denne dokumentasjonstypen skal være gyldig innenfor.
@@ -131,7 +114,7 @@ Eksempel i RDF Turtle:
 
 [cols="30s,70d"]
 |===
-| _English name_ | _language_
+| _English name_ | _acceptable language_
 | URI | cccevno:acceptableLanguage
 |Verdiområde / _Range_ | dct:LinguisticSystem
 | Anvendelse / _Usage note_ | Egenskapen brukes til å oppgi språk som dokumentasjoner tilhørende denne dokumentasjonstypen kan være på.
@@ -150,6 +133,19 @@ _Norwegian extension: Not explicitly specified in CCCEV/CPSV-AP._
 
 === Valgfrie egenskaper for klassen _Dokumentasjonstype_ [[Dokumentasjonstype-valgfrie-egenskaper]]
 
+==== Dokumentasjonstype – dokumentasjonstypekategori (cv:evidenceTypeClassification) [[Dokumentasjonstype-dokumentasjonstypekategori]]
+
+[cols="30s,70d"]
+|===
+| _English name_ | _evidence type classification_
+| URI | cv:evidenceTypeClassification
+| Verdiområde / _Range_ | skos:Concept
+| Anvendelse / _Usage note_ | Egenskapen brukes til å referere til kategorien som dokumentasjonstypen tilhører.
+
+_This property represents the category to which the Evidence Type belongs._
+| Multiplisitet / _Multiplicity_ | 0..n
+| Kravnivå / _Requirement level_ | Valgfri / _Optional_
+|===
 
 ==== Dokumentasjonstype – er beskrevet ved (cv:isDescribedAt) [[Dokumentasjonstype-er-beskrevet-ved]]
 
@@ -203,7 +199,7 @@ _Norwegian extension: Not explicitly specified in CCCEV/CPSV-AP._
 
 [cols="30s,70d"]
 |===
-| _English name_ | _issuing place_
+| _English name_ | _acceptable issuing place_
 | URI |cccevno:acceptableIssuingPlace
 | Verdiområde / _Range_ | dct:Location
 | Anvendelse / _Usage note_ | Egenskapen brukes til å oppgi tillatt utstedelsessted for dokumentasjoner tilhørende denne dokumentasjonstypen, f.eks. Norge.
