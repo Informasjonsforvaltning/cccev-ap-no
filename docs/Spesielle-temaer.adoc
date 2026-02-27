@@ -4,7 +4,9 @@ _Denne delen er ment for både den ikke-tekniske og den tekniske målgruppen, fo
 
 _Denne delen av spesifikasjonen er ikke-normativ._
 
-include::TemaNårBrukesHva.adoc[]
+include::TemaNårBrukesKriteriumOsv.adoc[]
+
+include::TemaNårBrukesDokumentasjonVsDokumentasjonstype.adoc[]
 
 include::TemaÅBeskriveKrav.adoc[]
 

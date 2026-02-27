@@ -1,6 +1,6 @@
 === Å beskrive betingelser som skal oppfylles [[Å-beskrive-betingelser-som-skal-oppfylles]]
 
-__#@@@@@@ Teksten må oppdateres etter at klassen Påkrevd dokumentasjon er erstattet av Dokumentasjonstypeliste.#__
+__#@@@@@@ Teksten må oppdateres etter at klassen Påkrevd dokumentasjon er erstattet av Dokumentasjonstype og dokumentasjonstypeliste.#__
 
 :xrefstyle: short
 
