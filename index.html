@@ -581,7 +581,8 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#Krav-til-beskrivelse-av-kriterium-informasjonskrav-begrensning">2.1. Hva SKAL, BØR og KAN tas med i en beskrivelse av Kriterium, Informasjonskrav og Begrensning?</a></li>
 <li><a href="#Krav-til-beskrivelse-av-informasjonsbegrep">2.2. Hva SKAL, BØR og KAN tas med i en beskrivelse av Informasjonsbegrep</a></li>
 <li><a href="#Krav-til-beskrivelse-av-dokumentasjon">2.3. Hva SKAL, BØR og KAN tas med i en beskrivelse av Dokumentasjon</a></li>
-<li><a href="#Krav-til-beskrivelse-av-dokumentasjonstypeliste">2.4. Hva SKAL, BØR og KAN tas med i en beskrivelse av Dokumentasjonstypeliste</a></li>
+<li><a href="#Krav-til-beskrivelse-av-dokumentasjonstype">2.4. Hva SKAL, BØR og KAN tas med i en beskrivelse av Dokumentasjonstype</a></li>
+<li><a href="#Krav-til-beskrivelse-av-dokumentasjonstypeliste">2.5. Hva SKAL, BØR og KAN tas med i en beskrivelse av Dokumentasjonstypeliste</a></li>
 </ul>
 </li>
 <li><a href="#Spesifikasjon-per-klasse">3. Krav til RDF-representasjon av klassene i CCCEV-AP-NO</a>
@@ -660,19 +661,16 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#Dokumentasjonstype-anbefalte-egenskaper">3.3.2. Anbefalte egenskaper for klassen <em>Dokumentasjonstype</em></a>
 <ul class="sectlevel4">
 <li><a href="#Dokumentasjonstype-dokumentasjonstypekategori">Dokumentasjonstype – dokumentasjonstypekategori (cv:evidenceTypeClassification)</a></li>
-<li><a href="#Dokumentasjonstype-tillatt-gyldighetsperiode">Dokumentasjonstype – tillatt gyldighetsperiode (cccevno:permissibleValidityDuration)</a></li>
-<li><a href="#Dokumentasjonstype-tillatt-språk">Dokumentasjonstype – tillatt språk (cccevno:permissibleLanguage)</a></li>
+<li><a href="#Dokumentasjonstype-tillatt-gyldighetsperiode">Dokumentasjonstype – tillatt gyldighetsperiode (cccevno:acceptableValidityDuration)</a></li>
+<li><a href="#Dokumentasjonstype-tillatt-språk">Dokumentasjonstype – tillatt språk (cccevno:acceptableLanguage)</a></li>
 </ul>
 </li>
 <li><a href="#Dokumentasjonstype-valgfrie-egenskaper">3.3.3. Valgfrie egenskaper for klassen <em>Dokumentasjonstype</em></a>
 <ul class="sectlevel4">
 <li><a href="#Dokumentasjonstype-er-beskrevet-ved">Dokumentasjonstype – er beskrevet ved (cv:isDescribedAt)</a></li>
 <li><a href="#Dokumentasjonstype-er-spesifisert-i">Dokumentasjonstype – er spesifisert i (cv:isSpecifiedIn)</a></li>
-<li><a href="#Dokumentasjonstype-gir-understøttende-opplysning">Dokumentasjonstype – gir understøttende opplysning (cv:supportsValue)</a></li>
 <li><a href="#Dokumentasjonstype-relatert-informasjon">Dokumentasjonstype – relatert informasjon (foaf:page)</a></li>
-<li><a href="#Dokumentasjonstype-tillatt-utstedelsessted">Dokumentasjonstype – tillatt utstedelsessted (cccevno:permissibleIssuingPlace)</a></li>
-<li><a href="#Dokumentasjonstype-understøtter-informasjonsbegrep">Dokumentasjonstype – understøtter informasjonsbegrep (cv:supportsConcept)</a></li>
-<li><a href="#Dokumentasjonstype-understøtter-krav">Dokumentasjonstype – understøtter krav (cv:supportsRequirement)</a></li>
+<li><a href="#Dokumentasjonstype-tillatt-utstedelsessted">Dokumentasjonstype – tillatt utstedelsessted (cccevno:acceptableIssuingPlace)</a></li>
 </ul>
 </li>
 </ul>
@@ -1402,12 +1400,119 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </table>
 </div>
 <div class="sect2">
-<h3 id="Krav-til-beskrivelse-av-dokumentasjonstypeliste"><a class="link" href="#Krav-til-beskrivelse-av-dokumentasjonstypeliste">2.4. Hva SKAL, BØR og KAN tas med i en beskrivelse av Dokumentasjonstypeliste</a></h3>
+<h3 id="Krav-til-beskrivelse-av-dokumentasjonstype"><a class="link" href="#Krav-til-beskrivelse-av-dokumentasjonstype">2.4. Hva SKAL, BØR og KAN tas med i en beskrivelse av Dokumentasjonstype</a></h3>
+<div class="paragraph">
+<p>For å sikre at <strong>Dokumentasjonstype</strong> blir beskrevet på en ensartet måte, inneholder tabellene typer opplysninger som SKAL (obligatoriske), BØR (anbefalte) eller KAN (valgfrie) tas med i beskrivelsene.</p>
+</div>
+<table id="Tabell-obligatoriske-opplysninger-dokumentasjonstype" class="tableblock frame-all grid-all stripes-even stretch">
+<caption class="title">Tabell 10. Obligatoriske opplysningstyper som en beskrivelse av Dokumentasjonstype SKAL inneholde</caption>
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 65%;">
+<col style="width: 15%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Obligatorisk</th>
+<th class="tableblock halign-left valign-top">Forklaring</th>
+<th class="tableblock halign-left valign-top">Ref. til Kap. <a href="#Spesifikasjon-per-klasse"> 3</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>beskrivelse</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Tekstlig beskrivelse av dokumentasjonstype</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Dokumentasjonstype-beskrivelse"> 3.3.1.1</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>identifikator</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Unik identifikator, som regel opprettet automatisk av et system</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Dokumentasjonstype-identifikator"> 3.3.1.2</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>navn</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Det offisielle navnet til dokumentasjonstype</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Dokumentasjonstype-navn"> 3.3.1.3</a></p></td>
+</tr>
+</tbody>
+</table>
+<table id="Tabell-anbefalte-opplysninger-dokumentasjonstype" class="tableblock frame-all grid-all stripes-even stretch">
+<caption class="title">Tabell 11. Anbefalte opplysningstyper som en beskrivelse av Dokumentasjonstype BØR inneholde</caption>
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 65%;">
+<col style="width: 15%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Anbefalt</th>
+<th class="tableblock halign-left valign-top">Forklaring</th>
+<th class="tableblock halign-left valign-top">Ref. til Kap. <a href="#Spesifikasjon-per-klasse"> 3</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>dokumentasjonstypekategori</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Kategorien som dokumentasjontypen tilhører</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Dokumentasjonstype-dokumentasjonstypekategori"> 3.3.2.1</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>tillatt gyldighetsperiode</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Tidsperiode som dokumentasjoner tilhørende denne dokumentasjonstypen skal være gyldig innenfor</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Dokumentasjonstype-tillatt-gyldighetsperiode"> 3.3.2.2</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>tillatt språk</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Språk som dokumentasjoner tilhørende denne dokumentasjonstypen kan være på</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Dokumentasjonstype-tillatt-språk"> 3.3.2.3</a></p></td>
+</tr>
+</tbody>
+</table>
+<table id="Tabell-anbefalte-opplysninger-dokumentasjonstype" class="tableblock frame-all grid-all stripes-even stretch">
+<caption class="title">Tabell 12. Valgfrie opplysningstyper som en beskrivelse av Dokumentasjonstype KAN inneholde</caption>
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 65%;">
+<col style="width: 15%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Valgfri</th>
+<th class="tableblock halign-left valign-top">Forklaring</th>
+<th class="tableblock halign-left valign-top">Ref. til Kap. <a href="#Spesifikasjon-per-klasse"> 3</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>er beskrevet ved</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Datasett som denne aktuelle type dokumentasjon kan være beskrevet ved.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Dokumentasjonstype-er-beskrevet-ved"> 3.3.3.1</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>er spesifisert i</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Dokumentasjonstypeliste som inneholder dokumentasjonstypen</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Dokumentasjonstypeliste-er-spesifisert-i">[Dokumentasjonstypeliste-er-spesifisert-i]</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>relatert informasjon</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Mer informasjon om den aktuelle type dokumentasjon</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Dokumentasjonstypeliste-relatert-informasjon">[Dokumentasjonstypeliste-relatert-informasjon]</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>tillatt utstedelsessted</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Utstedelsested som er tillatt for den aktuelle type dokumentasjon</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Dokumentasjonstypeliste-tillatt-utstedelsessted">[Dokumentasjonstypeliste-tillatt-utstedelsessted]</a></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect2">
+<h3 id="Krav-til-beskrivelse-av-dokumentasjonstypeliste"><a class="link" href="#Krav-til-beskrivelse-av-dokumentasjonstypeliste">2.5. Hva SKAL, BØR og KAN tas med i en beskrivelse av Dokumentasjonstypeliste</a></h3>
 <div class="paragraph">
 <p>For å sikre at <strong>Dokumentasjonstypeliste</strong> blir beskrevet på en ensartet måte, inneholder tabellene typer opplysninger som SKAL (obligatoriske), BØR (anbefalte) eller KAN (valgfrie) tas med i beskrivelsene.</p>
 </div>
 <table id="Tabell-obligatoriske-opplysninger-dokumentasjonstypeliste" class="tableblock frame-all grid-all stripes-even stretch">
-<caption class="title">Tabell 10. Obligatoriske opplysningstyper som en beskrivelse av Dokumentasjonstypeliste SKAL inneholde</caption>
+<caption class="title">Tabell 13. Obligatoriske opplysningstyper som en beskrivelse av Dokumentasjonstypeliste SKAL inneholde</caption>
 <colgroup>
 <col style="width: 20%;">
 <col style="width: 65%;">
@@ -1429,7 +1534,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </tbody>
 </table>
 <table id="Tabell-anbefalte-opplysninger-dokumentasjonstypeliste" class="tableblock frame-all grid-all stripes-even stretch">
-<caption class="title">Tabell 11. Anbefalte opplysningstyper som en beskrivelse av Dokumentasjonstypeliste BØR inneholde</caption>
+<caption class="title">Tabell 14. Anbefalte opplysningstyper som en beskrivelse av Dokumentasjonstypeliste BØR inneholde</caption>
 <colgroup>
 <col style="width: 20%;">
 <col style="width: 65%;">
@@ -3060,8 +3165,8 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Anvendelse / <em>Usage note</em></strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Egenskapen brukes til å referere til kategorien som dokumentasjonen tilhører.</p>
-<p class="tableblock"><em>This property represents the category to which the Evidence belongs.</em></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Egenskapen brukes til å referere til kategorien som dokumentasjonstypen tilhører.</p>
+<p class="tableblock"><em>This property represents the category to which the Evidence Type belongs.</em></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Multiplisitet / <em>Multiplicity</em></strong></p></td>
@@ -3080,7 +3185,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </table>
 </div>
 <div class="sect4">
-<h5 id="Dokumentasjonstype-tillatt-gyldighetsperiode"><a class="link" href="#Dokumentasjonstype-tillatt-gyldighetsperiode">3.3.2.2. Dokumentasjonstype – tillatt gyldighetsperiode (cccevno:permissibleValidityDuration)</a></h5>
+<h5 id="Dokumentasjonstype-tillatt-gyldighetsperiode"><a class="link" href="#Dokumentasjonstype-tillatt-gyldighetsperiode">3.3.2.2. Dokumentasjonstype – tillatt gyldighetsperiode (cccevno:acceptableValidityDuration)</a></h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -3093,7 +3198,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>URI</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">cccevno:permissibleValidityDuration</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cccevno:acceptableValidityDuration</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Verdiområde / <em>Range</em></strong></p></td>
@@ -3101,8 +3206,8 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Anvendelse / <em>Usage note</em></strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Egenskapen brukes til å angi en tidsperiode som dokumentasjonstypen skal være gyldig innenfor.</p>
-<p class="tableblock"><em>This property represents time duration within which the Evidence Type must be valid.</em></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Egenskapen brukes til å angi en tidsperiode som dokumentasjoner tilhørende denne dokumentasjonstypen skal være gyldig innenfor.</p>
+<p class="tableblock"><em>This property represents time duration within which the Evidences belonging to this Evidence Type must be valid.</em></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Multiplisitet / <em>Multiplicity</em></strong></p></td>
@@ -3129,12 +3234,12 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="listingblock">
 <div class="content">
 <pre>&lt;påkrevdFirmaattest&gt; a cccevno:RequiredEvidence ;
-   cccevno:permissibleValidityDuration "P6M"^^xsd:duration ; . # 6 måneder</pre>
+   cccevno:acceptableValidityDuration "P6M"^^xsd:duration ; . # 6 måneder</pre>
 </div>
 </div>
 </div>
 <div class="sect4">
-<h5 id="Dokumentasjonstype-tillatt-språk"><a class="link" href="#Dokumentasjonstype-tillatt-språk">3.3.2.3. Dokumentasjonstype – tillatt språk (cccevno:permissibleLanguage)</a></h5>
+<h5 id="Dokumentasjonstype-tillatt-språk"><a class="link" href="#Dokumentasjonstype-tillatt-språk">3.3.2.3. Dokumentasjonstype – tillatt språk (cccevno:acceptableLanguage)</a></h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -3147,7 +3252,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>URI</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">cccevno:permissibleLanguage</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cccevno:acceptableLanguage</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Verdiområde / <em>Range</em></strong></p></td>
@@ -3155,7 +3260,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Anvendelse / <em>Usage note</em></strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Egenskapen brukes til å oppgi språk som dokumentasjonen kan være på.</p>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Egenskapen brukes til å oppgi språk som dokumentasjoner tilhørende denne dokumentasjonstypen kan være på.</p>
 <p class="tableblock"><em>This property is used to specify the language(s) that the evidence must be written in.</em></p></td>
 </tr>
 <tr>
@@ -3208,7 +3313,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Anvendelse / <em>Usage note</em></strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Egenskapen brukes til å referere til datasett som denne aktuelle type dokumentasjon kan være beskrevet i.</p>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Egenskapen brukes til å referere til datasett som dokumentasjoner tilhørende denne dokumentasjonstypen kan være beskrevet ved.</p>
 <p class="tableblock"><em>This property it used to refer to dataset where the given type of evidences may be described.</em></p></td>
 </tr>
 <tr>
@@ -3264,48 +3369,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </table>
 </div>
 <div class="sect4">
-<h5 id="Dokumentasjonstype-gir-understøttende-opplysning"><a class="link" href="#Dokumentasjonstype-gir-understøttende-opplysning">3.3.3.3. Dokumentasjonstype – gir understøttende opplysning (cv:supportsValue)</a></h5>
-<table class="tableblock frame-all grid-all stripes-even stretch">
-<colgroup>
-<col style="width: 30%;">
-<col style="width: 70%;">
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong><em>English name</em></strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><em>supports value</em></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>URI</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">cv:supportsValue</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Verdiområde / <em>Range</em></strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#UnderstøttendeOpplysning">cv:SupportedValue</a></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Anvendelse / <em>Usage note</em></strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Egenskapen brukes til å referere til understøttende opplysninger i den aktuelle type dokumentasjon.</p>
-<p class="tableblock"><em>This property represents Supported Value that the given type of evidences may contain.</em></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Multiplisitet / <em>Multiplicity</em></strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">0..n</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Kravnivå / <em>Requirement level</em></strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Valgfri / <em>Optional</em></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Merknad / <em>Note</em></strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Norsk utvidelse: Ikke eksplisitt spesifisert i CCCEV/CPSV-AP.</p>
-<p class="tableblock"><em>Norwegian extension: Not explicitly specified in CCCEV/CPSV-AP.</em></p></td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="sect4">
-<h5 id="Dokumentasjonstype-relatert-informasjon"><a class="link" href="#Dokumentasjonstype-relatert-informasjon">3.3.3.4. Dokumentasjonstype – relatert informasjon (foaf:page)</a></h5>
+<h5 id="Dokumentasjonstype-relatert-informasjon"><a class="link" href="#Dokumentasjonstype-relatert-informasjon">3.3.3.3. Dokumentasjonstype – relatert informasjon (foaf:page)</a></h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -3346,7 +3410,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </table>
 </div>
 <div class="sect4">
-<h5 id="Dokumentasjonstype-tillatt-utstedelsessted"><a class="link" href="#Dokumentasjonstype-tillatt-utstedelsessted">3.3.3.5. Dokumentasjonstype – tillatt utstedelsessted (cccevno:permissibleIssuingPlace)</a></h5>
+<h5 id="Dokumentasjonstype-tillatt-utstedelsessted"><a class="link" href="#Dokumentasjonstype-tillatt-utstedelsessted">3.3.3.4. Dokumentasjonstype – tillatt utstedelsessted (cccevno:acceptableIssuingPlace)</a></h5>
 <table class="tableblock frame-all grid-all stripes-even stretch">
 <colgroup>
 <col style="width: 30%;">
@@ -3359,7 +3423,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>URI</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">cccevno:permissibleIssuingPlace</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cccevno:acceptableIssuingPlace</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Verdiområde / <em>Range</em></strong></p></td>
@@ -3367,8 +3431,8 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Anvendelse / <em>Usage note</em></strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Egenskapen brukes til å oppgi tillatt utstedelsessted for dokumentasjonen, f.eks. Norge.</p>
-<p class="tableblock"><em>This property represents the Location where an Evidence Type is issued. E.g. Belgian ID cards are issued in Belgium.</em></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Egenskapen brukes til å oppgi tillatt utstedelsessted for dokumentasjoner tilhørende denne dokumentasjonstypen, f.eks. Norge.</p>
+<p class="tableblock"><em>This property represents acceptable issuing places for an Evidence of this Evidence Type, e.g. Norway.</em></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Multiplisitet / <em>Multiplicity</em></strong></p></td>
@@ -3385,88 +3449,6 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Merknad 2 / <em>Note 2</em></strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Norsk utvidelse: Ikke eksplisitt spesifisert i CCCEV/CPSV-AP.</p>
-<p class="tableblock"><em>Norwegian extension: Not explicitly specified in CCCEV/CPSV-AP.</em></p></td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="sect4">
-<h5 id="Dokumentasjonstype-understøtter-informasjonsbegrep"><a class="link" href="#Dokumentasjonstype-understøtter-informasjonsbegrep">3.3.3.6. Dokumentasjonstype – understøtter informasjonsbegrep (cv:supportsConcept)</a></h5>
-<table class="tableblock frame-all grid-all stripes-even stretch">
-<colgroup>
-<col style="width: 30%;">
-<col style="width: 70%;">
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong><em>English name</em></strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><em>supports concept</em></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>URI</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">cv:supportsConcept</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Verdiområde / <em>Range</em></strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Informasjonsbegrep">cv:InformationConcept</a></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Anvendelse / <em>Usage note</em></strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Egenskapen brukes til å referere til informasjonsbegrep som gir fakta funnet eller utledet fra den aktuelle type dokumentasjon.</p>
-<p class="tableblock"><em>This property is used to refer toInformation Concept providing facts found/inferred from the given type of evidences.</em></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Multiplisitet / <em>Multiplicity</em></strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">0..n</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Kravnivå / <em>Requirement level</em></strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Valgfri / <em>Optional</em></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Merknad / <em>Note</em></strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Norsk utvidelse: Ikke eksplisitt spesifisert i CCCEV/CPSV-AP.</p>
-<p class="tableblock"><em>Norwegian extension: Not explicitly specified in CCCEV/CPSV-AP.</em></p></td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="sect4">
-<h5 id="Dokumentasjonstype-understøtter-krav"><a class="link" href="#Dokumentasjonstype-understøtter-krav">3.3.3.7. Dokumentasjonstype – understøtter krav (cv:supportsRequirement)</a></h5>
-<table class="tableblock frame-all grid-all stripes-even stretch">
-<colgroup>
-<col style="width: 30%;">
-<col style="width: 70%;">
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong><em>English name</em></strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><em>supports requirement</em></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>URI</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">cv:supportsRequirement</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Verdiområde / <em>Range</em></strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Krav">cv:Requirement</a></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Anvendelse / <em>Usage note</em></strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Egenskapen brukes til å referere til krav som den aktuelle type dokumentasjon understøtter, representert ved instans av en av subklassene til klassen Krav (<code>cv:Requirement</code>).</p>
-<p class="tableblock"><em>This property is used to refer to the requirement that the given type of evidences support, represented by an instance of one of the subclasses of the class Requirement (<code>cv:Requirement</code>).</em></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Multiplisitet / <em>Multiplicity</em></strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">0..n</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Kravnivå / <em>Requirement level</em></strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Valgfri / <em>Optional</em></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Merknad / <em>Note</em></strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Norsk utvidelse: Ikke eksplisitt spesifisert i CCCEV/CPSV-AP.</p>
 <p class="tableblock"><em>Norwegian extension: Not explicitly specified in CCCEV/CPSV-AP.</em></p></td>
 </tr>
@@ -6028,7 +6010,7 @@ for å beskrive data som forespørres (f.eks. «Søkerens alder») og som skal b
 </div>
 <div id="footer">
 <div id="footer-text">
-Sist oppdatert 2026-02-27 09:18:52 UTC
+Sist oppdatert 2026-02-27 13:24:48 UTC
 </div>
 </div>
 </body>
