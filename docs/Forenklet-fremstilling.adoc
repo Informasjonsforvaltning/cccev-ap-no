@@ -145,6 +145,40 @@ For å sikre at *Dokumentasjon* blir beskrevet på en ensartet måte, inneholder
 | utsteder | Oppgir aktøren som er juridisk ansvarlig for dokumentasjonen | <<Dokumentasjon-utsteder>>
 |===
 
+=== Hva SKAL, BØR og KAN tas med i en beskrivelse av Dokumentasjonstype [[Krav-til-beskrivelse-av-dokumentasjonstype]]
+For å sikre at *Dokumentasjonstype* blir beskrevet på en ensartet måte, inneholder tabellene typer opplysninger som SKAL (obligatoriske), BØR (anbefalte) eller KAN (valgfrie) tas med i beskrivelsene.
+
+[[Tabell-obligatoriske-opplysninger-dokumentasjonstype]]
+.Obligatoriske opplysningstyper som en beskrivelse av Dokumentasjonstype SKAL inneholde
+[cols="20s,65d,15d", options="header"]
+|===
+| Obligatorisk | Forklaring | Ref. til Kap. <<Spesifikasjon-per-klasse>>
+| beskrivelse | Tekstlig beskrivelse av dokumentasjonstype | <<Dokumentasjonstype-beskrivelse>>
+| identifikator | Unik identifikator, som regel opprettet automatisk av et system | <<Dokumentasjonstype-identifikator>>
+| navn | Det offisielle navnet til dokumentasjonstype | <<Dokumentasjonstype-navn>>
+|===
+
+[[Tabell-anbefalte-opplysninger-dokumentasjonstype]]
+.Anbefalte opplysningstyper som en beskrivelse av Dokumentasjonstype BØR inneholde
+[cols="20s,65d,15d", options="header"]
+|===
+| Anbefalt | Forklaring | Ref. til Kap. <<Spesifikasjon-per-klasse>>
+| dokumentasjonstypekategori | Kategorien som dokumentasjontypen tilhører | <<Dokumentasjonstype-dokumentasjonstypekategori>>
+| tillatt gyldighetsperiode | Tidsperiode som dokumentasjoner tilhørende denne dokumentasjonstypen skal være gyldig innenfor | <<Dokumentasjonstype-tillatt-gyldighetsperiode>>
+| tillatt språk | Språk som dokumentasjoner tilhørende denne dokumentasjonstypen kan være på | <<Dokumentasjonstype-tillatt-språk>>
+|===
+
+[[Tabell-anbefalte-opplysninger-dokumentasjonstype]]
+.Valgfrie opplysningstyper som en beskrivelse av Dokumentasjonstype KAN inneholde
+[cols="20s,65d,15d", options="header"]
+|===
+| Valgfri | Forklaring | Ref. til Kap. <<Spesifikasjon-per-klasse>>
+| er beskrevet ved | Datasett som denne aktuelle type dokumentasjon kan være beskrevet ved. | <<Dokumentasjonstype-er-beskrevet-ved>>
+| er spesifisert i | Dokumentasjonstypeliste som inneholder dokumentasjonstypen | <<Dokumentasjonstypeliste-er-spesifisert-i>>
+| relatert informasjon | Mer informasjon om den aktuelle type dokumentasjon | <<Dokumentasjonstypeliste-relatert-informasjon>>
+| tillatt utstedelsessted | Utstedelsested som er tillatt for den aktuelle type dokumentasjon | <<Dokumentasjonstypeliste-tillatt-utstedelsessted>>
+|===
+
 === Hva SKAL, BØR og KAN tas med i en beskrivelse av Dokumentasjonstypeliste [[Krav-til-beskrivelse-av-dokumentasjonstypeliste]]
 For å sikre at *Dokumentasjonstypeliste* blir beskrevet på en ensartet måte, inneholder tabellene typer opplysninger som SKAL (obligatoriske), BØR (anbefalte) eller KAN (valgfrie) tas med i beskrivelsene.
 
