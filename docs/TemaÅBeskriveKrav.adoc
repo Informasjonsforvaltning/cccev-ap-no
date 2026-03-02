@@ -8,21 +8,21 @@ Følgende er et illustrativt eksempel på bruk av CCCEV-AP-NO for å beskrive de
 
 * *Kriterium*: Vilkår for å inngå ekteskap
 ** *Informasjonskrav* 1: Søkerens alder
-*** *Informasjonsbegrep*: Alder
+*** *Informasjonsbegrep* 1: Alder
 **** *Begrensning*: Søkeren må være minst 18 år gammel
-*** *Dokumentasjonstype* 1: Registrert opplysning i Folkeregisteret
+*** *Dokumentasjonstype* 1: Folkeregisteropplysning
 *** *Dokumentasjon*: Uttrekk fra Folkeregisteret for Ola Nordmann
 
 ** *Informasjonskrav* 2: Søkerens sivilstand
 *** *Informasjonsbegrep* 2: Sivilstand
 **** *Begrensning*: Søkerens sivilstand kan ikke være <gift>, <separert>, <registrert partner> eller <separert partner>
-*** *Dokumentasjonstype* 1: Registrert opplysning i Folkeregisteret
+*** *Dokumentasjonstype* 1: Folkeregisteropplysning
 *** *Dokumentasjon*: Uttrekk fra Folkeregisteret for Ola Nordmann
 
-** *Informasjonskrav* n: ...
-*** *Informasjonsbegrep*: ...
+** *Informasjonskrav* x: ...
+*** *Informasjonsbegrep* y: ...
 **** *Begrensning*: ...
-*** *Dokumentasjonstype* n: 
+*** *Dokumentasjonstype* z: 
 *** *Dokumentasjon*: ...
 
 Eksemplet er illustrert i <<img-Figur-eksempelbruk-kravsklassene>> nedenfor.
@@ -84,7 +84,7 @@ Eksemplet i RDF Turtle:
    cv:constrains <sivilstand> ; # begrenser
    .
 
-<fregUttrekkForOlaNormann> a cv:Evidence ; # en konkret dokumentasjon, for Ola Nordmann 
+<fregUttrekkForOlaNordmann> a cv:Evidence ; # en konkret dokumentasjon, for Ola Nordmann 
    dct:title "Uttrekk fra Folkeregisteret for Ola Nordmann"@nb ; # navn
    dct:conformsTo <dokTypeFregOpplysning> ; # i samsvarer med dokumentasjonstype
    cv:supportsRequirement <søkerensAlder>, <begrensningAlder>,
