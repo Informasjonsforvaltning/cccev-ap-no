@@ -10,11 +10,11 @@ image::images/KlassenDokumentasjonstypeliste.png[alt="UML-diagram med klassen Do
 | _English name_ | _Evidence Type List_
 | Anvendelse / _Usage note_ | Klassen brukes til å representere en gruppe av dokumentasjonstyper som kreves for å oppfylle et krav.
 
-Kravet om å være i samsvar med en dokumentasjonstypeliste er oppfylt **hvis og bare hvis** den aktuelle dokumentasjonen samsvarer med **alle** typer som listen inneholder. Det er med andre ord en `AND` betingelse mellom typene på en gitt dokumentasjonsliste, og en `OR` betingelse mellom ulike dokumentasjonslister.
+Kravet om å være i samsvar med en dokumentasjonstypeliste er oppfylt **hvis og bare hvis** den aktuelle dokumentasjonen samsvarer med **alle** typer som listen inneholder. Det er med andre ord en *`AND`* betingelse mellom typene på en gitt dokumentasjonstypeliste, og en *`OR`* betingelse mellom ulike dokumentasjonslister.
 
 _This class represents a group of Evidence Types for conforming to a Requirement._
 
-_An Evidence Type List is satisfied, if and only if, for all included Evidence Types in this List, corresponding conformant Evidence(s) are supporting the Requirement having this List. The Evidence Type List describes thus an AND condition on the different Evidence Types within the list and an OR condition between two or more Evidence Type Lists. Combinations of alternative Lists can be provided for a respondent of a Requirement to choose amongst them._
+_An Evidence Type List is satisfied, if and only if, for all included Evidence Types in this List, corresponding conformant Evidence(s) are supporting the Requirement having this List. The Evidence Type List describes thus an `AND` condition on the different Evidence Types within the list and an `OR` condition between two or more Evidence Type Lists. Combinations of alternative Lists can be provided for a respondent of a Requirement to choose amongst them._
 | URI | cv:EvidenceTypeList
 |===
 
