@@ -312,7 +312,7 @@ _This property represents Information Concept providing facts found/inferred fro
 | _English name_ |  _supports requirement_
 | URI |  cv:supportsRequirement
 |Verdiområde / _Range_ | <<Krav, cv:Requirement>>
-| Anvendelse / _Usage note_ | Egenskapen brukes til å referere til krav som dokumentasjonen understøtter.
+| Anvendelse / _Usage note_ | Egenskapen brukes til å referere til krav som dokumentasjonen understøtter, representert ved en instans av en av subklassene til klassen Krav (`cv:Requirement`).
 
 _This property is used to refer to the requirement that the evidence supports._
 | Multiplisitet / _Multiplicity_ | 0..n
