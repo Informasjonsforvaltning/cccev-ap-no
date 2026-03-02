@@ -20,4 +20,4 @@ Forholdet mellom krav, dokumentasjonstypeliste, dokumentasjonstype og dokumentas
 
 image::images/Figur-Krav-doktypeliste-doktype-dokumentasjon.png[alt="UML-diagram med fire klasser og relasjoner i mellom dem. Innholdet i diagrammet er forklart i teksten."]
 
-
+Se også <<Å-beskrive-betingelser-som-skal-oppfylles>> for et illustrativt eksempel på bruk av Krav, Dokumentasjonstypeliste, Dokumentasjonstype og Dokumentasjon.
