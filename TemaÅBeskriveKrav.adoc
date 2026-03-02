@@ -2,7 +2,7 @@
 
 :xrefstyle: short
 
-CCCEV-AP-NO gjør det mulig, i struktuert og maskinlesbar form, å beskrive betingelser som skal oppfylles og dokumentasjon av oppfyllelse.
+CCCEV-AP-NO gjør det mulig, i struktuert og maskinlesbar form, å beskrive betingelser som skal oppfylles og dokumentasjon på oppfyllelse.
 
 Følgende er et illustrativt eksempel på bruk av CCCEV-AP-NO for å beskrive deler av «Vilkår for å inngå ekteskap», med beskrivelse av data som trengs samt begrensninger på disse dataene. I eksemplet er det også tatt med dokumentasjonstype og faktisk dokumentasjon som gir kilden til dataene som trengs.
 

@@ -5,9 +5,9 @@
 //:xrefstyle: pass:[%n %t]
 :xrefstyle: full
 
-Formålet med spesifikasjonen er å legge til rette for en felles måte å beskrive krav og dokumentasjon av kravoppfyllelse som en del av f.eks. en tjenestebeskrivelse, og en felles måte å utveksle beskrivelsene.  
+Formålet med spesifikasjonen er å legge til rette for en felles måte å beskrive krav og dokumentasjon på kravoppfyllelse som en del av f.eks. en tjenestebeskrivelse, og en felles måte å utveksle beskrivelsene.  
 
-Spesifikasjonen er i utgangspunktet ikke tenkt å brukes alene. Den er ment å brukes f.eks. sammen med https://data.norge.no/specification/cpsv-ap-no[Spesifikasjon for tjeneste- og hendelsesbeskrivelser (CPSV-AP-NO) &#x29C9;, window="_blank", role="ext-link"], når det er behov for å beskrive, i strukturert og maskinlesbar form, krav og dokumentasjon av kravoppfyllelse til en tjeneste. 
+Spesifikasjonen er i utgangspunktet ikke tenkt å brukes alene. Den er ment å brukes f.eks. sammen med https://data.norge.no/specification/cpsv-ap-no[Spesifikasjon for tjeneste- og hendelsesbeskrivelser (CPSV-AP-NO) &#x29C9;, window="_blank", role="ext-link"], når det er behov for å beskrive, i strukturert og maskinlesbar form, krav og dokumentasjon på kravoppfyllelse til en tjeneste. 
 
 === Omfang og avgrensing [[Omfang-og-avgrensing]]
 

@@ -14,7 +14,7 @@ _Denne delen av spesifikasjonen er primært ment for den ikke-tekniske målgrupp
 [link=images/CCCEV-AP-NO-forenklet-fremstilling.png]
 image::images/CCCEV-AP-NO-forenklet-fremstilling.png[alt="Forenklet diagram med noen av klassene i CCCEV-AP-NO, deres egenskaper og relasjoner til hverandre. Innholdet i diagrammet er forklart i teksten."]
 
-CCCEV-AP-NO kan brukes til å beskrive både krav og dokumentasjon av kravoppfyllelse:
+CCCEV-AP-NO kan brukes til å beskrive både krav og dokumentasjon på kravoppfyllelse:
 
 * Beskrivelse av krav i form av *Kriterium*, *Informasjonskrav* eller *Begrensning*:
 ** *Kriterium* brukes til å oppgi betingelse(r) som må være oppfylt, f.eks. «Vilkår for å inngå ekteskap». 
@@ -23,14 +23,14 @@ CCCEV-AP-NO kan brukes til å beskrive både krav og dokumentasjon av kravoppfyl
 ** *Begrensning* brukes til å oppgi begrensning som gjelder for et informasjonsbegrep. For informasjonsbegrepet «Alder» kan en begrensning være «Søkeren må være minst 18 år gammel».
 ** Se ellers <<Når-brukes-kriterium-informasjonskrav-informasjonsbegrep-begrensning>> for mer forklaring på når Kriterium, Informasjonskrav eller Begrensning bør brukes.
 
-* Beskrivelse av dokumentasjon av kravoppfyllelse:
+* Beskrivelse av dokumentasjon på kravoppfyllelse:
 ** *Dokumentasjon* brukes til, i «_run-time_», å oppgi den _faktiske_ dokumentasjonen som _er_ fremlagt og brukt til å evaluere om et krav er oppfylt eller ikke. Dokumentasjon brukes med andre ord i forbindelse med _utførelsen_ av en tjeneste, i f.eks. en saksbehandlings- eller arkiveringsapplikasjon. Eksempel på en faktisk dokumentasjon kan være «Uttrekk fra Folkeregisteret for Ola Nordmann».
 ** *Dokumentasjonstype* og *Dokumentasjonstypeliste* brukes til, i «_design-time_», å oppgi typer dokumentasjon som _skal_ fremlegges og brukes til å evaluere om et krav er oppfylt eller ikke. Dokumentasjonstype og dokumentasjonstypeliste brukes med andre ord i forbindelse med _beskrivelsen_ av en tjeneste, i f.eks. en tjenestekatalog. Eksempler på en dokumentasjonstype kan være «Fødselsattest».
 ** Se <<Når-brukes-dokumentasjon-og-dokumentasjonstype-dokumentasjonstypeliste>> for mer forklaring på når Dokumentasjon, Dokumentasjonstype og Dokumentasjonstypeliste bør brukes.
 
 Se også <<Å-beskrive-betingelser-som-skal-oppfylles>> og <<Å-kytte-krav-til-regelverk>> for illustrative eksempler på bruk av CCCEV-AP-NO.
 
-Hvilke typer opplysninger som SKAL (obligatoriske), BØR (anbefalte) og KAN (valgfrie) tas med i en beskrivelse av et krav eller en dokumentasjon av kravoppfyllelse er nærmere spesifisert i det følgende i dette kapittelet. Hvordan opplysningene skal representeres teknisk i RDF (https://www.w3.org/RDF/[Resource Description Framework &#x29C9;, window="_blank", role="ext-link"]) er spesifisert i <<Spesifikasjon-per-klasse>>, som også innehlder flere klasser som kan brukes i tillegg til de som er vist i <<img-ForenkletModell>> og beskrevet i dette kapittelet.
+Hvilke typer opplysninger som SKAL (obligatoriske), BØR (anbefalte) og KAN (valgfrie) tas med i en beskrivelse av et krav eller en dokumentasjon på kravoppfyllelse er nærmere spesifisert i det følgende i dette kapittelet. Hvordan opplysningene skal representeres teknisk i RDF (https://www.w3.org/RDF/[Resource Description Framework &#x29C9;, window="_blank", role="ext-link"]) er spesifisert i <<Spesifikasjon-per-klasse>>, som også innehlder flere klasser som kan brukes i tillegg til de som er vist i <<img-ForenkletModell>> og beskrevet i dette kapittelet.
 
 :xrefstyle: short
 
