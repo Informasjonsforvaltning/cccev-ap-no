@@ -5553,19 +5553,19 @@ for å beskrive data som forespørres (f.eks. «Søkerens alder») og som skal b
 <div class="sect2">
 <h3 id="Når-brukes-dokumentasjon-og-dokumentasjonstype-dokumentasjonstypeliste"><a class="link" href="#Når-brukes-dokumentasjon-og-dokumentasjonstype-dokumentasjonstypeliste">4.2. Når brukes Dokumentasjon og Dokumentasjonstype/Dokumentasjonstypeliste?</a></h3>
 <div class="paragraph">
-<p><strong>Dokumentasjon</strong> (<code>cv:Evidence</code>, kap. <a href="#Dokumentasjon"> 3.2</a>) brukes til å beskrive <em>et konkret stykke</em>  dokumentasjon som bærer <em>konkrete data</em> eller som gir kilden til slike data, som <em>er brukt</em> til å evaluere og dokumentere oppfyllelse av et krav i «<em>run time</em>». Et eksempel på en dokumentasjon kan være uttrekk fra Folkeregisteret med opplysninger om søkeren Ola Nordmann, som i et konkret saksbehandlingsøyemed er brukt til å evaluere om han er minst 18 år gammel.</p>
+<p><strong>Dokumentasjon</strong> (<code>cv:Evidence</code>, kap. <a href="#Dokumentasjon"> 3.2</a>) brukes til å beskrive <em>et konkret stykke</em>  dokumentasjon som inneholder <em>konkrete data</em> eller som gir kilden til slike data, som <em>er brukt</em> til å evaluere og dokumentere oppfyllelse av et krav i «<em>run time</em>». Et eksempel på en dokumentasjon kan være uttrekk fra Folkeregisteret med opplysninger om søkeren Ola Nordmann, som i et konkret saksbehandlingsøyemed er brukt til å evaluere om han er minst 18 år gammel.</p>
 </div>
 <div class="paragraph">
-<p><strong>Dokumentasjonstype</strong> (<code>cv:EvidenceType</code>, kap. <a href="#Dokumentasjonstype"> 3.3</a>) brukes, i «<em>design time</em>», til å beskrive en type dokumentasjon som <em>kan brukes</em> til å evaluere oppfyllelse av et krav. En dokumentasjonstype bærer altså ingen konkrete data, men spesifiserer felles egenskaper til data som trengs eller kilden til hvor slike data kan finnes. Et eksempel på dokumentasjonstype kan f.eks. være «Folkeregisteropplysninger», dvs. opplysninger registrert i Folkeregisteret som kan brukes til å evaluere om en søker er minst 18 år gammel. En annet eksempel kan være «Pass», som også kan brukes til å evaluere om en søker er minst 18 år gammel.</p>
+<p><strong>Dokumentasjonstype</strong> (<code>cv:EvidenceType</code>, kap. <a href="#Dokumentasjonstype"> 3.3</a>) brukes, i «<em>design time</em>», til å beskrive en type dokumentasjon som <em>kan brukes</em> til å evaluere oppfyllelse av et krav. En dokumentasjonstype inneholder altså ingen konkrete data, men spesifiserer felles egenskaper til data som trengs eller kilden til hvor slike data kan finnes. Et eksempel på dokumentasjonstype kan være «Folkeregisteropplysning», dvs. opplysninger registrert i Folkeregisteret som kan brukes til å evaluere om en søker er minst 18 år gammel. Et annet eksempel kan være «Pass», som også kan brukes til å evaluere om en søker er minst 18 år gammel.</p>
 </div>
 <div class="paragraph">
-<p>For å knytte en dokumentasjonstype til et krav, brukes <strong>Dokumentasjonstypeliste</strong> (<code>cv:EvidenceTypeList</code>, kap. <a href="#Dokumentasjonstypeliste"> 3.4</a>). En dokumentasjonstypeliste spesifiserer en eller flere typer dokumentasjon som kreves for å oppfylle et krav. Vær spesielt oppmerksom på at kravet om å være i samsvar med en dokumentasjonstypeliste er oppfylt <strong>hvis og bare hvis</strong> den aktuelle dokumentasjonen samsvarer med <strong>alle</strong> typer som listen inneholder. Det er med andre ord en <strong><code>OG (<em>AND</em>)</code></strong> betingelse mellom typene på en gitt dokumentasjonstypeliste, og en <strong><code>ELLER (<em>OR</em>)</code></strong> betingelse mellom ulike dokumentasjonslister. På denne måten kan man også uttrykke alternative dokumentasjonskrav. For eksmepel, for å dokumentere at en søker er 1) minst 18 år gammel og 2) ikke i et ekteskap eller registrert partnerskap, kan man bruke en dokumentasjonstypeliste som inneholder dokumentasjonstypen «Folkeregisteropplysning» (fordi både fødselsdato og sivilstand kan hentes fra Folkeregisteret, for søkere som er registrert i Folkeregisteret), og en annen dokumentasjonstypeliste som inneholder dokumentasjonstypene «Pass» <em>og</em> «Dokumentasjon på at man ikke er i et ekteskap eller registrert partnerskap» (fordi passet bare inneholder fødeselsdato men ikke sivilstand).</p>
+<p>For å knytte en dokumentasjonstype til et krav, brukes <strong>Dokumentasjonstypeliste</strong> (<code>cv:EvidenceTypeList</code>, kap. <a href="#Dokumentasjonstypeliste"> 3.4</a>). En dokumentasjonstypeliste spesifiserer en eller flere typer dokumentasjon som kreves for å oppfylle et krav. Vær spesielt oppmerksom på at kravet om å være i samsvar med en dokumentasjonstypeliste er oppfylt <strong>hvis og bare hvis</strong> den aktuelle, faktiske dokumentasjonen samsvarer med <strong>alle</strong> typer som listen inneholder. Det er med andre ord en <strong><code>OG (<em>AND</em>)</code></strong> betingelse mellom typene på en gitt dokumentasjonstypeliste, og en <strong><code>ELLER (<em>OR</em>)</code></strong> betingelse mellom ulike dokumentasjonslister. På denne måten kan man også uttrykke alternative dokumentasjonskrav. For eksmepel, for å beskrive kravet til å dokumentere at en søker er 1) minst 18 år gammel og 2) ikke i et ekteskap eller registrert partnerskap, kan man bruke en dokumentasjonstypeliste som inneholder dokumentasjonstypen «Folkeregisteropplysning» (fordi både fødselsdato og sivilstand kan hentes fra Folkeregisteret, for søkere som er registrert i Folkeregisteret), og en annen dokumentasjonstypeliste som inneholder dokumentasjonstypene «Pass» <em>og</em> «Dokumentasjon på at man ikke er i et ekteskap eller registrert partnerskap» (fordi passet bare inneholder fødeselsdato og ikke sivilstand).</p>
 </div>
 <div class="paragraph">
-<p>CCCEV-AP-NO gjør det også mulig å knytte en gitt dokumentasjon til en dokumentasjonstype, ved hjelp av egenskapen <a href="#Dokumentasjon-i-samsvar-med">«i samsvar med» (<code>dct:conformsTo</code>)</a>. For vår søker Ola Nordmann, som er registrert i Folkeregisteret, vil dokumentasjonen «Uttrekk fra Folkeregisteret for Ola Nordmann» tilfredsstille dokumentasjonskravet fordi dokumentasjonen er i samsvar med dokumentasjonstypen «Folkeregisteropplysning».</p>
+<p>CCCEV-AP-NO gjør det også mulig å knytte en gitt konkret dokumentasjon til en dokumentasjonstype, ved hjelp av egenskapen <a href="#Dokumentasjon-i-samsvar-med">«i samsvar med» (<code>dct:conformsTo</code>)</a>. For vår søker Ola Nordmann, som er registrert i Folkeregisteret, vil dokumentasjonen «Uttrekk fra Folkeregisteret for Ola Nordmann» tilfredsstille dokumentasjonskravet fordi dokumentasjonen er i samsvar med dokumentasjonstypen «Folkeregisteropplysning».</p>
 </div>
 <div class="paragraph">
-<p>Forholdet mellom krav, dokumentasjonstypeliste, dokumentasjonstype og dokumentasjon er beskrvet i <a href="#img-ForholdKravDoktypelisteDokTypeDok">[img-ForholdKravDoktypelisteDokTypeDok]</a> nedenfor.</p>
+<p>Forholdet mellom Krav, Dokumentasjonstypeliste, Dokumentasjonstype og Dokumentasjon er beskrvet i <a href="#img-ForholdKravDoktypeDoktypelisteDok">Figur 14</a> nedenfor.</p>
 </div>
 <div id="img-ForholdKravDoktypeDoktypelisteDok" class="imageblock">
 <div class="content">
@@ -5574,7 +5574,7 @@ for å beskrive data som forespørres (f.eks. «Søkerens alder») og som skal b
 <div class="title">Figur 14. Forholdet mellom Krav, Dokumentasjonstypeliste, Dokumentasjonstype og Dokumentasjon</div>
 </div>
 <div class="paragraph">
-<p>Se også <a href="#Å-beskrive-betingelser-som-skal-oppfylles"> 4.3</a> for et illustrativt eksempel på bruk av Krav, Dokumentasjonstypeliste, Dokumentasjonstype og Dokumentasjon.</p>
+<p>Se også kap. <a href="#Å-beskrive-betingelser-som-skal-oppfylles"> 4.3</a> for et illustrativt eksempel på bruk av Krav, Dokumentasjonstypeliste, Dokumentasjonstype og Dokumentasjon.</p>
 </div>
 </div>
 <div class="sect2">
@@ -6036,7 +6036,7 @@ for å beskrive data som forespørres (f.eks. «Søkerens alder») og som skal b
 </div>
 <div id="footer">
 <div id="footer-text">
-Sist oppdatert 2026-03-02 12:27:35 UTC
+Sist oppdatert 2026-03-02 12:45:15 UTC
 </div>
 </div>
 </body>
