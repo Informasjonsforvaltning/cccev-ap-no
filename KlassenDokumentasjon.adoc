@@ -53,7 +53,7 @@ _This property represents the official Name of the piece of Evidence. This prope
 
 Eksempel i RDF Turtle:
 -----
-<kravOmVandel> a cv:Evidence ;
+<vandelsattest> a cv:Evidence ;
    dct:title "Vandelsattest"@nb ; .
 -----
 
@@ -79,7 +79,7 @@ _Norwegian extension: Requirement level changed from optional to recommended._
 
 Eksempel i RDF Turtle:
 -----
-<kravOmVandel> a cv:Evidence ;
+<vandelsattest> a cv:Evidence ;
    dct:title "Vandelsattest"@nb ;
    dct:description "Vandelsattest utstedt av Politiet"@nb ; .
 -----
@@ -107,7 +107,7 @@ _Norwegian extension: Requirement level changed from optional to recommended._
 
 Eksempel i RDF Turtle:
 -----
-<kravOmVandel> a cv:Evidence ;
+<vandelsattest> a cv:Evidence ;
    dct:language
       <https://publications.europa.eu/resource/authority/language/NOB>; # bokmål  
    .
@@ -280,13 +280,13 @@ _This property represents the type of Evidence as described in a controlled voca
 | Merknad / _Note_ | Norsk utvidelse: Verdien SKAL velges fra kontrollerte vokabular https://data.norge.no/vocabulary/evidence-type[Dokumentasjonstype &#x29C9;, window="_blank", role="ext-link"], når verdien finnes på listen.
 
 __Norwegian extension: The value MUST be chosen from the controlled vocabulary https://data.norge.no/vocabulary/evidence-type[Evidence type &#x29C9;, window="_blank", role="ext-link"], when the value is in the vocabulary.__
-| Eksempel | Dokumentasjon til «Krav om vandel» er av type «attest»
+| Eksempel | Dokumentasjonen til «vandelsattest» er av type «attest»
 |===
 
 Eksempel i RDF Turtle:
 -----
-<kravOmVandel> a cv:Evidence ;
-   dct:title "Krav om vandel"@nb ;
+<vandelsattest> a cv:Evidence ;
+   dct:title "Vandelsattest"@nb ;
    dct:type <https://data.norge.no/vocabulary/evidence-type#attestation> ; # attest
    .
 -----
