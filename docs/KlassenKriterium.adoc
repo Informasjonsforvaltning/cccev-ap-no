@@ -153,7 +153,7 @@ _This property is used to refer to the Evidence Type List that specifies the typ
 
 _This property refers to the Information Concept for which a value is expected by the Criterion._
 
-_Information Concepts defined for specific Criterions also represent the basis for specifying the Supported Value an Evidence should provide._
+_Information Concepts defined for specific Criteria also represent the basis for specifying the Supported Value an Evidence should provide._
 | Multiplisitet / _Multiplicity_ | 0..n
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
 |===
