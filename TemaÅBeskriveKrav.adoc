@@ -1,30 +1,28 @@
 === Å beskrive betingelser som skal oppfylles [[Å-beskrive-betingelser-som-skal-oppfylles]]
 
-__#@@@@@@ Teksten må oppdateres etter at klassen Påkrevd dokumentasjon er erstattet av Dokumentasjonstype og dokumentasjonstypeliste.#__
-
 :xrefstyle: short
 
-CPSV-AP-NO gjør det mulig, i struktuert og maskinlesbar form, å beskrive betingelser som skal oppfylles og dokumentasjon av oppfyllelse.
+CCCEV-AP-NO gjør det mulig, i struktuert og maskinlesbar form, å beskrive betingelser som skal oppfylles og dokumentasjon av oppfyllelse.
 
-Følgende er et illustrativt eksempel på bruk av CCCEV-AP-NO for å beskrive «Vilkår for å inngå ekteskap», med beskrivelse av data som trengs samt begrensninger på disse dataene. I eksemplet er det også tatt med påkrevd dokumentasjon og faktisk dokumentasjon som gir kilden til dataene som trengs.
+Følgende er et illustrativt eksempel på bruk av CCCEV-AP-NO for å beskrive deler av «Vilkår for å inngå ekteskap», med beskrivelse av data som trengs samt begrensninger på disse dataene. I eksemplet er det også tatt med dokumentasjonstype og faktisk dokumentasjon som gir kilden til dataene som trengs.
 
 * *Kriterium*: Vilkår for å inngå ekteskap
 ** *Informasjonskrav* 1: Søkerens alder
 *** *Informasjonsbegrep*: Alder
 **** *Begrensning*: Søkeren må være minst 18 år gammel
-*** *Påkrevd dokumentasjon*: Uttrek fra Folkeregisteret; ...
+*** *Dokumentasjonstype* 1: Registrert opplysning i Folkeregisteret
 *** *Dokumentasjon*: Uttrekk fra Folkeregisteret for Ola Nordmann
 
 ** *Informasjonskrav* 2: Søkerens sivilstand
-*** *Informasjonsbegrep*: Sivilstand
+*** *Informasjonsbegrep* 2: Sivilstand
 **** *Begrensning*: Søkerens sivilstand kan ikke være <gift>, <separert>, <registrert partner> eller <separert partner>
-*** *Påkrevd dokumentasjon*: Uttrek fra Folkeregisteret; ...
+*** *Dokumentasjonstype* 1: Registrert opplysning i Folkeregisteret
 *** *Dokumentasjon*: Uttrekk fra Folkeregisteret for Ola Nordmann
 
-** *Informasjonskrav* 3: ...
+** *Informasjonskrav* n: ...
 *** *Informasjonsbegrep*: ...
 **** *Begrensning*: ...
-*** *Påkrevd dokumentasjon*: 
+*** *Dokumentasjonstype* n: 
 *** *Dokumentasjon*: ...
 
 Eksemplet er illustrert i <<img-Figur-eksempelbruk-kravsklassene>> nedenfor.
@@ -39,8 +37,19 @@ Eksemplet i RDF Turtle:
 -----
 <vilkårForÅInngåEkteskap> a cv:Criterion ; # kriterium
    dct:title "Vilkår for å inngå ekteskap"@nb ; # navn
+   cv:hasEvidenceTypeList <dokumentasjonstypeListe1> ; # har dokumentasjonstypeliste
    cv:hasRequirement <søkerensAlder>, <begrensningAlder>, 
       <søkerensSivilstand>, <begrensningSivilstand> ; # har mer spesifikt krav
+   .
+
+<dokumentasjonstypeListe1> a cv:EvidenceTypeList ; # dokumentasjonstypeliste
+   dct:title "Dokumentasjonstypelist 1"@nb ; # navn
+   cv:specifiesEvidenceType <dokTypeFregOpplysning> ; # spesifiserer dokumentasjonstype
+   .
+
+<dokTypeFregOpplysning> a cv:EvidenceType ; # dokumentasjonstype
+   dct:title "Folkeregisteropplysninger"@nb ; # navn
+   dct:description "Opplysninger registrert i Folkeregisteret om en søker."@nb ; # beskrivelse
    .
 
 <søkerensAlder> a cv:InformationRequirement ;  # informasjonskrav
@@ -77,13 +86,8 @@ Eksemplet i RDF Turtle:
 
 <fregUttrekkForOlaNormann> a cv:Evidence ; # en konkret dokumentasjon, for Ola Nordmann 
    dct:title "Uttrekk fra Folkeregisteret for Ola Nordmann"@nb ; # navn
+   dct:conformsTo <dokTypeFregOpplysning> ; # i samsvarer med dokumentasjonstype
    cv:supportsRequirement <søkerensAlder>, <begrensningAlder>,
-      <søkerensSivilstand>, <begrensningSivilstand> ; # understøtter krav
-   .
-
-<fregUttrekk> a cccevno:RequiredEvidence ; # påkrevd dokumentasjon
-   dct:title "Uttrekk fra Folkeregisteret"@nb ; # navn
-   cv:supportsRequirement <søkerensAlder>, <begrensningAlder>, 
       <søkerensSivilstand>, <begrensningSivilstand> ; # understøtter krav
    .
 -----

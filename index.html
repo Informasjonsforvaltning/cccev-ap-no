@@ -5559,13 +5559,10 @@ for å beskrive data som forespørres (f.eks. «Søkerens alder») og som skal b
 <div class="sect2">
 <h3 id="Å-beskrive-betingelser-som-skal-oppfylles"><a class="link" href="#Å-beskrive-betingelser-som-skal-oppfylles">4.3. Å beskrive betingelser som skal oppfylles</a></h3>
 <div class="paragraph">
-<p><em><mark>@@@@@@ Teksten må oppdateres etter at klassen Påkrevd dokumentasjon er erstattet av Dokumentasjonstype og dokumentasjonstypeliste.</mark></em></p>
+<p>CCCEV-AP-NO gjør det mulig, i struktuert og maskinlesbar form, å beskrive betingelser som skal oppfylles og dokumentasjon av oppfyllelse.</p>
 </div>
 <div class="paragraph">
-<p>CPSV-AP-NO gjør det mulig, i struktuert og maskinlesbar form, å beskrive betingelser som skal oppfylles og dokumentasjon av oppfyllelse.</p>
-</div>
-<div class="paragraph">
-<p>Følgende er et illustrativt eksempel på bruk av CCCEV-AP-NO for å beskrive «Vilkår for å inngå ekteskap», med beskrivelse av data som trengs samt begrensninger på disse dataene. I eksemplet er det også tatt med påkrevd dokumentasjon og faktisk dokumentasjon som gir kilden til dataene som trengs.</p>
+<p>Følgende er et illustrativt eksempel på bruk av CCCEV-AP-NO for å beskrive deler av «Vilkår for å inngå ekteskap», med beskrivelse av data som trengs samt begrensninger på disse dataene. I eksemplet er det også tatt med dokumentasjonstype og faktisk dokumentasjon som gir kilden til dataene som trengs.</p>
 </div>
 <div class="ulist">
 <ul>
@@ -5588,7 +5585,7 @@ for å beskrive data som forespørres (f.eks. «Søkerens alder») og som skal b
 </div>
 </li>
 <li>
-<p><strong>Påkrevd dokumentasjon</strong>: Uttrek fra Folkeregisteret; &#8230;&#8203;</p>
+<p><strong>Dokumentasjonstype</strong> 1: Registrert opplysning i Folkeregisteret</p>
 </li>
 <li>
 <p><strong>Dokumentasjon</strong>: Uttrekk fra Folkeregisteret for Ola Nordmann</p>
@@ -5601,7 +5598,7 @@ for å beskrive data som forespørres (f.eks. «Søkerens alder») og som skal b
 <div class="ulist">
 <ul>
 <li>
-<p><strong>Informasjonsbegrep</strong>: Sivilstand</p>
+<p><strong>Informasjonsbegrep</strong> 2: Sivilstand</p>
 <div class="ulist">
 <ul>
 <li>
@@ -5611,7 +5608,7 @@ for å beskrive data som forespørres (f.eks. «Søkerens alder») og som skal b
 </div>
 </li>
 <li>
-<p><strong>Påkrevd dokumentasjon</strong>: Uttrek fra Folkeregisteret; &#8230;&#8203;</p>
+<p><strong>Dokumentasjonstype</strong> 1: Registrert opplysning i Folkeregisteret</p>
 </li>
 <li>
 <p><strong>Dokumentasjon</strong>: Uttrekk fra Folkeregisteret for Ola Nordmann</p>
@@ -5620,7 +5617,7 @@ for å beskrive data som forespørres (f.eks. «Søkerens alder») og som skal b
 </div>
 </li>
 <li>
-<p><strong>Informasjonskrav</strong> 3: &#8230;&#8203;</p>
+<p><strong>Informasjonskrav</strong> n: &#8230;&#8203;</p>
 <div class="ulist">
 <ul>
 <li>
@@ -5634,7 +5631,7 @@ for å beskrive data som forespørres (f.eks. «Søkerens alder») og som skal b
 </div>
 </li>
 <li>
-<p><strong>Påkrevd dokumentasjon</strong>:</p>
+<p><strong>Dokumentasjonstype</strong> n:</p>
 </li>
 <li>
 <p><strong>Dokumentasjon</strong>: &#8230;&#8203;</p>
@@ -5663,8 +5660,19 @@ for å beskrive data som forespørres (f.eks. «Søkerens alder») og som skal b
 <div class="content">
 <pre>&lt;vilkårForÅInngåEkteskap&gt; a cv:Criterion ; # kriterium
    dct:title "Vilkår for å inngå ekteskap"@nb ; # navn
+   cv:hasEvidenceTypeList &lt;dokumentasjonstypeListe1&gt; ; # har dokumentasjonstypeliste
    cv:hasRequirement &lt;søkerensAlder&gt;, &lt;begrensningAlder&gt;,
       &lt;søkerensSivilstand&gt;, &lt;begrensningSivilstand&gt; ; # har mer spesifikt krav
+   .
+
+&lt;dokumentasjonstypeListe1&gt; a cv:EvidenceTypeList ; # dokumentasjonstypeliste
+   dct:title "Dokumentasjonstypelist 1"@nb ; # navn
+   cv:specifiesEvidenceType &lt;dokTypeFregOpplysning&gt; ; # spesifiserer dokumentasjonstype
+   .
+
+&lt;dokTypeFregOpplysning&gt; a cv:EvidenceType ; # dokumentasjonstype
+   dct:title "Folkeregisteropplysninger"@nb ; # navn
+   dct:description "Opplysninger registrert i Folkeregisteret om en søker."@nb ; # beskrivelse
    .
 
 &lt;søkerensAlder&gt; a cv:InformationRequirement ;  # informasjonskrav
@@ -5701,12 +5709,7 @@ for å beskrive data som forespørres (f.eks. «Søkerens alder») og som skal b
 
 &lt;fregUttrekkForOlaNormann&gt; a cv:Evidence ; # en konkret dokumentasjon, for Ola Nordmann
    dct:title "Uttrekk fra Folkeregisteret for Ola Nordmann"@nb ; # navn
-   cv:supportsRequirement &lt;søkerensAlder&gt;, &lt;begrensningAlder&gt;,
-      &lt;søkerensSivilstand&gt;, &lt;begrensningSivilstand&gt; ; # understøtter krav
-   .
-
-&lt;fregUttrekk&gt; a cccevno:RequiredEvidence ; # påkrevd dokumentasjon
-   dct:title "Uttrekk fra Folkeregisteret"@nb ; # navn
+   dct:conformsTo &lt;dokTypeFregOpplysning&gt; ; # i samsvarer med dokumentasjonstype
    cv:supportsRequirement &lt;søkerensAlder&gt;, &lt;begrensningAlder&gt;,
       &lt;søkerensSivilstand&gt;, &lt;begrensningSivilstand&gt; ; # understøtter krav
    .</pre>
@@ -6012,7 +6015,7 @@ for å beskrive data som forespørres (f.eks. «Søkerens alder») og som skal b
 </div>
 <div id="footer">
 <div id="footer-text">
-Sist oppdatert 2026-03-02 07:27:20 UTC
+Sist oppdatert 2026-03-02 09:18:48 UTC
 </div>
 </div>
 </body>
