@@ -41,7 +41,7 @@ For å sikre at *Kriterium*, *Informasjonskrav* og *Begrensning* blir beskrevet 
 .Obligatoriske opplysningstyper som en beskrivelse av Kriterium, Informasjonskrav og Begrensning SKAL inneholde
 [cols="20s,65d,15d", options="header"]
 |===
-| Obligatorisk | Forklaring | Ref. til Kap. <<Spesifikasjon-per-klasse>>
+| Obligatorisk | Forklaring | Ref. til kap. <<Spesifikasjon-per-klasse>>
 | identifikator | Unik identifikator, som regel opprettet automatisk av et system | <<Begrensning-identifikator>>, <<Informasjonskrav-identifikator>>, <<Kriterium-identifikator>>
 | navn | Navn til kravet | <<Begrensning-navn>>, <<Informasjonskrav-navn>>, <<Kriterium-navn>>
 | begrenser | _Gjelder kun Begrensning_. Refererer til informasjonsbegrep som begrensningen gjelder. | <<Begrensning-begrenser>>
@@ -51,7 +51,7 @@ For å sikre at *Kriterium*, *Informasjonskrav* og *Begrensning* blir beskrevet 
 .Anbefalte opplysningstyper som en beskrivelse av Kriterium, Informasjonskrav og Begrensning BØR inneholde
 [cols="20s,65d,15d", options="header"]
 |===
-| Anbefalt | Forklaring | Ref. til Kap. <<Spesifikasjon-per-klasse>>
+| Anbefalt | Forklaring | Ref. til kap. <<Spesifikasjon-per-klasse>>
 | beskrivelse | Tekstlig beskrivelse av kravet | <<Begrensning-beskrivelse>>, <<Informasjonskrav-beskrivelse>>, <<Kriterium-beskrivelse>>
 |===
 
@@ -59,7 +59,7 @@ For å sikre at *Kriterium*, *Informasjonskrav* og *Begrensning* blir beskrevet 
 .Valgfrie opplysningstyper som en beskrivelse av Kriterium, Informasjonskrav og Begrensning KAN inneholde
 [cols="20s,65d,15d", options="header"]
 |===
-| Valgfri | Forklaring | Ref. til Kap. <<Spesifikasjon-per-klasse>>
+| Valgfri | Forklaring | Ref. til kap. <<Spesifikasjon-per-klasse>>
 | er subkrav av | Refererer til et annet krav som dette kravet er del av | <<Begrensning-er-subkrav-av>>, <<Informasjonskrav-er-subkrav-av>>, <<Kriterium-er-subkrav-av>>
 | er utledet fra | Refererer til referanserammeverk som kravet er basert på, f.eks. lov, forskrift eller annen regulering | <<Begrensning-er-utledet-fra>>, <<Informasjonskrav-er-utledet-fra>>, <<Kriterium-er-utledet-fra>>
 | er utstedt av | Refererer til aktøren som har utstedt kravet | <<Begrensning-er-utstedt-av>>, <<Informasjonskrav-er-utstedt-av>>, <<Kriterium-er-utstedt-av>>
@@ -83,7 +83,7 @@ For å sikre at *Informasjonsbegrep* blir beskrevet på en ensartet måte, inneh
 .Obligatoriske opplysningstyper som en beskrivelse av Informasjonsbegrep SKAL inneholde
 [cols="20s,65d,15d", options="header"]
 |===
-| Obligatorisk | Forklaring | Ref. til Kap. <<Spesifikasjon-per-klasse>>
+| Obligatorisk | Forklaring | Ref. til kap. <<Spesifikasjon-per-klasse>>
 | forventet datatype | Angir forventet datatype for verdien til informasjonsbegrepet (f.eks. heltall, dato eller kode) | <<Informasjonsbegrep-uttrykk-av-forventet-datatype>>
 |===
 
@@ -91,7 +91,7 @@ For å sikre at *Informasjonsbegrep* blir beskrevet på en ensartet måte, inneh
 .Anbefalte opplysningstyper som en beskrivelse av Informasjonsbegrep BØR inneholde
 [cols="20s,65d,15d", options="header"]
 |===
-| Anbefalt | Forklaring | Ref. til Kap. <<Spesifikasjon-per-klasse>>
+| Anbefalt | Forklaring | Ref. til kap. <<Spesifikasjon-per-klasse>>
 | beskrivelse | Tekstlig beskrivelse av informasjonsbegrepet | <<Informasjonsbegrep-beskrivelse>>
 |===
 
@@ -99,7 +99,7 @@ For å sikre at *Informasjonsbegrep* blir beskrevet på en ensartet måte, inneh
 .Valgfrie opplysningstyper som en beskrivelse av Informasjonsbegrep KAN inneholde
 [cols="20s,65d,15d", options="header"]
 |===
-| Valgfri | Forklaring | Ref. til Kap. <<Spesifikasjon-per-klasse>>
+| Valgfri | Forklaring | Ref. til kap. <<Spesifikasjon-per-klasse>>
 | identifikator | Unik identifikator, som regel opprettet automatisk av et system | <<Informasjonsbegrep-identifikator>>
 | navn | Navnet til informasjonsbegrepet | <<Informasjonsbegrep-navn>>
 | type | Kategori informasjonsbegrepet tilhører | <<Informasjonsbegrep-type>>
@@ -112,7 +112,7 @@ For å sikre at *Dokumentasjon* blir beskrevet på en ensartet måte, inneholder
 .Obligatoriske opplysningstyper som en beskrivelse av Dokumentasjon SKAL inneholde
 [cols="20s,65d,15d", options="header"]
 |===
-| Obligatorisk | Forklaring | Ref. til Kap. <<Spesifikasjon-per-klasse>>
+| Obligatorisk | Forklaring | Ref. til kap. <<Spesifikasjon-per-klasse>>
 | identifikator | Unik identifikator, som regel opprettet automatisk av et system | <<Dokumentasjon-identifikator>>
 | navn | Det offisielle navnet til dokumentasjonen | <<Dokumentasjon-navn>>
 |===
@@ -121,7 +121,7 @@ For å sikre at *Dokumentasjon* blir beskrevet på en ensartet måte, inneholder
 .Anbefalte opplysningstyper som en beskrivelse av Dokumentasjon BØR inneholde
 [cols="20s,65d,15d", options="header"]
 |===
-| Anbefalt | Forklaring | Ref. til Kap. <<Spesifikasjon-per-klasse>>
+| Anbefalt | Forklaring | Ref. til kap. <<Spesifikasjon-per-klasse>>
 | beskrivelse | Tekstlig beskrivelse av dokumentasjonen | <<Dokumentasjon-beskrivelse>>
 | språk | Språket dokumentasjonen er skrevet på | <<Dokumentasjon-språk>>
 |===
@@ -130,7 +130,7 @@ For å sikre at *Dokumentasjon* blir beskrevet på en ensartet måte, inneholder
 .Valgfrie opplysningstyper som en beskrivelse av Dokumentasjon KAN inneholde
 [cols="20s,65d,15d", options="header"]
 |===
-| Valgfri | Forklaring | Ref. til Kap. <<Spesifikasjon-per-klasse>>
+| Valgfri | Forklaring | Ref. til kap. <<Spesifikasjon-per-klasse>>
 | er del av | Refererer til et datasett som den aktuelle dokumentasjonen fysisk eller logisk er inkludert i | <<Dokumentasjon-er-del-av>>
 | distributør | Oppgir aktør som sender dokumentasjonen | <<Dokumentasjon-distributør>>
 | gir understøttende opplysning | Refererer til understøttende opplysninger i dokumentasjonen | <<Dokumentasjon-gir-understøttende-opplysning>>
@@ -153,7 +153,7 @@ For å sikre at *Dokumentasjonstype* blir beskrevet på en ensartet måte, inneh
 .Obligatoriske opplysningstyper som en beskrivelse av Dokumentasjonstype SKAL inneholde
 [cols="20s,65d,15d", options="header"]
 |===
-| Obligatorisk | Forklaring | Ref. til Kap. <<Spesifikasjon-per-klasse>>
+| Obligatorisk | Forklaring | Ref. til kap. <<Spesifikasjon-per-klasse>>
 | beskrivelse | Tekstlig beskrivelse av dokumentasjonstype | <<Dokumentasjonstype-beskrivelse>>
 | identifikator | Unik identifikator, som regel opprettet automatisk av et system | <<Dokumentasjonstype-identifikator>>
 | navn | Det offisielle navnet til dokumentasjonstype | <<Dokumentasjonstype-navn>>
@@ -163,7 +163,7 @@ For å sikre at *Dokumentasjonstype* blir beskrevet på en ensartet måte, inneh
 .Anbefalte opplysningstyper som en beskrivelse av Dokumentasjonstype BØR inneholde
 [cols="20s,65d,15d", options="header"]
 |===
-| Anbefalt | Forklaring | Ref. til Kap. <<Spesifikasjon-per-klasse>>
+| Anbefalt | Forklaring | Ref. til kap. <<Spesifikasjon-per-klasse>>
 | tillatt gyldighetsperiode | Tidsperiode som dokumentasjoner av denne dokumentasjonstypen skal være gyldig innenfor | <<Dokumentasjonstype-tillatt-gyldighetsperiode>>
 | tillatt språk | Språk som dokumentasjoner av denne dokumentasjonstypen kan være på | <<Dokumentasjonstype-tillatt-språk>>
 |===
@@ -172,7 +172,7 @@ For å sikre at *Dokumentasjonstype* blir beskrevet på en ensartet måte, inneh
 .Valgfrie opplysningstyper som en beskrivelse av Dokumentasjonstype KAN inneholde
 [cols="20s,65d,15d", options="header"]
 |===
-| Valgfri | Forklaring | Ref. til Kap. <<Spesifikasjon-per-klasse>>
+| Valgfri | Forklaring | Ref. til kap. <<Spesifikasjon-per-klasse>>
 | dokumentasjonstypekategori | Kategorien som dokumentasjontypen tilhører | <<Dokumentasjonstype-dokumentasjonstypekategori>>
 | er beskrevet ved | Datasett som denne aktuelle type dokumentasjon kan være beskrevet ved. | <<Dokumentasjonstype-er-beskrevet-ved>>
 | er spesifisert i | Dokumentasjonstypeliste som inneholder dokumentasjonstypen | <<Dokumentasjonstype-er-spesifisert-i>>
@@ -187,7 +187,7 @@ For å sikre at *Dokumentasjonstypeliste* blir beskrevet på en ensartet måte, 
 .Obligatoriske opplysningstyper som en beskrivelse av Dokumentasjonstypeliste SKAL inneholde
 [cols="20s,65d,15d", options="header"]
 |===
-| Obligatorisk | Forklaring | Ref. til Kap. <<Spesifikasjon-per-klasse>>
+| Obligatorisk | Forklaring | Ref. til kap. <<Spesifikasjon-per-klasse>>
 | spesifiserer dokumentasjonstype | Oppgir dokumentasjonstype som er spesifisert av dokumentasjonstypelisten | <<Dokumentasjonstypeliste-spesifiserer-dokumentasjonstype>>
 |===
 
@@ -195,7 +195,7 @@ For å sikre at *Dokumentasjonstypeliste* blir beskrevet på en ensartet måte, 
 .Anbefalte opplysningstyper som en beskrivelse av Dokumentasjonstypeliste BØR inneholde
 [cols="20s,65d,15d", options="header"]
 |===
-| Anbefalt | Forklaring | Ref. til Kap. <<Spesifikasjon-per-klasse>>
+| Anbefalt | Forklaring | Ref. til kap. <<Spesifikasjon-per-klasse>>
 | beskrivelse | Tekstlig beskrivelse av dokumentasjonstypeliste | <<Dokumentasjonstypeliste-beskrivelse>>
 | identifikator | Unik identifikator, som regel opprettet automatisk av et system | <<Dokumentasjonstypeliste-identifikator>>
 | navn | Det offisielle navnet til dokumentasjonstypeliste | <<Dokumentasjonstypeliste-navn>>
