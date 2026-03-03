@@ -24,7 +24,7 @@ CCCEV-AP-NO kan brukes til å beskrive både krav og dokumentasjon på kravoppfy
 ** Se ellers kap. <<Når-brukes-kriterium-informasjonskrav-informasjonsbegrep-begrensning>> for mer forklaring på når Kriterium, Informasjonskrav eller Begrensning bør brukes.
 
 * Beskrivelse av dokumentasjon på kravoppfyllelse:
-** *Dokumentasjon* brukes til, i «_runtime_», å oppgi den _faktiske_ dokumentasjonen som _er_ fremlagt og brukt til å evaluere om et krav er oppfylt eller ikke. Dokumentasjon brukes med andre ord i et konkret sakshehandlingsøyemed, i f.eks. et saksbehandlings- eller arkiveringssystem. Eksempel på en faktisk dokumentasjon kan være «Uttrekk fra Folkeregisteret for Ola Nordmann».
+** *Dokumentasjon* brukes til, i «_runtime_», å oppgi den _faktiske_ dokumentasjonen som _er_ fremlagt og brukt til å evaluere om et krav er oppfylt eller ikke. Dokumentasjon brukes med andre ord i et konkret saksbehandlingsøyemed, i f.eks. et saksbehandlings- eller arkiveringssystem. Eksempel på en faktisk dokumentasjon kan være «Uttrekk fra Folkeregisteret for Ola Nordmann».
 ** *Dokumentasjonstype* og *Dokumentasjonstypeliste* brukes til, i «_design-time_», å oppgi _typer_ dokumentasjon som _skal_ fremlegges og som _kan_ brukes til å evaluere om et krav er oppfylt eller ikke. Dokumentasjonstype og dokumentasjonstypeliste brukes med andre ord i forbindelse med _beskrivelsen_ av en tjeneste, i f.eks. en tjenestekatalog. Eksempler på en dokumentasjonstype kan være «Fødselsattest».
 ** Se kap. <<Når-brukes-dokumentasjon-og-dokumentasjonstype-dokumentasjonstypeliste>> for mer forklaring på når Dokumentasjon, Dokumentasjonstype og Dokumentasjonstypeliste bør brukes.
 
