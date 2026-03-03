@@ -8,16 +8,16 @@ image::images/KlassenDokumentasjon.png[alt="UML-diagram med klassen Dokumentasjo
 [cols="30s,70d"]
 |===
 | _English name_ | _Evidence_
-| Anvendelse / _Usage note_ | Klassen brukes til å representere et konkret stykke dokumentasjon som trengs for å kunne utføre en tjeneste. Dette er vanligvis administrative dokumenter eller utfylte analoge eller digitale skjemaer.
+| Anvendelse / _Usage note_ | Klassen brukes til å representere et _konkret stykke_ dokumentasjon som brukes til å evaluere om et krav er oppfylt eller ikke. Dette er vanligvis administrative dokumenter eller utfylte analoge eller digitale skjemaer.
 
-_This class is used to represent a concrete piece of evidence that is needed in order to execute a service. Evidence can be any resource – document, artefact – anything needed for executing the service. In the context of Public Services, Evidence is usually administrative documents or completed application forms. A specific Public Service may require the presence of certain Evidence or combinations of Evidence in order to be delivered. It contains information that proves that a criterion requirement exists or is true, in particular evidences are used to prove that a specific criterion is met._
+_This class is used to represent the means to support responses to Criteria or to a concrete Information Requirement or to an Information Concept inside an Information Requirement. The proof described by an Evidence can [1] verify a claim (i.e. is it true that John is 25, yes/no), [2] prove a condition (i.e. is John 18+, yes/no), or [3] simply provide data (i.e. the age of a person, namely 25). The proof can be given through documents or extracts of base registries, independently from its structure, format or medium used to exchange it: a pdf document, a video, a recording, etc._
 | URI | cv:Evidence
-| Eksempel | Vandelsattest fra Politiet (som trengs for tjenesten «Skjenkebevilling (i Brønnøy kommune)»).
+| Eksempel | Vandelsattest fra Politiet, for Ola Nordmann.
 |===
 
 Eksempel i RDF Turtle:
 ----
-<vandelsattest> a cv:Evidence ; .
+<vandelsattestOlaNordmann> a cv:Evidence ; .
 ----
 
 === Obligatoriske egenskaper for klassen _Dokumentasjon_ [[Dokumentasjon-obligatoriske-egenskaper]]
@@ -53,8 +53,8 @@ _This property represents the official Name of the piece of Evidence. This prope
 
 Eksempel i RDF Turtle:
 -----
-<vandelsattest> a cv:Evidence ;
-   dct:title "Vandelsattest"@nb ; .
+<vandelsattestOlaNordmann> a cv:Evidence ;
+   dct:title "Vandelsattest for Ola Nordmann"@nb ; .
 -----
 
 === Anbefalte egenskaper for klassen _Dokumentasjon_ [[Dokumentasjon-anbefalte-egenskaper]]
@@ -74,14 +74,14 @@ _This property represents a free text Description of the piece of Evidence. This
 | Merknad / _Note_ | Norsk utvidelse: Kravnivå endret fra valgfri til anbefalt.
 
 _Norwegian extension: Requirement level changed from optional to recommended._
-| Eksempel |  «Vandelsattest utstedt av Politiet»
+| Eksempel |  «Vandelsattest utstedt av Politiet for Ola Nordmann»
 |===
 
 Eksempel i RDF Turtle:
 -----
-<vandelsattest> a cv:Evidence ;
-   dct:title "Vandelsattest"@nb ;
-   dct:description "Vandelsattest utstedt av Politiet"@nb ; .
+<vandelsattestOlaNordmann> a cv:Evidence ;
+   dct:title "Vandelsattest for Ola Nordmann"@nb ;
+   dct:description "Vandelsattest utstedt av Politiet for Ola Nordmann"@nb ; .
 -----
 
 ==== Dokumentasjon – språk (dct:language) [[Dokumentasjon-språk]]
@@ -107,7 +107,7 @@ _Norwegian extension: Requirement level changed from optional to recommended._
 
 Eksempel i RDF Turtle:
 -----
-<vandelsattest> a cv:Evidence ;
+<vandelsattestOlaNordmann> a cv:Evidence ;
    dct:language
       <https://publications.europa.eu/resource/authority/language/NOB>; # bokmål  
    .
@@ -285,8 +285,8 @@ __Norwegian extension: The value MUST be chosen from the controlled vocabulary h
 
 Eksempel i RDF Turtle:
 -----
-<vandelsattest> a cv:Evidence ;
-   dct:title "Vandelsattest"@nb ;
+<vandelsattestOlaNordmann> a cv:Evidence ;
+   dct:title "Vandelsattest for Ola Nordmann"@nb ;
    dct:type <https://data.norge.no/vocabulary/evidence-type#attestation> ; # attest
    .
 -----
