@@ -28,7 +28,7 @@ Spesifikasjonen har ikke sluttbrukere av tjenester som sin målgruppe, men
 De påfølgende kapitlene er rettet mot ulike målgrupper:
 
 * Kap. <<Forenklet-fremstilling>> gir en introduksjon for ikke‑tekniske lesere, med en overordnet og forenklet fremstilling av kravene i denne spesifikasjonen. 
-* Kap. <<Spesifikasjon-per-klasse>> retter seg mot tekniske lesere som skal utvikle eller tilpasse verktøy.
+* Kap. <<Spesifikasjon-per-klasse>> forutsetter et visst kunnskapsnivå om RDF og retter seg mot tekniske lesere som skal utvikle eller tilpasse verktøystøtte.
 * Kap. <<Spesielle-temaer>> er relevante for begge målgrupper og bør leses samlet for best forståelse.
  
 
