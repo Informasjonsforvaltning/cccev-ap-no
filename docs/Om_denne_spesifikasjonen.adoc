@@ -27,9 +27,9 @@ Spesifikasjonen har ikke sluttbrukere av tjenester som sin målgruppe, men
 
 De påfølgende kapitlene er rettet mot ulike målgrupper:
 
-* <<Forenklet-fremstilling>> gir en introduksjon for ikke‑tekniske lesere, med en overordnet og forenklet fremstilling av kravene i denne spesifikasjonen. 
-* <<Spesifikasjon-per-klasse>> retter seg mot tekniske lesere som skal utvikle eller tilpasse verktøy.
-* <<Spesielle-temaer>> er relevante for begge målgrupper og bør leses samlet for best forståelse.
+* Kap. <<Forenklet-fremstilling>> gir en introduksjon for ikke‑tekniske lesere, med en overordnet og forenklet fremstilling av kravene i denne spesifikasjonen. 
+* Kap. <<Spesifikasjon-per-klasse>> retter seg mot tekniske lesere som skal utvikle eller tilpasse verktøy.
+* Kap. <<Spesielle-temaer>> er relevante for begge målgrupper og bør leses samlet for best forståelse.
  
 
 === Forvaltningsregime [[Forvaltningsregime]]
