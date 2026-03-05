@@ -191,7 +191,7 @@ _This property refers to a concrete piece of evidence that supplies information,
 | _English name_ | _fulfils_
 | URI |  cv:fulfils
 | Verdiområde / _Range_ | https://data.norge.no/specification/cpsv-ap-no#Regel[cpsv:Rule &#x29C9;, window="_blank", role="ext-link"]
-| Anvendelse / _Usage note_ |  Egenskapen brukes til å referere til regel som informasjonskravet tilfredsstiller.
+| Anvendelse / _Usage note_ |  Egenskapen brukes til å referere til regel som informasjonskravet innfrir.
 
 _This property refers to the rules that the Information Requirement fulfils._
 | Multiplisitet / _Multiplicity_ | 0..n

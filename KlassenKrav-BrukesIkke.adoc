@@ -195,14 +195,14 @@ _This property refers to an evidence that supplies information, proof or support
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
 |===
 
-==== Krav – tilfredsstiller regel (cv:fulfils) [[Krav-tilfredsstiller]]
+==== Krav – innfri regel (cv:fulfils) [[Krav-innfrir-regel]]
 
 [cols="30s,70d"]
 |===
 | _English name_ | _fulfils_
 | URI |  cv:fulfils
 | Verdiområde / _Range_ | https://data.norge.no/specification/cpsv-ap-no#Regel[cpsv:Rule &#x29C9;, window="_blank", role="ext-link"]
-| Anvendelse / _Usage note_ | Egenskapen brukes til å referere til regel som kravet tilfredsstiller.
+| Anvendelse / _Usage note_ | Egenskapen brukes til å referere til regel som kravet innfrir.
 
 _This property refers to the rules that the requirement fulfils._
 | Multiplisitet / _Multiplicity_ | 0..n
