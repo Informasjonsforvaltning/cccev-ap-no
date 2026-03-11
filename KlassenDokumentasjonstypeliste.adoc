@@ -31,7 +31,7 @@ _An Evidence Type List is satisfied, if and only if, for all included Evidence T
 
 _This property represents Evidence Type included in this Evidence Type List._
 | Multiplisitet / _Multiplicity_ | 1..n
-| Kravnivå / _Requirement level_ |Obligatorisk/Mandatory
+| Kravnivå / _Requirement level_ |Obligatorisk / _Mandatory_
 | Merknad / _Note_ | Norsk utvidelse: Kravnivået endret fra valgfri til obligatorisk, og multiplisiteten fra 0..n til 1..n.
 
 _Norwegian extension: The requirement level changed from optional to mandatory, and the multiplicity from 0..n to 1..n._

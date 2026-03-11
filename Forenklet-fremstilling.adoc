@@ -138,7 +138,7 @@ For å sikre at *Dokumentasjon* blir beskrevet på en ensartet måte, inneholder
 | gyldighetsperiode | Angir en tidsperiode hvor dokumentasjonen er gyldig | <<Dokumentasjon-gyldighetsperiode>>
 | i samsvar med | Oppgir dokumentasjonstypen som dokumentasjonen er i samsvar med | <<Dokumentasjon-i-samsvar-med>>
 | konfidensialitetsnivå | Oppgir dokumentasjonens sikkerhetsklassifisering, f.eks. klassifisert, sensitiv, offentlig | <<Dokumentasjon-konfidensialitetsnivå>>
-| produsent | Oppgir aktøren som som er produsent av dokumentasjonen | <<Dokumentasjon-produsent>>
+| produsent | Oppgir aktøren som er produsent av dokumentasjonen | <<Dokumentasjon-produsent>>
 | relatert informasjon | Refererer til mer informasjon om dokumentasjonen, f.eks. en bestemt mal til et administrativt dokument eller en applikasjon, eller en veiledning for hvordan man skal formatere dokumentasjonen | <<Dokumentasjon-relatert-informasjon>>
 | type | Refererer til begrepet som representerer typen dokumentasjonen tilhører | <<Dokumentasjon-type>>
 | understøtter informasjonsbegrep | Refererer til informasjonsbegrep som gir fakta funnet eller utledet fra dokumentasjonen | <<Dokumentasjon-understøtter-informasjonsbegrep>>
