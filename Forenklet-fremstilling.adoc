@@ -34,11 +34,11 @@ Hvilke typer opplysninger som SKAL (obligatoriske), BØR (anbefalte) og KAN (val
 
 :xrefstyle: short
 
-=== Hva SKAL, BØR og KAN tas med i en beskrivelse av Kriterium, Informasjonskrav og Begrensning? [[Krav-til-beskrivelse-av-kriterium-informasjonskrav-begrensning]]
+=== Hva SKAL, BØR og KAN tas med i beskrivelsen av Kriterium, Informasjonskrav eller Begrensning? [[Krav-til-beskrivelse-av-kriterium-informasjonskrav-begrensning]]
 For å sikre at *Kriterium*, *Informasjonskrav* og *Begrensning* blir beskrevet på en ensartet måte, inneholder tabellene typer opplysninger som SKAL (obligatoriske), BØR (anbefalte) eller KAN (valgfrie) tas med i beskrivelsene. I dette avsnittet brukes ordet «krav» som samlebetegnelse for alle tre typer krav: Kriterium, Informasjonskrav og Begrensning.
 
 [[Tabell-obligatoriske-opplysninger-kriterium-informasjonskrav-begrensning]]
-.Obligatoriske opplysningstyper som en beskrivelse av Kriterium, Informasjonskrav og Begrensning SKAL inneholde
+.Obligatoriske opplysningstyper som beskrivelsen av Kriterium, Informasjonskrav eller Begrensning SKAL inneholde
 [cols="20s,65d,15d", options="header"]
 |===
 | Obligatorisk | Forklaring | Ref. til kap. <<Spesifikasjon-per-klasse>>
@@ -48,7 +48,7 @@ For å sikre at *Kriterium*, *Informasjonskrav* og *Begrensning* blir beskrevet 
 |===
 
 [[Tabell-anbefalte-opplysninger-kriterium-informasjonskrav-begrensning]]
-.Anbefalte opplysningstyper som en beskrivelse av Kriterium, Informasjonskrav og Begrensning BØR inneholde
+.Anbefalte opplysningstyper som beskrivelsen av Kriterium, Informasjonskrav eller Begrensning BØR inneholde
 [cols="20s,65d,15d", options="header"]
 |===
 | Anbefalt | Forklaring | Ref. til kap. <<Spesifikasjon-per-klasse>>
@@ -56,7 +56,7 @@ For å sikre at *Kriterium*, *Informasjonskrav* og *Begrensning* blir beskrevet 
 |===
 
 [[Tabell-valgfrie-opplysninger-kriterium-informasjonskrav-begrensning]]
-.Valgfrie opplysningstyper som en beskrivelse av Kriterium, Informasjonskrav og Begrensning KAN inneholde
+.Valgfrie opplysningstyper som beskrivelsen av Kriterium, Informasjonskrav eller Begrensning KAN inneholde
 [cols="20s,65d,15d", options="header"]
 |===
 | Valgfri | Forklaring | Ref. til kap. <<Spesifikasjon-per-klasse>>
@@ -76,11 +76,11 @@ For å sikre at *Kriterium*, *Informasjonskrav* og *Begrensning* blir beskrevet 
 | vektingsvurderingsbeskrivelse | _Gjelder kun Kriterium_. Oppgir en tekstlig forklaring på hvordan vektingen av Kriteriet brukes Kriteriet | <<Kriterium-vektingsvurderingsbeskrivelse>>
 |===
 
-=== Hva SKAL, BØR og KAN tas med i en beskrivelse av Informasjonsbegrep [[Krav-til-beskrivelse-av-informasjonsbegrep]]
+=== Hva SKAL, BØR og KAN tas med i beskrivelsen av Informasjonsbegrep [[Krav-til-beskrivelse-av-informasjonsbegrep]]
 For å sikre at *Informasjonsbegrep* blir beskrevet på en ensartet måte, inneholder tabellene typer opplysninger som SKAL (obligatoriske), BØR (anbefalte) eller KAN (valgfrie) tas med i beskrivelsene.
 
 [[Tabell-obligatoriske-opplysninger-informasjonsbegrep]]
-.Obligatoriske opplysningstyper som en beskrivelse av Informasjonsbegrep SKAL inneholde
+.Obligatoriske opplysningstyper som beskrivelsen av Informasjonsbegrep SKAL inneholde
 [cols="20s,65d,15d", options="header"]
 |===
 | Obligatorisk | Forklaring | Ref. til kap. <<Spesifikasjon-per-klasse>>
@@ -88,7 +88,7 @@ For å sikre at *Informasjonsbegrep* blir beskrevet på en ensartet måte, inneh
 |===
 
 [[Tabell-anbefalte-opplysninger-informasjonsbegrep]]
-.Anbefalte opplysningstyper som en beskrivelse av Informasjonsbegrep BØR inneholde
+.Anbefalte opplysningstyper som beskrivelsen av Informasjonsbegrep BØR inneholde
 [cols="20s,65d,15d", options="header"]
 |===
 | Anbefalt | Forklaring | Ref. til kap. <<Spesifikasjon-per-klasse>>
@@ -96,7 +96,7 @@ For å sikre at *Informasjonsbegrep* blir beskrevet på en ensartet måte, inneh
 |===
 
 [[Tabell-valgfrie-opplysninger-informasjonsbegrep]]
-.Valgfrie opplysningstyper som en beskrivelse av Informasjonsbegrep KAN inneholde
+.Valgfrie opplysningstyper som beskrivelsen av Informasjonsbegrep KAN inneholde
 [cols="20s,65d,15d", options="header"]
 |===
 | Valgfri | Forklaring | Ref. til kap. <<Spesifikasjon-per-klasse>>
@@ -105,11 +105,11 @@ For å sikre at *Informasjonsbegrep* blir beskrevet på en ensartet måte, inneh
 | type | Kategori informasjonsbegrepet tilhører | <<Informasjonsbegrep-type>>
 |===
 
-=== Hva SKAL, BØR og KAN tas med i en beskrivelse av Dokumentasjon [[Krav-til-beskrivelse-av-dokumentasjon]]
+=== Hva SKAL, BØR og KAN tas med i beskrivelsen av Dokumentasjon [[Krav-til-beskrivelse-av-dokumentasjon]]
 For å sikre at *Dokumentasjon* blir beskrevet på en ensartet måte, inneholder tabellene typer opplysninger som SKAL (obligatoriske), BØR (anbefalte) eller KAN (valgfrie) tas med i beskrivelsene.
 
 [[Tabell-obligatoriske-opplysninger-dokumentasjon]]
-.Obligatoriske opplysningstyper som en beskrivelse av Dokumentasjon SKAL inneholde
+.Obligatoriske opplysningstyper som beskrivelsen av Dokumentasjon SKAL inneholde
 [cols="20s,65d,15d", options="header"]
 |===
 | Obligatorisk | Forklaring | Ref. til kap. <<Spesifikasjon-per-klasse>>
@@ -118,7 +118,7 @@ For å sikre at *Dokumentasjon* blir beskrevet på en ensartet måte, inneholder
 |===
 
 [[Tabell-anbefalte-opplysninger-dokumentasjon]]
-.Anbefalte opplysningstyper som en beskrivelse av Dokumentasjon BØR inneholde
+.Anbefalte opplysningstyper som beskrivelsen av Dokumentasjon BØR inneholde
 [cols="20s,65d,15d", options="header"]
 |===
 | Anbefalt | Forklaring | Ref. til kap. <<Spesifikasjon-per-klasse>>
@@ -127,7 +127,7 @@ For å sikre at *Dokumentasjon* blir beskrevet på en ensartet måte, inneholder
 |===
 
 [[Tabell-valgfrie-opplysninger-dokumentasjon]]
-.Valgfrie opplysningstyper som en beskrivelse av Dokumentasjon KAN inneholde
+.Valgfrie opplysningstyper som beskrivelsen av Dokumentasjon KAN inneholde
 [cols="20s,65d,15d", options="header"]
 |===
 | Valgfri | Forklaring | Ref. til kap. <<Spesifikasjon-per-klasse>>
@@ -146,11 +146,11 @@ For å sikre at *Dokumentasjon* blir beskrevet på en ensartet måte, inneholder
 | utsteder | Oppgir aktøren som er juridisk ansvarlig for dokumentasjonen | <<Dokumentasjon-utsteder>>
 |===
 
-=== Hva SKAL, BØR og KAN tas med i en beskrivelse av Dokumentasjonstype [[Krav-til-beskrivelse-av-dokumentasjonstype]]
+=== Hva SKAL, BØR og KAN tas med i beskrivelsen av Dokumentasjonstype [[Krav-til-beskrivelse-av-dokumentasjonstype]]
 For å sikre at *Dokumentasjonstype* blir beskrevet på en ensartet måte, inneholder tabellene typer opplysninger som SKAL (obligatoriske), BØR (anbefalte) eller KAN (valgfrie) tas med i beskrivelsene.
 
 [[Tabell-obligatoriske-opplysninger-dokumentasjonstype]]
-.Obligatoriske opplysningstyper som en beskrivelse av Dokumentasjonstype SKAL inneholde
+.Obligatoriske opplysningstyper som beskrivelsen av Dokumentasjonstype SKAL inneholde
 [cols="20s,65d,15d", options="header"]
 |===
 | Obligatorisk | Forklaring | Ref. til kap. <<Spesifikasjon-per-klasse>>
@@ -160,7 +160,7 @@ For å sikre at *Dokumentasjonstype* blir beskrevet på en ensartet måte, inneh
 |===
 
 [[Tabell-anbefalte-opplysninger-dokumentasjonstype]]
-.Anbefalte opplysningstyper som en beskrivelse av Dokumentasjonstype BØR inneholde
+.Anbefalte opplysningstyper som beskrivelsen av Dokumentasjonstype BØR inneholde
 [cols="20s,65d,15d", options="header"]
 |===
 | Anbefalt | Forklaring | Ref. til kap. <<Spesifikasjon-per-klasse>>
@@ -169,7 +169,7 @@ For å sikre at *Dokumentasjonstype* blir beskrevet på en ensartet måte, inneh
 |===
 
 [[Tabell-valgfrie-opplysninger-dokumentasjonstype]]
-.Valgfrie opplysningstyper som en beskrivelse av Dokumentasjonstype KAN inneholde
+.Valgfrie opplysningstyper som beskrivelsen av Dokumentasjonstype KAN inneholde
 [cols="20s,65d,15d", options="header"]
 |===
 | Valgfri | Forklaring | Ref. til kap. <<Spesifikasjon-per-klasse>>
@@ -180,11 +180,11 @@ For å sikre at *Dokumentasjonstype* blir beskrevet på en ensartet måte, inneh
 | tillatt utstedelsessted | Utstedelsested som er tillatt for den aktuelle type dokumentasjon | <<Dokumentasjonstype-tillatt-utstedelsessted>>
 |===
 
-=== Hva SKAL, BØR og KAN tas med i en beskrivelse av Dokumentasjonstypeliste [[Krav-til-beskrivelse-av-dokumentasjonstypeliste]]
+=== Hva SKAL, BØR og KAN tas med i beskrivelsen av Dokumentasjonstypeliste [[Krav-til-beskrivelse-av-dokumentasjonstypeliste]]
 For å sikre at *Dokumentasjonstypeliste* blir beskrevet på en ensartet måte, inneholder tabellene typer opplysninger som SKAL (obligatoriske), BØR (anbefalte) eller KAN (valgfrie) tas med i beskrivelsene.
 
 [[Tabell-obligatoriske-opplysninger-dokumentasjonstypeliste]]
-.Obligatoriske opplysningstyper som en beskrivelse av Dokumentasjonstypeliste SKAL inneholde
+.Obligatoriske opplysningstyper som beskrivelsen av Dokumentasjonstypeliste SKAL inneholde
 [cols="20s,65d,15d", options="header"]
 |===
 | Obligatorisk | Forklaring | Ref. til kap. <<Spesifikasjon-per-klasse>>
@@ -192,7 +192,7 @@ For å sikre at *Dokumentasjonstypeliste* blir beskrevet på en ensartet måte, 
 |===
 
 [[Tabell-anbefalte-opplysninger-dokumentasjonstypeliste]]
-.Anbefalte opplysningstyper som en beskrivelse av Dokumentasjonstypeliste BØR inneholde
+.Anbefalte opplysningstyper som beskrivelsen av Dokumentasjonstypeliste BØR inneholde
 [cols="20s,65d,15d", options="header"]
 |===
 | Anbefalt | Forklaring | Ref. til kap. <<Spesifikasjon-per-klasse>>
