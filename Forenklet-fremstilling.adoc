@@ -34,7 +34,7 @@ Hvilke typer opplysninger som SKAL (obligatoriske), BØR (anbefalte) og KAN (val
 
 :xrefstyle: short
 
-=== Hva SKAL, BØR og KAN tas med i en beskrivelse av Kriterium, Informasjonskrav eller Begrensning? [[Krav-til-beskrivelse-av-kriterium-informasjonskrav-begrensning]]
+=== Krav til beskrivelse av Kriterium, Informasjonskrav eller Begrensning? [[Krav-til-beskrivelse-av-kriterium-informasjonskrav-begrensning]]
 For å sikre at *Kriterium*, *Informasjonskrav* og *Begrensning* blir beskrevet på en ensartet måte, inneholder tabellene typer opplysninger som SKAL (obligatoriske), BØR (anbefalte) eller KAN (valgfrie) tas med i beskrivelsene. I dette avsnittet brukes ordet «krav» som samlebetegnelse for alle tre typer krav: Kriterium, Informasjonskrav og Begrensning.
 
 [[Tabell-obligatoriske-opplysninger-kriterium-informasjonskrav-begrensning]]
@@ -76,7 +76,7 @@ For å sikre at *Kriterium*, *Informasjonskrav* og *Begrensning* blir beskrevet 
 | vektingsvurderingsbeskrivelse | _Gjelder kun Kriterium_. Oppgir en tekstlig forklaring på hvordan vektingen av Kriteriet brukes Kriteriet | <<Kriterium-vektingsvurderingsbeskrivelse>>
 |===
 
-=== Hva SKAL, BØR og KAN tas med i en beskrivelse av Informasjonsbegrep [[Krav-til-beskrivelse-av-informasjonsbegrep]]
+=== Krav til beskrivelse av Informasjonsbegrep [[Krav-til-beskrivelse-av-informasjonsbegrep]]
 For å sikre at *Informasjonsbegrep* blir beskrevet på en ensartet måte, inneholder tabellene typer opplysninger som SKAL (obligatoriske), BØR (anbefalte) eller KAN (valgfrie) tas med i beskrivelsene.
 
 [[Tabell-obligatoriske-opplysninger-informasjonsbegrep]]
@@ -105,7 +105,7 @@ For å sikre at *Informasjonsbegrep* blir beskrevet på en ensartet måte, inneh
 | type | Kategori informasjonsbegrepet tilhører | <<Informasjonsbegrep-type>>
 |===
 
-=== Hva SKAL, BØR og KAN tas med i en beskrivelse av Dokumentasjon [[Krav-til-beskrivelse-av-dokumentasjon]]
+=== Krav til beskrivelse av Dokumentasjon [[Krav-til-beskrivelse-av-dokumentasjon]]
 For å sikre at *Dokumentasjon* blir beskrevet på en ensartet måte, inneholder tabellene typer opplysninger som SKAL (obligatoriske), BØR (anbefalte) eller KAN (valgfrie) tas med i beskrivelsene.
 
 [[Tabell-obligatoriske-opplysninger-dokumentasjon]]
@@ -146,7 +146,7 @@ For å sikre at *Dokumentasjon* blir beskrevet på en ensartet måte, inneholder
 | utsteder | Oppgir aktøren som er juridisk ansvarlig for dokumentasjonen | <<Dokumentasjon-utsteder>>
 |===
 
-=== Hva SKAL, BØR og KAN tas med i en beskrivelse av Dokumentasjonstype [[Krav-til-beskrivelse-av-dokumentasjonstype]]
+=== Krav til beskrivelse av Dokumentasjonstype [[Krav-til-beskrivelse-av-dokumentasjonstype]]
 For å sikre at *Dokumentasjonstype* blir beskrevet på en ensartet måte, inneholder tabellene typer opplysninger som SKAL (obligatoriske), BØR (anbefalte) eller KAN (valgfrie) tas med i beskrivelsene.
 
 [[Tabell-obligatoriske-opplysninger-dokumentasjonstype]]
@@ -180,7 +180,7 @@ For å sikre at *Dokumentasjonstype* blir beskrevet på en ensartet måte, inneh
 | tillatt utstedelsessted | Utstedelsested som er tillatt for den aktuelle type dokumentasjon | <<Dokumentasjonstype-tillatt-utstedelsessted>>
 |===
 
-=== Hva SKAL, BØR og KAN tas med i en beskrivelse av Dokumentasjonstypeliste [[Krav-til-beskrivelse-av-dokumentasjonstypeliste]]
+=== Krav til beskrivelse av Dokumentasjonstypeliste [[Krav-til-beskrivelse-av-dokumentasjonstypeliste]]
 For å sikre at *Dokumentasjonstypeliste* blir beskrevet på en ensartet måte, inneholder tabellene typer opplysninger som SKAL (obligatoriske), BØR (anbefalte) eller KAN (valgfrie) tas med i beskrivelsene.
 
 [[Tabell-obligatoriske-opplysninger-dokumentasjonstypeliste]]
