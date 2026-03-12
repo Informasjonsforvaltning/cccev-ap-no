@@ -44,7 +44,7 @@ For å sikre at *Kriterium*, *Informasjonskrav* og *Begrensning* blir beskrevet 
 | Obligatorisk | Forklaring | Ref. til kap. <<Spesifikasjon-per-klasse>>
 | identifikator | Unik identifikator, som regel opprettet automatisk av et system | <<Begrensning-identifikator>>, <<Informasjonskrav-identifikator>>, <<Kriterium-identifikator>>
 | navn | Navn til kravet | <<Begrensning-navn>>, <<Informasjonskrav-navn>>, <<Kriterium-navn>>
-| begrenser | _Gjelder kun Begrensning_. Refererer til informasjonsbegrep som begrensningen gjelder. | <<Begrensning-begrenser>>
+| begrenser | (Gjelder kun for Begrensning)
 |===
 
 [[Tabell-anbefalte-opplysninger-kriterium-informasjonskrav-begrensning]]
@@ -69,11 +69,11 @@ For å sikre at *Kriterium*, *Informasjonskrav* og *Begrensning* blir beskrevet 
 | har understøttende dokumentasjon | Refererer til en konkret dokumentasjon som supplerer med informasjon, bevis eller understøtter kravet | <<Begrensning-har-understøttende-dokumentasjon>>, <<Informasjonskrav-har-understøttende-dokumentasjon>>, <<Kriterium-har-understøttende-dokumentasjon>>
 | innfrir regel | Refererer til regel som kravet innfrir | <<Begrensning-innfrir-regel>>, <<Informasjonskrav-innfrir-regel>>, <<Kriterium-innfrir-regel>>
 | type | Refererer til kategorien kravet tilhører | <<Begrensning-type>>, <<Informasjonskrav-type>>, <<Kriterium-type>>
-| har informasjonsbegrep | _Gjelder Kriterium eller Informasjonskrav_. Refererer til informasjonsbegrep som Informasjonskravet eller Kriteriet forventer en verdi av | <<Informasjonskrav-har-informasjonsbegrep>>, <<Kriterium-har-informasjonsbegrep>>
-| bias | _Gjelder kun Kriterium_. Oppgir parameteren som brukes til å justere evalueringen av Kriteriet | <<Kriterium-bias>>
-| vekting | _Gjelder kun Kriterium_. Oppgir relativ viktighet (vekting) av Kriteriet | <<Kriterium-vekting>>
-| vektingstype | _Gjelder kun Kriterium_. Oppgir  hvordan vektingen bør tolkes i et komplekst evalueringsuttrykk, f.eks. som en prosent i et evalueringsuttrykk | <<Kriterium-vektingstype>>
-| vektingsvurderingsbeskrivelse | _Gjelder kun Kriterium_. Oppgir en tekstlig forklaring på hvordan vektingen av Kriteriet brukes Kriteriet | <<Kriterium-vektingsvurderingsbeskrivelse>>
+| har informasjonsbegrep | (Gjelder Kriterium eller Informasjonskrav) Refererer til informasjonsbegrep som Informasjonskravet eller Kriteriet forventer en verdi av | <<Informasjonskrav-har-informasjonsbegrep>>, <<Kriterium-har-informasjonsbegrep>>
+| bias | (Gjelder kun for Kriterium) Oppgir parameteren som brukes til å justere evalueringen av Kriteriet | <<Kriterium-bias>>
+| vekting | (Gjelder kun for Kriterium) Oppgir relativ viktighet (vekting) av Kriteriet | <<Kriterium-vekting>>
+| vektingstype | (Gjelder kun for Kriterium) Oppgir  hvordan vektingen bør tolkes i et komplekst evalueringsuttrykk, f.eks. som en prosent i et evalueringsuttrykk | <<Kriterium-vektingstype>>
+| vektingsvurderingsbeskrivelse | (Gjelder kun for Kriterium) Oppgir en tekstlig forklaring på hvordan vektingen av Kriteriet brukes Kriteriet | <<Kriterium-vektingsvurderingsbeskrivelse>>
 |===
 
 === Krav til beskrivelse av Informasjonsbegrep [[Krav-til-beskrivelse-av-informasjonsbegrep]]
