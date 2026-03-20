@@ -103,7 +103,7 @@ _Norwegian extension: The range changed from 'xsd:string' to 'rdf:langString'._
 _This property represents the category to which the Information Concept belongs._
 | Multiplisitet / _Multiplicity_ | 0..1
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
-|Merknad / _Note_ | Norsk utvidelse: Selv om CCCEV (foreløpig) forklarer at denne egenskapen også kan brukes til å oppgi primitive typer som f.eks. dato eller tekststreng, anbefales det i denne norske spesifikasjonen at denne egenskapen brukes bare for forretningsmessige domeneterminologier som «alder» eller «antall ansatte», og at egenskapen <<Informasjonsbegrep-uttrykk-av-forventet-datatype>> brukes til primitive datatyperg. 
+|Merknad / _Note_ | Norsk utvidelse: Selv om CCCEV (foreløpig) forklarer at denne egenskapen også kan brukes til å oppgi primitive typer som f.eks. dato eller tekststreng, anbefales det i denne norske spesifikasjonen at denne egenskapen brukes bare for forretningsmessige domeneterminologier som «alder» eller «antall ansatte», og at egenskapen <<Informasjonsbegrep-uttrykk-av-forventet-datatype>> brukes til primitive datatyper. 
 
 __Norwegian extension: Although CCCEV (currently) explains that this property can also be used to specify primitive types such as date or string, it is recommended in this Norwegian specification that this property is only used for business domain terminology such as "age" or "number of employees" and the property <<Informasjonsbegrep-uttrykk-av-forventet-datatype, expression of the expected value (cv:expressionOfExpectedValue)>> for primitive types.__
 |===
