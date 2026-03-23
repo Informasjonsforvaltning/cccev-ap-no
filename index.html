@@ -856,9 +856,9 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <div class="paragraph">
 <p><strong>Lisens</strong>: <a href="https://creativecommons.org/licenses/by/4.0/" class="ext-link" target="_blank" rel="noopener">CC BY 4.0 &#x29C9;</a><br>
 <strong>Status</strong>: <mark>under utarbeidelse</mark><br>
-<strong>Versjon</strong>: v. 0.3<br>
+<strong>Versjon</strong>: v. 0.4<br>
 <strong>Publisert</strong>: <mark>under utarbeidelse</mark><br>
-<strong>Oppdatert</strong>: 2026-03-19<br>
+<strong>Oppdatert</strong>: 2026-03-23<br>
 <strong>Gjeldende versjon</strong>: &lt;ingen&gt;<br>
 <strong>Forrige versjon</strong>: &lt;ingen&gt;<br>
 <strong>Redaktørens utkast</strong>: <a href="https://informasjonsforvaltning.github.io/cccev-ap-no/" class="bare">https://informasjonsforvaltning.github.io/cccev-ap-no/</a><br>
@@ -1062,6 +1062,11 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <td class="tableblock halign-left valign-top"><p class="tableblock">Navnet til kravet</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Begrensning-navn"> 3.1.1.3</a>, <a href="#Informasjonskrav-navn"> 3.6.1.2</a>, <a href="#Kriterium-navn"> 3.8.1.2</a></p></td>
 </tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>begrenser</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">(Gjelder kun for Begrensning) Et eller flere informasjonsbegreper som begrensningen gjelder for</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Begrensning-begrenser"> 3.1.1.1</a></p></td>
+</tr>
 </tbody>
 </table>
 <table id="Tabell-anbefalte-opplysninger-kriterium-informasjonskrav-begrensning" class="tableblock frame-all grid-all stripes-even stretch">
@@ -1103,22 +1108,22 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>er subkrav av</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Refererer til et eller flere andre krav som dette kravet er del av</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Et eller flere andre krav som dette kravet er del av</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Begrensning-er-subkrav-av"> 3.1.3.1</a>, <a href="#Informasjonskrav-er-subkrav-av"> 3.6.3.1</a>, <a href="#Kriterium-er-subkrav-av"> 3.8.3.2</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>er utledet fra</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Refererer til et eller flere referanserammeverk som kravet er basert på, f.eks. lov, forskrift eller annen regulering</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Et eller flere referanserammeverk som kravet er basert på, f.eks. lov, forskrift eller annen regulering</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Begrensning-er-utledet-fra"> 3.1.3.2</a>, <a href="#Informasjonskrav-er-utledet-fra"> 3.6.3.2</a>, <a href="#Kriterium-er-utledet-fra"> 3.8.3.3</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>er utstedt av</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Refererer til aktøren som har utstedt kravet</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Aktøren som har utstedt kravet</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Begrensning-er-utstedt-av"> 3.1.3.3</a>, <a href="#Informasjonskrav-er-utstedt-av"> 3.6.3.3</a>, <a href="#Kriterium-er-utstedt-av"> 3.8.3.4</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>har dokumentasjonstypeliste</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Refererer til en eller flere dokumentasjonstypelister som spesifiserer type(r) dokumentasjon som trengs for å tilfredsstille kravet</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">En eller flere dokumentasjonstypelister som spesifiserer type(r) dokumentasjon som trengs for å tilfredsstille kravet</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Begrensning-har-dokumentasjonstypeliste"> 3.1.3.4</a>, <a href="#Informasjonskrav-har-dokumentasjonstypeliste"> 3.6.3.4</a>, <a href="#Kriterium-har-dokumentasjonstypeliste"> 3.8.3.5</a></p></td>
 </tr>
 <tr>
@@ -1128,47 +1133,47 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>har mer spesifikt krav</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Refererer til et eller flere mer spesifikke krav som er del av dette kravet</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Et eller flere mer spesifikke krav som er del av dette kravet</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Begrensning-har-mer-spesifikt-krav"> 3.1.3.6</a>, <a href="#Informasjonskrav-har-mer-spesifikt-krav"> 3.6.3.7</a>, <a href="#Kriterium-har-mer-spesifikt-krav"> 3.8.3.8</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>har understøttende dokumentasjon</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Refererer til en eller flere konkrete dokumentasjoner som supplerer med informasjon, bevis eller understøtter kravet</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Et eller flere konkrete stykker dokumentasjon som supplerer med informasjon, bevis eller understøtter kravet</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Begrensning-har-understøttende-dokumentasjon"> 3.1.3.7</a>, <a href="#Informasjonskrav-har-understøttende-dokumentasjon"> 3.6.3.8</a>, <a href="#Kriterium-har-understøttende-dokumentasjon"> 3.8.3.9</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>innfrir regel</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Refererer til en eller flere regler som kravet innfrir</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">En eller flere regler som kravet innfrir</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Begrensning-innfrir-regel"> 3.1.3.8</a>, <a href="#Informasjonskrav-innfrir-regel"> 3.6.3.9</a>, <a href="#Kriterium-innfrir-regel"> 3.8.3.10</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>type</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Refererer til en eller flere kategorier kravet tilhører</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">En eller flere kategorier kravet tilhører</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Begrensning-type"> 3.1.3.9</a>, <a href="#Informasjonskrav-type"> 3.6.3.10</a>, <a href="#Kriterium-type"> 3.8.3.11</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>har informasjonsbegrep</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">(Gjelder Kriterium eller Informasjonskrav) Refererer til et eller flere informasjonsbegreper som Informasjonskravet eller Kriteriet forventer en verdi av</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">(Gjelder Kriterium eller Informasjonskrav) Et eller flere informasjonsbegreper som Informasjonskravet eller Kriteriet forventer en verdi av</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Informasjonskrav-har-informasjonsbegrep"> 3.6.3.5</a>, <a href="#Kriterium-har-informasjonsbegrep"> 3.8.3.6</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>bias</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">(Gjelder kun for Kriterium) Oppgir parameteren som brukes til å justere evalueringen av Kriteriet</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">(Gjelder kun for Kriterium) Parameteren som brukes til å justere evalueringen av Kriteriet</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Kriterium-bias"> 3.8.3.1</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>vekting</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">(Gjelder kun for Kriterium) Oppgir den relative viktigheten (vektingen) av Kriteriet</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">(Gjelder kun for Kriterium) Den relative viktigheten (vektingen) av Kriteriet</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Kriterium-vekting"> 3.8.3.12</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>vektingstype</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">(Gjelder kun for Kriterium) Oppgir  hvordan vektingen bør tolkes i et komplekst evalueringsuttrykk, f.eks. som en prosent i et evalueringsuttrykk</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">(Gjelder kun for Kriterium) Hvordan vektingen bør tolkes i et komplekst evalueringsuttrykk, f.eks. som en prosent i et evalueringsuttrykk</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Kriterium-vektingstype"> 3.8.3.13</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>vektingsvurderingsbeskrivelse</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">(Gjelder kun for Kriterium) Oppgir en tekstlig forklaring på hvordan vektingen av Kriteriet brukes Kriteriet</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">(Gjelder kun for Kriterium) En tekstlig forklaring på hvordan vektingen av Kriteriet brukes Kriteriet</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Kriterium-vektingsvurderingsbeskrivelse"> 3.8.3.14</a></p></td>
 </tr>
 </tbody>
@@ -1196,7 +1201,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>forventet datatype</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Angir den forventede datatypen for verdien til informasjonsbegrepet (f.eks. heltall, dato eller kode)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Den forventede datatypen for verdien til informasjonsbegrepet (f.eks. heltall, dato eller kode)</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Informasjonsbegrep-uttrykk-av-forventet-datatype"> 3.5.1.1</a></p></td>
 </tr>
 </tbody>
@@ -1332,67 +1337,67 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>er del av</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Refererer til et eller flere datasett som den aktuelle dokumentasjonen fysisk eller logisk er inkludert i</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Et eller flere datasett som den aktuelle dokumentasjonen fysisk eller logisk er inkludert i</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Dokumentasjon-er-del-av"> 3.2.3.1</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>distributør</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Oppgir aktøren som sender dokumentasjonen</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Aktøren som sender dokumentasjonen</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Dokumentasjon-distributør"> 3.2.3.2</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>gir understøttende opplysning</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Refererer til en eller flere understøttende opplysninger i dokumentasjonen</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">En eller flere understøttende opplysninger i dokumentasjonen</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Dokumentasjon-gir-understøttende-opplysning"> 3.2.3.3</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>gjelder</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Oppgir aktøren som dokumentasjonen gjelder for</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Aktøren som dokumentasjonen gjelder for</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Dokumentasjon-gjelder"> 3.2.3.4</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>gyldighetsperiode</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Angir tidsperioden hvor dokumentasjonen er gyldig</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Tidsperioden hvor dokumentasjonen er gyldig</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Dokumentasjon-gyldighetsperiode"> 3.2.3.5</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>i samsvar med</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Oppgir dokumentasjonstypen(e) som dokumentasjonen er i samsvar med</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Dokumentasjonstypen(e) som dokumentasjonen er i samsvar med</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Dokumentasjon-i-samsvar-med"> 3.2.3.6</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>konfidensialitetsnivå</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Oppgir dokumentasjonens sikkerhetsklassifisering, f.eks. klassifisert, sensitiv, offentlig</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Dokumentasjonens sikkerhetsklassifisering, f.eks. klassifisert, sensitiv, offentlig</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Dokumentasjon-konfidensialitetsnivå"> 3.2.3.7</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>produsent</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Oppgir aktøren som er produsent av dokumentasjonen</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Aktøren som er produsent av dokumentasjonen</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Dokumentasjon-produsent"> 3.2.3.8</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>relatert informasjon</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Refererer til mer informasjon om dokumentasjonen, f.eks. en bestemt mal til et administrativt dokument eller en applikasjon, eller en veiledning for hvordan man skal formatere dokumentasjonen</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Mer informasjon om dokumentasjonen, f.eks. en bestemt mal til et administrativt dokument eller en applikasjon, eller en veiledning for hvordan man skal formatere dokumentasjonen</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Dokumentasjon-relatert-informasjon"> 3.2.3.9</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>type</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Refererer til begrepet som representerer typen dokumentasjonen tilhører</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Begrepet som representerer typen dokumentasjonen tilhører</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Dokumentasjon-type"> 3.2.3.10</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>understøtter informasjonsbegrep</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Refererer til et eller flere informasjonsbegrep som gir fakta funnet eller utledet fra dokumentasjonen</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Et eller flere informasjonsbegrep som gir fakta funnet eller utledet fra dokumentasjonen</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Dokumentasjon-understøtter-informasjonsbegrep"> 3.2.3.11</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>understøtter krav</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Refererer til et eller flere krav som dokumentasjonen understøtter</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Et eller flere krav som dokumentasjonen understøtter</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Dokumentasjon-understøtter-krav"> 3.2.3.12</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>utsteder</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Oppgir aktøren som er juridisk ansvarlig for dokumentasjonen</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Aktøren som er juridisk ansvarlig for dokumentasjonen</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Dokumentasjon-utsteder"> 3.2.3.13</a></p></td>
 </tr>
 </tbody>
@@ -1527,7 +1532,7 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>spesifiserer dokumentasjonstype</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Oppgir dokumentasjonstypen(e) som er spesifisert av dokumentasjonstypelisten</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Dokumentasjonstypen(e) som dokumentasjonstypelisten spesifiserer</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#Dokumentasjonstypeliste-spesifiserer-dokumentasjonstype"> 3.4.1.1</a></p></td>
 </tr>
 </tbody>
@@ -6034,7 +6039,7 @@ for å beskrive data som forespørres (f.eks. «Søkerens alder») og som skal b
 </div>
 <div id="footer">
 <div id="footer-text">
-Sist oppdatert 2026-03-20 07:06:43 UTC
+Sist oppdatert 2026-03-23 12:57:33 UTC
 </div>
 </div>
 </body>
