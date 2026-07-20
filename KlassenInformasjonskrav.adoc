@@ -63,7 +63,7 @@ _This property represents the official Name of the Information Requirement. This
 
 _This property represents a description of the Information Requirement. This property SHOULD be repeated when the description is in several languages._
 | Multiplisitet / _Multiplicity_ | 0..n
-| Kravnivå / _Requirement level_ | Anbefalt/Recommended
+| Kravnivå / _Requirement level_ | Anbefalt / _Recommended_
 |===
 
 === Valgfrie egenskaper for klassen _Informasjonskrav_ [[Informasjonskrav-valgfrie-egenskaper]]
@@ -122,22 +122,6 @@ _This property refers to the Agent that has published the Information Requiremen
 | Anvendelse / _Usage note_ |  Egenskapen brukes til å referere til dokumentasjonstypeliste som spesifiserer type dokumentasjon som trengs for å tilfredsstille informasjonskravet.
 
 _This property is used to refer to the Evidence Type List that specifies the type of evidence that are needed to meet the Information Requirement._
-| Multiplisitet / _Multiplicity_ | 0..n
-| Kravnivå / _Requirement level_ | Valgfri / _Optional_
-|===
-
-==== Informasjonskrav – har informasjonsbegrep (cv:hasConcept) [[Informasjonskrav-har-informasjonsbegrep]]
-
-[cols="30s,70d"]
-|===
-| _English name_ | _has concept_
-| URI |  cv:hasConcept
-| Verdiområde / _Range_ | <<Informasjonsbegrep, cv:InformationConcept>>
-| Anvendelse / _Usage note_ |  Egenskapen brukes til å referere til informasjonsbegrep som informasjonskravet forventer en verdi av.
-
-_This property refers to the Information Concept for which a value is expected by the Information Requirement._
-
-_Information Concepts defined for specific Information Requirements also represent the basis for specifying the Supported Value an Evidence should provide._
 | Multiplisitet / _Multiplicity_ | 0..n
 | Kravnivå / _Requirement level_ | Valgfri / _Optional_
 |===
